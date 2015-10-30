@@ -1,0 +1,27 @@
+<div class="container">
+  <header class="row">
+    <div class="col-md-12 col-xs-12">
+      <div class="text-center">
+        <img src="assets/cindy-about.jpg" alt="Cindy Juarez" class="profile">
+        <h1>{{ site.title }}</h1>
+        <h2 class="headline">I am a frontend developer in Texas.</h2>
+      </div>
+    </div>
+  </header>
+  <div class="row">
+    <nav class="row-md-12 col-xs-12">
+      <ul class="nav">
+        <li>
+          <a class="page-link" href="/">Home</a>
+        </li>
+        {% for my_page in site.pages %}
+          {% if my_page.title %}
+          <li>
+            <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+          </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</div>

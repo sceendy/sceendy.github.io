@@ -1,0 +1,161 @@
+.tagline {
+  color:$gray;
+  margin:0;
+}
+
+time {
+  color: #888;
+  display: block;
+  margin-top: 10px;
+  &.time--large {
+    text-align: right;
+    @media screen and (max-width:740px){
+      text-align: left;
+      margin-top: 0;
+    }
+  }
+}
+
+.middle-earth {
+  @include align-items(center);
+}
+
+.text-center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.xs-center {
+  @media screen and (max-width: 420px){
+    text-align: center;
+    margin: 1em auto 0;
+  }
+}
+
+.text-right {
+  text-align: right;
+}
+
+.block-center {
+  display: block;
+  margin: 0 auto;
+}
+
+.sm-hide {
+  @media screen and (max-width: 740px){
+    display: none;
+  }
+}
+
+.xs-hide {
+  @media screen and (max-width:420px){
+    display: none;
+  }
+}
+
+code {
+  background: #eee;
+  border-radius: 2px;
+  padding: 15px;
+  border: $lightgray solid 1px;
+  font-size: 0.9rem;
+  display: block;
+  margin: 10px 0;
+  .indent {
+    margin-left: 15px;
+  }
+}
+
+.code-inline {
+  background: #eee;
+  border-radius: 2px;
+  border: $lightgray solid 1px;
+  line-height: 22px;
+  padding: 0 5px;
+  color: darken($main-blue, 15%);
+  font-family: monospace;
+  font-size: 0.9rem;
+}
+
+article[class^="component"] {
+  padding-bottom: 95px;
+}
+
+.component-heading {
+  color: #767676;
+  border-bottom: 2px #eee solid;
+  padding-left: 0;
+  margin-bottom: 10px;
+}
+
+.blog-entry {
+  padding: 10px 20px 20px;
+  border-left: solid 4px transparent;
+  &:hover {
+    text-decoration: none;
+    border-left: solid 4px;
+    background-color: #f1f1f1;
+  }
+  .summary {
+    color: #333;
+    br {
+      line-height: 35px;
+    }
+  }
+}
+
+.blog-block {
+  display: block;
+  max-width: 100%;
+  color: $main-pink;
+  padding: 15px 15px 0;
+  text-align: center;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.heading-blue-border {
+  border-top: 3px solid $main-blue;
+  padding-top: 15px;
+  font-size: 17px;
+}
+
+.sidebar--heading {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.small {
+  font-size: 0.8rem;
+  line-height: 1.2;
+}
+
+.blog-title {
+  margin-bottom: 0;
+  margin-top: 1.2em;
+  margin-top: 10px;
+  color: $gray;
+}
+
+.text-headline {
+  font-size: 0.95rem;
+  font-style: italic;
+  background: $lightgray;
+  color: $main-blue;
+  padding: 5px 10px;
+}
+
+.top-space {
+  margin-top: 20px!important//e;
+}
+
+.text-block {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.text-pink {
+  color: $main-pink;
+}
