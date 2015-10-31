@@ -2,7 +2,7 @@
 layout: post
 title:  "Goals for 2015"
 date:   2015-01-09 22:42:12
-categories: personal
+tags: ['personal']
 ---
 
 As someone born in 1990, I have always used the years divisible by 5 as checkpoints of my life. I think it started out as an easy way to keep track of my age or something trivial like that. Nevertheless, I use it as a time to evaluate myself and the things I have accomplished but more importantly, plan for the future. Not to say that I don't do that as deemed necessary by myself between every 5 years but I think it allows for more perspective around this time.<br />

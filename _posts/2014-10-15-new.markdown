@@ -2,7 +2,7 @@
 layout: post
 title:  "New website - using jekyll"
 date:   2014-10-15 15:18:12
-categories: jekyll website
+tags: ['jekyll', 'website']
 ---
 
 <p>If you visited the past version of this websites, I'm sure you could tell that I take pride in building my own sites from scratch. My very first website was built using an image map and some <code>div</code>'s thrown together. Ah, to be <em>young</em>. Once I started learning much more about coding and design, I started building with modern HTML, CSS, and JS. You know, enough to show off my skills since I was still attending UTD with not much of a portfolio yet.</p>

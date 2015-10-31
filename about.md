@@ -6,7 +6,7 @@ permalink: /about/
 
   <section class="row">
     <div class="col-md-4 col-sm-4 col-xs-12">
-      <img src="../_includes/cindy.jpg" alt="Cindy Juarez" class="top-space"/>
+      <img src="/assets/cindy-about.jpg" alt="Cindy Juarez" class="top-space"/>
     </div>
     <div class="col-md-8 col-sm-8 col-xs-12">
       <p class="text-block top-space">Hmm, what else... I <strong class="text-pink">love</strong> creating beautiful, responsive layouts using Sass and manipulating the DOM by writing JavaScript. For the past 2 years, I have has been diving deep into AngularJS.</p>

@@ -9,7 +9,11 @@ permalink: /blog/
     <h4>{{ post.title }}</h4>
     <time class="small">{{ post.date | date: "%b %-d, %Y" }}</time>
     <p class="summary">{{ post.content | strip_html | truncatewords:75 }}</p>
-    <small><strong>related to:</strong> <span ng-repeat="label in post.labels">{{ label }}<span ng-if="!$last"> + </span></span></small>
+    <small><strong>related to:</strong>
+    {% for tag in post.tags %}
+     <span>{{ tag }} {% if forloop.last %} {%else%} +{% endif %}</span>
+     {% endfor %}
+    </small>
   </a>
   {% endfor %}
 </div>

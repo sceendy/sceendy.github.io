@@ -2,7 +2,7 @@
 layout: post
 title:  "Graceul Degradation"
 date:   2014-12-17 16:46:30
-categories: browser css3
+tags: ['browser', 'css3']
 ---
 
 My last job was at an agency - pretty standard front-end tasks and projects. We supported IE8+ since we had some pretty big client with thousands of page views a day with half of the traffic mostly coming from IE8 and IE9. Agencies typically prefer to support as many browsers as possible. One client in particular had us support as far back as IE6, though. They had a decent amount of hits coming from outside the US so it made sense. This is the first time I felt that wrath of IE6. Prior to that, my professional career had consisted of IE7+ support. However, while maintaining the website for that particular client, I learned plenty of useful things -- but most importantly: <b>graceful degradation</b>. <br />

@@ -2,151 +2,317 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cindy Juarez</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+    <description>Cindy Juarez (sceendy) is a front-end web developer based in Dallas, Texas.
 </description>
-    <link>http://sceendy.com/</link>
-    <atom:link href="http://sceendy.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 29 Oct 2015 21:32:24 -0500</pubDate>
-    <lastBuildDate>Thu, 29 Oct 2015 21:32:24 -0500</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 30 Oct 2015 22:21:47 -0500</pubDate>
+    <lastBuildDate>Fri, 30 Oct 2015 22:21:47 -0500</lastBuildDate>
     <generator>Jekyll v3.0.0</generator>
     
       <item>
-        <title>Goals for 2015</title>
-        <description>&lt;p&gt;As someone born in 1990, I have always used the years divisible by 5 as checkpoints of my life. I think it started out as an easy way to keep track of my age or something trivial like that. Nevertheless, I use it as a time to evaluate myself and the things I have accomplished but more importantly, plan for the future. Not to say that I don’t do that as deemed necessary by myself between every 5 years but I think it allows for more perspective around this time.&lt;br /&gt;
-I am currently quite happy with where I am - both in regards to my personal and professional life. In 2014, I bought a house by the lake and got a job as a front-end developer at a startup. I like to build upon every goal - there’s not really a finish line. That being said, I wanted to share my goals that are a bit specific to the year, though. &lt;br /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-GREAT PEOPLE DO GREAT THINGS… TOGETHER.&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;#1&lt;/strong&gt; - I want to continue improving as a team member. Prior to my current job, “developer teams” were typically more like partnerships. It involved myself and another developer double teaming a project by splitting the work right down the middle. However, now, I work with a few more developers on a tad bit more complex projects than I have before. They each have their strengths and come from different backgrounds so there are often some clashes of ideas. As the least experienced developer in the group, I sometimes would sit by and wait for them to work it out. Lately I have been more vocal and chimed in with opinions of my own which has really helped me develop more of a role. (Hey, I’m the only frontend developer in the group so I get a lot of chances to learn about the backend but the decision making is left to them.)&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;#2&lt;/strong&gt; - Open source a WordPress starter template. I have been developing custom WordPress themes for a couple years now and I have really want to get into making my own starter responsive template. Considering how many different ones I looked at when I first started, I feel this is least I can do to give back to the community.&lt;/p&gt;
+        <title>Burning out and refueling</title>
+        <description>&lt;p&gt;At agencies, especially with big clients, you get used to mostly working during the clients’ business hours + not taking work home with you. You can get spoiled by the work/life balance. Well, that has been my experience with agencies. However, at some point, I decided I really wanted to focus on a single product which is when I searched for a startup that was building a product.
+&lt;br /&gt;&lt;/p&gt;
+&lt;h4&gt;55+hrs/week? sure.&lt;/h4&gt;
+&lt;p&gt;&lt;br /&gt;
+I decided to take a leap back in March 2014, I applied for a frontend developer position for a local startup that had already raised a decent amount of an investment. The new hire would be the first dedicated frontend developer for the redesigned/rebuilt platform. You kind of get sucked into the product and environment. Being a team player and putting in the extra hours seems inevitable, honestly. Getting a phone call at 7am to update the logo before you leave your house to head to the office? No big deal, it’s for the sake of the &lt;i&gt;team&lt;/i&gt;, right?
+&lt;br /&gt;&lt;br /&gt;
+Don’t get me wrong – I loved it. Diving deeper into coding and learning more about all aspects of building web applications becomes an addiction. However, what I hadn’t realized is that with it comes this thing called &lt;i&gt;&lt;b&gt;burning out&lt;/b&gt;&lt;/i&gt;. One day you just kind of start to fill worn out mentally. You wonder if you’re really getting any better. Self-doubt settles in. Looking over the same batch of code for a year and a half. Building new features and fixing old hacky code is just your norm.
+&lt;br /&gt;&lt;/p&gt;
+&lt;h4&gt;ok. nevermind.&lt;/h4&gt;
+&lt;p&gt;&lt;br /&gt;
+For the past 2 months, I’ve looked back on that time. Yes, it was fun. For that year in a half, my learning/self-improvement was on a fast-track. It just wears you down – especially when you only take two incredibly short vacations. Accumulating 320 hours of vacation and not making a dent into it is ridiculous. Why didn’t I use it up? Well, there was always &lt;i&gt;&lt;em&gt;something&lt;/em&gt;&lt;/i&gt; due – I couldn’t find the right time to get away, really. Or at least that’s what I told myself. It was self-inflicted the first year and going into my second year, I felt the pressure to push through for the sake of the product. So, last week, I saw an opportunity.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://4.bp.blogspot.com/-GNLD88of4U8/VgYLggzchYI/AAAAAAAAKUU/kSUdfsQDdeo/s900/camping.jpg&quot; /&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h4&gt;It&#39;s as if I refilled my tank of passion for code. &lt;/h4&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;img border=&quot;0&quot; src=&quot;http://2.bp.blogspot.com/-Hhuiav1vkmE/VgYNOg5vkEI/AAAAAAAAKUg/msf_V_EdmK8/s250/grandcanyon.jpg&quot; style=&quot;clear: left; float: left; margin-bottom: 1em; margin-right: 1em;&quot; /&gt;
+For the first time, I felt I had time. To make the situation even better, my boyfriend did too. We quickly jumped onto &lt;a href=&quot;http://www.roadtrippers.com&quot; target=&quot;_blank&quot;&gt;Roadtrippers&lt;/a&gt; and researched a few places we wanted to see and packed our bags. We headed west with the ultimate destination being the Grand Canyon - a beautiful place neither of us had visited and desired to visit prior to either of us graduating college.  We camped in Albuquerque, New Mexico and at the Grand Canyon in Arizona. Those five days were the first days in the past two years that I cleared my mind of code.
+&lt;br /&gt;&lt;br /&gt;I observed and explored the nature around me. Any internet access was mostly sharing an image on instagram, though. A few emails here and there. It feels good to have taken a break - as if I cleared a slate. Once I arrived home, I thought about how I felt and reflected on the opportunity to focus on things outside of code I enjoy doing. Returning to my terminal and my code editor feels nice and refreshing.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 09 Jan 2015 16:42:12 -0600</pubDate>
-        <link>http://sceendy.com/personal/2015/01/09/goals-for-2015.html</link>
-        <guid isPermaLink="true">http://sceendy.com/personal/2015/01/09/goals-for-2015.html</guid>
+        <pubDate>Fri, 25 Sep 2015 17:13:59 -0500</pubDate>
+        <link>/2015/09/25/burning-out-and-refueling.html</link>
+        <guid isPermaLink="true">/2015/09/25/burning-out-and-refueling.html</guid>
         
+        <category>travel</category>
         
         <category>personal</category>
         
-      </item>
-    
-      <item>
-        <title>Messing around with the Tumblr API</title>
-        <description>&lt;p&gt;In order to avoid managing a blog myself, I wanted to try out handling my blogging with the Tumblr API. I figured it’d be easier to keep up with and leave out any complexity from integrating a blog onto my actual site. It’s easier just to hit up some API endpoints with ngResource since I’m using Angular.&lt;br /&gt;
-&lt;br /&gt;
-This was actually the first time I set up a site to reach out to some API endpoints so I thought I could write a little about my experience.&lt;br /&gt;
-Tumblr’s API documentation is quite simple to understand and allowed for me to get it all hooked up within an hour. I got an OAuth Key and then used Angulars’ ngResource to point to their API and get it to return the JSON.&lt;br /&gt;
-&lt;code&gt;var url = &quot;http://api.tumblr.com/v2/blog/&quot;+ blog_url + &quot;/posts/text?api_key=&quot; + api_key + &#39;&amp;amp;limit=20&#39;;&lt;/code&gt;&lt;br /&gt;
-I placed made the blog_url and api_key variables for better visibility and I am not sure if I will keep the URL of the Tumblr I have had since 2009. At the end of the line, I limited the amount of posts to grab to 20 for now to see how I like it. Of course, on the front-end of the home page, I limitTo 4 posts and on the archive page I let it reach the limit set in the URL.&lt;br /&gt;
-&lt;br /&gt;
-Once I got that setup, I decide to make a little test in the console to make sure all was well.&lt;br /&gt;
-&lt;code&gt;_resource.test(function(data, $sce){ console.log(&#39;Tumblr status = &#39;+ data.meta.status + &#39;, msg = &#39; + data.meta.msg + &#39; for &#39; + data.response.blog.title);&lt;/code&gt;&lt;br /&gt;
-Which then returned the following:&lt;br /&gt;
-&lt;img alt=&quot;image&quot; src=&quot;https://31.media.tumblr.com/a0eb63c50643de3c12acdd599b86d9fe/tumblr_inline_ngl2qsOSMD1qzntgb.png&quot; /&gt;&lt;br /&gt;
-Fantastic! That meant I was good to go ahead and call in some of the data.&lt;br /&gt;
-&lt;strong&gt;index.js:&lt;/strong&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-javascript&quot;&gt;$scope.blog = data.response.posts;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;strong&gt;page.html:&lt;/strong&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-javascript&quot;&gt;&amp;lt;div ng-repeat=&quot;blog in blog | limitTo : 4&quot;&amp;gt; /* grab up to 4 blog entries and repeat the data*/&lt;br /&gt; /* so this returns data.response.posts.title */&lt;br /&gt;&amp;lt;/div&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-</description>
-        <pubDate>Wed, 17 Dec 2014 10:46:30 -0600</pubDate>
-        <link>http://sceendy.com/angular/api/code/2014/12/17/messing-around-with-the-tumblr-api.html</link>
-        <guid isPermaLink="true">http://sceendy.com/angular/api/code/2014/12/17/messing-around-with-the-tumblr-api.html</guid>
-        
-        
-        <category>angular</category>
-        
-        <category>api</category>
-        
-        <category>code</category>
         
       </item>
     
       <item>
-        <title>Graceul Degradation</title>
-        <description>&lt;p&gt;My last job was at an agency - pretty standard front-end tasks and projects. We supported IE8+ since we had some pretty big client with thousands of page views a day with half of the traffic mostly coming from IE8 and IE9. Agencies typically prefer to support as many browsers as possible. One client in particular had us support as far back as IE6, though. They had a decent amount of hits coming from outside the US so it made sense. This is the first time I felt that wrath of IE6. Prior to that, my professional career had consisted of IE7+ support. However, while maintaining the website for that particular client, I learned plenty of useful things – but most importantly: &lt;b&gt;graceful degradation&lt;/b&gt;. &lt;br /&gt;
-During a recent discussion with another web developer, I recalled these moments where I knew a certain feature that IE6 couldn’t handle would not take away from the site or from the overall experience. There are various ways to approach it but mostly you can identify it by just looking at it. &lt;br /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&quot;Does not having this break anything on IE9? Does a user still know what is going on?&quot;&lt;/blockquote&gt;
-&lt;p&gt;I decided to make a little snippet to show a good example of how to go about this. In this example, I use CSS3 (linear-gradient) which is a no-go for IE9. However, IE9 can still display what the user needs to be able to view. It’s a profile completion component - the same idea as LinkedIns’ profile completion. The one on the left has a round progress bar and text beneath it. On the other hand, IE9 doesn’t support linear-gradient so it would just show the text. Using linear-gradient doesn’t break it and the user still has the context needed.&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-&lt;iframe allowfullscreen=&quot;allowfullscreen&quot; frameborder=&quot;0&quot; height=&quot;400&quot; src=&quot;http://jsfiddle.net/sceendy/eoobqufw/embedded/result,js,html,css/&quot; width=&quot;100%&quot;&gt;&lt;/iframe&gt;
+        <title>Designing and the process #2</title>
+        <description>&lt;p&gt;As I mentioned in Part #1, I first consider content and then look for design inspiration. Layout is typically where I sometimes struggle for print, honestly. I don’t like adding content for the sake of filling space and I want the layout to help with the hierarchy of content.&lt;/p&gt;
+&lt;h3&gt;Design - Cover&lt;/h3&gt;
+&lt;p&gt;For example, I looked around at different infographics. I’ve seen plenty of them and the items are often in their own space. I opened up Sketch, set the size, and began adding elements. My first graphic to create was the main one on the front - a house built with just rectangles (very minimalistic.) A banner for the heading felt appropriate - it makes me think “festive announcement.” Once I had the text done, I began to create the custom icons. I already knew what would be served: margaritas, beer, and pork. Those three things have some very recognizable graphics to represent them, luckily. Sketch allows you to make them into reusable symbols which is perfect.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+&lt;img border=&quot;0&quot; src=&quot;http://2.bp.blogspot.com/-lwBOhMNcMpg/VfBDSdIE_ZI/AAAAAAAAJvQ/X_SpGaSo458/s800/Screen%2BShot%2B2015-09-09%2Bat%2B9.32.57%2BAM.png&quot; /&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
+(Yeah, I got lazy with the naming…)&lt;br /&gt;
+Once the icons were made, and I finished the cover, I was inspired for the back part of the invitation. Clean, thin lines for borders. Continued use of the theme colors for the rest of the icons. Lovely.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+&lt;img border=&quot;0&quot; src=&quot;http://4.bp.blogspot.com/-3qwO-4wlnac/VfBBw6rIExI/AAAAAAAAJvE/t9LCYcUQ_P4/s800/front-public.png&quot; /&gt;&lt;/div&gt;
+&lt;h3&gt;Design - Back&lt;/h3&gt;
+&lt;p&gt;In order to continue on with simple, thin-bordered rectangles, I decided to use them to divide the content for the back. I used a serif font for descriptive text which I barely used since most of them did not need descriptions. The sans-serif font was used for the information itself and the numbers were made a bit heavier that the regular text. The decorative font was really just used for the word “anniversary” for the cover but I found another use for it: our names. It didn’t make sense for either the sans-serif and serif fonts to be used for our names so using the display text was more of a “let’s see if this works” approach. Glad it worked out.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+&lt;img border=&quot;0&quot; src=&quot;http://2.bp.blogspot.com/-RtNw-j_XtD4/Ve8Z3JT6dUI/AAAAAAAAJuM/CcjDOxBzg3Y/s800/invitation-back-design.png&quot; /&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;b&gt;&lt;small&gt;This is part two of a two part entry.&lt;/small&gt;&lt;/b&gt;&lt;/p&gt;
 </description>
-        <pubDate>Wed, 17 Dec 2014 10:46:30 -0600</pubDate>
-        <link>http://sceendy.com/browser/css3/2014/12/17/graceful-degradation.html</link>
-        <guid isPermaLink="true">http://sceendy.com/browser/css3/2014/12/17/graceful-degradation.html</guid>
+        <pubDate>Wed, 09 Sep 2015 04:42:02 -0500</pubDate>
+        <link>/2015/09/09/designing-and-the-process-2.html</link>
+        <guid isPermaLink="true">/2015/09/09/designing-and-the-process-2.html</guid>
+        
+        <category>design</category>
+        
+        <category>personal</category>
         
         
-        <category>browser</category>
+      </item>
+    
+      <item>
+        <title>Designing and the process #1</title>
+        <description>&lt;p&gt;For most of this year, I have been focused on improving my technical skills. No complaints; I love building single page applications. On the other hand, there have been times where I reach for a pencil and start to sketch.
+&lt;br /&gt;&lt;br /&gt;
+My first job ever was a development/design position with a much greater emphasis on designing for print: flyers, posters, shirts, etc. I never thought much about my process or workflow, though. I would receive an assignment - often a poster for an event - and look at previous designs for the same event since most of the events were annual. Some would be pretty basic such as one graphic, a patterned background, and the necessary text. Others would have incredible details such as vector graphics and custom typography. I enjoyed looking through the variety as it was a student position so turnover was quick which left a range of previous work. Looking for inspiration? Well, upon reflection, I suppose I was looking for direction and would take my own lead from there.
+&lt;br /&gt;&lt;br /&gt;
+Now, though, I don’t do as much designing as I used to. Sure, I contribute to design like I did at Joinem… but more often than not, I stick to consulting by choice. I respect designers and their ability to create beautiful things from nothing. At Joinem, I felt like more of a lighthouse since we had various people touching the designs with no styleguide. I highly discourage that, by the way. &lt;b&gt;There is such a thing as too many cooks in a kitchen and sometimes they aren’t all cooks. &lt;/b&gt;
+&lt;br /&gt;&lt;br /&gt;
+I felt compelled to create a dynamic styleguide for the team after a couple months of receiving a bunch of different font sizes and styles from freelance designers but rarely had the time to add to it. I was focused on the client-side code; so, there you have it, an important aspect of a website was a frontend developers’ side-project that was on the back-burner. How unfortunate. No, I don’t think that a styleguide would have solved all of our problems. It could have prevented a substantial amount and saved so much time/efforts, though.
+&lt;br /&gt;&lt;br /&gt;
+Anyway, these days, I have the time to reengage with my creative side. A year ago, I bought a house with my boyfriend. A few months into it, I bought these blank cardboard-looking cards that I thought would be nice to design on. Eventually, I found a great use for them: invitations! They were a good 3.5 x 5.5 inches but figured I could make it work.&lt;/p&gt;
+&lt;h3&gt;Inspiration&lt;/h3&gt;
+&lt;p&gt;Since these are invitations for my own events, I first write down the information that is needed such as location, time, date, etc. Then, I use that to begin the layout. The cards are relatively small so I aim to make the best use of the space. Luckily, they’re double sided so really one side can have all the &lt;i&gt;needed&lt;/i&gt; information and the other side can be the “fun” part for me. Once I have the layout, I continue on with the other aspects of the design.
+&lt;br /&gt;&lt;br /&gt;
+I am incredibly picky about colors. These cards were a bit limiting in a way because they are quite dark. It kind of narrowed the scope for color. So, I started by visiting dribbble and looking at &lt;a href=&quot;https://dribbble.com/search?q=brown&quot;&gt;color palettes that had been used with brown&lt;/a&gt; (the color of the cards). I generally had a theme in my mind for the event itself but I had to determine if it needed to be lightened or darkened to look good on the card itself. A dark gray is always a beautiful color for text and it’d be pretty powerful on a brownish background so I chose it for my main text color. Light shades of red and blue worked well for large text (titles) and graphics.
+&lt;br /&gt;&lt;br /&gt;
+&lt;img border=&quot;0&quot; src=&quot;http://4.bp.blogspot.com/-GaQRxwNx3XY/VenvnmYTd7I/AAAAAAAAJns/gqnlsvvYy4g/s900/designs.jpg&quot; alt=&quot;Invitation designs&quot; /&gt;
+&lt;br /&gt;
+&lt;small&gt;&lt;i&gt;The one on the left is the front of a birthday BBQ card and the one on the right is the back of the house anniversary card.&lt;/i&gt;&lt;/small&gt;&lt;/p&gt;
+
+&lt;h5&gt;This is part one of a two part entry.&lt;/h5&gt;
+</description>
+        <pubDate>Fri, 04 Sep 2015 09:44:02 -0500</pubDate>
+        <link>/2015/09/04/designing-and-the-process-1.html</link>
+        <guid isPermaLink="true">/2015/09/04/designing-and-the-process-1.html</guid>
+        
+        <category>design</category>
+        
+        <category>personal</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Code Challenge #7</title>
+        <description>&lt;p&gt;This weeks’ Code Challenge by DevWars is back to the basics. They provided a &lt;a href=&quot;https://dribbble.com/shots/2200506-Article-teaser-card&quot; target=&quot;_blank&quot;&gt;neat dribbble design&lt;/a&gt; and want us to code it out. Initially, the challenges were pretty static (i.e. here’s a design, use HTML/CSS to build it out) but this week, they want developers to show off some JavaScript and CSS3 skills. Bring forth the animations!
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h4&gt;Objectives&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;Make this card fold in half and “close”, like a book.
+&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;On hover it must open to show the content.
+&lt;br /&gt;
+&lt;em&gt;BONUS&lt;/em&gt; Add some extra pages.
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;iframe height=&quot;577&quot; scrolling=&quot;no&quot; src=&quot;//codepen.io/sceendy/embed/NqZWNm/?height=577&amp;amp;theme-id=11022&amp;amp;default-tab=result&quot; frameborder=&quot;no&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot; style=&quot;width: 100%;&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/sceendy/pen/NqZWNm/&quot;&gt;DevWarsWeek7&lt;/a&gt; by Cindy Juarez (&lt;a href=&quot;http://codepen.io/sceendy&quot;&gt;@sceendy&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.
+&lt;/iframe&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h4&gt;my approach&lt;/h4&gt;
+&lt;p&gt;I pretty much stuck to the design as it is but personalized it a little with my own photos/name and the date I worked on it. The challenge requirements seemed a bit odd to me, though - the interaction, anyway. Hovering to show the card? &lt;a href=&quot;http://uxmovement.com/navigation/why-hover-menus-do-users-more-harm-than-good/&quot;&gt;Bleh&lt;/a&gt; - not a fan of hovering when it means hiding &lt;i&gt;useful&lt;/i&gt; information rather than adding additional content (tips, etc). If it’s theoretically an article card, I’d imagine that it’d already be displaying - interactions should be added upon it; not to reveal it. Since it’s a teaser, it might be better to do that action for the &lt;b&gt;read more&lt;/b&gt; function instead.
+&lt;br /&gt;&lt;br /&gt;
+As far as the code went, I debated on the best way to handle the skewed side of the left panel and doing most of the animation with CSS3. There were a few of ways I could imagine accomplishing this but in the end I went with a similar approach that I take with ribbons on cards.
+&lt;br /&gt;&lt;br /&gt;
+&lt;strong&gt;sass:&lt;/strong&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-sass&quot;&gt;&amp;amp;:after
+  content: &#39;&#39;
+  height: 100%
+  width: 90px
+  background: #fff
+  position: absolute
+  top: 0
+  right: -49px
+  -webkit-transform: skew(10deg)
+  -moz-transform: skew(10deg)
+  -o-transform: skew(10deg)
+  z-index: -9
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4&gt;css3&lt;/h4&gt;
+&lt;p&gt;I used the skew method to get the side slanted like in the design. By adding the pseudo, &lt;span class=&quot;code-inline&quot;&gt;:after&lt;/span&gt; for &lt;span class=&quot;code-inline&quot;&gt;.left-side&lt;/span&gt; it becomes hooked onto that class. Next up were the animations, two classes were created: &lt;span class=&quot;code-inline&quot;&gt;.animation-in&lt;/span&gt; and &lt;span class=&quot;code-inline&quot;&gt;.animation-out&lt;/span&gt; to toggle when the close button is clicked. I added &lt;span class=&quot;code-inline&quot;&gt;transform: scaleX(-1) translateX(-100px)&lt;/span&gt; to create the illusion of the page turning. It currently just flips the text too and my next step would be to make it show as more of a book cover at the midpoint before it completely flips. However, I do like doing these write ups right after I’ve worked on these challenges in the allotted time for my own learning purposes. Plus, it’s pretty cool looking back on these and seeing how much more efficient I become with tasks like this.
+&lt;br /&gt;&lt;br /&gt;
+&lt;b&gt;The goal is to only spend 1-2 hours on these.&lt;/b&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 20 Aug 2015 09:06:02 -0500</pubDate>
+        <link>/2015/08/20/code-challenge-7.html</link>
+        <guid isPermaLink="true">/2015/08/20/code-challenge-7.html</guid>
         
         <category>css3</category>
         
-      </item>
-    
-      <item>
-        <title>Day in the Life of a Frontend Developer</title>
-        <description>&lt;p&gt;Let me start out by saying that, &lt;strong&gt;yes, I did get this idea from the other frontend dev blogs that I browse&lt;/strong&gt;. I saw a wave of talented front-end web developers blog about what a day in their life is like. It really got me thinking about how we could all be doing the same job (more or less) but manage to have different daily routines. Some developers work remotely daily or once a week, some only work in the office, and there were even some that would cross over between home and the office. From there, some had a lot of meetings, some had none, some had dev team-building events, etc.&lt;/p&gt;
-
-&lt;p&gt;I have the option to work remotely once every two weeks. It&#39;s pretty sweet - I still get to have face-to-face with coworkers but for that one remote day, I can go on a code-binge at home with no distractions. While the office is typically pretty calm, sometimes it&#39;s just nice to be able to get a bunch of tasks done with no interruptions.&lt;/p&gt;
-
-&lt;h4&gt;A typical remote day...&lt;/h4&gt;
-
-&lt;p&gt;On my remote days, I&#39;ll go through a few pages of reddit starting at 7:30am. By 8:30am, I will have gotten my daily fix of popular internet things, be showered, and my Keurig will be running. I&#39;ll grab a Cinnabon bagel with my coffee and head to my home office. While I like being distraction-free, I still feel the need to have some kind of sound in the background so I&#39;ll prop up my Chromebook and pull up either Netflix (some random show/episode I&#39;ve seen a million times that could not possibly distract me) or Spotify. Then, I boot up my Macbook Pro.&lt;/p&gt;
-
-&lt;p&gt;I typically email or message the other developers to let them know I&#39;m working from home first. I also use this time to reply to any emails.  I mean, I am on Google Hangouts if they need me, anyway. So, then, I open up Jira and go through my tasks. I do this for about 10 minutes - responding to comments, updating statuses, and making sure things are ready to test so that the assigner can test the feature and close the task. Once I assess the tasks for the day, I&#39;ll start the code-binge. With a brand-new site, I have &lt;strong&gt;a lot&lt;/strong&gt; to code out whether it&#39;s updated designs (html/scss) or something is broken (angular or API-related)... there&#39;s plenty to do. My boyfriend only works a few minutes away from our house so he comes home for lunch on my remote days. I make lunch at about 12:30pm and eat/chat with him until he heads back at around 1:20pm.&lt;/p&gt;
-&lt;p&gt;Then, I get back to my computer and check on the Developer Hangout to see if anything has happened since I was away. I get back to Jira in order to reply to any new comments or check on any new tasks. There might be an email or two waiting for me so I reply to those and get back to coding. If I have a question, I&#39;ll ask the senior UI developer on Hangouts or just head over to &lt;strong&gt;stackoverflow&lt;/strong&gt;. I typically stop working at about 4 on those days. That&#39;s mostly to avoid from having my brain melt if I did not stop... &lt;/p&gt;
-
-&lt;h4&gt;At the office...&lt;/h4&gt;
-
-&lt;p&gt;Going into the office means a 10 minute drive followed by a 40 minute train ride. I grab the train before 8:30am and head downtown. While I will occasionally take a Javascript-related book with me... I mostly try to get amped up for work by listening to music. Once I arrive to the office, I grab some coffee, open up Jira, and talk to coworkers. On Mondays we have a developer meeting so that&#39;s typically about a half an hour to an hour long meeting going over development priorities for the week. &lt;/p&gt;
-&lt;p&gt;If I have design updates to apply, I have the PSD and browser opened up on my second screen and have the Atom editor opened up on my Macbook screen. I like being able to to have the PSD and browser side by side to make sure they match up. Sometimes if there&#39;s no rush, I just set up the html and do the CSS in the browser. I&#39;ll implement the design they created but I also like &lt;em&gt;improving&lt;/em&gt; it so editing the CSS in-browser allows me to show it off. However, typically there isn&#39;t much time to do this so I&#39;ll just write the code, refresh the browser, make sure it matches up with the design, and move to the next task.&lt;/p&gt;
-&lt;p&gt;After a bit of coding and organization, we like to start planning for where we are going to lunch with coworkers. Lately I have been opting out of the lunches to be able to sit in the office alone and just review design changes or even try to break the site myself. Post-lunch, I typically start to lighten up and talk more with the fellow devs. At that point, people from other departments walk in to discuss a feature related to their department or to discuss a task in-person either with a backend developer or myself. &lt;/p&gt;
-&lt;p&gt;I get another cup of coffee around 3pm... for no other reason than to walk and I really &lt;em&gt;&lt;i class=&quot;fa fa-heart&quot;&gt;&lt;/i&gt;&lt;/em&gt; coffee. We have a dev meeting around 3pm on Wednesdays and those are usually a pretty quick
-status check on priorities that need to be done by Friday. Then, the other devs and I get back to work and prepare (commit &lt;i class=&quot;fa fa-plus&quot;&gt;&lt;/i&gt; push) to do a release to the production site at 4pm. After the release, I start looking at Jira again to see what I can have ready for the next release. Spend a few minutes planning and then back to coding until 5pm. I like to leave at 5pm so that I can catch a not-so-full train at 5:07pm. I arrive to my house at around 6pm which gives me time to cook dinner at a reasonable hour for my boyfriend and I.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 16 Oct 2014 10:26:30 -0500</pubDate>
-        <link>http://sceendy.com/working/2014/10/16/day-in-the-life-of-a-frontend-dev.html</link>
-        <guid isPermaLink="true">http://sceendy.com/working/2014/10/16/day-in-the-life-of-a-frontend-dev.html</guid>
+        <category>sass</category>
         
+        <category>javascript</category>
         
-        <category>working</category>
         
       </item>
     
       <item>
-        <title>New website - using jekyll</title>
-        <description>&lt;p&gt;If you visited the past version of this websites, I&#39;m sure you could tell that I take pride in building my own sites from scratch. My very first website was built using an image map and some &lt;code&gt;div&lt;/code&gt;&#39;s thrown together. Ah, to be &lt;em&gt;young&lt;/em&gt;. Once I started learning much more about coding and design, I started building with modern HTML, CSS, and JS. You know, enough to show off my skills since I was still attending UTD with not much of a portfolio yet.&lt;/p&gt;
-
-&lt;p&gt;As I continued to learn more, I finally decided to build a custom WordPress theme for myself. It was great - from planning, designing, and coding... I loved it. However, after a few months, it seemed like it was bloated for something I barely got to mess around with post-launch. So, a few months ago, I finally decided to &lt;strong&gt;MINIMIZE ALL THE THINGS&lt;/strong&gt;. I redesigned my site again, this time with just simple one-pager for myself that contained information about myself, my projects, and it displayed my tweets. I used things including Angular, Sass, Gulp, and Browserify - hindsight: &lt;em&gt;suuuree&lt;/em&gt;, a bit much for a simple website that had no blog.&lt;/p&gt;
-
-&lt;p&gt;However, after weeks of being unsatisfied with it... I finally decided to combine my favorite part of WordPress (simple blogging) and my favorite parts of my non-CMS site and that&#39;s where I am now. I installed Jekyll, started designing in browser, and &lt;em&gt;vuala&lt;/em&gt;. &lt;/p&gt;
-
-&lt;p&gt;Ideally, I can get on here and write 4 times a month... but don&#39;t hold me to it.&lt;/p&gt;
+        <title>Code Challenge #6</title>
+        <description>&lt;p&gt;This past weeks’ coding challenge was a CSS challenge, really. DevWars has a weekly live coding competition with two different types of battles. One is called Zen Garden - it’s a 1v1 where developers get the same prewritten HTML and have to style it. I’ve seen the battle go down a few times now and it looks like so much fun. &lt;br /&gt;&lt;br /&gt;
+&lt;b&gt;A few couple for the battle:&lt;/b&gt; you can’t touch the HTML, you have one hour.&lt;br /&gt;&lt;br /&gt;
+I decided I could go by the same rules to see how well I do with those limitations.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;iframe height=&quot;568&quot; scrolling=&quot;no&quot; src=&quot;//codepen.io/sceendy/embed/pJBdyy/?height=568&amp;amp;theme-id=11022&amp;amp;default-tab=result&quot; frameborder=&quot;no&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot; style=&quot;width: 100%;&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/sceendy/pen/pJBdyy/&quot;&gt;Dev Wars Week 6&lt;/a&gt; by Cindy Juarez (&lt;a href=&quot;http://codepen.io/sceendy&quot;&gt;@sceendy&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.
+&lt;/iframe&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
+I did not touch the HTML and styled up as much as possible in an hour. I added a couple media queries but mostly because I had the &lt;i&gt;results&lt;/i&gt; tab smaller while writing up my Sass. Thoughts?&lt;/p&gt;
 </description>
-        <pubDate>Wed, 15 Oct 2014 10:18:12 -0500</pubDate>
-        <link>http://sceendy.com/jekyll/website/2014/10/15/new.html</link>
-        <guid isPermaLink="true">http://sceendy.com/jekyll/website/2014/10/15/new.html</guid>
+        <pubDate>Fri, 14 Aug 2015 01:00:02 -0500</pubDate>
+        <link>/2015/08/14/code-challenge-6.html</link>
+        <guid isPermaLink="true">/2015/08/14/code-challenge-6.html</guid>
         
+        <category>code</category>
         
-        <category>jekyll</category>
+        <category>sass</category>
         
-        <category>website</category>
         
       </item>
     
       <item>
-        <title>Front Porch Frontend Conference</title>
-        <description>&lt;p&gt;After months of not going to any kind of developer gathering, I attended the FrontPorch, a frontend web developer conference at the Granada Theater. Among topics covered were some that fairly interested me including Sass (metholodgy), best practices for SVG, deploying with Capistrano, and Node. &lt;/p&gt;
-&lt;div class=&quot;img-cutoff&quot;&gt;&lt;/div&gt;
-&lt;p class=&quot;center&quot;&gt;Check it out, &lt;a href=&quot;http://frontporch.io/&quot; target=&quot;_blank&quot;&gt;www.frontporch.io&lt;/a&gt;.&lt;/p&gt;
+        <title>Code Challenge #4</title>
+        <description>&lt;p&gt;For the past couple of weeks, I have been looking for a new remote frontend opportunity. Last week, I was sent a technical task as part of an interview process so I put off working on the DevWars coding challenge #4.
+&lt;br /&gt;&lt;br /&gt;
+I quickly got some inspiration for my color palette by visiting Dribbble. I had never made API calls using jQuery but that was the task at hand. There were a few goals for the task such as the results displaying as a user types and then being able to load more results. As I have created Angular apps before, I figured it’d be similar with dealing with responses and objects. So, this is what I completed.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;iframe height=&quot;502&quot; scrolling=&quot;no&quot; src=&quot;//codepen.io/sceendy/embed/qdgxrV/?height=502&amp;amp;theme-id=11022&amp;amp;default-tab=result&quot; frameborder=&quot;no&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot; style=&quot;width: 100%;&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/sceendy/pen/qdgxrV/&quot;&gt;flicker.search&lt;/a&gt; by Cindy Juarez (&lt;a href=&quot;http://codepen.io/sceendy&quot;&gt;@sceendy&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.
+&lt;/iframe&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
+I set aside the same amount of time I do for the other code challenges as well (1-2 hours.)&lt;/p&gt;
 </description>
-        <pubDate>Wed, 08 Oct 2014 13:18:12 -0500</pubDate>
-        <link>http://sceendy.com/dev/conference/2014/10/08/front-porch-frontend-conference.html</link>
-        <guid isPermaLink="true">http://sceendy.com/dev/conference/2014/10/08/front-porch-frontend-conference.html</guid>
+        <pubDate>Fri, 07 Aug 2015 12:02:30 -0500</pubDate>
+        <link>/2015/08/07/code-challenge-4.html</link>
+        <guid isPermaLink="true">/2015/08/07/code-challenge-4.html</guid>
+        
+        <category>api</category>
+        
+        <category>sass</category>
+        
+        <category>jade</category>
+        
+        <category>jquery</category>
         
         
-        <category>dev</category>
+      </item>
+    
+      <item>
+        <title>Code Challenge #3</title>
+        <description>&lt;p&gt;Alright, for Week 3, the code challenge was a &lt;a href=&quot;http://codepen.io/DevWars/pen/XbPaNg&quot;&gt;weather widget&lt;/a&gt;. I think this is one of the more common things created when learning a new JS framework aside from maybe a shopping cart. There are a lot of open weather API’s which definitely helps too.
+&lt;br /&gt;&lt;br /&gt;
+I recall at some point getting excited about EmberJS and wanting to making this app that compared NBA stats (yes, I’m aware the NBA has internal tools for this) just to learn Ember and create something for something I enjoy. The thing is, their API is closed (or you can pay up, eh), obviously and the ones I found out there weren’t really reliable. So, I kind of abandoned that project.
+&lt;br /&gt;&lt;br /&gt;
+So, I’m grateful for open source anything, such as the ones I used for this widget: &lt;a href=&quot;http://openweathermap.org/&quot;&gt;OpenWeatherMap&lt;/a&gt; and &lt;a href=&quot;https://erikflowers.github.io/weather-icons/&quot;&gt;Weather Icons&lt;/a&gt;.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;iframe height=&quot;343&quot; scrolling=&quot;no&quot; src=&quot;//codepen.io/sceendy/embed/zGmxZz/?height=343&amp;amp;theme-id=11022&amp;amp;default-tab=result&quot; frameborder=&quot;no&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot; style=&quot;width: 100%;&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/sceendy/pen/zGmxZz/&quot;&gt;Weather Widget&lt;/a&gt; by Cindy Juarez (&lt;a href=&quot;http://codepen.io/sceendy&quot;&gt;@sceendy&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.
+&lt;/iframe&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
+I consumed OpenWeatherMaps’ API and wasn’t really feeling their icons. I typically just use Font Awesome but there are about 4-5 weather-related icons and I felt it would not suffice. Luckily, Weather Icons has 189 icons, all weather related. Of course, I didn’t &lt;i&gt;need that many&lt;/i&gt; but I enjoyed choosing the ones specific to my widget.
+&lt;br /&gt;&lt;br /&gt;
+I used Angular again, sorry. I’ll switch it up for the next one. Nevertheless, I wrote it up like a quick prototype and will go back and add a service for it later. :)&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;i&gt;&lt;b&gt;The goal is to only spend 1-2 hours on these.&lt;/b&gt;&lt;/i&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 29 Jul 2015 12:07:30 -0500</pubDate>
+        <link>/2015/07/29/code-challenge-3.html</link>
+        <guid isPermaLink="true">/2015/07/29/code-challenge-3.html</guid>
         
-        <category>conference</category>
+        <category>angular</category>
+        
+        <category>sass</category>
+        
+        <category>personal</category>
+        
+        <category>code</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Code Challenge #2</title>
+        <description>&lt;p&gt;If you’re not keeping up, the coding challenge for Week 2 was &lt;a href=&quot;http://codepen.io/DevWars/pen/WvyXYQ&quot;&gt;recreating the Hangouts extension&lt;/a&gt;. Interesting and plenty of potential, honestly. However, I decided to find a design on dribbble myself and see how I could modify it a bit.
+&lt;br /&gt;&lt;br /&gt;
+I wanted this component to be similar to the Week 2 challenge so I found a &lt;a href=&quot;https://dribbble.com/shots/876515-Search-for-friends-list/attachments/94290&quot;&gt;contact list&lt;/a&gt;. I do think it looks good as it is but I changed the colors and removed a couple things. I also added AngularJS to get a little functionality in. As of this blog post, you can add a new athlete to the list but obviously not store it. I will be adding lists to each category but don’t intend on storing any data. This is just a fun widget.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;iframe height=&quot;685&quot; scrolling=&quot;no&quot; src=&quot;//codepen.io/sceendy/embed/GJXEEx/?height=685&amp;amp;theme-id=11022&amp;amp;default-tab=result&quot; frameborder=&quot;no&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot; style=&quot;width: 100%;&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/sceendy/pen/GJXEEx/&quot;&gt;Contact List&lt;/a&gt; by Cindy Juarez (&lt;a href=&quot;http://codepen.io/sceendy&quot;&gt;@sceendy&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.
+&lt;/iframe&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
+I grabbed some quick stats from the Dallas Mavericks team to be displayed and the logo is a default image for the athlete. I definitely used flexbox for the layout as I felt it accomplished things very nicely.
+&lt;br /&gt;&lt;br /&gt;
+&lt;i&gt;&lt;b&gt;The goal is to only spend 1-2 hours on these.&lt;/b&gt;&lt;/i&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 24 Jul 2015 09:49:30 -0500</pubDate>
+        <link>/2015/07/24/code-challenge-2.html</link>
+        <guid isPermaLink="true">/2015/07/24/code-challenge-2.html</guid>
+        
+        <category>angular</category>
+        
+        <category>sass</category>
+        
+        <category>personal</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Code Challenge #1</title>
+        <description>&lt;p&gt;For a few months now, I’ve been viewing Twitch streams of front-end developers coding during lunch. I have found myself learning tidbits here and there that have been really helpful. It’s also generally fun to be able to help when the developer is stumped.&lt;/p&gt;
+
+&lt;p&gt;One of my favorite users is Syntag - a frontend developer that has his own agency and codes a few hours at a time for Twitch. Through his channel, I found &lt;a href=&quot;http://www.devwars.tv&quot;&gt;DevWars&lt;/a&gt; - “the ultimate developers battleground.” They recently started weekly challenges where people code out components. The first one was a music player design from Dribble.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;iframe height=&quot;421&quot; scrolling=&quot;no&quot; src=&quot;//codepen.io/sceendy/embed/MwVzYb/?height=421&amp;amp;theme-id=11022&amp;amp;default-tab=result&quot; frameborder=&quot;no&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot; style=&quot;width: 100%;&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/sceendy/pen/MwVzYb/&quot;&gt;Implementation of a Design&lt;/a&gt; by Cindy Juarez (&lt;a href=&quot;http://codepen.io/sceendy&quot;&gt;@sceendy&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.
+&lt;/iframe&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
+I had fun writing up the HTML/Sass and even challenged myself to write it in under 2 hours. While the coding challenge page included a spritesheet with the icons to use, I really like the Google Material icons so I found icons that represented the same thing from the sprite sheet and used those instead. I grabbed a song I liked and found a quick 30 second snippet of the song to play. You can play/pause the song as of now - I used jQuery to add the &amp;lt;audio&amp;gt; element and then set the attributes for it. The play/pause is controlled by an if/else statement. That was my only goal for it initially as I’m working on a ReactJS project but I will get back to it and complete it this week.
+&lt;br /&gt;&amp;lt;/br&amp;gt;
+&lt;i&gt;&lt;strong&gt;Todos:&lt;/strong&gt;
+&lt;br /&gt;&lt;strike&gt;get the progress bar to work while the song is playing&lt;/strike&gt;
+&lt;br /&gt;change to previous song and to next song of an array
+&lt;br /&gt;add sharing which will just be something like a tweet that says, ‘Currently playing:  by  on Codepen’. &lt;/i&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 20 Jul 2015 08:14:30 -0500</pubDate>
+        <link>/2015/07/20/code-challenge-1.html</link>
+        <guid isPermaLink="true">/2015/07/20/code-challenge-1.html</guid>
+        
+        <category>jquery</category>
+        
+        <category>sass</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>#coffee</title>
+        <description>&lt;p&gt;I absolutely love coffee. Growing up, I could always count on waking up in the morning to the smell of it. It signified the beginning of a day to me. These days, I have traveled a bit more and always look forward to trying local coffee from where ever I visit. As I visit these places, I keep track using a journal but hey, I’m a web developer… so, I decided to learn React by building a sort of coffee hub app that I’ll share once it’s… uh… shareable :)
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img border=&quot;0&quot; src=&quot;http://4.bp.blogspot.com/-rkOwVLan8hs/VZGMUVEaG4I/AAAAAAAAIIU/gi7pHuuczEo/s400/coffee.jpg&quot; style=&quot;display: inline-block; width: 45%;&quot; /&gt;
+&lt;img border=&quot;0&quot; src=&quot;http://2.bp.blogspot.com/-rpbG7LYL_hU/VZGNMUP2eQI/AAAAAAAAIIg/1HnROXyY0BY/s400/coffee-mexico.jpg&quot; style=&quot;display: inline-block; width: 45%;&quot; /&gt;
+&lt;img border=&quot;0&quot; src=&quot;http://3.bp.blogspot.com/-3DPvJsyqUCg/VZGNMk3CWxI/AAAAAAAAIIk/siFOf5EBjhU/s400/coffee-nyc.jpg&quot; style=&quot;display: inline-block; width: 45%;&quot; /&gt;
+&lt;img border=&quot;0&quot; src=&quot;http://2.bp.blogspot.com/-7YfqsTaXJOk/VbagdMjcXkI/AAAAAAAAIls/1OzvbCdHbuI/s400/coffee-austin.jpg&quot; style=&quot;display: inline-block; width: 45%;&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 29 Jun 2015 08:26:30 -0500</pubDate>
+        <link>/2015/06/29/coffee.html</link>
+        <guid isPermaLink="true">/2015/06/29/coffee.html</guid>
+        
+        <category>travel</category>
+        
+        <category>vacation</category>
+        
         
       </item>
     

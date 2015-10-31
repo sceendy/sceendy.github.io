@@ -1016,7 +1016,6 @@ a {
   text-decoration: none; }
   a:hover {
     color: #07a8ed;
-    text-decoration: underline;
     cursor: pointer; }
 
 img {

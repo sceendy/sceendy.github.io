@@ -2,7 +2,7 @@
 layout: post
 title:  "Day in the Life of a Frontend Developer"
 date:   2014-10-16 15:26:30
-categories: working
+tags: ['working']
 ---
 
 <p>Let me start out by saying that, <strong>yes, I did get this idea from the other frontend dev blogs that I browse</strong>. I saw a wave of talented front-end web developers blog about what a day in their life is like. It really got me thinking about how we could all be doing the same job (more or less) but manage to have different daily routines. Some developers work remotely daily or once a week, some only work in the office, and there were even some that would cross over between home and the office. From there, some had a lot of meetings, some had none, some had dev team-building events, etc.</p>
