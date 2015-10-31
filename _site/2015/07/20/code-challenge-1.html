@@ -86,7 +86,7 @@
   </div>
   <div class="row">
     <section class="col-md-12 col-sm-12 col-xs-12">
-      <p class="blog-text"><p>For a few months now, I’ve been viewing Twitch streams of front-end developers coding during lunch. I have found myself learning tidbits here and there that have been really helpful. It’s also generally fun to be able to help when the developer is stumped.</p>
+      <div class="blog-text"><p>For a few months now, I’ve been viewing Twitch streams of front-end developers coding during lunch. I have found myself learning tidbits here and there that have been really helpful. It’s also generally fun to be able to help when the developer is stumped.</p>
 
 <p>One of my favorite users is Syntag - a frontend developer that has his own agency and codes a few hours at a time for Twitch. Through his channel, I found <a href="http://www.devwars.tv">DevWars</a> - “the ultimate developers battleground.” They recently started weekly challenges where people code out components. The first one was a music player design from Dribble.
 <br /><br /></p>
@@ -99,10 +99,35 @@ I had fun writing up the HTML/Sass and even challenged myself to write it in und
 <br /><strike>get the progress bar to work while the song is playing</strike>
 <br />change to previous song and to next song of an array
 <br />add sharing which will just be something like a tweet that says, ‘Currently playing:  by  on Codepen’. </i></p>
-</p>
+</div>
       <h5 class="text-center heading-blue-border">Have a question or comment?<br/>Ask me anything: <a href="http://twitter.com/home?status=@sceendy">@sceendy</a></h5>
     </section>
   </div>
+  
+  <div id="disqus_thread"></div>
+  <script>
+      /**
+       *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+       *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+       */
+      /*
+      var disqus_config = function () {
+          this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+          this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+      */
+      (function() {  // DON'T EDIT BELOW THIS LINE
+          var d = document, s = d.createElement('script');
+
+          s.src = '//sceendyblog.disqus.com/embed.js';
+
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+  
+
 </article>
 
     </div>

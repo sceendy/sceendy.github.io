@@ -86,7 +86,7 @@
   </div>
   <div class="row">
     <section class="col-md-12 col-sm-12 col-xs-12">
-      <p class="blog-text"><p>Upon cleaning some of my external hard drive, I found a little gem: my first lines of JavaScript. Just a few lines to show the date a week from that date - nothing groundbreaking. However, I recall being satisfied with it.<br />
+      <div class="blog-text"><p>Upon cleaning some of my external hard drive, I found a little gem: my first lines of JavaScript. Just a few lines to show the date a week from that date - nothing groundbreaking. However, I recall being satisfied with it.<br />
  </p>
 
 <iframe allowfullscreen="allowfullscreen" frameborder="0" height="120" src="//jsfiddle.net/sceendy/09nnud48/embedded/" width="100%"></iframe>
@@ -107,10 +107,35 @@ While I reflect on how I got started with markup, I think the only reason I real
 </div>
 <p><br />
 For me, web development is still all about solving problems. I’ve gotten past just writing markup and continue to expand my skill set to allow for solving those problems in a more efficient and clean way, though. And I’d like to think that leveling up as a developer all began with those first lines of JavaScript.</p>
-</p>
+</div>
       <h5 class="text-center heading-blue-border">Have a question or comment?<br/>Ask me anything: <a href="http://twitter.com/home?status=@sceendy">@sceendy</a></h5>
     </section>
   </div>
+  
+  <div id="disqus_thread"></div>
+  <script>
+      /**
+       *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+       *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+       */
+      /*
+      var disqus_config = function () {
+          this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+          this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+      */
+      (function() {  // DON'T EDIT BELOW THIS LINE
+          var d = document, s = d.createElement('script');
+
+          s.src = '//sceendyblog.disqus.com/embed.js';
+
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+  
+
 </article>
 
     </div>

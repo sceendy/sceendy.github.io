@@ -86,7 +86,7 @@
   </div>
   <div class="row">
     <section class="col-md-12 col-sm-12 col-xs-12">
-      <p class="blog-text"><p>This weeks’ Code Challenge by DevWars is back to the basics. They provided a <a href="https://dribbble.com/shots/2200506-Article-teaser-card" target="_blank">neat dribbble design</a> and want us to code it out. Initially, the challenges were pretty static (i.e. here’s a design, use HTML/CSS to build it out) but this week, they want developers to show off some JavaScript and CSS3 skills. Bring forth the animations!
+      <div class="blog-text"><p>This weeks’ Code Challenge by DevWars is back to the basics. They provided a <a href="https://dribbble.com/shots/2200506-Article-teaser-card" target="_blank">neat dribbble design</a> and want us to code it out. Initially, the challenges were pretty static (i.e. here’s a design, use HTML/CSS to build it out) but this week, they want developers to show off some JavaScript and CSS3 skills. Bring forth the animations!
 <br /><br /></p>
 <h4>Objectives</h4>
 <ol>
@@ -123,10 +123,35 @@ As far as the code went, I debated on the best way to handle the skewed side of 
 <p>I used the skew method to get the side slanted like in the design. By adding the pseudo, <span class="code-inline">:after</span> for <span class="code-inline">.left-side</span> it becomes hooked onto that class. Next up were the animations, two classes were created: <span class="code-inline">.animation-in</span> and <span class="code-inline">.animation-out</span> to toggle when the close button is clicked. I added <span class="code-inline">transform: scaleX(-1) translateX(-100px)</span> to create the illusion of the page turning. It currently just flips the text too and my next step would be to make it show as more of a book cover at the midpoint before it completely flips. However, I do like doing these write ups right after I’ve worked on these challenges in the allotted time for my own learning purposes. Plus, it’s pretty cool looking back on these and seeing how much more efficient I become with tasks like this.
 <br /><br />
 <b>The goal is to only spend 1-2 hours on these.</b></p>
-</p>
+</div>
       <h5 class="text-center heading-blue-border">Have a question or comment?<br/>Ask me anything: <a href="http://twitter.com/home?status=@sceendy">@sceendy</a></h5>
     </section>
   </div>
+  
+  <div id="disqus_thread"></div>
+  <script>
+      /**
+       *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+       *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+       */
+      /*
+      var disqus_config = function () {
+          this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+          this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+      */
+      (function() {  // DON'T EDIT BELOW THIS LINE
+          var d = document, s = d.createElement('script');
+
+          s.src = '//sceendyblog.disqus.com/embed.js';
+
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+  
+
 </article>
 
     </div>

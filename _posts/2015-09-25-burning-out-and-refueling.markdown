@@ -3,6 +3,7 @@ layout: post
 title:  "Burning out and refueling"
 date:   2015-09-25 22:13:59
 tags: ['travel', 'personal']
+comments: true
 ---
 
 At agencies, especially with big clients, you get used to mostly working during the clients' business hours + not taking work home with you. You can get spoiled by the work/life balance. Well, that has been my experience with agencies. However, at some point, I decided I really wanted to focus on a single product which is when I searched for a startup that was building a product.
@@ -16,7 +17,7 @@ Don't get me wrong -- I loved it. Diving deeper into coding and learning more ab
 <h4>ok. nevermind.</h4>
 <br/>
 For the past 2 months, I've looked back on that time. Yes, it was fun. For that year in a half, my learning/self-improvement was on a fast-track. It just wears you down -- especially when you only take two incredibly short vacations. Accumulating 320 hours of vacation and not making a dent into it is ridiculous. Why didn't I use it up? Well, there was always <i>*something*</i> due -- I couldn't find the right time to get away, really. Or at least that's what I told myself. It was self-inflicted the first year and going into my second year, I felt the pressure to push through for the sake of the product. So, last week, I saw an opportunity.
-<br/><br/>
+<br/>
 <div class="separator" style="clear: both; text-align: center;"><img border="0" src="http://4.bp.blogspot.com/-GNLD88of4U8/VgYLggzchYI/AAAAAAAAKUU/kSUdfsQDdeo/s900/camping.jpg" /></div>
 <br/>
 <h4>It's as if I refilled my tank of passion for code. </h4>

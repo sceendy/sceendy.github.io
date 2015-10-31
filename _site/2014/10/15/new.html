@@ -86,17 +86,42 @@
   </div>
   <div class="row">
     <section class="col-md-12 col-sm-12 col-xs-12">
-      <p class="blog-text"><p>If you visited the past version of this websites, I'm sure you could tell that I take pride in building my own sites from scratch. My very first website was built using an image map and some <code>div</code>'s thrown together. Ah, to be <em>young</em>. Once I started learning much more about coding and design, I started building with modern HTML, CSS, and JS. You know, enough to show off my skills since I was still attending UTD with not much of a portfolio yet.</p>
+      <div class="blog-text"><p>If you visited the past version of this websites, I'm sure you could tell that I take pride in building my own sites from scratch. My very first website was built using an image map and some <code>div</code>'s thrown together. Ah, to be <em>young</em>. Once I started learning much more about coding and design, I started building with modern HTML, CSS, and JS. You know, enough to show off my skills since I was still attending UTD with not much of a portfolio yet.</p>
 
 <p>As I continued to learn more, I finally decided to build a custom WordPress theme for myself. It was great - from planning, designing, and coding... I loved it. However, after a few months, it seemed like it was bloated for something I barely got to mess around with post-launch. So, a few months ago, I finally decided to <strong>MINIMIZE ALL THE THINGS</strong>. I redesigned my site again, this time with just simple one-pager for myself that contained information about myself, my projects, and it displayed my tweets. I used things including Angular, Sass, Gulp, and Browserify - hindsight: <em>suuuree</em>, a bit much for a simple website that had no blog.</p>
 
 <p>However, after weeks of being unsatisfied with it... I finally decided to combine my favorite part of WordPress (simple blogging) and my favorite parts of my non-CMS site and that's where I am now. I installed Jekyll, started designing in browser, and <em>vuala</em>. </p>
 
 <p>Ideally, I can get on here and write 4 times a month... but don't hold me to it.</p>
-</p>
+</div>
       <h5 class="text-center heading-blue-border">Have a question or comment?<br/>Ask me anything: <a href="http://twitter.com/home?status=@sceendy">@sceendy</a></h5>
     </section>
   </div>
+  
+  <div id="disqus_thread"></div>
+  <script>
+      /**
+       *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+       *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+       */
+      /*
+      var disqus_config = function () {
+          this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+          this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+      */
+      (function() {  // DON'T EDIT BELOW THIS LINE
+          var d = document, s = d.createElement('script');
+
+          s.src = '//sceendyblog.disqus.com/embed.js';
+
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+  
+
 </article>
 
     </div>
