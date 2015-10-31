@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "#coffee"
+date:   2015-06-29 13:26:30
+tags: ['travel', 'vacation']
+---
+
+I absolutely love coffee. Growing up, I could always count on waking up in the morning to the smell of it. It signified the beginning of a day to me. These days, I have traveled a bit more and always look forward to trying local coffee from where ever I visit. As I visit these places, I keep track using a journal but hey, I'm a web developer... so, I decided to learn React by building a sort of coffee hub app that I'll share once it's... uh... shareable :)
+<br/><br/>
+
+<img border="0" src="http://4.bp.blogspot.com/-rkOwVLan8hs/VZGMUVEaG4I/AAAAAAAAIIU/gi7pHuuczEo/s400/coffee.jpg" style="display: inline-block; width: 45%;" />
+<img border="0" src="http://2.bp.blogspot.com/-rpbG7LYL_hU/VZGNMUP2eQI/AAAAAAAAIIg/1HnROXyY0BY/s400/coffee-mexico.jpg" style="display: inline-block; width: 45%;" />
+<img border="0" src="http://3.bp.blogspot.com/-3DPvJsyqUCg/VZGNMk3CWxI/AAAAAAAAIIk/siFOf5EBjhU/s400/coffee-nyc.jpg" style="display: inline-block; width: 45%;" />
+<img border="0" src="http://2.bp.blogspot.com/-7YfqsTaXJOk/VbagdMjcXkI/AAAAAAAAIls/1OzvbCdHbuI/s400/coffee-austin.jpg" style="display: inline-block; width: 45%;" />
