@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "From AngularJS to Jekyll"
+date: 2015-11-04 19:09:20
+tags: ['angular', 'dev']
+---
+
+My personal website has had many faces over the years. Each version was built using new skills I was learning at the time. I went from a static site to building a custom WordPress theme to a single page application using AngularJS. Not only was it built with something new each time, my designing skills have luckily improved too.
+
+A year ago or so, I tried out Jekyll in order avoid putting anymore time tweaking with my site. It actually went pretty well but that urge to have a reason to mess with it sat quietly within me. Finally, I decided I could make it a simple AngualrJS that could consume an API for blogging -- that's it. I really just wanted more practice and a reason to do it. Thus, the site became an AngularJS app for the second time.
+
+I was pretty happy with it as it was but the build up of Trello cards for my personal site was a bit much. Ideas came to me throughout the week to improve/change it. The thing is - I'll admit it - ... now I have ideas outside of my personal site. I have projects I want to build that can be built using whatever framework I desire to practice doing anything. My site was always my online playground. The thing is, I can build anything and put it anywhere. Granted, it'll probably just be a Github repo but nevertheless, it's there.
+
+Returning to Jekyll was pretty obvious to me. I wanted something that was easy to maintain and the fact that it's easy to host it on Github pages is certainly an appealing plus!
