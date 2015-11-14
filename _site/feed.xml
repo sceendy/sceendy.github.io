@@ -6,9 +6,41 @@
 </description>
     <link>http://sceendy.com/</link>
     <atom:link href="http://sceendy.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 05 Nov 2015 17:53:09 -0600</pubDate>
-    <lastBuildDate>Thu, 05 Nov 2015 17:53:09 -0600</lastBuildDate>
+    <pubDate>Fri, 13 Nov 2015 19:06:04 -0600</pubDate>
+    <lastBuildDate>Fri, 13 Nov 2015 19:06:04 -0600</lastBuildDate>
     <generator>Jekyll v3.0.0</generator>
+    
+      <item>
+        <title>Open Source Contribution</title>
+        <description>&lt;p&gt;Today, I made an open source contribution. It was not my first and definitely not my last but it made me realize something about myself.&lt;/p&gt;
+
+&lt;p&gt;We all use libraries and tools that we did not build ourselves. Many of the ones I use tend to have more than 50 contributors. Often times, they are super organized with github issues, PR’s, labeling, etc. Aside from being super useful, they also &lt;em&gt;tend to&lt;/em&gt; be well-documented. It’s nice.&lt;/p&gt;
+
+&lt;p&gt;I have always held back from making pull requests from them because I find putting my code out there a bit intimidating. I mean, someone has to merge it, right? Someone has to be like, “Ok, this works and is not written terribly.” The gatekeepers.&lt;/p&gt;
+
+&lt;p&gt;We experience this at our jobs but there’s a bit less pressure since companies have private repos… your website might suck and be slow but now on is able to directly comment the pull request you made that ruined everything.&lt;/p&gt;
+
+&lt;p&gt;For the past couple of days, I’ve been working with Hologram to generate a styleguide. I had used Sassdown before but Hologram seems to have gotten a decent amount of attention and is pretty similar to Sassdown so why not? I was testing the pages and was happy but I wanted to center the footer text that was being generated per the default footer template.&lt;/p&gt;
+
+&lt;p&gt;After having worked so long to document the CSS and get it display the content how I wanted, I was a bit tired of staring at it all. I added a &lt;span class=&quot;code-inline&quot;&gt;text-align: center;&lt;/span&gt; and refreshed. No big deal. While doing that, I went back to the code to see if perhaps I could apply the project footer class to it as well. That’s when I noticed a &lt;span class=&quot;code-inline&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt; that was not being closed.&lt;/p&gt;
+
+&lt;p&gt;Yes, it’s optional now; thanks HTML5. But it didn’t seem intentional as none of the other code seemed to take advantage of optional tags. I figured the worst that could happen is some sort of reply like, “Oh, it was intentional; thanks, though!” I never encountered negative comments on Github so yes, that’s the worst I could imagine.&lt;/p&gt;
+
+&lt;p&gt;Over time, I have had more and more people looking over my code so a little bit of the intimidation has faded. Had I actively put my code out there, put my personal projects on Github, though… I may have aquired more knowledge about best practices at a better rate. Lately, that’s what I was wondering. So, this time around, when I saw something I could fix… &lt;em&gt;why not?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;My advice to anyone start out is to not be scared of getting your code rejected. It will help you improve; we have all sucked. We are all always getting better. And sometimes, you’ll make a small fix to a cool project and you’ll get a cool button on your &lt;a href=&quot;https://github.com/trulia/hologram/pull/252&quot; target=&quot;_blank&quot;&gt;pull request&lt;/a&gt;:
+&lt;img src=&quot;/assets/os-contribute-trulia.png&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 13 Nov 2015 12:34:20 -0600</pubDate>
+        <link>http://sceendy.com/2015/11/13/open-source-contribution.html</link>
+        <guid isPermaLink="true">http://sceendy.com/2015/11/13/open-source-contribution.html</guid>
+        
+        <category>dev</category>
+        
+        <category>html</category>
+        
+        
+      </item>
     
       <item>
         <title>From AngularJS to Jekyll</title>
@@ -282,33 +314,6 @@ I grabbed some quick stats from the Dallas Mavericks team to be displayed and th
         <category>sass</category>
         
         <category>personal</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Code Challenge #1</title>
-        <description>&lt;p&gt;For a few months now, I’ve been viewing Twitch streams of front-end developers coding during lunch. I have found myself learning tidbits here and there that have been really helpful. It’s also generally fun to be able to help when the developer is stumped.&lt;/p&gt;
-
-&lt;p&gt;One of my favorite users is Syntag - a frontend developer that has his own agency and codes a few hours at a time for Twitch. Through his channel, I found &lt;a href=&quot;http://www.devwars.tv&quot;&gt;DevWars&lt;/a&gt; - “the ultimate developers battleground.” They recently started weekly challenges where people code out components. The first one was a music player design from Dribble.
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;iframe height=&quot;421&quot; scrolling=&quot;no&quot; src=&quot;//codepen.io/sceendy/embed/MwVzYb/?height=421&amp;amp;theme-id=11022&amp;amp;default-tab=result&quot; frameborder=&quot;no&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot; style=&quot;width: 100%;&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/sceendy/pen/MwVzYb/&quot;&gt;Implementation of a Design&lt;/a&gt; by Cindy Juarez (&lt;a href=&quot;http://codepen.io/sceendy&quot;&gt;@sceendy&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.
-&lt;/iframe&gt;
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
-I had fun writing up the HTML/Sass and even challenged myself to write it in under 2 hours. While the coding challenge page included a spritesheet with the icons to use, I really like the Google Material icons so I found icons that represented the same thing from the sprite sheet and used those instead. I grabbed a song I liked and found a quick 30 second snippet of the song to play. You can play/pause the song as of now - I used jQuery to add the &amp;lt;audio&amp;gt; element and then set the attributes for it. The play/pause is controlled by an if/else statement. That was my only goal for it initially as I’m working on a ReactJS project but I will get back to it and complete it this week.
-&lt;br /&gt;&amp;lt;/br&amp;gt;
-&lt;i&gt;&lt;strong&gt;Todos:&lt;/strong&gt;
-&lt;br /&gt;&lt;strike&gt;get the progress bar to work while the song is playing&lt;/strike&gt;
-&lt;br /&gt;change to previous song and to next song of an array
-&lt;br /&gt;add sharing which will just be something like a tweet that says, ‘Currently playing:  by  on Codepen’. &lt;/i&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 20 Jul 2015 08:14:30 -0500</pubDate>
-        <link>http://sceendy.com/2015/07/20/code-challenge-1.html</link>
-        <guid isPermaLink="true">http://sceendy.com/2015/07/20/code-challenge-1.html</guid>
-        
-        <category>jquery</category>
-        
-        <category>sass</category>
         
         
       </item>

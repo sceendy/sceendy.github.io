@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Working Remotely</title>
-  <meta name="description" content="Like anything else, working remotely only improves with practice. I can definitely appreciate the opportunity my current job has given me to work from home -...">
+  <title>Open Source Contribution</title>
+  <meta name="description" content="Today, I made an open source contribution. It was not my first and definitely not my last but it made me realize something about myself.">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://sceendy.com/2015/01/29/working-remotely.html">
+  <link rel="canonical" href="http://sceendy.com/2015/11/13/open-source-contribution.html">
   <link rel="alternate" type="application/rss+xml" title="Cindy Juarez" href="http://sceendy.com/feed.xml">
 
   <link rel="icon" type="image/png" href="/assets/favicon.png">
@@ -82,31 +82,30 @@
       <article class="component-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="row">
     <header class="col-md-12 col-sm-12 col-xs-12">
-      <h2 class="blog-title">Working Remotely</h2>
-      <time class="small" datetime="2015-01-29T11:45:30-06:00" itemprop="datePublished">Jan 29, 2015</time>
+      <h2 class="blog-title">Open Source Contribution</h2>
+      <time class="small" datetime="2015-11-13T12:34:20-06:00" itemprop="datePublished">Nov 13, 2015</time>
     </header>
   </div>
   <div class="row">
     <section class="col-md-12 col-sm-12 col-xs-12">
-      <div class="blog-text"><p>Like anything else, working remotely only improves with practice. I can definitely appreciate the opportunity my current job has given me to work from home - even one day a week is beneficial. </p>
+      <div class="blog-text"><p>Today, I made an open source contribution. It was not my first and definitely not my last but it made me realize something about myself.</p>
 
-<p><br />
-<br />
-While I will credit my knowledge in communicating online to the many courses/profeesors I took while in the Emerging Media and Communications program at UT-Dallas, I think putting it into practice really solidified my approach. With a relatively small development team, it’s important to be connected in some way. Whether it’s HipChat, Hangouts, or just plain email, it’s pretty easy to be just a keystroke away from everything I need to complete a task. Or when needed, Screenhero and Remote Desktop (Google) have been quite helpful to say the least.<br />
-<br />
-Like most startups, we do have schedule meetings that help us with this as well. A daily standup meeting, a Monday Dev Meeting, and scheduled meetings with other departments here and there. Part of the reason it has been successful, I’d definitely credit to those meetings. We use them as a way to know what we are each doing and discuss anything we may need help on or have a question about.<br />
-<br />
-Upon reflection, even when I am in the office, it feels remote at times because some other developer could be working from home so there’s still the physical distance. Thus, online communication is crucial whether I am in the office or not. I personally believe that it improves even without conscious effort but conscious effort will definitely make a bigger difference in a shorter amount of time.<br />
-<br />
-<img alt="Working remotely" border="0" src="http://3.bp.blogspot.com/-OnwG1ZIqthU/VMq6Us0mC3I/AAAAAAAAFHE/3NCgQW6BI9E/s1600/remote-desk.jpg" style="max-width: 100%;" /><br />
-<br /></p>
-<div class="separator" style="clear: both; text-align: left;">
-<img align="left" alt="List of things to-do" border="0" height="320" src="http://1.bp.blogspot.com/-kpdd8P9uhU4/VMrEx7cDvqI/AAAAAAAAFHo/O7gRRSHmqxo/s1600/IMAG3300.jpg" style="margin-right: 30px;" title="" width="276" /></div>
-<p>Another important aspect of remote working would be time management. Distractions are everywhere regardless of where you work. Whether I go to the Starbucks a mile away or sit in my home office, I line to use a short list of tasks that I want to complete that day with me. <br />
-<br />
-It helps a lot to have that hanging over my head… or well, on post-it sticking to my laptop. While I prefer focusing on tasks for a couple of hours at a time, I also have started working some things in to take a short break. For example, today I worked in my home office for a little bit for my initial meetings, then I moved into my backyard. There’s something about being outside that feels a bit more inspirational. After working on a couple tasks, I got dressed to go for a jog to a near by grocery store. Upon my return, I took a shower and got ready for another call. Since then, I have been working on tasks - making sure my HipChat notification count goes back to “0” quickly.<br />
-<br />
-At this point, my process feels like a well-oiled machine – but it definitely took some time; mistakes were made but I learned from them. Working remotely is an extraordinary capability for any team to have at any stage of development.</p>
+<p>We all use libraries and tools that we did not build ourselves. Many of the ones I use tend to have more than 50 contributors. Often times, they are super organized with github issues, PR’s, labeling, etc. Aside from being super useful, they also <em>tend to</em> be well-documented. It’s nice.</p>
+
+<p>I have always held back from making pull requests from them because I find putting my code out there a bit intimidating. I mean, someone has to merge it, right? Someone has to be like, “Ok, this works and is not written terribly.” The gatekeepers.</p>
+
+<p>We experience this at our jobs but there’s a bit less pressure since companies have private repos… your website might suck and be slow but now on is able to directly comment the pull request you made that ruined everything.</p>
+
+<p>For the past couple of days, I’ve been working with Hologram to generate a styleguide. I had used Sassdown before but Hologram seems to have gotten a decent amount of attention and is pretty similar to Sassdown so why not? I was testing the pages and was happy but I wanted to center the footer text that was being generated per the default footer template.</p>
+
+<p>After having worked so long to document the CSS and get it display the content how I wanted, I was a bit tired of staring at it all. I added a <span class="code-inline">text-align: center;</span> and refreshed. No big deal. While doing that, I went back to the code to see if perhaps I could apply the project footer class to it as well. That’s when I noticed a <span class="code-inline">&lt;p&gt;</span> that was not being closed.</p>
+
+<p>Yes, it’s optional now; thanks HTML5. But it didn’t seem intentional as none of the other code seemed to take advantage of optional tags. I figured the worst that could happen is some sort of reply like, “Oh, it was intentional; thanks, though!” I never encountered negative comments on Github so yes, that’s the worst I could imagine.</p>
+
+<p>Over time, I have had more and more people looking over my code so a little bit of the intimidation has faded. Had I actively put my code out there, put my personal projects on Github, though… I may have aquired more knowledge about best practices at a better rate. Lately, that’s what I was wondering. So, this time around, when I saw something I could fix… <em>why not?</em></p>
+
+<p>My advice to anyone start out is to not be scared of getting your code rejected. It will help you improve; we have all sucked. We are all always getting better. And sometimes, you’ll make a small fix to a cool project and you’ll get a cool button on your <a href="https://github.com/trulia/hologram/pull/252" target="_blank">pull request</a>:
+<img src="/assets/os-contribute-trulia.png" /></p>
 </div>
       <h5 class="text-center heading-blue-border">Have a question or comment?<br/>Ask me anything: <a href="http://twitter.com/home?status=@sceendy">@sceendy</a></h5>
     </section>
