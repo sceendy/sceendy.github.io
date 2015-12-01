@@ -9,7 +9,7 @@ permalink: /about/
       <img src="/assets/cindy-about.jpg" alt="Cindy Juarez" class="top-space"/>
     </div>
     <div class="col-md-8 col-sm-8 col-xs-12">
-      <p class="text-block top-space">Hmm, what else... I <strong class="text-pink">love</strong> creating beautiful, responsive layouts using Sass and manipulating the DOM by writing JavaScript. For the past 2 years, I have has been diving deep into AngularJS.</p>
+      <p class="text-block top-space">Hmm, what else... I <strong class="text-pink">love</strong> creating beautiful, responsive layouts using Sass and manipulating the DOM by writing JavaScript. For the past 2 years, I have been getting cozy with AngularJS and recently have also taken a liking to ES2015. <strong class="text-pink">&hearts;</strong> </p>
       <p class="text-block">While I enjoy building awesome + modern web applications, I also make time for other things such as running, going to NBA games, playing video games with friends, reading autobiographies of comedians or politicians, cooking, and traveling.
       </p>
     </div>
@@ -21,7 +21,6 @@ permalink: /about/
       </p>
     </div>
     <div class="col-md-8 col-sm-8 col-xs-12">
-      <p class="text-headline">I am currently not available for freelance/contract work. Sorry.</p>
+      <p class="text-headline">You can hit me up for freelance projects that are starting mid-2016.</p>
     </div>
   </div>
-  <img src="http://2.bp.blogspot.com/-vaDLqj6ZlOs/VXHeGAKE6dI/AAAAAAAAHZ8/MOMhq818sZ0/s1600/IMG_20150605_122800.jpg" alt="Cindys Office" class="top-space"/>
