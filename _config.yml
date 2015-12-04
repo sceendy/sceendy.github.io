@@ -14,9 +14,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://sceendy.com" # the base hostname & protocol for your site
 twitter_username: sceendy
 github_username:  sceendy
-gems: [jekyll-paginate]
 
 # Build settings
 markdown: kramdown
-paginate: 5
-paginate_path: "/blog/page:num/"

@@ -842,26 +842,23 @@
   text-decoration: none;
   color: #000;
   overflow: hidden;
-  border-left: 4px solid transparent;
   margin-bottom: 15px; }
   .work:hover {
     cursor: pointer;
-    text-decoration: none;
-    border-left-color: #fe2a61; }
+    text-decoration: none; }
     .work:hover:before {
       position: absolute;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%;
-      background: rgba(241, 241, 241, 0.8);
+      background: rgba(254, 42, 97, 0.8);
       content: '\f0c1 \A view website';
       font-family: 'FontAwesome';
       padding-top: 12%;
       text-align: center;
-      color: #fe2a61;
-      font-size: 1.3em;
-      text-shadow: 2px 2px 2px #fff; }
+      color: #fff;
+      font-size: 1.3em; }
   .work p.summary {
     margin-top: 5px; }
 
@@ -1147,12 +1144,14 @@ article[class^="component"] {
 
 .blog-entry {
   padding: 10px 20px 20px;
-  border-left: solid 4px transparent;
   display: block; }
   .blog-entry:hover {
     text-decoration: none;
-    border-left: solid 4px;
-    background-color: #f1f1f1; }
+    background-color: #2ebcf9;
+    transition: all 0.2s linear;
+    color: #fff; }
+    .blog-entry:hover .blog-title, .blog-entry:hover .time--large, .blog-entry:hover h4, .blog-entry:hover time, .blog-entry:hover .summary {
+      color: #fff; }
   .blog-entry .summary {
     color: #333; }
     .blog-entry .summary br {

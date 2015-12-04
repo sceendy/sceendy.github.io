@@ -91,12 +91,15 @@ article[class^="component"] {
 
 .blog-entry {
   padding: 10px 20px 20px;
-  border-left: solid 4px transparent;
   display: block;
   &:hover {
     text-decoration: none;
-    border-left: solid 4px;
-    background-color: #f1f1f1;
+    background-color: $main-blue;
+    transition: all 0.2s linear;
+    color: #fff;
+    .blog-title, .time--large, h4, time, .summary {
+      color: #fff;
+    }
   }
   .summary {
     color: #333;
