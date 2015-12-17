@@ -1,5 +1,4 @@
 /* Base - Variables */
-/* Color Scheme */
 /* Link colors */
 /**
  * 12 Column Flex Grid
@@ -780,7 +779,7 @@
   height: 30px;
   display: inline-block;
   text-align: center;
-  margin: 0 3px; }
+  margin: 10px 3px 0; }
   .btn-social:hover {
     text-shadow: none;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
@@ -809,13 +808,10 @@
     background: #ea4c89;
     border-color: #e7357a; }
   .btn-social.codepen {
-    background: #fff;
-    color: black; }
+    background: #171515;
+    color: #fff; }
     .btn-social.codepen:hover {
       border-color: black; }
-  .btn-social.github {
-    background: #171515;
-    border-color: #0a0909; }
 
 .btn-pink {
   background: #fff;
@@ -1042,8 +1038,6 @@ figcaption {
   margin-bottom: 15px; }
 
 footer {
-  background: #f1f1f1;
-  border-top: #d4d4d4 2px solid;
   margin-top: 15px;
   bottom: 0;
   position: absolute;

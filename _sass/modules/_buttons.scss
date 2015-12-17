@@ -22,7 +22,7 @@
   height: 30px;
   display: inline-block;
   text-align: center;
-  margin: 0 3px;
+  margin: 10px 3px 0;;
   &:hover {
     text-shadow:none;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
@@ -57,15 +57,11 @@
     border-color: darken(#ea4c89, 5%);
   }
   &.codepen {
-    background: #fff;
-    color: black;
+    background: #171515;
+    color: #fff;
     &:hover {
       border-color: black;
     }
-  }
-  &.github {
-    background: #171515;
-    border-color: darken(#171515, 5%);
   }
 }
 
