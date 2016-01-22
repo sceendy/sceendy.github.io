@@ -13,8 +13,8 @@ permalink: /about/
       </span>
     </div>
     <div class="col-md-8 col-sm-8 col-xs-12">
-      <p class="text-block top-space">Hmm, what else... I <strong class="text-pink">love</strong> creating beautiful, responsive layouts using Sass and manipulating the DOM by writing JavaScript. For the past 2 years, I have been getting cozy with AngularJS and recently have also taken a liking to ES2015. <strong class="text-pink">&hearts;</strong> </p>
-      <p class="text-block">While I enjoy building awesome + modern web applications, I also make time for other things such as running, going to NBA games, playing video games with friends, reading autobiographies of comedians or politicians, cooking, and traveling.
+      <p class="text-block top-space">I <strong class="text-pink">love</strong> creating beautiful, modern web applications using Sass and JavaScript. I have a BA in Emerging Media and Communication which basically means I can research and discuss things online pretty well but I really don't like talking about myself much. <strong class="text-pink">&hearts;</strong> </p>
+      <p class="text-block">I also make time for other things such as running, going to NBA games, playing video games with friends, reading autobiographies of comedians or politicians, cooking, and traveling.
       </p>
     </div>
   </section>
