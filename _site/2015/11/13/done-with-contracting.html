@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Open Source Contribution</title>
+  <meta name="description" content="Today, I made an open source contribution. It was not my first and definitely not my last but it made me realize something about myself.">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://sceendy.com/2015/11/13/done-with-contracting.html">
+  <link rel="alternate" type="application/rss+xml" title="Cindy Juarez" href="http://sceendy.com/feed.xml">
+
+  <link rel="icon" type="image/png" href="/assets/favicon.png">
+
+  <link href='https://fonts.googleapis.com/css?family=Oswald:100,400' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel='stylesheet' type='text/css'>
+</head>
+
+
+  <body>
+
+    <div class="container">
+  <header class="row">
+    <div class="col-md-12 col-xs-12">
+      <div class="text-center">
+        <img src="/assets/cindy.jpg" alt="Cindy Juarez" class="profile">
+        <h1>Hi, my name is Cindy Juarez.</h1>
+        <h2 class="headline">I am a frontend developer in Texas.</h2>
+      </div>
+    </div>
+  </header>
+  <div class="row">
+    <nav class="row-md-12 col-xs-12">
+      <ul class="nav">
+        <li>
+          <a class="page-link" href="/">Home</a>
+        </li>
+        
+          
+          <li>
+            <a class="page-link" href="/about/">About</a>
+          </li>
+          
+        
+          
+          <li>
+            <a class="page-link" href="/blog/">Blog</a>
+          </li>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <li>
+            <a class="page-link" href="/work/">Work</a>
+          </li>
+          
+        
+      </ul>
+    </nav>
+  </div>
+</div>
+
+
+    <div class="container">
+      <article class="component-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="row">
+    <header class="col-md-12 col-sm-12 col-xs-12">
+      <h2 class="blog-title">Open Source Contribution</h2>
+      <time class="small" datetime="2015-11-13T12:34:20-06:00" itemprop="datePublished">Nov 13, 2015</time>
+    </header>
+  </div>
+  <div class="row">
+    <section class="col-md-12 col-sm-12 col-xs-12">
+      <div class="blog-text"><p>Today, I made an open source contribution. It was not my first and definitely not my last but it made me realize something about myself.</p>
+
+<p>We all use libraries and tools that we did not build ourselves. Many of the ones I use tend to have more than 50 contributors. Often times, they are super organized with github issues, PR’s, labeling, etc. Aside from being super useful, they also <em>tend to</em> be well-documented. It’s nice.</p>
+
+<p>I have always held back from making pull requests from them because I find putting my code out there a bit intimidating. I mean, someone has to merge it, right? Someone has to be like, “Ok, this works and is not written terribly.” The gatekeepers.</p>
+
+<p>We experience this at our jobs but there’s a bit less pressure since companies have private repos… your website might suck and be slow but now on is able to directly comment the pull request you made that ruined everything.</p>
+
+<p>For the past couple of days, I’ve been working with Hologram to generate a styleguide. I had used Sassdown before but Hologram seems to have gotten a decent amount of attention and is pretty similar to Sassdown so why not? I was testing the pages and was happy but I wanted to center the footer text that was being generated per the default footer template.</p>
+
+<p>After having worked so long to document the CSS and get it display the content how I wanted, I was a bit tired of staring at it all. I added a <span class="code-inline">text-align: center;</span> and refreshed. No big deal. While doing that, I went back to the code to see if perhaps I could apply the project footer class to it as well. That’s when I noticed a <span class="code-inline">&lt;p&gt;</span> that was not being closed.</p>
+
+<p>Yes, it’s optional now; thanks HTML5. But it didn’t seem intentional as none of the other code seemed to take advantage of optional tags. I figured the worst that could happen is some sort of reply like, “Oh, it was intentional; thanks, though!” I never encountered negative comments on Github so yes, that’s the worst I could imagine.</p>
+
+<p>Over time, I have had more and more people looking over my code so a little bit of the intimidation has faded. Had I actively put my code out there, put my personal projects on Github, though… I may have aquired more knowledge about best practices at a better rate. Lately, that’s what I was wondering. So, this time around, when I saw something I could fix… <em>why not?</em></p>
+
+<p>My advice to anyone start out is to not be scared of getting your code rejected. It will help you improve; we have all sucked. We are all always getting better. And sometimes, you’ll make a small fix to a cool project and you’ll get a cool button on your <a href="https://github.com/trulia/hologram/pull/252" target="_blank">pull request</a>:
+<img src="/assets/os-contribute-trulia.png" /></p>
+</div>
+      <h5 class="text-center heading-blue-border">Have a question or comment?<br/>Ask me anything: <a href="http://twitter.com/home?status=@sceendy">@sceendy</a></h5>
+    </section>
+  </div>
+  
+  <div id="disqus_thread"></div>
+  <script>
+      /**
+       *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+       *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+       */
+      /*
+      var disqus_config = function () {
+          this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+          this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+      */
+      (function() {  // DON'T EDIT BELOW THIS LINE
+          var d = document, s = d.createElement('script');
+
+          s.src = '//sceendyblog.disqus.com/embed.js';
+
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+  
+
+</article>
+
+    </div>
+
+    <footer>
+  <div class="container">
+    <div class="row middle-earth">
+      <div class="col-md-12">
+        <p class="text-center">email me: <span class="text-pink">sceendy[at]gmail.com</span></p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='//www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-25355768-1');ga('send','pageview');
+  </script>
+
+
+  </body>
+
+</html>
