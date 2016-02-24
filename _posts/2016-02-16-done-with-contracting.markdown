@@ -17,7 +17,7 @@ However, now, as I have found an incredibly enjoyable job where I can build some
 
 <blockquote>I find that I don't enjoy the side work anymore. </blockquote>
 
-My mind is fulfilled in my full-time work and a personal project. I don't need the extra money. I'm happy. It's not worth doing if it's not fun and I'm glad that's an even an option for me. So, as of today, I will no longer be accepting new work. In addition, any on-going side work will be terminated in May of this year (which my current clients already know about.) I can refer some awesome devs that I have met, though!
+My mind is fulfilled in my full-time work and a personal project. The money is not a motivating factor, either. I'm happy. It's not worth doing if it's not fun and I'm glad that's an even an option for me. So, as of today, I will no longer be accepting new work. In addition, any on-going side work will be terminated in May of this year (which my current clients already know about.) I can refer some awesome devs that I have met, though!
 
 <p class="text-center">Added bonus, a screenshot  of one of my last Myspace layouts that I got paid for:</p>
 
