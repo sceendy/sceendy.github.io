@@ -57,16 +57,16 @@ h4, .h4 {
 blockquote {
   font-size: 1.1rem;
   font-style: italic;
-  color: #818181;
+  color: $gray;
   padding: 15px;
-  border-left: #d4d4d4 2px solid;
+  border-left: $main-blue 2px solid;
 }
 .heading-gray {
   color: $main-gray;
 }
 
 p {
-  color: #4F4F4F;
+  color: $darkgray;
   line-height: 1.6;
 }
 
@@ -86,6 +86,6 @@ img {
 figcaption {
   font-style: italic;
   font-size: 0.7rem;
-  color: #999;
+  color: $gray;
   margin-top: 5px;
 }

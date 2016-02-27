@@ -1,19 +1,12 @@
 .tagline {
-  color:$gray;
-  margin:0;
+  color: $gray;
+  margin: 0;
 }
 
 time {
-  color: #888;
+  color: $gray;
   display: block;
-  margin-top: 10px;
-  &.time--large {
-    text-align: right;
-    @media screen and (max-width:740px){
-      text-align: left;
-      margin-top: 0;
-    }
-  }
+  margin-top: 5px;
 }
 
 .middle-earth {
@@ -55,7 +48,7 @@ time {
 }
 
 code {
-  background: #eee;
+  background: $lightgray;
   border-radius: 2px;
   padding: 15px;
   border: $lightgray solid 1px;
@@ -68,7 +61,7 @@ code {
 }
 
 .code-inline {
-  background: #eee;
+  background: $lightgray;
   border-radius: 2px;
   border: $lightgray solid 1px;
   line-height: 22px;
@@ -79,30 +72,29 @@ code {
 }
 
 article[class^="component"] {
-  padding-bottom: 95px;
+  padding-bottom: 50px;
 }
 
 .component-heading {
   color: #767676;
-  border-bottom: 2px #eee solid;
+  border-bottom: 2px $lightgray solid;
   padding-left: 0;
   margin-bottom: 10px;
 }
 
 .blog-entry {
-  padding: 10px 20px 20px;
+  padding: 0 20px 20px;
   display: block;
-  &:hover {
-    text-decoration: none;
-    background-color: $main-blue;
-    transition: all 0.2s linear;
-    color: #fff;
-    .blog-title, .time--large, h4, time, .summary {
-      color: #fff;
+  a {
+    margin-left: -10px;
+    padding: 2px 10px;
+    &:hover {
+      text-decoration: none;
+      background-color: $lightgray;
     }
   }
   .summary {
-    color: #333;
+    color: $darkgray;
     br {
       line-height: 35px;
     }
@@ -152,7 +144,7 @@ article[class^="component"] {
 }
 
 .top-space {
-  margin-top: 20px!important//e;
+  margin-top: 20px!important;
 }
 
 .text-block {
