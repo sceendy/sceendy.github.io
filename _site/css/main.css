@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600);
 /* Base - Variables */
 /* Link colors */
 /**
@@ -962,7 +964,7 @@ body {
   position: relative; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Oswald', sans-serif; }
+  font-family: "PT Sans", sans-serif; }
 
 h1 {
   color: #fe2a61;
@@ -988,6 +990,8 @@ h4, .h4 {
   margin-bottom: 0;
   font-size: 1.2rem;
   color: #767676; }
+  h4 a, .h4 a {
+    color: #626262 !important; }
 
 blockquote {
   font-size: 1.1rem;
@@ -1124,13 +1128,14 @@ article[class^="component"] {
 
 .component-heading {
   color: #767676;
-  border-bottom: 2px #eee solid;
+  border-bottom: #eee dashed;
   padding-left: 0;
   margin-bottom: 10px; }
 
 .blog-entry {
   padding: 0 20px 20px;
-  display: block; }
+  display: block;
+  border-bottom: #eee dashed; }
   .blog-entry a {
     margin-left: -10px;
     padding: 2px 10px; }
@@ -1194,6 +1199,12 @@ article[class^="component"] {
   background: #fff; }
   .highlighter-rouge .highlight {
     background: #eef; }
+  .highlight .tab1 {
+    margin-left: 20px; }
+  .highlight .tab2 {
+    margin-left: 40px; }
+  .highlight .tab3 {
+    margin-left: 60px; }
   .highlight .c {
     color: #998;
     font-style: italic; }

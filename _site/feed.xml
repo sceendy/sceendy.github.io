@@ -6,9 +6,50 @@
 </description>
     <link>http://sceendy.com/</link>
     <atom:link href="http://sceendy.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 18 Mar 2016 13:55:29 -0500</pubDate>
-    <lastBuildDate>Fri, 18 Mar 2016 13:55:29 -0500</lastBuildDate>
+    <pubDate>Fri, 18 Mar 2016 20:14:03 -0500</pubDate>
+    <lastBuildDate>Fri, 18 Mar 2016 20:14:03 -0500</lastBuildDate>
     <generator>Jekyll v3.0.0</generator>
+    
+      <item>
+        <title>building a chrome extension</title>
+        <description>&lt;p&gt;For the past couple of months, I’ve been focused on building a personal project on the side. At some point, I realized that I could build a Chrome Extension as a tool to be utilized for this app so hey, why not learn a bit about the chrome.* APIs?&lt;/p&gt;
+
+&lt;p&gt;First off, let me say, it was some of the best written documentation I have ever seen. Right away, they tell you everything you need and the most basic things to set up. They include downloadable examples that vary in complexity as well. It helps a lot if you are familiar with HTML/CSS/JS, btw. Initially, I was concerned there might be more to it but after a couple of hours of work, I had a functional extension that we can use:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/chrome-extension.png&quot; alt=&quot;Chrome Extension&quot; class=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For this project, let’s make a Chrome Extension that can help you bookmark locations you want to visit in the future which you store for later use. Later you can hook it up to be sent to your database you have or Firebase.&lt;/p&gt;
+
+&lt;p&gt;First, call in Chromes’ API to grab some basic info from the page. In this case, you want the title of the page which is often the name of the location and the URL so you can visit the site again if you need to which will be using the Chrome Tabs API. These items will be pre-filled into the form on the popup for your extension as seen above as soon as you click on your logo.&lt;/p&gt;
+
+&lt;p&gt;You’ll keep your popup-specific JS in a file named popup.js and then your JS related to the page itself will be named content.js. It’s important that you keep these &lt;a href=&quot;https://developer.chrome.com/extensions/content_scripts&quot; target=&quot;_blank&quot;&gt;separate&lt;/a&gt;.&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;300&quot; src=&quot;//jsfiddle.net/sceendy/qrg0Lrx9/embedded/js,html/dark/&quot; allowfullscreen=&quot;allowfullscreen&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;One thing to keep in mind while building a Chrome Extension is that you &lt;a href=&quot;https://developer.chrome.com/extensions/contentSecurityPolicy&quot; target=&quot;_blank&quot;&gt;can’t add inline JS to the HTML document&lt;/a&gt; (for security reasons) so just add event listeners for your clickable items. For instance, you will see I am adding one to the &lt;span class=&quot;code-inline&quot;&gt;addAddressBtn&lt;/span&gt; element. Then, I’m using the &lt;a href=&quot;https://developer.chrome.com/extensions/tabs&quot; target=&quot;_blank&quot;&gt;Chrome Tabs API&lt;/a&gt; to interact with the browser tabs – here we are querying ‘tabs’ and assigning the url and title to variables.&lt;/p&gt;
+
+&lt;p&gt;Then, we store the value of the current tabs’ title to place into the &lt;span class=&quot;code-inline&quot;&gt;#page-title&lt;/span&gt; field and the url into the &lt;span class=&quot;code-inline&quot;&gt;#page-url&lt;/span&gt; field. Boom, half done. Now, let’s get into passing messages!&lt;/p&gt;
+
+&lt;p&gt;Next, we want to allow the user to select the address text of the location and once they have our extension popup open, they will find that they can easily paste it into the Address field. Since there is no real pattern online for mailing addresses, this is how we will handle it for our extension.&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;300&quot; src=&quot;//jsfiddle.net/sceendy/m02kbt4a/embedded/js/dark/&quot; allowfullscreen=&quot;allowfullscreen&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;This function queries the Chrome Tabs API again, this time, we are passing messages between the extension and the content script. Below, the &lt;span class=&quot;code-inline&quot;&gt;content.js&lt;/span&gt; file here is listening (using &lt;span class=&quot;code-inline&quot;&gt;chrome.tabs.onMessage&lt;/span&gt;) for a message (JSON object) from the popup.js file (using &lt;span class=&quot;code-inline&quot;&gt;chrome.tabs.sendMessage&lt;/span&gt;)and then handles it.&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;250&quot; src=&quot;//jsfiddle.net/sceendy/sb9v4m1a/embedded/js,html/dark/&quot; allowfullscreen=&quot;allowfullscreen&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;As it gets the current selection in the window, it turns it into a string to be sent back to the popup and pasted onto the textarea field. Now, you have an extension that you can hook up to your choice of backend to store this information and view it!&lt;/p&gt;
+</description>
+        <pubDate>Fri, 18 Mar 2016 14:37:00 -0500</pubDate>
+        <link>http://sceendy.com/2016/03/18/creating-my-first-chrome-extension.html</link>
+        <guid isPermaLink="true">http://sceendy.com/2016/03/18/creating-my-first-chrome-extension.html</guid>
+        
+        <category>javascript&#39;</category>
+        
+        <category>api</category>
+        
+        
+      </item>
     
       <item>
         <title>I am done with contracting</title>
@@ -288,39 +329,6 @@ I set aside the same amount of time I do for the other code challenges as well (
         <category>jade</category>
         
         <category>jquery</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Code Challenge #3</title>
-        <description>&lt;p&gt;Alright, for Week 3, the code challenge was a &lt;a href=&quot;http://codepen.io/DevWars/pen/XbPaNg&quot;&gt;weather widget&lt;/a&gt;. I think this is one of the more common things created when learning a new JS framework aside from maybe a shopping cart. There are a lot of open weather API’s which definitely helps too.
-&lt;br /&gt;&lt;br /&gt;
-I recall at some point getting excited about EmberJS and wanting to making this app that compared NBA stats (yes, I’m aware the NBA has internal tools for this) just to learn Ember and create something for something I enjoy. The thing is, their API is closed (or you can pay up, eh), obviously and the ones I found out there weren’t really reliable. So, I kind of abandoned that project.
-&lt;br /&gt;&lt;br /&gt;
-So, I’m grateful for open source anything, such as the ones I used for this widget: &lt;a href=&quot;http://openweathermap.org/&quot;&gt;OpenWeatherMap&lt;/a&gt; and &lt;a href=&quot;https://erikflowers.github.io/weather-icons/&quot;&gt;Weather Icons&lt;/a&gt;.
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;iframe height=&quot;343&quot; scrolling=&quot;no&quot; src=&quot;//codepen.io/sceendy/embed/zGmxZz/?height=343&amp;amp;theme-id=11022&amp;amp;default-tab=result&quot; frameborder=&quot;no&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot; style=&quot;width: 100%;&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/sceendy/pen/zGmxZz/&quot;&gt;Weather Widget&lt;/a&gt; by Cindy Juarez (&lt;a href=&quot;http://codepen.io/sceendy&quot;&gt;@sceendy&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.
-&lt;/iframe&gt;
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
-I consumed OpenWeatherMaps’ API and wasn’t really feeling their icons. I typically just use Font Awesome but there are about 4-5 weather-related icons and I felt it would not suffice. Luckily, Weather Icons has 189 icons, all weather related. Of course, I didn’t &lt;i&gt;need that many&lt;/i&gt; but I enjoyed choosing the ones specific to my widget.
-&lt;br /&gt;&lt;br /&gt;
-I used Angular again, sorry. I’ll switch it up for the next one. Nevertheless, I wrote it up like a quick prototype and will go back and add a service for it later. :)&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
-&lt;i&gt;&lt;b&gt;The goal is to only spend 1-2 hours on these.&lt;/b&gt;&lt;/i&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 29 Jul 2015 12:07:30 -0500</pubDate>
-        <link>http://sceendy.com/2015/07/29/code-challenge-3.html</link>
-        <guid isPermaLink="true">http://sceendy.com/2015/07/29/code-challenge-3.html</guid>
-        
-        <category>angular</category>
-        
-        <category>sass</category>
-        
-        <category>personal</category>
-        
-        <category>code</category>
         
         
       </item>
