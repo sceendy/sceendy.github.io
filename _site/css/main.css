@@ -1085,7 +1085,8 @@ time {
 @media screen and (max-width: 420px) {
   .xs-center {
     text-align: center;
-    margin: 1em auto 0; } }
+    margin: 1em auto 0;
+    display: block; } }
 
 .text-right {
   text-align: right; }
