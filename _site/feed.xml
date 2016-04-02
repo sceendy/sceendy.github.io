@@ -6,9 +6,30 @@
 </description>
     <link>http://sceendy.com/</link>
     <atom:link href="http://sceendy.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 26 Mar 2016 10:57:02 -0500</pubDate>
-    <lastBuildDate>Sat, 26 Mar 2016 10:57:02 -0500</lastBuildDate>
+    <pubDate>Fri, 01 Apr 2016 19:43:14 -0500</pubDate>
+    <lastBuildDate>Fri, 01 Apr 2016 19:43:14 -0500</lastBuildDate>
     <generator>Jekyll v3.0.0</generator>
+    
+      <item>
+        <title>hello seattle</title>
+        <description>&lt;p&gt;This past weekend, I decided to spend my birthday in Seattle. Last year, I spent my birthday in New York City - so, this year it felt right to spend it on the other coast. I have nothing against San Francisco but Seattle just called out to me more.&lt;/p&gt;
+
+&lt;p&gt;These trips have just been 3 day weekends so my boyfriend and I are constantly on the move during our stay. Perhaps, it also helps distract me from my quarter-life crisis moment I have experienced for about 5 minutes during every birthday since I turned 21. Being up in the sky on the anniversary of my birth is actually quite nice and humbling.&lt;/p&gt;
+
+&lt;p&gt;Seattle is incredibly beautiful and fun with some of the best coffee, scenic views, and food I have tasted in the US. This is not about the trip, though. I just wanted to post on of my favorite pictures that I took. &lt;span class=&quot;text-pink&quot;&gt;#nofilter&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/hello-seattle.jpg&quot; alt=&quot;seattle&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 01 Apr 2016 14:14:00 -0500</pubDate>
+        <link>http://sceendy.com/2016/04/01/hello-seattle.html</link>
+        <guid isPermaLink="true">http://sceendy.com/2016/04/01/hello-seattle.html</guid>
+        
+        <category>birthday</category>
+        
+        <category>traveling</category>
+        
+        
+      </item>
     
       <item>
         <title>building a chrome extension</title>
@@ -303,32 +324,6 @@ I did not touch the HTML and styled up as much as possible in an hour. I added a
         <category>code</category>
         
         <category>sass</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Code Challenge #4</title>
-        <description>&lt;p&gt;For the past couple of weeks, I have been looking for a new remote frontend opportunity. Last week, I was sent a technical task as part of an interview process so I put off working on the DevWars coding challenge #4.
-&lt;br /&gt;&lt;br /&gt;
-I quickly got some inspiration for my color palette by visiting Dribbble. I had never made API calls using jQuery but that was the task at hand. There were a few goals for the task such as the results displaying as a user types and then being able to load more results. As I have created Angular apps before, I figured it’d be similar with dealing with responses and objects. So, this is what I completed.
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;iframe height=&quot;502&quot; scrolling=&quot;no&quot; src=&quot;//codepen.io/sceendy/embed/qdgxrV/?height=502&amp;amp;theme-id=11022&amp;amp;default-tab=result&quot; frameborder=&quot;no&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot; style=&quot;width: 100%;&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/sceendy/pen/qdgxrV/&quot;&gt;flicker.search&lt;/a&gt; by Cindy Juarez (&lt;a href=&quot;http://codepen.io/sceendy&quot;&gt;@sceendy&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.
-&lt;/iframe&gt;
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
-I set aside the same amount of time I do for the other code challenges as well (1-2 hours.)&lt;/p&gt;
-</description>
-        <pubDate>Fri, 07 Aug 2015 12:02:30 -0500</pubDate>
-        <link>http://sceendy.com/2015/08/07/code-challenge-4.html</link>
-        <guid isPermaLink="true">http://sceendy.com/2015/08/07/code-challenge-4.html</guid>
-        
-        <category>api</category>
-        
-        <category>sass</category>
-        
-        <category>jade</category>
-        
-        <category>jquery</category>
         
         
       </item>
