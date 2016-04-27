@@ -6,9 +6,33 @@
 </description>
     <link>http://sceendy.com/</link>
     <atom:link href="http://sceendy.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 08 Apr 2016 21:42:29 -0500</pubDate>
-    <lastBuildDate>Fri, 08 Apr 2016 21:42:29 -0500</lastBuildDate>
+    <pubDate>Wed, 27 Apr 2016 10:11:48 -0500</pubDate>
+    <lastBuildDate>Wed, 27 Apr 2016 10:11:48 -0500</lastBuildDate>
     <generator>Jekyll v3.0.0</generator>
+    
+      <item>
+        <title>quick look @ stocks</title>
+        <description>&lt;p&gt;Recently, I have developed an interest in economics and finance.&lt;/p&gt;
+
+&lt;p&gt;This new found interest has led me to pick up the d3.js library to generate charts based on user input with a focus on personal finance and budgeting. However, I really wanted to design/build a ‘quick look at stocks’ widget for myself as well. I opened up CodePen and threw together a quick prototype.&lt;/p&gt;
+
+&lt;p&gt;I created a super simple user interface that allows users to select from a list of companies to check their low/high stock value for the day along with the current value.&lt;/p&gt;
+
+&lt;iframe height=&quot;250&quot; scrolling=&quot;no&quot; src=&quot;//codepen.io/sceendy/embed/NNwzad/?height=250&amp;amp;theme-id=11022&amp;amp;default-tab=result&quot; frameborder=&quot;no&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot; style=&quot;width: 100%;&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/sceendy/pen/NNwzad/&quot;&gt; stock info&lt;/a&gt; by Cindy Juarez (&lt;a href=&quot;http://codepen.io/sceendy&quot;&gt;@sceendy&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.
+&lt;/iframe&gt;
+</description>
+        <pubDate>Wed, 27 Apr 2016 05:04:00 -0500</pubDate>
+        <link>http://sceendy.com/2016/04/27/quick-look-stocks.html</link>
+        <guid isPermaLink="true">http://sceendy.com/2016/04/27/quick-look-stocks.html</guid>
+        
+        <category>javascript</category>
+        
+        <category>api</category>
+        
+        <category>widget</category>
+        
+        
+      </item>
     
       <item>
         <title>hello seattle</title>
@@ -303,27 +327,6 @@ As far as the code went, I debated on the best way to handle the skewed side of 
         <category>sass</category>
         
         <category>javascript</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Code Challenge #6</title>
-        <description>&lt;p&gt;This past weeks’ coding challenge was a CSS challenge, really. DevWars has a weekly live coding competition with two different types of battles. One is called Zen Garden - it’s a 1v1 where developers get the same prewritten HTML and have to style it. I’ve seen the battle go down a few times now and it looks like so much fun. &lt;br /&gt;&lt;br /&gt;
-&lt;b&gt;A few couple for the battle:&lt;/b&gt; you can’t touch the HTML, you have one hour.&lt;br /&gt;&lt;br /&gt;
-I decided I could go by the same rules to see how well I do with those limitations.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;iframe height=&quot;568&quot; scrolling=&quot;no&quot; src=&quot;//codepen.io/sceendy/embed/pJBdyy/?height=568&amp;amp;theme-id=11022&amp;amp;default-tab=result&quot; frameborder=&quot;no&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot; style=&quot;width: 100%;&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/sceendy/pen/pJBdyy/&quot;&gt;Dev Wars Week 6&lt;/a&gt; by Cindy Juarez (&lt;a href=&quot;http://codepen.io/sceendy&quot;&gt;@sceendy&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.
-&lt;/iframe&gt;
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
-I did not touch the HTML and styled up as much as possible in an hour. I added a couple media queries but mostly because I had the &lt;i&gt;results&lt;/i&gt; tab smaller while writing up my Sass. Thoughts?&lt;/p&gt;
-</description>
-        <pubDate>Fri, 14 Aug 2015 01:00:02 -0500</pubDate>
-        <link>http://sceendy.com/2015/08/14/code-challenge-6.html</link>
-        <guid isPermaLink="true">http://sceendy.com/2015/08/14/code-challenge-6.html</guid>
-        
-        <category>code</category>
-        
-        <category>sass</category>
         
         
       </item>
