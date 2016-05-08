@@ -3,11 +3,6 @@ layout: page
 title: About
 permalink: /about/
 ---
-  <div class="row">
-    <div class="col-xs-12 text-center">
-      <p class="text-headline">I am currently working as a front-end developer @ <a href="http://www.kalkomey.com/" target="_blank"><u>Kalkomey</u></a> in Dallas, Texas.</p>
-    </div>
-  </div>
   <section class="row">
     <div class="col-sm-5 col-xs-12">
       <div>
@@ -32,5 +27,10 @@ permalink: /about/
         <a href="http://codepen.io/sceendy/" target="_blank" class="btn-social codepen" style="background: #76daff;"><i class="fa fa-codepen"></i></a>
         <a href="https://www.linkedin.com/in/sceendy" target="_blank" class="btn-social linkedin" style="background: #006fa6"><i class="fa fa-linkedin"></i></a>
       </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 text-center">
+      <p class="text-headline">I am currently working as a front-end developer @ <a href="http://www.kalkomey.com/" target="_blank"><u>Kalkomey</u></a> in Dallas, Texas.</p>
     </div>
   </div>
