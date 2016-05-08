@@ -84,16 +84,10 @@ article[class^="component"] {
 }
 
 .blog-entry {
-  padding: 0 20px 20px;
-  display: block;
-  border-bottom: $lightgray dashed;
-  a {
-    margin-left: -10px;
-    padding: 2px 10px;
-    &:hover {
-      text-decoration: none;
-      background-color: $lightgray;
-    }
+  padding: 10px 0;
+  &:hover {
+    text-decoration: none;
+    background-color: lighten($lightgray, 3%);
   }
   .summary {
     color: $darkgray;

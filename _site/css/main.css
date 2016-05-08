@@ -38,7 +38,7 @@
 
 .container {
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 700px;
   padding-left: 15px;
   padding-right: 15px; }
 
@@ -963,7 +963,7 @@ body {
   min-height: 100%;
   position: relative; }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h5, h6 {
   font-family: "PT Sans", sans-serif; }
 
 h1 {
@@ -988,8 +988,10 @@ h3, .h3 {
 
 h4, .h4 {
   margin-bottom: 0;
-  font-size: 1.2rem;
-  color: #767676; }
+  font-size: 1.1rem;
+  color: #767676;
+  text-transform: lowercase;
+  margin: 0; }
   h4 a, .h4 a {
     color: #626262 !important; }
 
@@ -1022,6 +1024,9 @@ figcaption {
   font-size: 0.7rem;
   color: #767676;
   margin-top: 5px; }
+
+.thin {
+  font-weight: 400 !important; }
 
 @-webkit-keyframes spinnerRotate {
   from {
@@ -1134,15 +1139,10 @@ article[class^="component"] {
   margin-bottom: 10px; }
 
 .blog-entry {
-  padding: 0 20px 20px;
-  display: block;
-  border-bottom: #eee dashed; }
-  .blog-entry a {
-    margin-left: -10px;
-    padding: 2px 10px; }
-    .blog-entry a:hover {
-      text-decoration: none;
-      background-color: #eee; }
+  padding: 10px 0; }
+  .blog-entry:hover {
+    text-decoration: none;
+    background-color: #f6f6f6; }
   .blog-entry .summary {
     color: #444; }
     .blog-entry .summary br {
