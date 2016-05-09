@@ -988,10 +988,10 @@ h3, .h3 {
 
 h4, .h4 {
   margin-bottom: 0;
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: #767676;
-  text-transform: lowercase;
-  margin: 0; }
+  margin: 0;
+  font-weight: 400; }
   h4 a, .h4 a {
     color: #626262 !important; }
 
@@ -1025,8 +1025,8 @@ figcaption {
   color: #767676;
   margin-top: 5px; }
 
-.thin {
-  font-weight: 400 !important; }
+.italic {
+  font-style: italic; }
 
 @-webkit-keyframes spinnerRotate {
   from {
@@ -1139,10 +1139,15 @@ article[class^="component"] {
   margin-bottom: 10px; }
 
 .blog-entry {
-  padding: 10px 0; }
+  padding: 10px 0;
+  border-left: solid 2px transparent;
+  border-right: solid 2px transparent; }
   .blog-entry:hover {
     text-decoration: none;
+    border-color: #2ebcf9;
     background-color: #f6f6f6; }
+    .blog-entry:hover h4 {
+      color: #2ebcf9; }
   .blog-entry .summary {
     color: #444; }
     .blog-entry .summary br {
