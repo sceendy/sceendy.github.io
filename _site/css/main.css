@@ -1140,12 +1140,10 @@ article[class^="component"] {
 
 .blog-entry {
   padding: 10px 0;
-  border-left: solid 2px transparent;
-  border-right: solid 2px transparent; }
+  border-bottom: solid 2px transparent; }
   .blog-entry:hover {
     text-decoration: none;
-    border-color: #2ebcf9;
-    background-color: #f6f6f6; }
+    border-color: #2ebcf9; }
     .blog-entry:hover h4 {
       color: #2ebcf9; }
   .blog-entry .summary {

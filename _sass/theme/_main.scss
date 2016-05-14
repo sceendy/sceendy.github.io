@@ -85,12 +85,10 @@ article[class^="component"] {
 
 .blog-entry {
   padding: 10px 0;
-  border-left: solid 2px transparent;
-  border-right: solid 2px transparent;
+  border-bottom: solid 2px transparent;
   &:hover {
     text-decoration: none;
     border-color: $main-blue;
-    background-color: lighten($lightgray, 3%);
     h4 {
       color: $main-blue;
     }
