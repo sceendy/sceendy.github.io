@@ -8,7 +8,7 @@ layout: default
   {% for post in site.posts %}
   <a href="{{ post.url | prepend: site.baseurl }}" class="row blog-entry">
     <div class="col-xs-6">
-      <h4 class="italic">{{ post.title }}</h4>
+      <h4>{{ post.title }}</h4>
     </div>
     <div class="col-xs-6">
       <h4 class="text-right">{{ post.date | date: "%b %-d, %Y" }}</h4>

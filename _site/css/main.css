@@ -1025,9 +1025,6 @@ figcaption {
   color: #767676;
   margin-top: 5px; }
 
-.italic {
-  font-style: italic; }
-
 @-webkit-keyframes spinnerRotate {
   from {
     -webkit-transform: rotate(0deg); }
@@ -1151,23 +1148,10 @@ article[class^="component"] {
     .blog-entry .summary br {
       line-height: 35px; }
 
-.blog-block {
-  display: block;
-  max-width: 100%;
-  color: #fe2a61;
-  padding: 15px 15px 0;
-  text-align: center; }
-  .blog-block:hover {
-    text-decoration: none; }
-
 .heading-blue-border {
   border-top: 3px solid #2ebcf9;
   padding-top: 15px;
   font-size: 17px; }
-
-.sidebar--heading {
-  text-align: center;
-  margin-top: 16px; }
 
 .small {
   font-size: 0.8rem;

@@ -101,26 +101,10 @@ article[class^="component"] {
   }
 }
 
-.blog-block {
-  display: block;
-  max-width: 100%;
-  color: $main-pink;
-  padding: 15px 15px 0;
-  text-align: center;
-  &:hover {
-    text-decoration: none;
-  }
-}
-
 .heading-blue-border {
   border-top: 3px solid $main-blue;
   padding-top: 15px;
   font-size: 17px;
-}
-
-.sidebar--heading {
-  text-align: center;
-  margin-top: 16px;
 }
 
 .small {
