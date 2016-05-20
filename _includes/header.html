@@ -11,13 +11,6 @@
   <div class="row">
     <nav class="row-md-12 col-xs-12">
       <ul class="nav">
-        <li>
-          {% if page.url == '/' %}
-            <a class="page-link active" href="/">Home</a>
-          {% else %}
-            <a class="page-link" href="/">Home</a>
-          {% endif %}
-        </li>
         {% for my_page in site.pages %}
           {% if my_page.layout == 'page' %}
             {% if page.url == my_page.url %}
@@ -29,6 +22,13 @@
             {% endif %}
           {% endif %}
         {% endfor %}
+        <li>
+          {% if page.url == '/' %}
+            <a class="page-link active" href="/">Blog</a>
+          {% else %}
+            <a class="page-link" href="/">Blog</a>
+          {% endif %}
+        </li>
       </ul>
     </nav>
   </div>

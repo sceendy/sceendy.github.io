@@ -1025,6 +1025,9 @@ figcaption {
   color: #767676;
   margin-top: 5px; }
 
+.text-thin {
+  font-weight: 400; }
+
 @-webkit-keyframes spinnerRotate {
   from {
     -webkit-transform: rotate(0deg); }
