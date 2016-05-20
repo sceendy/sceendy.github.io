@@ -853,7 +853,7 @@
       background: rgba(254, 42, 97, 0.8);
       content: '\f0c1 \A view website';
       font-family: 'FontAwesome', 'Roboto Slab', serif;
-      padding-top: 12%;
+      padding-top: 13%;
       text-align: center;
       color: #fff;
       font-size: 1.3em; }
@@ -911,7 +911,7 @@
     border-bottom: 1px #fff solid;
     text-decoration: none;
     color: #2ebcf9; }
-    .nav a:hover {
+    .nav a:hover, .nav a.active {
       border-color: #2ebcf9;
       -webkit-transition: border-color 1s ease; }
 
@@ -963,7 +963,7 @@ body {
   min-height: 100%;
   position: relative; }
 
-h1, h2, h3, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: "PT Sans", sans-serif; }
 
 h1 {
@@ -991,7 +991,7 @@ h4, .h4 {
   font-size: 1rem;
   color: #767676;
   margin: 0;
-  font-weight: 400; }
+  text-transform: capitalize; }
   h4 a, .h4 a {
     color: #626262 !important; }
 

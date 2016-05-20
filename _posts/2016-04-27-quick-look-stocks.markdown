@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "quick look @ stocks"
+title:  "Quick Look @ Stocks"
 date: 2016-04-27 10:04:00
 tags: ['javascript', 'api', 'widget']
 ---

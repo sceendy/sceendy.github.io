@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "building a chrome extension"
+title:  "Building a Chrome Extension"
 date: 2016-03-18 19:37:00
 tags: ['javascript', 'api']
 ---

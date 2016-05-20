@@ -9,7 +9,7 @@
 title: Cindy Juarez
 email: sceendy@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Cindy Juarez (sceendy) is a front-end web developer based in Dallas, Texas.
+  Cindy Juarez (sceendy) is a user interface engineer based in Dallas, Texas.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://sceendy.com" # the base hostname & protocol for your site
 twitter_username: sceendy

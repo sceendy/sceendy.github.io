@@ -17,7 +17,7 @@ permalink: /work/
           <div class="tags">jQuery</div>
         </section>
         <p class="summary">
-        <strong>Details:</strong> Joinem was an SPA built using AngularJS + Sass that consumed a RESTful API. Architected, implemented, and iterated on frontend designs and user interactions.</p>
+        <strong>Details:</strong> Joinem was a SPA built using AngularJS + Sass that consumed a RESTful API. Architected, implemented, and iterated on the frontend.</p>
       </div>
     </div>
   </a>
@@ -34,7 +34,7 @@ permalink: /work/
           <div class="tags">jQuery</div>
         </section>
         <p class="summary">
-          <strong>Details:</strong> I built the Extraco Rewards page for users to quickly find where they can filter to see where they can aquire Rewards. I did some maintenance after launch as well.
+          <strong>Details:</strong> I built the Extraco Rewards page for users to quickly find where they can filter to see where they can acquire Rewards for their spending.
         </p>
       </div>
     </div>
@@ -52,7 +52,7 @@ permalink: /work/
           <div class="tags">PHP</div>
         </section>
         <p class="summary">
-          <strong>Details:</strong> I launched their new site for which I created a custom WordPress theme. Customized a job manager plugin to suit their needs. I handle ongoing maintenance.
+          <strong>Details:</strong> I designed/built a custom WordPress theme for the TSATA. Improved usability and the user experience by analyzing their user data.
         </p>
       </div>
     </div>
@@ -71,7 +71,7 @@ permalink: /work/
           <div class="tags">PHP</div>
         </section>
         <p class="summary">
-          <strong>Details:</strong> Designed and developed a custom WordPress theme, perform monthly maintenance, and currently working on developing a custom WP plugin for the site.
+          <strong>Details:</strong> Designed and developed a custom WordPress theme, perform monthly maintenance, and currently developing a custom WP plugin.
         </p>
       </div>
     </div>
@@ -87,7 +87,7 @@ permalink: /work/
           <div class="tags">HTML/CSS</div>
           <div class="tags">PHP</div>
         </section>
-        <p class="summary"><strong>Details:</strong> The $5 ticket deals were initially only available through a Facebook app. I built a micro-site allowing users access to them that didn't require a Facebook account.</p>
+        <p class="summary"><strong>Details:</strong> Migrated $5 ticket deals from being exclusively avaiable on a Facebook app to a stand-alone page so that a Facebook login was not required.</p>
       </div>
     </div>
   </a>
@@ -133,7 +133,7 @@ permalink: /work/
           <div class="tags">HTML/CSS</div>
           <div class="tags">PHP</div>
         </section>
-        <p class="summary"><strong>Details:</strong> I performed front-end maintenance for the Wingstop website. Implemented improvements throughout the site including the Franchise and Store Locator pages.</p>
+        <p class="summary"><strong>Details:</strong> Regularly performed front-end maintenance for the main Wingstop site. Made several improvements throughout the Franchise and Store Locator pages.</p>
       </div>
     </div>
   </a>
@@ -164,7 +164,7 @@ permalink: /work/
           <div class="tags">HTML/CSS</div>
           <div class="tags">PHP</div>
         </section>
-        <p class="summary"><strong>Details:</strong> I created new pages and maintained assets/existing pages for the international Curves websites that included Australia, New Zealand, France, and the UK.</p>
+        <p class="summary"><strong>Details:</strong> Created new pages and maintained assets/existing pages for the int'l Curves websitesw such as Australia, New Zealand, France, and the UK.</p>
       </div>
     </div>
   </a>

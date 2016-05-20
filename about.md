@@ -6,7 +6,7 @@ permalink: /about/
   <section class="row">
     <div class="col-sm-5 col-xs-12">
       <div>
-        <img src="/assets/cindy-about.jpg" alt="Cindy Juarez" class="top-space"/>
+        <img src="/assets/cindy-about.jpg" alt="Cindy Juarez" class="top-space" alt="Me in NYC"/>
       </div>
     </div>
     <div class="col-sm-7 col-xs-12">

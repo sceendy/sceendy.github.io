@@ -2,16 +2,64 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cindy Juarez</title>
-    <description>Cindy Juarez (sceendy) is a front-end web developer based in Dallas, Texas.
+    <description>Cindy Juarez (sceendy) is a user interface engineer based in Dallas, Texas.
 </description>
     <link>http://sceendy.com/</link>
     <atom:link href="http://sceendy.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 14 May 2016 18:13:48 -0500</pubDate>
-    <lastBuildDate>Sat, 14 May 2016 18:13:48 -0500</lastBuildDate>
+    <pubDate>Thu, 19 May 2016 21:36:24 -0500</pubDate>
+    <lastBuildDate>Thu, 19 May 2016 21:36:24 -0500</lastBuildDate>
     <generator>Jekyll v3.0.0</generator>
     
       <item>
-        <title>quick look @ stocks</title>
+        <title>The Thing About My Former Team</title>
+        <description>&lt;p&gt;When my previous company initially extended a job offer, I was surprised. They were a startup building a social e-commerce platform. Most of my work prior was not focused on a single product and I also lacked startup experience. Add on some serious doubt I had in my technical skills as well and that’s pretty much where I was at in early 2014.&lt;/p&gt;
+
+&lt;p&gt;At the interactive agencies, my role in projects was well-defined within the scope of designing/HTML/CSS with some JavaScript and a dab of PHP. Absolutely nothing impressive - even I find it underwhelming now. The last few months at Apollo Interactive, I had just been introduced a bit to Angular and the lead dev was adding our existing projects to github. Revolutionary in the agency world. No more FTP! Woo!&lt;/p&gt;
+
+&lt;p&gt;I had a steady agency job and excelling there. However, I wanted to be challenged, closer to the ‘bleeding edge of tech’, and also be able to focus on a single product – which is something I knew Joinem would allow me to experience.&lt;/p&gt;
+
+&lt;h4&gt;just going for it&lt;/h4&gt;
+&lt;p&gt;During my interview, the interviewer (lead engineer) and I spoke of many things: Django, Git, Bootstrap, Sass, Angular, Game of Thrones, and the company + goals + my skills. My experience with Angular at the time was limited – I was working more with the templating side and just manipulating a few models here and there.&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Perhaps&lt;/i&gt; that left an impression - I was a bright eyed and bushy tailed frontend-loving kid. I was tired of the stagnant technology at the agency and was ready to dive deep into a startup that provided an accelerated learning environment.  To my surprise, I got an offer the next morning. What. Yep, I was the first full-time (dedicated) frontend engineer. My Django knowledge/experience was non-existent so I spent the first week looking through the documentation to avoid seeming pathetically under-qualified.&lt;/p&gt;
+
+&lt;p&gt;No pressure – we were just rebuilding the frontend from scratch in a month.&lt;/p&gt;
+
+&lt;h4&gt;what have I done?&lt;/h4&gt;
+&lt;p&gt;Once they set me up with my equipment, the other engineers helped me get a bunch of things setup that I had not been familiarized with yet – such as Vagrant and Python (plus its’ dependencies) for my local environment. While I had experience with the terminal, it was very limited to committing/pushing changes to the master branch. &lt;i&gt;Err… not recommended. &lt;/i&gt; Luckily, they were open to any and all questions. I mean, the more I learned, the more help I could be to the team. &lt;strong&gt;Win-win.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4&gt;Things I Learned&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Imposter syndrome is real. It can hinder your progress. &lt;a href=&quot;https://ovenbits.com/journal/im-not-good-enough&quot; target=&quot;_blank&quot;&gt;Learn to get over it&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Communication is the most important thing especially as the team grows.&lt;/li&gt;
+&lt;li&gt;Take on tasks as a team thus making everyone responsible.&lt;/li&gt;
+&lt;li&gt;Ask for help and you shall receive.&lt;/li&gt;
+&lt;li&gt;Back-end developers are just as impressed by my complex layout building and problem solving designs as I am of their  eloquent algorithms. &lt;/li&gt;
+&lt;li&gt;Be open to learn more about the entire stack - it greatly increases your value to the team and as a developer.&lt;/li&gt;
+&lt;li&gt;Be flexible.&lt;/li&gt;
+&lt;li&gt;Programming languages are just tools - you don&#39;t need to swear by one. Use the best one for the job. Always.&lt;/li&gt;
+&lt;li&gt;You definitely have something to teach that engineer over there that writes the squeakiest clean code ever.&lt;/li&gt;
+&lt;li&gt;Take your paid time off regardless of every excuse you can come up with. You&#39;ll be more valuable to your team if you&#39;re not getting burned out.&lt;/li&gt;
+&lt;li&gt;Do not check work emails or github while on vacation.&lt;/li&gt;
+&lt;li&gt;Code from where ever you want. Don&#39;t accept jobs that do not allow for this.&lt;/li&gt;
+&lt;li&gt;Build a product that you&#39;re passionate about.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I am incredibly fortunate to have met such amazing engineers and to have learned so much from them. I&#39;ve always credited our team &lt;strike&gt;manager&lt;/strike&gt; lead with making such a great team and fostering such an incredible working environment-- I mean, how many teams do you know are all still friends and hangout even after over a year of not working together? That&#39;s the thing about my former team -- we had an awesome lead engineer.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 19 May 2016 14:42:12 -0500</pubDate>
+        <link>http://sceendy.com/2016/05/19/the-thing-about-my-former-team.html</link>
+        <guid isPermaLink="true">http://sceendy.com/2016/05/19/the-thing-about-my-former-team.html</guid>
+        
+        <category>dev</category>
+        
+        <category>personal</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Quick Look @ Stocks</title>
         <description>&lt;p&gt;Recently, I have developed an interest in economics and finance.&lt;/p&gt;
 
 &lt;p&gt;This new found interest has led me to pick up the d3.js library to generate charts based on user input with a focus on personal finance and budgeting. However, I really wanted to design/build a ‘quick look at stocks’ widget for myself as well. I opened up CodePen and threw together a quick prototype.&lt;/p&gt;
@@ -35,7 +83,7 @@
       </item>
     
       <item>
-        <title>hello seattle</title>
+        <title>Hello Seattle</title>
         <description>&lt;p&gt;This past weekend, I decided to spend my birthday in Seattle. Last year, I spent my birthday in New York City - so, this year it felt right to spend it on the other coast. I have nothing against San Francisco but Seattle just called out to me more.&lt;/p&gt;
 
 &lt;p&gt;These trips have just been 3 day weekends so my boyfriend and I are constantly on the move during our stay. Perhaps, it also helps distract me from my quarter-life crisis moment I have experienced for about 5 minutes during every birthday since I turned 21. Being up in the sky on the anniversary of my birth is actually quite nice and humbling.&lt;/p&gt;
@@ -56,7 +104,7 @@
       </item>
     
       <item>
-        <title>building a chrome extension</title>
+        <title>Building a Chrome Extension</title>
         <description>&lt;p&gt;For the past couple of months, I’ve been focused on building a personal project on the side. At some point, I realized that I could build a Chrome Extension as a tool to be utilized for this app so hey, why not learn a bit about the chrome.* APIs?&lt;/p&gt;
 
 &lt;p&gt;First off, let me say, it is some very well written documentation that you will appreciate. Right away, the docs tell you all the basic files you need and give you some boilerplate code to get started. Also included are some downloadable examples that vary in complexity. It will be helpful if you are already familiar with HTML/CSS/JavaScript, btw. Within the hour, I had a functional extension and wanted to share how to get started on your own:&lt;/p&gt;
@@ -274,59 +322,6 @@ I am incredibly picky about colors. These cards were a bit limiting in a way bec
         <category>design</category>
         
         <category>personal</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Code Challenge #7</title>
-        <description>&lt;p&gt;This weeks’ Code Challenge by DevWars is back to the basics. They provided a &lt;a href=&quot;https://dribbble.com/shots/2200506-Article-teaser-card&quot; target=&quot;_blank&quot;&gt;neat dribbble design&lt;/a&gt; and want us to code it out. Initially, the challenges were pretty static (i.e. here’s a design, use HTML/CSS to build it out) but this week, they want developers to show off some JavaScript and CSS3 skills. Bring forth the animations!
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h4&gt;Objectives&lt;/h4&gt;
-&lt;ol&gt;
-  &lt;li&gt;Make this card fold in half and “close”, like a book.
-&lt;br /&gt;&lt;/li&gt;
-  &lt;li&gt;On hover it must open to show the content.
-&lt;br /&gt;
-&lt;em&gt;BONUS&lt;/em&gt; Add some extra pages.
-&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;iframe height=&quot;577&quot; scrolling=&quot;no&quot; src=&quot;//codepen.io/sceendy/embed/NqZWNm/?height=577&amp;amp;theme-id=11022&amp;amp;default-tab=result&quot; frameborder=&quot;no&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot; style=&quot;width: 100%;&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/sceendy/pen/NqZWNm/&quot;&gt;DevWarsWeek7&lt;/a&gt; by Cindy Juarez (&lt;a href=&quot;http://codepen.io/sceendy&quot;&gt;@sceendy&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.
-&lt;/iframe&gt;
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h4&gt;my approach&lt;/h4&gt;
-&lt;p&gt;I pretty much stuck to the design as it is but personalized it a little with my own photos/name and the date I worked on it. The challenge requirements seemed a bit odd to me, though - the interaction, anyway. Hovering to show the card? &lt;a href=&quot;http://uxmovement.com/navigation/why-hover-menus-do-users-more-harm-than-good/&quot;&gt;Bleh&lt;/a&gt; - not a fan of hovering when it means hiding &lt;i&gt;useful&lt;/i&gt; information rather than adding additional content (tips, etc). If it’s theoretically an article card, I’d imagine that it’d already be displaying - interactions should be added upon it; not to reveal it. Since it’s a teaser, it might be better to do that action for the &lt;b&gt;read more&lt;/b&gt; function instead.
-&lt;br /&gt;&lt;br /&gt;
-As far as the code went, I debated on the best way to handle the skewed side of the left panel and doing most of the animation with CSS3. There were a few of ways I could imagine accomplishing this but in the end I went with a similar approach that I take with ribbons on cards.
-&lt;br /&gt;&lt;br /&gt;
-&lt;strong&gt;sass:&lt;/strong&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-sass&quot;&gt;&amp;amp;:after
-  content: &#39;&#39;
-  height: 100%
-  width: 90px
-  background: #fff
-  position: absolute
-  top: 0
-  right: -49px
-  -webkit-transform: skew(10deg)
-  -moz-transform: skew(10deg)
-  -o-transform: skew(10deg)
-  z-index: -9
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h4&gt;css3&lt;/h4&gt;
-&lt;p&gt;I used the skew method to get the side slanted like in the design. By adding the pseudo, &lt;span class=&quot;code-inline&quot;&gt;:after&lt;/span&gt; for &lt;span class=&quot;code-inline&quot;&gt;.left-side&lt;/span&gt; it becomes hooked onto that class. Next up were the animations, two classes were created: &lt;span class=&quot;code-inline&quot;&gt;.animation-in&lt;/span&gt; and &lt;span class=&quot;code-inline&quot;&gt;.animation-out&lt;/span&gt; to toggle when the close button is clicked. I added &lt;span class=&quot;code-inline&quot;&gt;transform: scaleX(-1) translateX(-100px)&lt;/span&gt; to create the illusion of the page turning. It currently just flips the text too and my next step would be to make it show as more of a book cover at the midpoint before it completely flips. However, I do like doing these write ups right after I’ve worked on these challenges in the allotted time for my own learning purposes. Plus, it’s pretty cool looking back on these and seeing how much more efficient I become with tasks like this.
-&lt;br /&gt;&lt;br /&gt;
-&lt;b&gt;The goal is to only spend 1-2 hours on these.&lt;/b&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 20 Aug 2015 09:06:02 -0500</pubDate>
-        <link>http://sceendy.com/2015/08/20/code-challenge-7.html</link>
-        <guid isPermaLink="true">http://sceendy.com/2015/08/20/code-challenge-7.html</guid>
-        
-        <category>css3</category>
-        
-        <category>sass</category>
-        
-        <category>javascript</category>
         
         
       </item>
