@@ -7,17 +7,17 @@ permalink: /work/
   <a class="work" href="http://web.archive.org/web/20150530073743/https://www.joinem.com/" target="_blank">
     <div class="row">
       <div class="col-sm-6">
-        <img src="/assets/work/joinem.png" alt="Joinem" class="top-space">
+        <img src="/assets/work/joinem.png" alt="Join'em" class="top-space">
       </div>
       <div class="col-sm-6">
         <section>
-          <h4>Joinem</h4>
+          <h4>Join'em</h4>
           <div class="tags">HTML/SCSS</div>
           <div class="tags">AngularJS</div>
           <div class="tags">jQuery</div>
         </section>
         <p class="summary">
-        <strong>Details:</strong> Joinem was a SPA built using AngularJS + Sass that consumed a RESTful API. Architected, implemented, and iterated on the frontend.</p>
+        <strong>Details:</strong> Join'em was a SPA built using AngularJS + Sass that consumed a RESTful API. Architected, implemented, and iterated on the frontend.</p>
       </div>
     </div>
   </a>

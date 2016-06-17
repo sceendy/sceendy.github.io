@@ -760,6 +760,9 @@
 
   .off-lg-11 {
     margin-left: 91.66667%; } }
+.row__items--center {
+  align-items: center; }
+
 .btn, .interact a {
   color: #fff;
   border-radius: 25px;
@@ -781,7 +784,7 @@
   height: 30px;
   display: inline-block;
   text-align: center;
-  margin: 10px 3px 0; }
+  margin: 0 3px; }
   .btn-social:hover {
     text-shadow: none;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
@@ -1027,6 +1030,9 @@ figcaption {
 
 .text-thin {
   font-weight: 400; }
+
+.content--center {
+  text-align: center; }
 
 @-webkit-keyframes spinnerRotate {
   from {
