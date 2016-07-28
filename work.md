@@ -3,11 +3,11 @@ layout: page
 title: Work
 permalink: /work/
 ---
-<div class="row">
+<div class="row top-space">
   <a class="work" href="http://web.archive.org/web/20150530073743/https://www.joinem.com/" target="_blank">
     <div class="row">
       <div class="col-sm-6">
-        <img src="/assets/work/joinem.png" alt="Join'em" class="top-space">
+        <img src="/assets/work/joinem.png" alt="Join'em">
       </div>
       <div class="col-sm-6">
         <section>
@@ -17,14 +17,14 @@ permalink: /work/
           <div class="tags">jQuery</div>
         </section>
         <p class="summary">
-        <strong>Details:</strong> Join'em was a SPA built using AngularJS + Sass that consumed a RESTful API. Architected, implemented, and iterated on the frontend.</p>
+        <strong>Details:</strong> Join'em was a single page application built using AngularJS + Sass that consumed a RESTful API from a Python/Django back-end.</p>
       </div>
     </div>
   </a>
   <a class="work" href="http://www.extracobanks.com/rewards/" target="_blank">
     <div class="row">
       <div class="col-sm-6">
-        <img src="/assets/work/extraco.png" alt="Extraco Banks" class="top-space"/>
+        <img src="/assets/work/extraco.png" alt="Extraco Banks" />
       </div>
       <div class="col-sm-6">
         <section>
@@ -34,7 +34,7 @@ permalink: /work/
           <div class="tags">jQuery</div>
         </section>
         <p class="summary">
-          <strong>Details:</strong> I built the Extraco Rewards page for users to quickly find where they can filter to see where they can acquire Rewards for their spending.
+          <strong>Details:</strong> I built the Extraco Rewards page using AngularJS and CSS that hooked onto a PHP back-end.
         </p>
       </div>
     </div>
@@ -42,7 +42,7 @@ permalink: /work/
   <a class="work" href="http://www.tsata.com" target="_blank">
     <div class="row">
       <div class="col-sm-6">
-        <img src="/assets/work/tsata.png" alt="TSATA" class="top-space"/>
+        <img src="/assets/work/tsata.png" alt="TSATA"/>
       </div>
       <div class="col-sm-6">
         <section>
@@ -52,7 +52,7 @@ permalink: /work/
           <div class="tags">PHP</div>
         </section>
         <p class="summary">
-          <strong>Details:</strong> I designed/built a custom WordPress theme for the TSATA. Improved usability and the user experience by analyzing their user data.
+          <strong>Details:</strong> I designed/built a custom WordPress theme while improving both usability and the UX. I also made it easier for them to manage their content.
         </p>
       </div>
     </div>
@@ -60,7 +60,7 @@ permalink: /work/
   <a class="work" href="http://www.txconcussionlaw.com" target="_blank">
     <div class="row">
       <div class="col-sm-6">
-        <img src="/assets/work/tscp.png" alt="TX Concussion Partnership" class="top-space">
+        <img src="/assets/work/tscp.png" alt="TX Concussion Partnership">
       </div>
       <div class="col-sm-6">
         <section>
@@ -79,7 +79,7 @@ permalink: /work/
   <a class="work" href="http://ticketdeals.studiomoviegrill.com/" target="_blank">
     <div class="row">
       <div class="col-sm-6">
-        <img src="/assets/work/smg.png" alt="Studio Movie Grill" class="top-space"/>
+        <img src="/assets/work/smg.png" alt="Studio Movie Grill"/>
       </div>
       <div class="col-sm-6">
         <section>
@@ -94,7 +94,7 @@ permalink: /work/
   <a class="work" href="http://www.visionworks.com/info/" target="_blank">
     <div class="row">
       <div class="col-sm-6">
-        <img src="/assets/work/visionworks.png" alt="Visionworks" class="top-space"/>
+        <img src="/assets/work/visionworks.png" alt="Visionworks"/>
       </div>
       <div class="col-sm-6">
         <section>
@@ -109,7 +109,7 @@ permalink: /work/
   <a class="work" href="http://www.stagestores.com/store/account/findyourstore.jsp" target="_blank">
     <div class="row">
       <div class="col-sm-6">
-        <img src="/assets/work/stagestores.png" alt="Stage Stores" class="top-space"/>
+        <img src="/assets/work/stagestores.png" alt="Stage Stores"/>
       </div>
       <div class="col-sm-6">
         <section>
@@ -117,7 +117,7 @@ permalink: /work/
           <div class="tags">HTML/CSS</div>
           <div class="tags">PHP</div>
         </section>
-        <p class="summary"><strong>Details:</strong> I handled the maintenance on the Stage Stores website and developed the interface for their store locator. I also managed some of the content on the site.
+        <p class="summary"><strong>Details:</strong> I built the interface for the Stage Stores store locator using HTML and CSS.
         </p>
       </div>
     </div>
@@ -125,7 +125,7 @@ permalink: /work/
   <a class="work" href="http://www.wingstop.com" target="_blank">
     <div class="row">
       <div class="col-sm-6">
-        <img src="/assets/work/wingstop.png" alt="Wingstop" class="top-space"/>
+        <img src="/assets/work/wingstop.png" alt="Wingstop"/>
       </div>
       <div class="col-sm-6">
         <section>
@@ -140,7 +140,7 @@ permalink: /work/
   <a class="work" href="http://www.khyi.com" target="_blank">
     <div class="row">
       <div class="col-sm-6">
-        <img src="/assets/work/khyi.png" alt="KHYI 95.3FM" class="top-space"/>
+        <img src="/assets/work/khyi.png" alt="KHYI 95.3FM"/>
       </div>
       <div class="col-sm-6">
         <section>
@@ -156,7 +156,7 @@ permalink: /work/
   <a class="work" href="http://french.curves.com" target="_blank">
     <div class="row">
       <div class="col-sm-6">
-        <img src="/assets/work/curves.png" alt="Curves" class="top-space"/>
+        <img src="/assets/work/curves.png" alt="Curves"/>
       </div>
       <div class="col-sm-6">
         <section>
@@ -164,7 +164,7 @@ permalink: /work/
           <div class="tags">HTML/CSS</div>
           <div class="tags">PHP</div>
         </section>
-        <p class="summary"><strong>Details:</strong> Created new pages and maintained assets/existing pages for the int'l Curves websitesw such as Australia, New Zealand, France, and the UK.</p>
+        <p class="summary"><strong>Details:</strong> Created new pages and maintained assets/existing pages for the int'l Curves websites such as Australia, New Zealand, France, and the UK.</p>
       </div>
     </div>
   </a>

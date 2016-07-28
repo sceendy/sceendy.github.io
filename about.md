@@ -10,9 +10,9 @@ permalink: /about/
       </div>
     </div>
     <div class="col-sm-7 col-xs-12">
-      <p class="text-block top-space">I usually <strong class="text-pink">create</strong> beautiful web applications using Sass and JavaScript. I have a BA in Emerging Media and Communication from UT-Dallas.</p>
-      <p class="text-block">I am currently drinking coffee and building web apps @ <a href="http://www.kalkomey.com/" target="_blank"><u>Kalkomey</u></a> in Dallas, Texas.</p>
-      <p class="text-block">Other possible activities: running, attending NBA games, playing video games, reading autobiographies by comedians or politicians, eating delicious food in Texas, or traveling for yummy food outside of my home state/country.</p>
+      <p class="text-block top-space">I <strong class="text-pink">build</strong> beautiful web applications using HTML, Sass, and JavaScript. I have a BA in Emerging Media and Communication from UT-Dallas.</p>
+      <p class="text-block">I prefer my user interfaces to be functional, quick, efficient, and thoughtfully designed. Ideally that includes cross-browser testing, using modern JavaScript, writing unit tests, creating reusable styles, and constantly iterating. </p>
+      <p class="text-block">I am currently building web apps @ <a href="http://www.kalkomey.com/" target="_blank"><u>Kalkomey</u></a> in Dallas... probably after drinking 14oz of coffee.</p>
     </div>
   </section>
   <div class="row row__items--center">
