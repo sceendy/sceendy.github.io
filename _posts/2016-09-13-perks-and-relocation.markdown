@@ -15,9 +15,8 @@ Just a few weeks into this job and I started to relate to the statement that the
 As stoked as I am about this job, I'm not here to brag.
 
 Just here to share some news and wanted to give a little background on why I love this company. Regardless of employer, I always enjoy the work - I wouldn't do it if I didn't.
-<!-- TODO find gif of parks and rec joan calimezo talking about how she loves her job-->
 
-
+<blockquote>"If you don't absolutely love what you do with a true passion, then what's the point in doing it at all?" - Joan Callamezzo</blockquote>
 However, this is the first company I can say I really <strong>love</strong> working for.
 
 <h4>Perks</h4>
