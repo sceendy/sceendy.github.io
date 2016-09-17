@@ -3,6 +3,7 @@ layout: post
 title:  "The Thing About My Former Team"
 date:   2016-05-19 19:42:12
 tags: ['dev', 'personal']
+comments: true
 ---
 
 When my previous company initially extended a job offer, I was surprised. They were a startup building a social e-commerce platform. Most of my work prior was not focused on a single product and I also lacked startup experience. Add on some serious doubt I had in my technical skills as well and that's pretty much where I was at in early 2014.

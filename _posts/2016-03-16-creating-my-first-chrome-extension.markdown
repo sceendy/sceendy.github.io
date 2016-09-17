@@ -3,6 +3,7 @@ layout: post
 title:  "Building a Chrome Extension"
 date: 2016-03-18 19:37:00
 tags: ['javascript', 'api']
+comments: true
 ---
 
 For the past couple of months, I've been focused on building a personal project on the side. At some point, I realized that I could build a Chrome Extension as a tool to be utilized for this app so hey, why not learn a bit about the chrome.* APIs?

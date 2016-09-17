@@ -3,6 +3,7 @@ layout: post
 title:  "Getting Fit"
 date:   2016-07-02 12:01:00
 tags: ['personal']
+comments: true
 ---
 
 A year ago, I decided I should lose weight.

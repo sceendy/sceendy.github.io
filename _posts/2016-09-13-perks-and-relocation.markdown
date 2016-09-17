@@ -3,6 +3,7 @@ layout: post
 title:  "perks and relocation"
 date:   2016-09-13 23:34:10
 tags: ['dev', 'personal']
+comments: true
 ---
 
 When I interviewed for my current job a year ago, I already had an offer with a higher salary that I was seriously considering. Then, I met the team I would be working with at this company. One particular thing a lead engineer said stood out to me and may even have swayed me on taking the job.

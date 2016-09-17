@@ -3,6 +3,7 @@ layout: post
 title:  "Quick Look @ Stocks"
 date: 2016-04-27 10:04:00
 tags: ['javascript', 'api', 'widget']
+comments: true
 ---
 
 Recently, I have developed an interest in economics and finance.

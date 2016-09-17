@@ -3,6 +3,7 @@ layout: post
 title:  "Hello Seattle"
 date: 2016-04-01 19:14:00
 tags: ['birthday', 'traveling']
+comments: true
 ---
 
 This past weekend, I decided to spend my birthday in Seattle. Last year, I spent my birthday in New York City - so, this year it felt right to spend it on the other coast. I have nothing against San Francisco but Seattle just called out to me more.
