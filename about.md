@@ -6,7 +6,7 @@ permalink: /about/
   <section class="row row__items--center top-space--none">
     <div class="col-sm-5 col-xs-12">
       <div class="content--center">
-        <img src="/assets/cindy-about.jpg" alt="Cindy Juarez" class="top-space" alt="Me in Archer City, Texas"/>
+        <img src="/assets/me-polaroid.jpg" alt="Cindy Juarez" class="top-space" alt="Cindy Profile Photo"/>
       </div>
     </div>
     <div class="col-sm-7 col-xs-12">
