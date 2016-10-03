@@ -1,5 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
-@import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600);
+@import "https://fonts.googleapis.com/css?family=Oswald|Crimson+Text";
 /* Base - Variables */
 /* Link colors */
 /**
@@ -956,7 +955,7 @@
 html, body {
   margin: 0;
   color: #444;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Crimson Text", serif;
   font-size: 16px; }
 
 html {
@@ -967,7 +966,7 @@ body {
   position: relative; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "PT Sans", sans-serif; }
+  font-family: "Oswald", sans-serif; }
 
 h1 {
   color: #fe2a61;
@@ -1034,6 +1033,9 @@ figcaption {
 
 .content--center {
   text-align: center; }
+
+.top-space--none {
+  margin-top: 0; }
 
 @-webkit-keyframes spinnerRotate {
   from {

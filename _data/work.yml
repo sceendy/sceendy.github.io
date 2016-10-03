@@ -1,0 +1,86 @@
+- name: Joinem
+  description: Join'em was a single page application built using AngularJS + Sass that consumed a RESTful API from a Python/Django back-end.
+  img: joinem-mobile.png
+  link: http://web.archive.org/web/20150530073743/https://www.joinem.com/
+  tags:
+    - name: HTML/SCSS
+    - name: AngularJS
+    - name: jQuery
+
+- name: Extraco Banks
+  description: I built pages for the main website including the Rewards page and the Contact pages using AngularJS and PHP.
+  img: extraco.png
+  link: http://www.extracobanks.com/rewards/
+  tags:
+    - name: HTML/SCSS
+    - name: AngularJS
+    - name: jQuery
+
+
+- name: TSATA
+  description: I designed/built a custom WP theme while improving both usability and the UX. I also made it easier for them to manage their content.
+  img: tsata.png
+  link: http://www.tsata.com
+  tags:
+    - name: HTML/LESS
+    - name: JS
+    - name: AngularJS
+    - name: PHP
+
+- name: TX Concussion Partnership
+  description: Designed and developed a custom WP theme, performed monthly maintenance, and developed a custom WP plugin.
+  img: tscp.png
+  link: http://www.txconcussionlaw.com
+  tags:
+    - name: HTML/SCSS
+    - name: AngularJS
+    - name: PHP
+
+- name: Studio Movie Grill
+  description: Migrated $5 ticket deals to a stand-alone website from being exclusively available through a Facebook app.
+  img: smg.png
+  link: http://ticketdeals.studiomoviegrill.com/
+  tags:
+    - name: HTML/CSS
+    - name: PHP
+
+- name: Visionworks
+  description: Maintained the Visionworks website, created their responsive email templates, improved the user interface for mobile devices, and created landing pages.
+  img: visionworks.png
+  link: http://www.visionworks.com/info/
+  tags:
+    - name: HTML/CSS
+    - name: JS
+
+- name: Stage Stores
+  description: I built the interface for the Stage Stores store locator using HTML and CSS.
+  img: stagestores.png
+  link: http://www.stagestores.com/store/account/findyourstore.jsp
+  tags:
+    - name: HTML/CSS
+    - name: PHP
+
+- name: Wingstop
+  description: Regularly performed front-end maintenance for the Wingstop site. Made several design/functionality improvements throughout the Franchise and Store Locator pages.
+  img: wingstop.png
+  link: http://www.wingstop.com/
+  tags:
+    - name: HTML/CSS
+    - name: PHP
+
+- name: KHYI 95.3FM
+  description: Customized a WordPress theme, customized plugins, improved layout/accessibility, and helped increase traffic to their website.
+  img: khyi.png
+  link: http://www.khyi.com/
+  tags:
+    - name: HTML/CSS
+    - name: JS
+    - name: PHP
+
+- name: Curves
+  description: Created new pages and maintained assets/existing pages for the international Curves websites such as Australia, New Zealand, France, and the UK.
+  img: curves.png
+  link: http://www.french.curves.com/
+  tags:
+    - name: HTML/CSS
+    - name: PHP

@@ -3,14 +3,14 @@ layout: page
 title: About
 permalink: /about/
 ---
-  <section class="row">
+  <section class="row row__items--center top-space--none">
     <div class="col-sm-5 col-xs-12">
       <div class="content--center">
         <img src="/assets/cindy-about.jpg" alt="Cindy Juarez" class="top-space" alt="Me in Archer City, Texas"/>
       </div>
     </div>
     <div class="col-sm-7 col-xs-12">
-      <p class="text-block top-space">I <strong class="text-pink">build</strong> beautiful web applications using HTML, Sass, and JavaScript. I have a BA in Emerging Media and Communication from UT-Dallas.</p>
+      <p class="text-block">I <strong class="text-pink">build</strong> beautiful web applications using HTML, Sass, and JavaScript. I have a BA in Emerging Media and Communication from UT-Dallas.</p>
       <p class="text-block">I prefer my user interfaces to be functional, quick, efficient, and elegantly + thoughtfully designed.</p>
       <p class="text-block">While originally from Dallas, I currently reside in Austin. It sucks that they don't have an NBA team. Texas doesn't really need another team, though.</p>
       <p class="text-block">I work remotely building web apps @ <a href="http://www.kalkomey.com/" target="_blank"><u>Kalkomey</u></a>.</p>
@@ -19,7 +19,7 @@ permalink: /about/
   <section class="row">
     <div class="col-sm-5 col-xs-12">
       <p class="text-center">
-        <a href="/assets/web-resume.pdf" target="_blank" class="btn btn-blue">resume.pdf = 44.6 KB</a>
+        <a href="/assets/web-resume.pdf" target="_blank" class="btn btn-blue">resume.pdf = 42 KB</a>
       </p>
     </div>
     <div class="col-sm-7 col-xs-12">

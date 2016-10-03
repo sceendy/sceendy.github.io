@@ -8,7 +8,7 @@
 html, body {
   margin: 0;
   color: $darkgray;
-  font-family: 'Roboto Slab', serif;
+  font-family: $base-font-family;
   font-size: 16px;
 }
 
@@ -102,4 +102,8 @@ figcaption {
 
 .content--center {
   text-align: center;
+}
+
+.top-space--none {
+  margin-top: 0;
 }
