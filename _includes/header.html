@@ -12,23 +12,23 @@
     <nav class="col-md-12 col-xs-12">
       <ul class="nav" role="navigation">
         {% for my_page in site.pages %}
-        <li>
+        <li class="nav__list-item">
           {% if my_page.layout == 'page' %}
             {% if page.url == my_page.url %}
 
-              <a href="{{ my_page.url | prepend: site.baseurl }}" class="page-link active">{{my_page.title}}</a>
+              <a href="{{ my_page.url | prepend: site.baseurl }}" class="nav__link active">{{my_page.title}}</a>
             {% else %}
-              <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+              <a class="nav__link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
 
             {% endif %}
           {% endif %}
           </li>
         {% endfor %}
-        <li>
+        <li class="nav__list-item">
           {% if page.url == '/' %}
-            <a class="page-link active" href="/">Blog</a>
+            <a class="nav__link active" href="/">Blog</a>
           {% else %}
-            <a class="page-link" href="/">Blog</a>
+            <a class="nav__link" href="/">Blog</a>
           {% endif %}
         </li>
       </ul>
