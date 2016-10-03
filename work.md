@@ -7,7 +7,7 @@ permalink: /work/
   <a class="work" href="http://web.archive.org/web/20150530073743/https://www.joinem.com/" target="_blank">
     <div class="row">
       <div class="col-sm-6">
-        <img src="/assets/work/joinem.png" alt="Join'em">
+        <img src="/assets/work/joinem-mobile.png" alt="Join'em">
       </div>
       <div class="col-sm-6">
         <section>
