@@ -7,10 +7,10 @@ permalink: /work/
   {% for work in site.data.work %}
     <a class="work" href="{{ work.link }}" target="_blank">
       <div class="row row__items--center">
-        <div class="col-sm-6">
-          <img src="/assets/work/{{work.img}}" alt="Join'em">
+        <div class="col-sm-6 col-xs-12">
+          <img src="/assets/work/{{work.img}}" alt="Join'em" />
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-6 col-xs-12">
           <section>
             <h4>{{ work.name }}</h4>
             {% for tag in work.tags %}

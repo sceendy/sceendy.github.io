@@ -27,5 +27,3 @@ Also, this time I am not doing it to get away from a terrible office culture lik
 
 <h4>Relocation</h4>
 <strong>I'm moving to Austin</strong>. Yep. I'm too fond of Texas to ever leave the state but I do want to venture out of the DFW area where I have been spent my whole life. Austin has a tad bit more to offer in terms of providing the best of both worlds when it comes to nature and city-living which is something I definitely want to experience.
-
-And guess what? My employer is cool with it.
