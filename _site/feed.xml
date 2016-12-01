@@ -6,8 +6,8 @@
 </description>
     <link>http://sceendy.com/</link>
     <atom:link href="http://sceendy.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 27 Oct 2016 20:35:28 -0500</pubDate>
-    <lastBuildDate>Thu, 27 Oct 2016 20:35:28 -0500</lastBuildDate>
+    <pubDate>Wed, 30 Nov 2016 18:38:03 -0600</pubDate>
+    <lastBuildDate>Wed, 30 Nov 2016 18:38:03 -0600</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -194,7 +194,7 @@
 
 &lt;p&gt;These trips have just been 3 day weekends so my boyfriend and I are constantly on the move during our stay. Perhaps, it also helps distract me from my quarter-life crisis moment I have experienced for about 5 minutes during every birthday since I turned 21. Being up in the sky on the anniversary of my birth is actually quite nice and humbling.&lt;/p&gt;
 
-&lt;p&gt;Seattle is incredibly beautiful and fun with some of the best coffee, scenic views, and food I have tasted in the US. This is not about the trip, though. I just wanted to post on of my favorite pictures that I took. &lt;span class=&quot;text-pink&quot;&gt;#nofilter&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Seattle is incredibly beautiful and fun with some of the best coffee, scenic views, and food I have tasted in the US. This is not about the trip, though. I just wanted to post on of my favorite pictures that I took. &lt;span class=&quot;u--text-pink&quot;&gt;#nofilter&lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/hello-seattle.jpg&quot; alt=&quot;seattle&quot; /&gt;&lt;/p&gt;
 </description>
@@ -266,11 +266,11 @@
 
 &lt;p&gt;My mind is fulfilled in my full-time work and a personal project. The money is not a motivating factor, either. I’m happy. It’s not worth doing if it’s not fun and I’m glad that’s an even an option for me. So, as of today, I will no longer be accepting new work. In addition, any on-going side work will be terminated in May of this year (which my current clients already know about.) I can refer some awesome devs that I have met, though!&lt;/p&gt;
 
-&lt;p class=&quot;text-center&quot;&gt;Added bonus, a screenshot  of one of my last Myspace layouts that I got paid for:&lt;/p&gt;
+&lt;p u--text-center=&quot;&quot;&gt;Added bonus, a screenshot  of one of my last Myspace layouts that I got paid for:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/topleft.JPG&quot; alt=&quot;Myspace Layout for Local band&quot; style=&quot;display: block; margin: 0 auto;&quot; /&gt;&lt;/p&gt;
 
-&lt;p class=&quot;text-center&quot;&gt;So... I'm glad I've gotten significantly better since 2007.&lt;/p&gt;
+&lt;p u--text-center=&quot;&quot;&gt;So... I'm glad I've gotten significantly better since 2007.&lt;/p&gt;
 </description>
         <pubDate>Tue, 16 Feb 2016 08:31:00 -0600</pubDate>
         <link>http://sceendy.com/2016/02/16/done-with-contracting.html</link>

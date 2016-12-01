@@ -22,16 +22,16 @@
 
     <div class="container">
   <header class="row">
-    <div class="col-md-12 col-xs-12">
-      <div class="text-center">
-        <img src="/assets/cindy.jpg" alt="Cindy Juarez" class="profile">
-        <h1>Hi, I'm Cindy Juarez,</h1>
-        <h2 class="headline">a Texas-based front-end engineer.</h2>
+    <div class="column-one">
+      <div class="u--text-center">
+        <img src="/assets/cindy.jpg" alt="Cindy Juarez" class="img--circle-lg">
+        <h1 class="u--text-pink">Hi, I'm Cindy Juarez,</h1>
+        <h2 class="headline">a Texas-based frontend engineer.</h2>
       </div>
     </div>
   </header>
   <div class="row">
-    <nav class="col-md-12 col-xs-12">
+    <nav class="column-one">
       <ul class="nav" role="navigation">
         
         <li class="nav__list-item">
@@ -78,14 +78,14 @@
     <div class="container">
       <article class="component-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="row">
-    <header class="col-md-12 col-sm-12 col-xs-12">
-      <h2 class="blog-title">Code Challenge #2</h2>
-      <time class="small" datetime="2015-07-24T09:49:30-05:00" itemprop="datePublished">Jul 24, 2015</time>
+    <header class="column-one u--text-gray">
+      <h2>Code Challenge #2</h2>
+      <time datetime="2015-07-24T09:49:30-05:00" itemprop="datePublished">Jul 24, 2015</time>
     </header>
   </div>
   <div class="row">
-    <section class="col-md-12 col-sm-12 col-xs-12">
-      <div class="blog-text"><p>If you’re not keeping up, the coding challenge for Week 2 was <a href="http://codepen.io/DevWars/pen/WvyXYQ">recreating the Hangouts extension</a>. Interesting and plenty of potential, honestly. However, I decided to find a design on dribbble myself and see how I could modify it a bit.
+    <section class="column-one">
+      <p>If you’re not keeping up, the coding challenge for Week 2 was <a href="http://codepen.io/DevWars/pen/WvyXYQ">recreating the Hangouts extension</a>. Interesting and plenty of potential, honestly. However, I decided to find a design on dribbble myself and see how I could modify it a bit.
 <br /><br />
 I wanted this component to be similar to the Week 2 challenge so I found a <a href="https://dribbble.com/shots/876515-Search-for-friends-list/attachments/94290">contact list</a>. I do think it looks good as it is but I changed the colors and removed a couple things. I also added AngularJS to get a little functionality in. As of this blog post, you can add a new athlete to the list but obviously not store it. I will be adding lists to each category but don’t intend on storing any data. This is just a fun widget.
 <br /><br /></p>
@@ -95,7 +95,7 @@ I wanted this component to be similar to the Week 2 challenge so I found a <a hr
 I grabbed some quick stats from the Dallas Mavericks team to be displayed and the logo is a default image for the athlete. I definitely used flexbox for the layout as I felt it accomplished things very nicely.
 <br /><br />
 <i><b>The goal is to only spend 1-2 hours on these.</b></i></p>
-</div>
+
       <small><strong>post related to:</strong> 
          <span>angular  +</span>
        
@@ -103,7 +103,7 @@ I grabbed some quick stats from the Dallas Mavericks team to be displayed and th
        
          <span>personal  </span>
        </small>
-      <h5 class="text-center heading-blue-border">Have a question or comment?<br/>Ask me anything: <a href="http://twitter.com/home?status=@sceendy">@sceendy</a></h5>
+      <h4 class="u--text-center heading-blue-border">Have a question or comment?<br/>Ask me anything: <a href="http://twitter.com/home?status=@sceendy">@sceendy</a></h4>
     </section>
   </div>
   
@@ -113,13 +113,7 @@ I grabbed some quick stats from the Dallas Mavericks team to be displayed and th
     </div>
 
     <footer>
-  <div class="container">
-    <div class="row middle-earth">
-      <div class="col-md-12 col-xs-12">
-        <p class="text-center">email me: <span class="text-pink">sceendy[at]gmail.com</span></p>
-      </div>
-    </div>
-  </div>
+  <p u--text-center>email me: <span class="u--text-pink">sceendy[at]gmail.com</span></p>
 </footer>
 
 <script>

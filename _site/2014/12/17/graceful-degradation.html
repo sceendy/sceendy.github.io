@@ -22,16 +22,16 @@
 
     <div class="container">
   <header class="row">
-    <div class="col-md-12 col-xs-12">
-      <div class="text-center">
-        <img src="/assets/cindy.jpg" alt="Cindy Juarez" class="profile">
-        <h1>Hi, I'm Cindy Juarez,</h1>
-        <h2 class="headline">a Texas-based front-end engineer.</h2>
+    <div class="column-one">
+      <div class="u--text-center">
+        <img src="/assets/cindy.jpg" alt="Cindy Juarez" class="img--circle-lg">
+        <h1 class="u--text-pink">Hi, I'm Cindy Juarez,</h1>
+        <h2 class="headline">a Texas-based frontend engineer.</h2>
       </div>
     </div>
   </header>
   <div class="row">
-    <nav class="col-md-12 col-xs-12">
+    <nav class="column-one">
       <ul class="nav" role="navigation">
         
         <li class="nav__list-item">
@@ -78,27 +78,27 @@
     <div class="container">
       <article class="component-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="row">
-    <header class="col-md-12 col-sm-12 col-xs-12">
-      <h2 class="blog-title">Graceul Degradation</h2>
-      <time class="small" datetime="2014-12-17T10:46:30-06:00" itemprop="datePublished">Dec 17, 2014</time>
+    <header class="column-one u--text-gray">
+      <h2>Graceul Degradation</h2>
+      <time datetime="2014-12-17T10:46:30-06:00" itemprop="datePublished">Dec 17, 2014</time>
     </header>
   </div>
   <div class="row">
-    <section class="col-md-12 col-sm-12 col-xs-12">
-      <div class="blog-text"><p>My last job was at an agency - pretty standard front-end tasks and projects. We supported IE8+ since we had some pretty big client with thousands of page views a day with half of the traffic mostly coming from IE8 and IE9. Agencies typically prefer to support as many browsers as possible. One client in particular had us support as far back as IE6, though. They had a decent amount of hits coming from outside the US so it made sense. This is the first time I felt that wrath of IE6. Prior to that, my professional career had consisted of IE7+ support. However, while maintaining the website for that particular client, I learned plenty of useful things – but most importantly: <b>graceful degradation</b>. <br />
+    <section class="column-one">
+      <p>My last job was at an agency - pretty standard front-end tasks and projects. We supported IE8+ since we had some pretty big client with thousands of page views a day with half of the traffic mostly coming from IE8 and IE9. Agencies typically prefer to support as many browsers as possible. One client in particular had us support as far back as IE6, though. They had a decent amount of hits coming from outside the US so it made sense. This is the first time I felt that wrath of IE6. Prior to that, my professional career had consisted of IE7+ support. However, while maintaining the website for that particular client, I learned plenty of useful things – but most importantly: <b>graceful degradation</b>. <br />
 During a recent discussion with another web developer, I recalled these moments where I knew a certain feature that IE6 couldn’t handle would not take away from the site or from the overall experience. There are various ways to approach it but mostly you can identify it by just looking at it. <br /></p>
 <blockquote>
 "Does not having this break anything on IE9? Does a user still know what is going on?"</blockquote>
 <p>I decided to make a little snippet to show a good example of how to go about this. In this example, I use CSS3 (linear-gradient) which is a no-go for IE9. However, IE9 can still display what the user needs to be able to view. It’s a profile completion component - the same idea as LinkedIns’ profile completion. The one on the left has a round progress bar and text beneath it. On the other hand, IE9 doesn’t support linear-gradient so it would just show the text. Using linear-gradient doesn’t break it and the user still has the context needed.<br />
 <br /></p>
 <iframe allowfullscreen="allowfullscreen" frameborder="0" height="400" src="http://jsfiddle.net/sceendy/eoobqufw/embedded/result,js,html,css/" width="100%"></iframe>
-</div>
+
       <small><strong>post related to:</strong> 
          <span>browser  +</span>
        
          <span>css3  </span>
        </small>
-      <h5 class="text-center heading-blue-border">Have a question or comment?<br/>Ask me anything: <a href="http://twitter.com/home?status=@sceendy">@sceendy</a></h5>
+      <h4 class="u--text-center heading-blue-border">Have a question or comment?<br/>Ask me anything: <a href="http://twitter.com/home?status=@sceendy">@sceendy</a></h4>
     </section>
   </div>
   
@@ -108,13 +108,7 @@ During a recent discussion with another web developer, I recalled these moments 
     </div>
 
     <footer>
-  <div class="container">
-    <div class="row middle-earth">
-      <div class="col-md-12 col-xs-12">
-        <p class="text-center">email me: <span class="text-pink">sceendy[at]gmail.com</span></p>
-      </div>
-    </div>
-  </div>
+  <p u--text-center>email me: <span class="u--text-pink">sceendy[at]gmail.com</span></p>
 </footer>
 
 <script>

@@ -22,16 +22,16 @@
 
     <div class="container">
   <header class="row">
-    <div class="col-md-12 col-xs-12">
-      <div class="text-center">
-        <img src="/assets/cindy.jpg" alt="Cindy Juarez" class="profile">
-        <h1>Hi, I'm Cindy Juarez,</h1>
-        <h2 class="headline">a Texas-based front-end engineer.</h2>
+    <div class="column-one">
+      <div class="u--text-center">
+        <img src="/assets/cindy.jpg" alt="Cindy Juarez" class="img--circle-lg">
+        <h1 class="u--text-pink">Hi, I'm Cindy Juarez,</h1>
+        <h2 class="headline">a Texas-based frontend engineer.</h2>
       </div>
     </div>
   </header>
   <div class="row">
-    <nav class="col-md-12 col-xs-12">
+    <nav class="column-one">
       <ul class="nav" role="navigation">
         
         <li class="nav__list-item">
@@ -78,14 +78,14 @@
     <div class="container">
       <article class="component-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="row">
-    <header class="col-md-12 col-sm-12 col-xs-12">
-      <h2 class="blog-title">Building a Chrome Extension</h2>
-      <time class="small" datetime="2016-03-18T14:37:00-05:00" itemprop="datePublished">Mar 18, 2016</time>
+    <header class="column-one u--text-gray">
+      <h2>Building a Chrome Extension</h2>
+      <time datetime="2016-03-18T14:37:00-05:00" itemprop="datePublished">Mar 18, 2016</time>
     </header>
   </div>
   <div class="row">
-    <section class="col-md-12 col-sm-12 col-xs-12">
-      <div class="blog-text"><p>For the past couple of months, I’ve been focused on building a personal project on the side. At some point, I realized that I could build a Chrome Extension as a tool to be utilized for this app so hey, why not learn a bit about the chrome.* APIs?</p>
+    <section class="column-one">
+      <p>For the past couple of months, I’ve been focused on building a personal project on the side. At some point, I realized that I could build a Chrome Extension as a tool to be utilized for this app so hey, why not learn a bit about the chrome.* APIs?</p>
 
 <p>First off, let me say, it is some very well written documentation that you will appreciate. Right away, the docs tell you all the basic files you need and give you some boilerplate code to get started. Also included are some downloadable examples that vary in complexity. It will be helpful if you are already familiar with HTML/CSS/JavaScript, btw. Within the hour, I had a functional extension and wanted to share how to get started on your own:</p>
 
@@ -112,13 +112,13 @@
 <iframe width="100%" height="250" src="//jsfiddle.net/sceendy/sb9v4m1a/embedded/js,html/dark/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 <p>As it gets the current selection in the window, it turns it into a string to be sent back to the popup and pasted onto the textarea field. Now, you have an extension that you can hook up to your choice of backend to store this information and view it!</p>
-</div>
+
       <small><strong>post related to:</strong> 
          <span>javascript  +</span>
        
          <span>api  </span>
        </small>
-      <h5 class="text-center heading-blue-border">Have a question or comment?<br/>Ask me anything: <a href="http://twitter.com/home?status=@sceendy">@sceendy</a></h5>
+      <h4 class="u--text-center heading-blue-border">Have a question or comment?<br/>Ask me anything: <a href="http://twitter.com/home?status=@sceendy">@sceendy</a></h4>
     </section>
   </div>
   
@@ -147,13 +147,7 @@
     </div>
 
     <footer>
-  <div class="container">
-    <div class="row middle-earth">
-      <div class="col-md-12 col-xs-12">
-        <p class="text-center">email me: <span class="text-pink">sceendy[at]gmail.com</span></p>
-      </div>
-    </div>
-  </div>
+  <p u--text-center>email me: <span class="u--text-pink">sceendy[at]gmail.com</span></p>
 </footer>
 
 <script>

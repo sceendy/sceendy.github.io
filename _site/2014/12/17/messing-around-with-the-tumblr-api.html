@@ -22,16 +22,16 @@
 
     <div class="container">
   <header class="row">
-    <div class="col-md-12 col-xs-12">
-      <div class="text-center">
-        <img src="/assets/cindy.jpg" alt="Cindy Juarez" class="profile">
-        <h1>Hi, I'm Cindy Juarez,</h1>
-        <h2 class="headline">a Texas-based front-end engineer.</h2>
+    <div class="column-one">
+      <div class="u--text-center">
+        <img src="/assets/cindy.jpg" alt="Cindy Juarez" class="img--circle-lg">
+        <h1 class="u--text-pink">Hi, I'm Cindy Juarez,</h1>
+        <h2 class="headline">a Texas-based frontend engineer.</h2>
       </div>
     </div>
   </header>
   <div class="row">
-    <nav class="col-md-12 col-xs-12">
+    <nav class="column-one">
       <ul class="nav" role="navigation">
         
         <li class="nav__list-item">
@@ -78,14 +78,14 @@
     <div class="container">
       <article class="component-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="row">
-    <header class="col-md-12 col-sm-12 col-xs-12">
-      <h2 class="blog-title">Messing around with the Tumblr API</h2>
-      <time class="small" datetime="2014-12-17T10:46:30-06:00" itemprop="datePublished">Dec 17, 2014</time>
+    <header class="column-one u--text-gray">
+      <h2>Messing around with the Tumblr API</h2>
+      <time datetime="2014-12-17T10:46:30-06:00" itemprop="datePublished">Dec 17, 2014</time>
     </header>
   </div>
   <div class="row">
-    <section class="col-md-12 col-sm-12 col-xs-12">
-      <div class="blog-text"><p>In order to avoid managing a blog myself, I wanted to try out handling my blogging with the Tumblr API. I figured it’d be easier to keep up with and leave out any complexity from integrating a blog onto my actual site. It’s easier just to hit up some API endpoints with ngResource since I’m using Angular.<br />
+    <section class="column-one">
+      <p>In order to avoid managing a blog myself, I wanted to try out handling my blogging with the Tumblr API. I figured it’d be easier to keep up with and leave out any complexity from integrating a blog onto my actual site. It’s easier just to hit up some API endpoints with ngResource since I’m using Angular.<br />
 <br />
 This was actually the first time I set up a site to reach out to some API endpoints so I thought I could write a little about my experience.<br />
 Tumblr’s API documentation is quite simple to understand and allowed for me to get it all hooked up within an hour. I got an OAuth Key and then used Angulars’ ngResource to point to their API and get it to return the JSON.<br />
@@ -101,7 +101,7 @@ Fantastic! That meant I was good to go ahead and call in some of the data.<br />
 <pre><code class="language-javascript">$scope.blog = data.response.posts;</code></pre>
 <p><strong>page.html:</strong><br /></p>
 <pre><code class="language-javascript">&lt;div ng-repeat="blog in blog | limitTo : 4"&gt; /* grab up to 4 blog entries and repeat the data*/<br /> /* so this returns data.response.posts.title */<br />&lt;/div&gt;</code></pre>
-</div>
+
       <small><strong>post related to:</strong> 
          <span>angular  +</span>
        
@@ -109,7 +109,7 @@ Fantastic! That meant I was good to go ahead and call in some of the data.<br />
        
          <span>code  </span>
        </small>
-      <h5 class="text-center heading-blue-border">Have a question or comment?<br/>Ask me anything: <a href="http://twitter.com/home?status=@sceendy">@sceendy</a></h5>
+      <h4 class="u--text-center heading-blue-border">Have a question or comment?<br/>Ask me anything: <a href="http://twitter.com/home?status=@sceendy">@sceendy</a></h4>
     </section>
   </div>
   
@@ -119,13 +119,7 @@ Fantastic! That meant I was good to go ahead and call in some of the data.<br />
     </div>
 
     <footer>
-  <div class="container">
-    <div class="row middle-earth">
-      <div class="col-md-12 col-xs-12">
-        <p class="text-center">email me: <span class="text-pink">sceendy[at]gmail.com</span></p>
-      </div>
-    </div>
-  </div>
+  <p u--text-center>email me: <span class="u--text-pink">sceendy[at]gmail.com</span></p>
 </footer>
 
 <script>

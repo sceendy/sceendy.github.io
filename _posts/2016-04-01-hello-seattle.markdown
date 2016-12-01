@@ -10,6 +10,6 @@ This past weekend, I decided to spend my birthday in Seattle. Last year, I spent
 
 These trips have just been 3 day weekends so my boyfriend and I are constantly on the move during our stay. Perhaps, it also helps distract me from my quarter-life crisis moment I have experienced for about 5 minutes during every birthday since I turned 21. Being up in the sky on the anniversary of my birth is actually quite nice and humbling.
 
-Seattle is incredibly beautiful and fun with some of the best coffee, scenic views, and food I have tasted in the US. This is not about the trip, though. I just wanted to post on of my favorite pictures that I took. <span class="text-pink">#nofilter</span>
+Seattle is incredibly beautiful and fun with some of the best coffee, scenic views, and food I have tasted in the US. This is not about the trip, though. I just wanted to post on of my favorite pictures that I took. <span class="u--text-pink">#nofilter</span>
 
 <img src="/assets/hello-seattle.jpg" alt="seattle"/>

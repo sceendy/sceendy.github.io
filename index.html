@@ -6,12 +6,12 @@ layout: default
     <h3>Blog Posts</h3>
   </header>
   {% for post in site.posts %}
-  <a href="{{ post.url | prepend: site.baseurl }}" class="row blog-entry">
-    <div class="col-xs-6">
+  <a href="{{ post.url | prepend: site.baseurl }}" class="row u--text-gray">
+    <div class="column-two column-two--xs">
       <h4>{{ post.title }}</h4>
     </div>
-    <div class="col-xs-6">
-      <h4 class="text-right text-thin">{{ post.date | date: "%b %-d, %Y" }}</h4>
+    <div class="column-two column-two--xs">
+      <h4 class="u--text-right text-thin">{{ post.date | date: "%b %-d, %Y" }}</h4>
     </div>
   </a>
   {% endfor %}
