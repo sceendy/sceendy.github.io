@@ -122,6 +122,9 @@ h2 {
   letter-spacing: initial;
   font-size: 1.6rem; }
 
+h4 {
+  margin-top: 8px; }
+
 .component-heading {
   color: #767676;
   border-bottom: #eee dashed;
