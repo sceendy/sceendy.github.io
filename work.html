@@ -5,23 +5,22 @@ permalink: /work/
 ---
 <div class="row u--margin-top">
   {% for work in site.data.work %}
-    <a class="work" href="{{ work.link }}" target="_blank">
-      <div class="row row__items--center">
-        <div class="column-two">
-          <img src="/assets/work/{{work.img}}" alt="Join'em" />
-        </div>
-        <div class="column-two">
-          <section>
-            <h4>{{ work.name }}</h4>
-            {% for tag in work.tags %}
-              <div class="tags">{{ tag.name }}</div>
-            {% endfor %}
-          </section>
+    <div class="row flex__row--align-middle-earth u--margin-top--xl">
+      <div class="column-two">
+        <img src="/assets/work/{{work.img}}" alt="Join'em" />
+      </div>
+      <div class="column-two">
+        <section>
+          <h4>{{ work.name }}</h4>
+          {% for tag in work.tags %}
+            <div class="tags">{{ tag.name }}</div>
+          {% endfor %}
           <p class="u--margin-top">
             {{ work.description }}
           </p>
-        </div>
+          <a href="{{ work.link }}" target="_blank" class="btn btn-pink">View Site</a>
+        </section>
       </div>
-    </a>
+    </div>
   {% endfor %}
 </div>

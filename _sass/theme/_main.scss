@@ -123,6 +123,7 @@ h4 {
   margin-top: 12px;
   margin-bottom: 8px;
   color: $gray;
+  text-transform: capitalize;
 }
 
 .component-heading {
@@ -137,15 +138,16 @@ h4 {
 .u--text-gray { color: $gray; }
 .u--text-pink { color: $main-pink; }
 
+.u--text-thin { font-weight: 200; }
+
 .u--text-center { text-align: center; }
 .u--text-right { text-align: right; }
 
 .u--margin-top { margin-top: 5px; }
 .u--margin-top--xl { margin-top: 20px; }
 
-.text-block {
-  margin: 7px  0;
-}
+.text-block { margin: 7px  0; }
+
 ///// BUTTONS /////
 .btn {
   background-color: #fff;
@@ -162,7 +164,6 @@ h4 {
     color: #fff;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
   }
-  .fa { margin: 0 5px; }
 }
 
 .btn-social {
@@ -225,6 +226,7 @@ h4 {
     }
   }
 }
+
 .work {
   position: relative;
   display: block;
@@ -233,31 +235,12 @@ h4 {
   color: #000;
   overflow: hidden;
   margin-bottom: 15px;
-  &:hover {
-    cursor: pointer;
-    text-decoration: none;
-    &::before {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba($main-pink, 0.8);
-      content: 'view website';
-      text-align: center;
-      color: #fff;
-      font-size: 1.3em;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-  }
 }
 
 .tags {
   display: inline-block;
   font-size: 0.6em;
-  color: $main-pink;
+  color: $main-gray;
   line-height: 14px;
   background-color: #fff;
   margin: 10px 4px 3px 0;
@@ -267,7 +250,7 @@ h4 {
   border-bottom-left-radius: 10px;
   &::before {
     content: '\2022';
-    color: $main-pink;
+    color: $main-gray;
     padding-right: 4px;
     font-size: 14px;
     vertical-align: middle;

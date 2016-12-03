@@ -113,7 +113,8 @@ h2 {
 h4 {
   margin-top: 12px;
   margin-bottom: 8px;
-  color: #767676; }
+  color: #767676;
+  text-transform: capitalize; }
 
 .component-heading {
   color: #767676;
@@ -129,6 +130,9 @@ h4 {
 
 .u--text-pink {
   color: #fe2a61; }
+
+.u--text-thin {
+  font-weight: 200; }
 
 .u--text-center {
   text-align: center; }
@@ -159,8 +163,6 @@ h4 {
     text-decoration: none;
     color: #fff;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26); }
-  .btn .fa {
-    margin: 0 5px; }
 
 .btn-social {
   border-radius: 50%;
@@ -218,28 +220,11 @@ h4 {
   color: #000;
   overflow: hidden;
   margin-bottom: 15px; }
-  .work:hover {
-    cursor: pointer;
-    text-decoration: none; }
-    .work:hover::before {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(254, 42, 97, 0.8);
-      content: 'view website';
-      text-align: center;
-      color: #fff;
-      font-size: 1.3em;
-      display: flex;
-      align-items: center;
-      justify-content: center; }
 
 .tags {
   display: inline-block;
   font-size: 0.6em;
-  color: #fe2a61;
+  color: #626262;
   line-height: 14px;
   background-color: #fff;
   margin: 10px 4px 3px 0;
@@ -249,7 +234,7 @@ h4 {
   border-bottom-left-radius: 10px; }
   .tags::before {
     content: '\2022';
-    color: #fe2a61;
+    color: #626262;
     padding-right: 4px;
     font-size: 14px;
     vertical-align: middle; }
