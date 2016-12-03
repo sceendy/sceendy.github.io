@@ -1,4 +1,5 @@
 * { box-sizing: border-box; }
+
 ///// GRID /////
 .container {
   margin: 0 auto;
@@ -47,7 +48,7 @@ html, body {
   margin: 0;
   color: $darkgray;
   font-family: $base-font-family;
-  font-size: 16px;
+  font-size: $base-font-size;
 }
 
 blockquote {
@@ -57,8 +58,6 @@ blockquote {
   padding: 15px;
   border-left: $main-blue 4px solid;
 }
-
-p { line-height: 1.6; }
 
 a {
   color: $main-blue;
@@ -77,12 +76,13 @@ a {
   margin-top: 0;
   &__list-item { display: inline-block; }
   &__link {
-    padding: 10px 15px;
-    font-weight: 700;
     border-bottom: 1px #fff solid;
-    text-decoration: none;
     color: $main-blue;
     font-family: $heading-font;
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding: 10px 15px;
+    text-decoration: none;
     &:hover, &.active {
       border-color: $main-blue;
       -webkit-transition: border-color 1s ease;
@@ -103,7 +103,7 @@ img {
 }
 
 ///// HEADINGS /////
-h1, h2, h3, h5, h6 { font-family: $heading-font; }
+h1, h2, h3, h4 { font-family: $heading-font; }
 
 h1 {
   margin-top: 10px;
@@ -118,7 +118,10 @@ h2 {
   font-size: 1.6rem;
 }
 
-h4 { margin-top: 8px; }
+h4 {
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
 
 .component-heading {
   color: $gray;
@@ -138,6 +141,9 @@ h4 { margin-top: 8px; }
 .u--margin-top { margin-top: 5px; }
 .u--margin-top--xl { margin-top: 20px; }
 
+.text-block {
+  margin: 7px  0;
+}
 ///// BUTTONS /////
 .btn {
   background-color: #fff;
@@ -157,42 +163,21 @@ h4 { margin-top: 8px; }
   .fa { margin: 0 5px; }
 }
 
-.btn-social{
+.btn-social {
   border-radius: 50%;
   color: #fff;
   width: 30px;
   height: 30px;
+  line-height: 30px;
   display: inline-block;
   text-align: center;
   margin: 0 3px;
+  vertical-align: middle;
   &:hover {
     text-shadow:none;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
     color: #fff;
     background: $superlight;
-    -webkit-animation-name: spinnerRotate;
-    -moz-animation-name: spinnerRotate;
-    -ms-animation-name: spinnerRotate;
-
-    -webkit-animation-duration: 2s;
-    -moz-animation-duration: 2s;
-    -ms-animation-duration: 2s;
-
-    -webkit-animation-iteration-count: 1;
-    -moz-animation-iteration-count: 1;
-    -ms-animation-iteration-count: 1;
-
-    -webkit-animation-timing-function: linear;
-    -moz-animation-timing-function: linear;
-    -ms-animation-timing-function: linear;
-  }
-  .fa {
-    display:inline-block;
-    width: 30px;
-    text-align: center;
-    font-size: 19px;
-    vertical-align: middle;
-    line-height: 31px;
   }
   &.dribbble {
     background: #ea4c89;
@@ -224,6 +209,20 @@ h4 { margin-top: 8px; }
 }
 
 ///// LISTS /////
+.checklist {
+  list-style: none;
+  padding-left: 15px;
+  margin: 0;
+    &__item {
+      padding-left: 1.1em;
+      &::before {
+      content: "\2713";
+      display: inline-block;
+      margin-left: -1.1em;
+      width: 1.1em;
+    }
+  }
+}
 .work {
   position: relative;
   display: block;
@@ -235,15 +234,15 @@ h4 { margin-top: 8px; }
   &:hover {
     cursor: pointer;
     text-decoration: none;
-    &:before {
+    &::before {
       position: absolute;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%;
       background: rgba($main-pink, 0.8);
-      content: '\f0c1 \A view website';
-      font-family: 'FontAwesome', 'Roboto Slab', serif;
+      content: 'view website';
+      font-family: 'Neucha', serif;
       text-align: center;
       color: #fff;
       font-size: 1.3em;
@@ -265,22 +264,20 @@ h4 { margin-top: 8px; }
   border: solid 1px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-  &:before {
-    content: '\f111';
-    font-family: 'FontAwesome';
+  &::before {
+    content: '\2022';
     color: $main-pink;
     padding-right: 4px;
-    font-size: 6px;
-    line-height: 14px;
+    font-size: 14px;
+    vertical-align: middle;
   }
 }
 
 ///// FOOTER /////
 footer {
-  margin-top: 20px;
+  font-size: $small-font-size;
   width: 100%;
   padding: 10px 0;
-  text-align: center;
 }
 
 ///// CODE /////

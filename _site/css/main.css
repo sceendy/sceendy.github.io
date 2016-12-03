@@ -1,23 +1,13 @@
-@import "https://fonts.googleapis.com/css?family=Oswald|Crimson+Text";
+@import url("https://fonts.googleapis.com/css?family=Neucha|Roboto");
 /* Base - Variables */
 /* Link colors */
-@-webkit-keyframes spinnerRotate {
-  from {
-    -webkit-transform: rotate(0deg); }
-  to {
-    -webkit-transform: rotate(360deg); } }
-@-moz-keyframes spinnerRotate {
-  from {
-    -moz-transform: rotate(0deg); }
-  to {
-    -moz-transform: rotate(360deg); } }
-@-ms-keyframes spinnerRotate {
-  from {
-    -ms-transform: rotate(0deg); }
-  to {
-    -ms-transform: rotate(360deg); } }
 .highlight {
   margin-bottom: 15px; }
+
+.flex__row--align-middle-earth {
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center; }
 
 * {
   box-sizing: border-box; }
@@ -61,8 +51,8 @@ div[class^="column"] {
 html, body {
   margin: 0;
   color: #444;
-  font-family: "Crimson Text", serif;
-  font-size: 16px; }
+  font-family: "Roboto", sans-serif;
+  font-size: 14px; }
 
 blockquote {
   font-size: 1.1rem;
@@ -70,9 +60,6 @@ blockquote {
   color: #767676;
   padding: 15px;
   border-left: #2ebcf9 4px solid; }
-
-p {
-  line-height: 1.6; }
 
 a {
   color: #2ebcf9;
@@ -89,12 +76,13 @@ a {
   .nav__list-item {
     display: inline-block; }
   .nav__link {
-    padding: 10px 15px;
-    font-weight: 700;
     border-bottom: 1px #fff solid;
-    text-decoration: none;
     color: #2ebcf9;
-    font-family: "Oswald", sans-serif; }
+    font-family: "Neucha", cursive;
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding: 10px 15px;
+    text-decoration: none; }
     .nav__link:hover, .nav__link.active {
       border-color: #2ebcf9;
       -webkit-transition: border-color 1s ease; }
@@ -108,8 +96,8 @@ img {
   margin-top: 10px;
   width: 125px; }
 
-h1, h2, h3, h5, h6 {
-  font-family: "Oswald", sans-serif; }
+h1, h2, h3, h4 {
+  font-family: "Neucha", cursive; }
 
 h1 {
   margin-top: 10px;
@@ -123,7 +111,8 @@ h2 {
   font-size: 1.6rem; }
 
 h4 {
-  margin-top: 8px; }
+  margin-top: 12px;
+  margin-bottom: 8px; }
 
 .component-heading {
   color: #767676;
@@ -152,6 +141,9 @@ h4 {
 .u--margin-top--xl {
   margin-top: 20px; }
 
+.text-block {
+  margin: 7px  0; }
+
 .btn {
   background-color: #fff;
   color: #fff;
@@ -174,33 +166,16 @@ h4 {
   color: #fff;
   width: 30px;
   height: 30px;
+  line-height: 30px;
   display: inline-block;
   text-align: center;
-  margin: 0 3px; }
+  margin: 0 3px;
+  vertical-align: middle; }
   .btn-social:hover {
     text-shadow: none;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
     color: #fff;
-    background: #f1f1f1;
-    -webkit-animation-name: spinnerRotate;
-    -moz-animation-name: spinnerRotate;
-    -ms-animation-name: spinnerRotate;
-    -webkit-animation-duration: 2s;
-    -moz-animation-duration: 2s;
-    -ms-animation-duration: 2s;
-    -webkit-animation-iteration-count: 1;
-    -moz-animation-iteration-count: 1;
-    -ms-animation-iteration-count: 1;
-    -webkit-animation-timing-function: linear;
-    -moz-animation-timing-function: linear;
-    -ms-animation-timing-function: linear; }
-  .btn-social .fa {
-    display: inline-block;
-    width: 30px;
-    text-align: center;
-    font-size: 19px;
-    vertical-align: middle;
-    line-height: 31px; }
+    background: #f1f1f1; }
   .btn-social.dribbble {
     background: #ea4c89;
     border-color: #e7357a; }
@@ -222,6 +197,18 @@ h4 {
   .btn-blue:hover {
     background-color: #07a8ed; }
 
+.checklist {
+  list-style: none;
+  padding-left: 15px;
+  margin: 0; }
+  .checklist__item {
+    padding-left: 1.1em; }
+    .checklist__item::before {
+      content: "\2713";
+      display: inline-block;
+      margin-left: -1.1em;
+      width: 1.1em; }
+
 .work {
   position: relative;
   display: block;
@@ -233,15 +220,15 @@ h4 {
   .work:hover {
     cursor: pointer;
     text-decoration: none; }
-    .work:hover:before {
+    .work:hover::before {
       position: absolute;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%;
       background: rgba(254, 42, 97, 0.8);
-      content: '\f0c1 \A view website';
-      font-family: 'FontAwesome', 'Roboto Slab', serif;
+      content: 'view website';
+      font-family: 'Neucha', serif;
       text-align: center;
       color: #fff;
       font-size: 1.3em;
@@ -260,19 +247,17 @@ h4 {
   border: solid 1px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px; }
-  .tags:before {
-    content: '\f111';
-    font-family: 'FontAwesome';
+  .tags::before {
+    content: '\2022';
     color: #fe2a61;
     padding-right: 4px;
-    font-size: 6px;
-    line-height: 14px; }
+    font-size: 14px;
+    vertical-align: middle; }
 
 footer {
-  margin-top: 20px;
+  font-size: 12.25px;
   width: 100%;
-  padding: 10px 0;
-  text-align: center; }
+  padding: 10px 0; }
 
 code {
   background: #eee;

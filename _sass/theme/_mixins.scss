@@ -1,16 +1,11 @@
-@-webkit-keyframes spinnerRotate {
-  from{-webkit-transform:rotate(0deg);}
-  to{-webkit-transform:rotate(360deg);}
-}
-
-@-moz-keyframes spinnerRotate {
-  from{-moz-transform:rotate(0deg);}
-  to{-moz-transform:rotate(360deg);}
-}
-
-@-ms-keyframes spinnerRotate {
-  from{-ms-transform:rotate(0deg);}
-  to{-ms-transform:rotate(360deg);}
-}
-
 %vertical-rhythm { margin-bottom: $spacing-unit / 2; }
+
+@mixin align-items($value) {
+  -webkit-align-items: $value;
+	-moz-align-items: $value;
+	align-items: $value;
+}
+
+.flex__row--align-middle-earth {
+  @include align-items(center);
+}
