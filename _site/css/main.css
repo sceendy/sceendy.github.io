@@ -110,9 +110,16 @@ h2 {
   letter-spacing: initial;
   font-size: 1.6rem; }
 
+h3 {
+  text-transform: uppercase;
+  color: #444;
+  font-size: 1.2em; }
+
 h4 {
   margin-top: 12px;
-  margin-bottom: 8px; }
+  margin-bottom: 8px;
+  font-size: 1.09em;
+  text-transform: capitalize; }
 
 .component-heading {
   color: #767676;
