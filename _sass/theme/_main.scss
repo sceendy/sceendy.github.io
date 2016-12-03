@@ -70,6 +70,8 @@ a {
 
 ///// NAV /////
 .nav {
+  font-family: $base-font-family;
+  font-size: 1.1rem;
   list-style-type: none;
   text-align: center;
   padding: 0;
@@ -78,8 +80,6 @@ a {
   &__link {
     border-bottom: 1px #fff solid;
     color: $main-blue;
-    font-family: $heading-font;
-    font-size: 1.1rem;
     font-weight: 700;
     padding: 10px 15px;
     text-decoration: none;
@@ -103,7 +103,7 @@ img {
 }
 
 ///// HEADINGS /////
-h1, h2, h3, h4 { font-family: $heading-font; }
+h1, h2 { font-family: $heading-font; }
 
 h1 {
   margin-top: 10px;
@@ -118,16 +118,9 @@ h2 {
   font-size: 1.6rem;
 }
 
-h3 {
-  text-transform: uppercase;
-  color: $darkgray;
-  font-size: 1.2em;
-}
-
 h4 {
   margin-top: 12px;
   margin-bottom: 8px;
-  font-size: 1.09em;
   text-transform: capitalize;
 }
 
@@ -250,7 +243,7 @@ h4 {
       height: 100%;
       background: rgba($main-pink, 0.8);
       content: 'view website';
-      font-family: 'Neucha', serif;
+      font-family: $base-font-family;
       text-align: center;
       color: #fff;
       font-size: 1.3em;

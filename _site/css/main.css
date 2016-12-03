@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Neucha|Roboto");
+@import url("https://fonts.googleapis.com/css?family=Neucha|Roboto:400,700,900");
 /* Base - Variables */
 /* Link colors */
 .highlight {
@@ -69,6 +69,8 @@ a {
     cursor: pointer; }
 
 .nav {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
   list-style-type: none;
   text-align: center;
   padding: 0;
@@ -78,8 +80,6 @@ a {
   .nav__link {
     border-bottom: 1px #fff solid;
     color: #2ebcf9;
-    font-family: "Neucha", cursive;
-    font-size: 1.1rem;
     font-weight: 700;
     padding: 10px 15px;
     text-decoration: none; }
@@ -96,7 +96,7 @@ img {
   margin-top: 10px;
   width: 125px; }
 
-h1, h2, h3, h4 {
+h1, h2 {
   font-family: "Neucha", cursive; }
 
 h1 {
@@ -110,15 +110,9 @@ h2 {
   letter-spacing: initial;
   font-size: 1.6rem; }
 
-h3 {
-  text-transform: uppercase;
-  color: #444;
-  font-size: 1.2em; }
-
 h4 {
   margin-top: 12px;
   margin-bottom: 8px;
-  font-size: 1.09em;
   text-transform: capitalize; }
 
 .component-heading {
@@ -235,7 +229,7 @@ h4 {
       height: 100%;
       background: rgba(254, 42, 97, 0.8);
       content: 'view website';
-      font-family: 'Neucha', serif;
+      font-family: "Roboto", sans-serif;
       text-align: center;
       color: #fff;
       font-size: 1.3em;
