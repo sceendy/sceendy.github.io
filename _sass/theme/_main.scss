@@ -119,10 +119,11 @@ h2 {
   font-size: 1.6rem;
 }
 
+h3 { text-transform: capitalize; }
+
 h4 {
   margin-top: 12px;
   margin-bottom: 8px;
-  color: $gray;
   text-transform: capitalize;
 }
 
