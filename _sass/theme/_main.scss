@@ -120,6 +120,7 @@ h2 {
 }
 
 h3 { text-transform: capitalize; }
+time { display: block; }
 
 h4 {
   margin-top: 12px;
@@ -147,6 +148,8 @@ h4 {
 .u--margin-top { margin-top: 5px; }
 .u--margin-top--xl { margin-top: 20px; }
 
+.u--margin-bottom--none { margin-bottom: 0; }
+
 .text-block { margin: 7px  0; }
 
 ///// BUTTONS /////
@@ -168,14 +171,14 @@ h4 {
 }
 
 .btn-social {
-  border-radius: 50%;
+  border-radius: 25px;
   color: #fff;
-  width: 30px;
-  height: 30px;
+  font-size: 0.7em;
   line-height: 30px;
   display: inline-block;
   text-align: center;
   margin: 0 3px;
+  padding: 0 8px;
   vertical-align: middle;
   &:hover {
     text-shadow:none;
@@ -187,11 +190,19 @@ h4 {
     background: #ea4c89;
     border-color: darken(#ea4c89, 5%);
   }
+  &.github {
+    background: #000;
+    border-color: lighten(#000, 5%);
+  }
+  &.linkedin {
+    background-color: #006fa6;
+    border-color: darken(#006fa6, 5%);
+  }
   &.codepen {
-    background: #171515;
+    background: #76daff;
     color: #fff;
     &:hover {
-      border-color: black;
+      border-color: darken(#76daff, 5%);
     }
   }
 }
@@ -239,23 +250,14 @@ h4 {
 }
 
 .tags {
+  border-radius: 3px;
   display: inline-block;
-  font-size: 0.6em;
+  font-size: 0.65em;
   color: $main-gray;
   line-height: 14px;
-  background-color: #fff;
+  background-color: $lightgray;
   margin: 10px 4px 3px 0;
-  padding: 3px 5px;
-  border: solid 1px;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-  &::before {
-    content: '\2022';
-    color: $main-gray;
-    padding-right: 4px;
-    font-size: 14px;
-    vertical-align: middle;
-  }
+  padding: 3px 8px;
 }
 
 ///// FOOTER /////

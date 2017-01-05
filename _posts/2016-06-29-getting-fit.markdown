@@ -2,7 +2,7 @@
 layout: post
 title:  "Getting Fit"
 date:   2016-07-02 12:01:00
-tags: ['personal']
+tags: ['personal', 'fitness', 'goals']
 comments: true
 ---
 

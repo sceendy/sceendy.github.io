@@ -5,16 +5,16 @@ layout: default
 <article class="component-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="row">
     <header class="column-one u--text-gray">
-      <h3>{{ page.title }}</h3>
+      <h3 class="u--margin-bottom--none">{{ page.title }}</h3>
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+      {% for tag in page.tags %}
+        <div class="tags">{{ tag }}</div>
+      {% endfor %}
     </header>
   </div>
   <div class="row">
     <section class="column-one">
       {{ content }}
-      <small><strong>post related to:</strong> {% for tag in page.tags %}
-         <span>{{ tag }} {% if forloop.last %} {%else%} +{% endif %}</span>
-       {% endfor %}</small>
       <h4 class="u--text-center heading-blue-border">Have a question or comment?<br/>Ask me anything: <a href="http://twitter.com/home?status=@sceendy">@sceendy</a></h4>
     </section>
   </div>

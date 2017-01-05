@@ -113,6 +113,9 @@ h2 {
 h3 {
   text-transform: capitalize; }
 
+time {
+  display: block; }
+
 h4 {
   margin-top: 12px;
   margin-bottom: 8px;
@@ -148,6 +151,9 @@ h4 {
 .u--margin-top--xl {
   margin-top: 20px; }
 
+.u--margin-bottom--none {
+  margin-bottom: 0; }
+
 .text-block {
   margin: 7px  0; }
 
@@ -167,14 +173,14 @@ h4 {
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26); }
 
 .btn-social {
-  border-radius: 50%;
+  border-radius: 25px;
   color: #fff;
-  width: 30px;
-  height: 30px;
+  font-size: 0.7em;
   line-height: 30px;
   display: inline-block;
   text-align: center;
   margin: 0 3px;
+  padding: 0 8px;
   vertical-align: middle; }
   .btn-social:hover {
     text-shadow: none;
@@ -184,11 +190,17 @@ h4 {
   .btn-social.dribbble {
     background: #ea4c89;
     border-color: #e7357a; }
+  .btn-social.github {
+    background: #000;
+    border-color: #0d0d0d; }
+  .btn-social.linkedin {
+    background-color: #006fa6;
+    border-color: #005e8d; }
   .btn-social.codepen {
-    background: #171515;
+    background: #76daff;
     color: #fff; }
     .btn-social.codepen:hover {
-      border-color: black; }
+      border-color: #5dd3ff; }
 
 .btn-pink {
   color: #fe2a61;
@@ -224,22 +236,14 @@ h4 {
   margin-bottom: 15px; }
 
 .tags {
+  border-radius: 3px;
   display: inline-block;
-  font-size: 0.6em;
+  font-size: 0.65em;
   color: #626262;
   line-height: 14px;
-  background-color: #fff;
+  background-color: #eee;
   margin: 10px 4px 3px 0;
-  padding: 3px 5px;
-  border: solid 1px;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px; }
-  .tags::before {
-    content: '\2022';
-    color: #626262;
-    padding-right: 4px;
-    font-size: 14px;
-    vertical-align: middle; }
+  padding: 3px 8px; }
 
 footer {
   font-size: 12.25px;
