@@ -6,7 +6,7 @@ tags: ['dev', 'personal']
 comments: true
 ---
 
-When I interviewed for my current job a year ago, I already had an offer with a higher salary that I was seriously considering. Then, I met the team I would be working with at this company. One particular thing a lead engineer said stood out to me and may even have swayed me on taking the job.
+When I interviewed for my current job a year ago, I already had another (higher) offer that I was seriously considering. Then, I met the team I would be working with at this company. One particular thing a lead engineer said stood out to me and may have even swayed me on considering the job.
 <blockquote>My worst day here is better than my best day at all the other places I've worked.</blockquote>
 
 There are so many offices with table tennis, drinks, snacks, and game nights - including this one - so I don't particularly look for those things anymore. I find that things like trust within a company are much more valuable. Output is much more important than hours at the office. Working from home isn't to do less work - it's to focus on the work you have.

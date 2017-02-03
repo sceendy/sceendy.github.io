@@ -24,6 +24,18 @@
   margin-right: -0.5rem;
   margin-left: -0.5rem; }
 
+.figure__row {
+  align-items: center;
+  background-color: #eee;
+  border-left: #FF4081 dashed;
+  display: flex;
+  margin: 0;
+  padding: 10px; }
+
+article[class^="component-"] {
+  border-bottom: #eee dashed;
+  padding-bottom: 20px; }
+
 div[class^="column"] {
   display: flex;
   flex-direction: column;
@@ -60,13 +72,13 @@ blockquote {
   font-style: italic;
   color: #767676;
   padding: 15px;
-  border-left: #2ebcf9 4px solid; }
+  border-left: #64B5F6 4px solid; }
 
 a {
-  color: #2ebcf9;
+  color: #64B5F6;
   text-decoration: none; }
   a:hover {
-    color: #07a8ed;
+    color: #349ef3;
     cursor: pointer; }
 
 p {
@@ -82,15 +94,16 @@ p {
     display: inline-block; }
   .nav__link {
     border-bottom: 1px #fff solid;
-    color: #2ebcf9;
+    color: #64B5F6;
     font-weight: 700;
     padding: 10px 15px;
     text-decoration: none; }
     .nav__link:hover, .nav__link.active {
-      border-color: #2ebcf9;
+      border-color: #64B5F6;
       -webkit-transition: border-color 1s ease; }
 
-img {
+.img--responsive {
+  display: block;
   max-width: 100%;
   margin: 0 auto; }
 
@@ -134,7 +147,7 @@ h4 {
   color: #767676; }
 
 .u--text-pink {
-  color: #fe2a61; }
+  color: #FF4081; }
 
 .u--text-thin {
   font-weight: 200; }
@@ -148,6 +161,9 @@ h4 {
 .u--margin-top {
   margin-top: 5px; }
 
+.u--margin-right-10 {
+  margin-right: 10px; }
+
 .u--margin-top--xl {
   margin-top: 20px; }
 
@@ -157,6 +173,12 @@ h4 {
 .text-block {
   margin: 7px  0; }
 
+.u--inline-text {
+  display: inline; }
+
+@media screen and (max-width: 62em) {
+  .u--margin-top-mobile {
+    margin-top: 20px; } }
 .btn {
   background-color: #fff;
   color: #fff;
@@ -198,21 +220,20 @@ h4 {
     border-color: #005e8d; }
   .btn-social.codepen {
     background: #76daff;
-    color: #fff; }
-    .btn-social.codepen:hover {
-      border-color: #5dd3ff; }
+    color: #fff;
+    border-color: #5dd3ff; }
 
 .btn-pink {
-  color: #fe2a61;
-  border-color: #f40140; }
+  color: #FF4081;
+  border-color: #ff0d5f; }
   .btn-pink:hover {
-    background-color: #f40140; }
+    background-color: #ff0d5f; }
 
 .btn-blue {
-  color: #2ebcf9;
-  border-color: #07a8ed; }
+  color: #64B5F6;
+  border-color: #349ef3; }
   .btn-blue:hover {
-    background-color: #07a8ed; }
+    background-color: #349ef3; }
 
 .checklist {
   list-style: none;
@@ -265,7 +286,7 @@ code {
   border: #eee solid 1px;
   line-height: 22px;
   padding: 0 5px;
-  color: #0696d4;
+  color: #1c92f2;
   font-family: monospace;
   font-size: 0.9rem; }
 
