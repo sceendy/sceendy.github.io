@@ -1,4 +1,5 @@
 - name: Joinem
+  year: 2015
   description: Join'em was a single page application built using AngularJS + Sass that consumed a RESTful API from a Python/Django back-end.
   img: joinem-mobile.png
   link: http://web.archive.org/web/20150530073743/https://www.joinem.com/
@@ -8,6 +9,7 @@
     - name: jQuery
 
 - name: Extraco Banks
+  year: 2014
   description: The Extraco Banks web app was built using HTML/CSS, AngularJS, and PHP.
   img: extraco.png
   link: http://www.extracobanks.com/rewards/
@@ -16,18 +18,8 @@
     - name: AngularJS
     - name: jQuery
 
-
-- name: TSATA
-  description: I designed/built a custom WordPress theme to improve usability and user experience.
-  img: tsata.png
-  link: http://www.tsata.com
-  tags:
-    - name: HTML/LESS
-    - name: JS
-    - name: AngularJS
-    - name: PHP (WordPress)
-
 - name: TX Concussion Partnership
+  year: 2013
   description: I designed/built a custom WordPress theme.
   img: tscp.png
   link: http://www.txconcussionlaw.com
@@ -37,6 +29,7 @@
     - name: PHP (WordPress)
 
 - name: Studio Movie Grill
+  year: 2013
   description: Migrated $5 ticket deals to a stand-alone website from being exclusively available through an FB app.
   img: smg.png
   link: http://ticketdeals.studiomoviegrill.com/
@@ -45,6 +38,7 @@
     - name: PHP
 
 - name: Visionworks
+  year: 2013
   description: Maintained the Visionworks website. Most notably, greatly improved their mobile UI.
   img: visionworks.png
   link: http://www.visionworks.com/info/
@@ -53,6 +47,7 @@
     - name: JS
 
 - name: Stage Stores
+  year: 2013
   description: I built the interface for the Stage Stores store locator using HTML and CSS.
   img: stagestores.png
   link: http://www.stagestores.com/store/account/findyourstore.jsp
@@ -61,6 +56,7 @@
     - name: PHP
 
 - name: Wingstop
+  year: 2013
   description: Made several design/functionality improvements throughout Wingstop website.
   img: wingstop.png
   link: http://www.wingstop.com/
@@ -69,6 +65,7 @@
     - name: PHP
 
 - name: KHYI 95.3FM "The Range"
+  year: 2013
   description: Customized a WordPress theme, customized plugins, and improved layout/accessibility which increased traffic to their website.
   img: khyi.png
   link: http://www.khyi.com/
@@ -78,9 +75,21 @@
     - name: PHP (WordPress)
 
 - name: Curves (AU, NZ, FR, UK)
+  year: 2013
   description: Created new pages and maintained assets/existing pages for the international Curves websites.
   img: curves.png
   link: http://www.french.curves.com/
   tags:
     - name: HTML/CSS
     - name: PHP
+
+- name: TSATA
+  year: 2012
+  description: I designed/built a custom WordPress theme to improve usability and user experience.
+  img: tsata.png
+  link: http://www.tsata.com
+  tags:
+    - name: HTML/LESS
+    - name: JS
+    - name: AngularJS
+    - name: PHP (WordPress)

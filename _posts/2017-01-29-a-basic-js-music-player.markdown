@@ -20,7 +20,7 @@ Our music player will have the following functionality:
 </ul>
 
 <h4>Design</h4>
-<p>First, we need a design. I chose to go with one I have previously built out but have made some slight adjustments so that it works for the functionality we plan on adding. Once you have this basic functionality, you should also add the ability to change songs (previous, next) that are included in the design. </p>
+<p>First, we need a design. I chose to go with one I have previously built out that I found on <a href="https://dribbble.com/shots/2133799-Is-This-Love-Music-Player" target="_blank">dribbble</a>. With some slight adjustments it works for the functionality we plan on adding. Once you have this basic functionality, you should also add the ability to change songs (previous, next) that are included in this design. </p>
 
 <img src="https://d13yacurqjgara.cloudfront.net/users/369807/screenshots/2133799/is-this-love_1x.png" class="img--responsive"/>
 
@@ -55,7 +55,7 @@ Our music player will have the following functionality:
 
 <p>As you start out, the <span class="code-inline">document</span> interface may be one of most common references you'll see in your JavaScript. It represents your web page in the browser and serves as an entry point into your content. </p>
 
-<p>When you want to interact with an element, you will use the <span class="code-inline">document</span> objects' *methods to help you target the element you want. For example, if you want to get an element by a class  or tag name, <span class="code-inline">document<strong>.getElementsByClassName('player__image');</strong></span>. <em>(For tags you would just replace the word "class" for "tag" and specify the tag name instead.)</em> Calling this method would return an array (a list) of elements that have the class name "<span class="code-inline">player__image</span>".</p>
+<p>When you want to interact with an element, you will use the <span class="code-inline">document</span> objects' *methods to help you target the element you want. For example, if you want to get an element by a class or tag name, <span class="code-inline">document<strong>.getElementsByClassName('player__image');</strong></span>. <em>(For tags you would just replace the word "class" for "tag" and specify the tag name instead.)</em> Calling this method would return an array (a list) of elements that have the class name "<span class="code-inline">player__image</span>".</p>
 
 <p>For this example, the method returns an array that has one single element. You want to target the element instead of getting the whole array so you'll update your line to look include the index for that element: <span class="code-inline">document.getElementsByClassName('player__image')<strong>[0]</strong>;</span>. (With arrays the index starts at 0.) </p>
 
