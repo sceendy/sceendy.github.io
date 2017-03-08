@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<article class="component-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="row">
+    <header class="column-one u--text-gray">
+      <div class="row">
+        <img src="/assets/work/logo.png" height="100" class="u--margin-right-10"/>
+        <div>
+          <h3 class="u--margin-bottom--none">toast. podcast</h3>
+          <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+          {% for topic in page.topics %}
+            <div class="tags">{{ topic }}</div>
+          {% endfor %}
+        </div>
+      </div>
+    </header>
+  </div>
+  <div class="row">
+    <section class="column-one">
+      <div class="media--responsive">
+        <iframe width="450px" height="450px" frameBorder="0" src="{{ page.link }}"></iframe>
+      </div>
+      {{ page.content }}
+      <blockquote>"<strong>toast.</strong>" is a podcast where I talk about stuff related to front-end development and career experiences in the morning while often eating toast. Topics will definitely vary and are about 10 minutes each.</blockquote>
+      <h4 class="u--text-center heading-blue-border">Have a question or comment?<br/>Ask me anything: <a href="http://twitter.com/home?status=@sceendy">@sceendy</a></h4>
+    </section>
+  </div>
+</article>

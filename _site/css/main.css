@@ -76,6 +76,7 @@ blockquote {
 
 a {
   color: #64B5F6;
+  line-height: 1;
   text-decoration: none; }
   a:hover {
     color: #349ef3;
@@ -101,6 +102,12 @@ p {
     .nav__link:hover, .nav__link.active {
       border-color: #64B5F6;
       -webkit-transition: border-color 1s ease; }
+
+.media--responsive iframe {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 20px; }
 
 .img--responsive {
   display: block;
@@ -294,9 +301,13 @@ code {
  * Syntax highlighting styles
  */
 .highlight {
-  background: #fff; }
+  background: #fff;
+  display: block; }
   .highlighter-rouge .highlight {
-    background: #eef; }
+    display: block;
+    overflow-x: hidden;
+    overflow-wrap: break-word;
+    word-wrap: break-word; }
   .highlight .tab1 {
     margin-left: 20px; }
   .highlight .tab2 {

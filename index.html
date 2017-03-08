@@ -3,12 +3,12 @@ layout: default
 ---
 <article class="component-blog">
   <header class="component-heading">
-    <h3>Blog Posts</h3>
+    <h3>Recent Posts</h3>
   </header>
   {% for post in site.posts %}
   <a href="{{ post.url | prepend: site.baseurl }}" class="row u--text-gray">
     <div class="column-two column-two--xs">
-      <h4>{{ post.title }}</h4>
+      <h4>{% if post.layout == 'podcast' %}&#x1f518; {% endif %}{{ post.title }}</h4>
     </div>
     <div class="column-two column-two--xs">
       <h4 class="u--text-right u--text-thin">{{ post.date | date: "%b %-d, %Y" }}</h4>
