@@ -19,7 +19,7 @@ Since these are invitations for my own events, I first write down the informatio
 <br/><br/>
 I am incredibly picky about colors. These cards were a bit limiting in a way because they are quite dark. It kind of narrowed the scope for color. So, I started by visiting dribbble and looking at <a href="https://dribbble.com/search?q=brown">color palettes that had been used with brown</a> (the color of the cards). I generally had a theme in my mind for the event itself but I had to determine if it needed to be lightened or darkened to look good on the card itself. A dark gray is always a beautiful color for text and it'd be pretty powerful on a brownish background so I chose it for my main text color. Light shades of red and blue worked well for large text (titles) and graphics.
 <br/><br/>
-<img border="0" src="http://4.bp.blogspot.com/-GaQRxwNx3XY/VenvnmYTd7I/AAAAAAAAJns/gqnlsvvYy4g/s900/designs.jpg" alt="Invitation designs" />
+<img border="0" src="http://4.bp.blogspot.com/-GaQRxwNx3XY/VenvnmYTd7I/AAAAAAAAJns/gqnlsvvYy4g/s900/designs.jpg" alt="Invitation designs" class="img--responsive"/>
 <br/>
 <small><i>The one on the left is the front of a birthday BBQ card and the one on the right is the back of the house anniversary card.</i></small>
 

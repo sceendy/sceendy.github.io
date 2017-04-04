@@ -16,7 +16,7 @@ Don't get me wrong -- I loved it. Diving deeper into coding and learning more ab
 <h4>ok. nevermind.</h4>
 For the past 2 months, I've looked back on that time. Yes, it was fun. For that year in a half, my learning/self-improvement was on a fast-track. It just wears you down -- especially when you only take two incredibly short vacations. Accumulating 320 hours of vacation and not making a dent into it is ridiculous. Why didn't I use it up? Well, there was always <i>*something*</i> due -- I couldn't find the right time to get away, really. Or at least that's what I told myself. It was self-inflicted the first year and going into my second year, I felt the pressure to push through for the sake of the product. So, last week, I saw an opportunity.
 <br/><br/>
-<img border="0" src="http://4.bp.blogspot.com/-GNLD88of4U8/VgYLggzchYI/AAAAAAAAKUU/kSUdfsQDdeo/s900/camping.jpg" />
+<img border="0" src="http://4.bp.blogspot.com/-GNLD88of4U8/VgYLggzchYI/AAAAAAAAKUU/kSUdfsQDdeo/s900/camping.jpg" class="img--responsive"/>
 <br/>
 <h4>It's as if I refilled my tank of passion for code. </h4>
 <img border="0" src="http://2.bp.blogspot.com/-Hhuiav1vkmE/VgYNOg5vkEI/AAAAAAAAKUg/msf_V_EdmK8/s250/grandcanyon.jpg" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"/>

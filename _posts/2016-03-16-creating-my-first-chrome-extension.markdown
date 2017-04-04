@@ -10,7 +10,7 @@ For the past couple of months, I've been focused on building a personal project 
 
 First off, let me say, it is some very well written documentation that you will appreciate. Right away, the docs tell you all the basic files you need and give you some boilerplate code to get started. Also included are some downloadable examples that vary in complexity. It will be helpful if you are already familiar with HTML/CSS/JavaScript, btw. Within the hour, I had a functional extension and wanted to share how to get started on your own:
 
-<img src="/assets/chrome-extension_sm.png" alt="Chrome Extension"/>
+<img src="/assets/chrome-extension_sm.png" alt="Chrome Extension" class="img--responsive"/>
 
 For this project, let's make a Chrome Extension that can help you bookmark locations you want to visit which you will store for future use. Later you can hook it up to be sent to your database you have or some sort of Firebase-y service.
 
