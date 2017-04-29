@@ -1,3 +1,12 @@
+- name: Kalkomey Outdoor Shop
+  year: 2017
+  description: Kalkomey Outdoor Shop is a single page application that uses Material Design and makes use of Ahead-of-Time compilation.
+  img: pa-game-news.png
+  link: https://www.pennsylvaniagamenews.com/
+  tags:
+    - name: HTML/SCSS
+    - name: Angular/Typescript
+
 - name: Joinem
   year: 2015
   description: Join'em was a single page application built using AngularJS + Sass that consumed a RESTful API from a Python/Django back-end.
@@ -90,6 +99,5 @@
   link: http://www.tsata.com
   tags:
     - name: HTML/LESS
-    - name: JS
     - name: AngularJS
     - name: PHP (WordPress)
