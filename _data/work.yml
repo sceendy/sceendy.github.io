@@ -1,6 +1,6 @@
 - name: Kalkomey Outdoor Shop
   year: 2017
-  description: Kalkomey Outdoor Shop is a single page application that uses Material Design and makes use of Ahead-of-Time compilation.
+  description: Kalkomey Outdoor Shop is a single page application that uses Material Design/Components and makes use of Ahead-of-Time compilation.
   img: pa-game-news.png
   link: https://www.pennsylvaniagamenews.com/
   tags:
