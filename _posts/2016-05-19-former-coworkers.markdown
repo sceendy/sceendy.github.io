@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The Thing About My Former Team"
+title:  "Former Coworkers"
 date:   2016-05-19 19:42:12
 tags: ['dev', 'personal']
 comments: true
@@ -10,7 +10,7 @@ When my previous company initially extended a job offer, I was surprised. They w
 
 At the interactive agencies, my role in projects was well-defined within the scope of designing/HTML/CSS with some JavaScript and a dab of PHP. Absolutely nothing impressive - even I find it underwhelming now. The last few months at Apollo Interactive, I had just been introduced a bit to Angular and the lead dev was adding our existing projects to github. Revolutionary in the agency world. No more FTP! Woo!
 
-I had a steady agency job and excelling there. However, I wanted to be challenged, closer to the 'bleeding edge of tech', and also be able to focus on a single product -- which is something I knew Joinem would allow me to experience.
+I had a steady agency job and excelling there. However, I wanted to be challenged, closer to the 'bleeding edge of tech', and also be able to focus on a single product -- which is something I knew Join'em would allow me to experience.
 
 <h4>just going for it</h4>
 During my interview, the interviewer (lead engineer) and I spoke of many things: Django, Git, Bootstrap, Sass, Angular, Game of Thrones, and the company + goals + my skills. My experience with Angular at the time was limited -- I was working more with the templating side and just manipulating a few models here and there.
