@@ -11,6 +11,13 @@
   <div class="row">
     <nav class="column-one">
       <ul class="nav" role="navigation">
+        <li class="nav__list-item">
+          {% if page.url == '/' %}
+            <a class="nav__link active" href="/">About</a>
+          {% else %}
+            <a class="nav__link" href="/">About</a>
+          {% endif %}
+        </li>
         {% for my_page in site.pages %}
         <li class="nav__list-item">
           {% if my_page.layout == 'page' %}
@@ -24,13 +31,6 @@
           {% endif %}
           </li>
         {% endfor %}
-        <li class="nav__list-item">
-          {% if page.url == '/' %}
-            <a class="nav__link active" href="/">Blog</a>
-          {% else %}
-            <a class="nav__link" href="/">Blog</a>
-          {% endif %}
-        </li>
       </ul>
     </nav>
   </div>

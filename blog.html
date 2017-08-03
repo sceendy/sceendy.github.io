@@ -1,0 +1,18 @@
+---
+layout: page
+title: Blog
+permalink: /blog/
+---
+
+<article class="component-blog">
+  {% for post in site.posts %}
+  <a href="{{ post.url | prepend: site.baseurl }}" class="row u--text-gray">
+    <div class="column-two column-two--xs">
+      <h4>{% if post.layout == 'podcast' %}&#x1f518; {% endif %}{{ post.title }}</h4>
+    </div>
+    <div class="column-two column-two--xs">
+      <h4 class="u--text-right u--text-thin">{{ post.date | date: "%b %-d, %Y" }}</h4>
+    </div>
+  </a>
+  {% endfor %}
+</article>
