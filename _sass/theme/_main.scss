@@ -25,10 +25,7 @@
   padding: 10px;
 }
 
-article[class^="component-"] {
-  border-bottom: $lightgray dashed;
-  padding-bottom: 20px;
-}
+article[class^="component-"] { padding-bottom: 40px; }
 
 div[class^="column"] {
   display: flex;
@@ -60,7 +57,7 @@ div[class^="column"] {
 ///// DEFAULTS /////
 html, body {
   margin: 0;
-  color: $darkgray;
+  color: $main-black;
   font-family: $font;
   font-size: $base-font-size;
   -webkit-font-smoothing: antialiased;
@@ -70,7 +67,6 @@ html, body {
 blockquote {
   font-size: 1.1rem;
   font-style: italic;
-  color: $gray;
   padding: 15px;
   border-left: $main-blue 4px solid;
 }
@@ -144,7 +140,6 @@ h2 {
   font-size: 1.6rem;
 }
 
-h3 { text-transform: capitalize; }
 time { display: block; }
 
 h4 {
@@ -154,21 +149,19 @@ h4 {
 }
 
 .component-heading {
-  color: $gray;
-  border-bottom: $lightgray dashed;
   padding-left: 0;
   margin-bottom: 10px;
+  text-transform: uppercase;
 }
 
 ///// UTILITIES /////
-.u--text-darkgray { color: $darkgray; }
-.u--text-gray { color: $gray; }
+.u--text-black { color: $main-black; }
 .u--text-pink { color: $main-pink; }
 
 .u--text-thin { font-weight: 400; }
 
 .u--text-center { text-align: center; }
-.u--text-right { text-align: right; }
+.u--text-right { text-align: right; line-height: 20px; }
 
 .u--margin-top { margin-top: 5px; }
 .u--margin-right-10 { margin-right: 10px; }
@@ -179,6 +172,26 @@ h4 {
 .text-block { margin: 7px  0; }
 .u--inline-text { display: inline; }
 
+.link-list { margin-bottom: 15px; }
+
+.link-list__item {
+  color: $main-black;
+  text-transform: capitalize;
+  line-height: 20px;
+  margin-top: 12px;
+  position: relative;
+  &:hover {
+    &::before {
+      color: $main-pink;
+      content: '>>';
+      font-size: .8em;
+      font-weight: 900;
+      left: -18px;
+      position: absolute;
+    }
+  }
+}
+
 @media screen and (max-width: 62em){
   .u--margin-top-mobile { margin-top: 20px; }
 }
@@ -187,7 +200,7 @@ h4 {
   background-color: #fff;
   color: #fff;
   border-radius: 25px;
-  border: 1px solid;
+  border: 2px solid;
   font-size: 13px;
   display: inline-block;
   width: auto;
@@ -201,37 +214,27 @@ h4 {
 }
 
 .btn-social {
+  background-color: #fff;
+  border: $main-black 2px solid;
   border-radius: 25px;
-  color: #fff;
+  color: $main-black;
   font-size: 0.95em;
   line-height: 30px;
   display: inline-block;
   text-align: center;
   margin: 0 3px;
-  padding: 0 15px;
+  padding-left: 7px;
+  padding-right: 7px;
   vertical-align: middle;
   &:hover {
     text-shadow:none;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
-    color: #fff;
-    background: $superlight;
+    color: $superlight;
+    background: $main-black;
   }
-  &.dribbble {
-    background: #ea4c89;
-    border-color: darken(#ea4c89, 5%);
-  }
-  &.github {
-    background: #000;
-    border-color: lighten(#000, 5%);
-  }
-  &.linkedin {
-    background-color: #006fa6;
-    border-color: darken(#006fa6, 5%);
-  }
-  &.codepen {
-    background: #76daff;
-    color: #fff;
-    border-color: darken(#76daff, 5%);
+  @media screen and (min-width: 62em) {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
@@ -272,7 +275,7 @@ h4 {
   display: block;
   padding: 6px 20px;
   text-decoration: none;
-  color: #000;
+  color: $main-black;
   overflow: hidden;
   margin-bottom: 15px;
 }
@@ -281,7 +284,6 @@ h4 {
   border-radius: 3px;
   display: inline-block;
   font-size: 0.65em;
-  color: $main-gray;
   line-height: 14px;
   background-color: $lightgray;
   margin: 10px 4px 3px 0;

@@ -4,13 +4,13 @@ title: Blog
 permalink: /blog/
 ---
 
-{% for post in site.posts %}
-<a href="{{ post.url | prepend: site.baseurl }}" class="row u--text-gray">
-  <div class="column-two column-two--xs">
-    <h4>{% if post.layout == 'podcast' %}&#x1f518; {% endif %}{{ post.title }}</h4>
-  </div>
-  <div class="column-two column-two--xs">
-    <h4 class="u--text-right u--text-thin">{{ post.date | date: "%b %-d, %Y" }}</h4>
-  </div>
-</a>
-{% endfor %}
+<div class="link-list">
+  {% for post in site.posts %}
+  <a href="{{ post.url | prepend: site.baseurl }}" class="row link-list__item">
+    <div class="column-two column-two--xs">
+      {% if post.layout == 'podcast' %}&#x1f518; {% endif %}{{ post.title }}
+    </div>
+    <div class="column-two column-two--xs u--text-right">{{ post.date | date: "%b %-d, %Y" }}</div>
+  </a>
+  {% endfor %}
+</div>

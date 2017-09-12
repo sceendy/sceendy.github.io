@@ -10,3 +10,5 @@ github_username:  sceendy
 
 # Build settings
 markdown: kramdown
+sass:
+  style: compressed
