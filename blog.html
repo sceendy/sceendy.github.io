@@ -6,7 +6,7 @@ permalink: /blog/
 
 <div class="link-list">
   {% for post in site.posts %}
-  <a href="{{ post.url | prepend: site.baseurl }}" class="row link-list__item">
+  <a href="{{ post.url | prepend: site.baseurl }}" class="row link-list__item row--v">
     <div class="column-two column-two--xs">
       {% if post.layout == 'podcast' %}&#x1f518; {% endif %}{{ post.title }}
     </div>

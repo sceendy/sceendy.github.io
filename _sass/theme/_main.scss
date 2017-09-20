@@ -54,6 +54,10 @@ div[class^="column"] {
   }
 }
 
+.row--v {
+  align-content: center;
+}
+
 ///// DEFAULTS /////
 html, body {
   margin: 0;
@@ -157,6 +161,7 @@ h4 {
 ///// UTILITIES /////
 .u--text-black { color: $main-black; }
 .u--text-pink { color: $main-pink; }
+.u--text-gray { color: lighten($main-black, 30%); }
 
 .u--text-thin { font-weight: 400; }
 

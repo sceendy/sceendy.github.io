@@ -2,7 +2,7 @@
 layout: post
 title:  "a basic JS music player"
 date:   2017-01-29 12:18:00
-tags: ['dev', 'tutorial', 'beginner js']
+tags: ['dev', 'tutorial', 'javascript']
 comments: true
 ---
 
