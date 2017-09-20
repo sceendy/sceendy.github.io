@@ -323,3 +323,9 @@ code {
   font-family: monospace;
   font-size: 0.9rem;
 }
+
+.heading-blue-border {
+  border-top: 2px solid $main-blue;
+  padding: 20px;
+  margin-top: 40px;
+}
