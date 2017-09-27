@@ -1,6 +1,6 @@
 - name: Kalkomey Outdoor Shop
   year: 2017
-  description: Kalkomey Outdoor Shop is a storefront that is customizable per state agency.
+  description: Kalkomey Outdoor Shop is a public-facing customizable e-commerce platform.
   img: pa-game-news.png
   link: https://www.pennsylvaniagamenews.com/
   tags:
@@ -10,7 +10,7 @@
 
 - name: Agency Management Solutions
   year: 2016
-  description: A Kalkomey product suite that is composed of tools and services for clients (state agencies) to manage their users and products.
+  description: A Kalkomey product suite of tools and services for clients to manage their users and products.
   img: ams.png
   link: https://ams.kalkomey.com/
   tags:
@@ -20,8 +20,8 @@
 
 - name: Joinem
   year: 2015
-  description: Join'em was a social e-commerce web application that used group buying to lower the prices of popular products.
-  img: joinem-mobile.png
+  description: Join'em was a social e-commerce web application that utilized group buying.
+  img: joinem-desktop.png
   link: http://web.archive.org/web/20150530073743/https://www.joinem.com/
   tags:
     - name: HTML/SCSS
@@ -66,6 +66,14 @@
   tags:
     - name: HTML/CSS
     - name: JS
+
+- name: Einstein Bros Bagels
+  year: 2013
+  description: Einstein Bros Bagels March Madness contest marketing page
+  img: einsteins.png
+  link: https://www.einsteinbros.com/
+  tags:
+    - name: HTML/CSS
 
 - name: Stage Stores
   year: 2013

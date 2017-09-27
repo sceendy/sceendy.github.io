@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "a basic JS music player"
+title:  "JS Tutorial #1 - a basic JS music player"
 date:   2017-01-29 12:18:00
 tags: ['dev', 'tutorial', 'javascript']
 comments: true

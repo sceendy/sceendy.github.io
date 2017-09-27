@@ -2,6 +2,7 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
+@import url('https://rsms.me/inter/inter-ui.css');
 
 /* Base - Variables */
 $main-pink: #FF4081;
@@ -15,7 +16,7 @@ $superlight: #f1f1f1;
 $link-hover: darken($main-blue, 10%);
 
 // Our variables
-$font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font: 'Inter UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $base-font-size:   14px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
