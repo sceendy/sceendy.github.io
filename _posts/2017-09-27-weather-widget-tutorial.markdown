@@ -5,15 +5,12 @@ date:   2017-09-27 15:46:00
 tags: ['dev', 'tutorial', 'beginner js']
 comments: true
 ---
-<img src="/assets/blog-tweet.png" class="img--responsive" alt="tutorial tweet"/>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">The world needs more beginning-to-end blogs on creating things like this player with HTML5/JS by <a href="https://twitter.com/sceendy?ref_src=twsrc%5Etfw">@sceendy</a>! Awesome. <a href="https://t.co/S87ekdB17l">https://t.co/S87ekdB17l</a></p>&mdash; Ben Lesh 🛋️👑🔥 (@BenLesh) <a href="https://twitter.com/BenLesh/status/832066726422417408?ref_src=twsrc%5Etfw">February 16, 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<p>Earlier this year, a blog post of mine got some attention from a Google engineer, Ben Lesh, who is also a development lead for RxJS. It remains my most read blog post, actually. I'd like to think people starting out with JavaScript found it helpful. And you know, in the end, have something to show for it.</p>
+<p>Earlier this year, a <a href="/2017/01/29/a-basic-js-music-player.html">blog post</a> of mine got some attention from a Google engineer/RxJS development lead, Ben Lesh, which is pretty awesome. It remains my most read blog post, actually. I'd like to think people starting out with JavaScript found it useful since at the end they had something to show for it.</p>
 
-<hr/>
-<p><em>Check out <a href="/2017/01/29/a-basic-js-music-player.html">Part One</a> to get a basic understanding of the DOM, variables, arrays, objects, functions, and event listeners in JavaScript. </em></p>
-<hr/>
-
-<p>I considered writing a part 2 building on the music player tutorial to have it interact with an open music API but the API's I looked at all required oAuth which some might find intimidating. While this is an incredibly common part of using open API's, I want to keep these tutorials pretty simple to cover the basics. Instead, I decided to make another common widget that would allow for me to make use of a simpler, open API.</p>
+<p>While I considered writing a part 2 where I'd have the music player interact with an open music API, the API's I looked at all required oAuth which some might find intimidating initially. Yes, oAuth is an incredibly common part of using open API's - but I would prefer to keep these tutorials pretty simple to cover the basics. Instead, I decided to make another common widget that would allow for me to make use of a simpler, open API.</p>
 
 <h4>Overview</h4>
 
@@ -45,11 +42,11 @@ const FORECAST = document.getElementsByClassName('component__forecast-box')[0];
 ````
 
 <h4>Working with an application programming interface (API)</h4>
-<p>Interacting with API's is an important part of web development. An API is essentially a messenger that receives requests and sends responses from the server. A <a href="https://www.youtube.com/watch?v=s7wmiS2mSXY" target="_blank">common, helpful analogy</a> is to think of an API as a waiter at a restaurant - the waiter (API) takes your request/order that tells the kitchen (system) and then delivers the food (response/data) back to your client(i.e. the browser).</p>
+<p>Interacting with API's is an important part of web development. An API is essentially a messenger that receives requests and sends responses from the server. A <a href="https://www.youtube.com/watch?v=s7wmiS2mSXY" target="_blank">common, helpful analogy</a> is to think of an API as a waiter at a restaurant - the waiter (API) takes your request/order that tells the kitchen (system) and then delivers the food (response/data) back to you.</p>
 
-<p>For this project, you will need to get an API key to access the Open Weather API. You can easily get a unique API key by <a href="https://home.openweathermap.org/users/sign_up" target="_blank">signing up</a>. An API key is a unique token that works as a method of authorization so that you can access the data from the API.</p>
+<p>For this project, you will need to get an API key to access the Open Weather API. You can easily get your API key by <a href="https://home.openweathermap.org/users/sign_up" target="_blank">signing up</a>. An API key is a unique token that works as a method of authorization so that you can access the data from the API.</p>
 
-<p>Once you've done that, store the API endpoint (a URL for the service) for the <a href="http://openweathermap.org/forecast5" target="_blank">five day daily forecast</a> in a variable called <span class="code-inline">URL</span> and add your APP ID (your API key) to the API endpoint for the five day daily forecast for a city (I'm going to use Dallas). I've customized this endpoint to return 7 lines from the API call (<span class="code-inline">cnt=7</span>) and to use Fahrenheit (<span class="code-inline">units=imperial</span>). You can edit these parameters as you please by visiting the <a href="http://openweathermap.org/forecast5" target="_blank">API doc</a> to check the other options. Fill in the city and APP ID.</p>
+<p>Once you've done that, store the API endpoint (a URL) for the <a href="http://openweathermap.org/forecast5" target="_blank">five day daily forecast</a> in a variable called <span class="code-inline">URL</span> and add your APP ID (your API key) to the API endpoint for the five day daily forecast for a city (I'm going to use Dallas). I've customized this endpoint to return 7 lines from the API call (<span class="code-inline">cnt=7</span>) and to use Fahrenheit (<span class="code-inline">units=imperial</span>). You can edit these parameters as you please by visiting the <a href="http://openweathermap.org/forecast5" target="_blank">API doc</a> to check the other options. Fill in the city and APP ID.</p>
 
 ````javascript
 const URL = "https://api.openweathermap.org/data/2.5/forecast/daily?" +
@@ -68,9 +65,6 @@ const URL = "https://api.openweathermap.org/data/2.5/forecast/daily?" +
 <p>We can write a very simple fetch request - it'll take the path for the resource (the variable we named <span class="code-inline">URL</span>) as the first parameter. The second parameter allows you to control some settings such as declaring the method and headers. We will use the <span class="code-inline">GET</span> method and include a <span class="code-inline">Headers</span> object. (We don't need to append anything to the headers here but <a href="https://developer.mozilla.org/en-US/docs/Web/API/Headers" target="_blank">there are actions</a> you could take if you wanted to.)</p>
 
 <p>Once that call is made, it returns a promise containing the response object. Let's see how this works in practice. </p>
-
-<!-- explain second argument (method/headers)
-explain .then and return the json -->
 
 ```javascript
 function getWeatherData() {
