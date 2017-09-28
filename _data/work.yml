@@ -1,6 +1,6 @@
 - name: Kalkomey Outdoor Shop
   year: 2017
-  description: Kalkomey Outdoor Shop is a public-facing customizable e-commerce platform.
+  description: Kalkomey Outdoor Shop is a public-facing, customizable e-commerce web application.
   img: pa-game-news.png
   link: https://www.pennsylvaniagamenews.com/
   tags:
@@ -8,14 +8,24 @@
     - name: Angular/Typescript
     - name: Node/Express
 
-- name: Agency Management Solutions
+- name: AMS (Kalkomey product suite)
   year: 2016
-  description: A Kalkomey product suite of tools and services for clients to manage their users and products.
+  description: Tools and services for clients to manage their users and products.
   img: ams.png
   link: https://ams.kalkomey.com/
   tags:
     - name: HTML/SCSS
     - name: JS
+    - name: Ruby/Rails
+
+- name: Foundry (Kalkomey CMS)
+  year: 2016
+  description: An internal content management system for online outdoor recreational safety courses.
+  img: foundry.png
+  link: http://www.kalkomey.com/
+  tags:
+    - name: HTML/SCSS
+    - name: AngularJS
     - name: Ruby/Rails
 
 - name: Joinem
@@ -95,7 +105,7 @@
 
 - name: KHYI 95.3FM "The Range"
   year: 2013
-  description: Redesigned/rebuilt the radio station website by customizing a WordPress theme improving the layout/accessibility which increased traffic to their website.
+  description: Redesigned/rebuilt the radio station website by customizing a WordPress theme improving the site readability which increased their site traffic.
   img: khyi.png
   link: http://www.khyi.com/
   tags:
