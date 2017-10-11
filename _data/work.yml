@@ -123,11 +123,11 @@
     - name: PHP
 
 - name: TSATA
-  year: 2012
+  year: 2012, 2017
   description: Designed/built a custom WordPress theme to improve usability and user experience.
   img: tsata.png
   link: http://www.tsata.com
   tags:
-    - name: HTML/LESS
-    - name: AngularJS
+    - name: HTML/SCSS
+    - name: JavaScript
     - name: PHP (WordPress)
