@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The current state of my career"
+title:  "Why I am currently a free agent"
 date:   2017-09-20 13:08:00
 tags: ['personal']
 comments: true
