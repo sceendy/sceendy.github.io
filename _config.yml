@@ -1,12 +1,13 @@
 # Site settings
 title: Cindy Juarez
 email: sceendy@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Cindy Juarez (sceendy) is a user interface engineer based in Dallas, Texas.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://sceendy.com" # the base hostname & protocol for your site
+description: >
+  Cindy Juarez (sceendy) is a front-end engineer based in Austin, Texas.
+baseurl: ""
+url: "http://sceendy.com"
 twitter_username: sceendy
 github_username:  sceendy
+disqusid: 'sceendyblog'
 
 # Build settings
 markdown: kramdown

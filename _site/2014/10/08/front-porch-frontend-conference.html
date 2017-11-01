@@ -8,7 +8,6 @@
 
   <title>Front Porch Frontend Conference | Cindy Juarez </title>
   <meta name="description" content="After months of not going to any kind of developer gathering, I attended the FrontPorch, a frontend web developer conference at the Granada Theater. Among to...">
-  <meta name="flattr:id" content="ok9070">
   
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://sceendy.com/2014/10/08/front-porch-frontend-conference.html">
@@ -88,11 +87,25 @@
 <div class="img-cutoff"></div>
 <p class="center">Check it out, <a href="http://frontporch.io/" target="_blank">www.frontporch.io</a>.</p>
 
-      <h4 class="u--text-center heading-blue-border">Have a question or comment?<br/>Ask me anything: <a href="http://twitter.com/home?status=@sceendy">@sceendy</a></h4>
+      <div class="u--text-center heading-blue-border">
+        Learn something? Awesome!<br/> Feel free to fund my next cup of coffee:</br></br>
+        <a href="https://digitaltipjar.com/sceendy?_external=true" class="dtj-tip-button" data-username="sceendy">
+          Digital Tip Jar
+        </a>
+      </div>
     </section>
   </div>
   
-
+  <script>
+    var a = document.querySelectorAll('.dtj-tip-button')[0];
+      var i = document.createElement('IFRAME');
+      i.setAttribute('src', "https://digitaltipjar.com/sceendy/widgets/tip?_external=true");
+      i.setAttribute('frameborder','0');
+      i.style.height = 70 +'px';
+      i.style.width = 120 +'px';
+      a.parentNode.insertBefore(i,a);
+      a.parentNode.removeChild(a);
+  </script>
 </article>
 
     </div>

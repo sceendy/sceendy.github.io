@@ -8,7 +8,6 @@
 
   <title>Day in the Life of a Frontend Developer | Cindy Juarez </title>
   <meta name="description" content="Let me start out by saying that, yes, I did get this idea from the other frontend dev blogs that I browse. I saw a wave of talented front-end web developers ...">
-  <meta name="flattr:id" content="ok9070">
   
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://sceendy.com/2014/10/16/day-in-the-life-of-a-frontend-dev.html">
@@ -101,11 +100,25 @@
 <p>I get another cup of coffee around 3pm... for no other reason than to walk and I really <em><i class="fa fa-heart"></i></em> coffee. We have a dev meeting around 3pm on Wednesdays and those are usually a pretty quick
 status check on priorities that need to be done by Friday. Then, the other devs and I get back to work and prepare (commit <i class="fa fa-plus"></i> push) to do a release to the production site at 4pm. After the release, I start looking at Jira again to see what I can have ready for the next release. Spend a few minutes planning and then back to coding until 5pm. I like to leave at 5pm so that I can catch a not-so-full train at 5:07pm. I arrive to my house at around 6pm which gives me time to cook dinner at a reasonable hour for my boyfriend and I.</p>
 
-      <h4 class="u--text-center heading-blue-border">Have a question or comment?<br/>Ask me anything: <a href="http://twitter.com/home?status=@sceendy">@sceendy</a></h4>
+      <div class="u--text-center heading-blue-border">
+        Learn something? Awesome!<br/> Feel free to fund my next cup of coffee:</br></br>
+        <a href="https://digitaltipjar.com/sceendy?_external=true" class="dtj-tip-button" data-username="sceendy">
+          Digital Tip Jar
+        </a>
+      </div>
     </section>
   </div>
   
-
+  <script>
+    var a = document.querySelectorAll('.dtj-tip-button')[0];
+      var i = document.createElement('IFRAME');
+      i.setAttribute('src', "https://digitaltipjar.com/sceendy/widgets/tip?_external=true");
+      i.setAttribute('frameborder','0');
+      i.style.height = 70 +'px';
+      i.style.width = 120 +'px';
+      a.parentNode.insertBefore(i,a);
+      a.parentNode.removeChild(a);
+  </script>
 </article>
 
     </div>

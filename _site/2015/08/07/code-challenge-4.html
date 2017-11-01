@@ -8,7 +8,6 @@
 
   <title>Code Challenge #4 | Cindy Juarez </title>
   <meta name="description" content="For the past couple of weeks, I have been looking for a new remote frontend opportunity. Last week, I was sent a technical task as part of an interview proce...">
-  <meta name="flattr:id" content="ok9070">
   
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://sceendy.com/2015/08/07/code-challenge-4.html">
@@ -97,11 +96,25 @@ I quickly got some inspiration for my color palette by visiting Dribbble. I had 
 <p><br /><br />
 I set aside the same amount of time I do for the other code challenges as well (1-2 hours.)</p>
 
-      <h4 class="u--text-center heading-blue-border">Have a question or comment?<br/>Ask me anything: <a href="http://twitter.com/home?status=@sceendy">@sceendy</a></h4>
+      <div class="u--text-center heading-blue-border">
+        Learn something? Awesome!<br/> Feel free to fund my next cup of coffee:</br></br>
+        <a href="https://digitaltipjar.com/sceendy?_external=true" class="dtj-tip-button" data-username="sceendy">
+          Digital Tip Jar
+        </a>
+      </div>
     </section>
   </div>
   
-
+  <script>
+    var a = document.querySelectorAll('.dtj-tip-button')[0];
+      var i = document.createElement('IFRAME');
+      i.setAttribute('src', "https://digitaltipjar.com/sceendy/widgets/tip?_external=true");
+      i.setAttribute('frameborder','0');
+      i.style.height = 70 +'px';
+      i.style.width = 120 +'px';
+      a.parentNode.insertBefore(i,a);
+      a.parentNode.removeChild(a);
+  </script>
 </article>
 
     </div>

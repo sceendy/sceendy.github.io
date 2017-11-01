@@ -8,7 +8,6 @@
 
   <title>I'm a problem solver | Cindy Juarez </title>
   <meta name="description" content="Upon cleaning some of my external hard drive, I found a little gem: my first lines of JavaScript. Just a few lines to show the date a week from that date - n...">
-  <meta name="flattr:id" content="ok9070">
   
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://sceendy.com/2015/03/24/im-a-problem-solver.html">
@@ -106,11 +105,25 @@ While I reflect on how I got started with markup, I think the only reason I real
 <p><br />
 For me, web development is still all about solving problems. I’ve gotten past just writing markup and continue to expand my skill set to allow for solving those problems in a more efficient and clean way, though. And I’d like to think that leveling up as a developer all began with those first lines of JavaScript.</p>
 
-      <h4 class="u--text-center heading-blue-border">Have a question or comment?<br/>Ask me anything: <a href="http://twitter.com/home?status=@sceendy">@sceendy</a></h4>
+      <div class="u--text-center heading-blue-border">
+        Learn something? Awesome!<br/> Feel free to fund my next cup of coffee:</br></br>
+        <a href="https://digitaltipjar.com/sceendy?_external=true" class="dtj-tip-button" data-username="sceendy">
+          Digital Tip Jar
+        </a>
+      </div>
     </section>
   </div>
   
-
+  <script>
+    var a = document.querySelectorAll('.dtj-tip-button')[0];
+      var i = document.createElement('IFRAME');
+      i.setAttribute('src', "https://digitaltipjar.com/sceendy/widgets/tip?_external=true");
+      i.setAttribute('frameborder','0');
+      i.style.height = 70 +'px';
+      i.style.width = 120 +'px';
+      a.parentNode.insertBefore(i,a);
+      a.parentNode.removeChild(a);
+  </script>
 </article>
 
     </div>

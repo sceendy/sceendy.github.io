@@ -8,7 +8,6 @@
 
   <title>Code Challenge #7 | Cindy Juarez </title>
   <meta name="description" content="This weeks’ Code Challenge by DevWars is back to the basics. They provided a neat dribbble design and want us to code it out. Initially, the challenges were ...">
-  <meta name="flattr:id" content="ok9070">
   
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://sceendy.com/2015/08/20/code-challenge-7.html">
@@ -124,11 +123,25 @@ As far as the code went, I debated on the best way to handle the skewed side of 
 <br /><br />
 <b>The goal is to only spend 1-2 hours on these.</b></p>
 
-      <h4 class="u--text-center heading-blue-border">Have a question or comment?<br/>Ask me anything: <a href="http://twitter.com/home?status=@sceendy">@sceendy</a></h4>
+      <div class="u--text-center heading-blue-border">
+        Learn something? Awesome!<br/> Feel free to fund my next cup of coffee:</br></br>
+        <a href="https://digitaltipjar.com/sceendy?_external=true" class="dtj-tip-button" data-username="sceendy">
+          Digital Tip Jar
+        </a>
+      </div>
     </section>
   </div>
   
-
+  <script>
+    var a = document.querySelectorAll('.dtj-tip-button')[0];
+      var i = document.createElement('IFRAME');
+      i.setAttribute('src', "https://digitaltipjar.com/sceendy/widgets/tip?_external=true");
+      i.setAttribute('frameborder','0');
+      i.style.height = 70 +'px';
+      i.style.width = 120 +'px';
+      a.parentNode.insertBefore(i,a);
+      a.parentNode.removeChild(a);
+  </script>
 </article>
 
     </div>
