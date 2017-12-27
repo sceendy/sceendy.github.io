@@ -1,4 +1,4 @@
 # sceendy.github.io
-jekyll personal site.
+personal site built using gatsbyjs
 
-personal site - www.sceendy.com
+www.sceendy.com
