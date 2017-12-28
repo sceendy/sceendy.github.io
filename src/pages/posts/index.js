@@ -5,6 +5,7 @@ import Link from 'gatsby-link';
 require('prismjs/themes/prism-okaidia.css');
 
 export default ({ data }) => {
+  console.log(data);
   const post = data.markdownRemark;
   return (
     <article>
@@ -28,7 +29,7 @@ export default ({ data }) => {
       </section>
     </article>
   )
-}
+};
 
 export const query = graphql`
   query BlogPostQuery($slug: String!) {
