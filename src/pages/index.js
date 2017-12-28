@@ -105,7 +105,7 @@ const IndexPage = ({data}) => (
 
 export default IndexPage;
 
-export const query = graphql`
+export const indexQuery = graphql`
   query IndexQuery {
     allMarkdownRemark(sort: { order: DESC, fields: [fields___date] }) {
       totalCount

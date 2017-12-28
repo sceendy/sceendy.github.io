@@ -79,7 +79,7 @@ const BlogArchiveComponent = ({ data, location}) => {
 
 export default BlogArchiveComponent;
 
-export const query = graphql`
+export const blogQuery = graphql`
   query BlogArchiveQuery {
     allMarkdownRemark(sort: { order: DESC, fields: [fields___date] }) {
       totalCount

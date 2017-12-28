@@ -1,7 +1,7 @@
 {
   "name": "sceendy.com",
   "description": "Cindy Juarez personal site",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "author": "Cindy Juarez <sceendy@gmail.com>",
   "dependencies": {
     "gatsby": "^1.9.145",
@@ -20,7 +20,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "deploy": "gatsby build --prefix-paths && cp ./CNAME public/ && gh-pages -d public --branch master",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

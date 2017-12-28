@@ -55,10 +55,10 @@ figcaption p {
 }
 
 blockquote {
-  font-size:1.1rem;
-  font-style:italic;
-  padding:15px;
-  border-left:#64B5F6 4px solid;
+  border-left: #64B5F6 4px solid;
+  font-size: 1.1rem;
+  font-style: italic;
+  padding: 15px;
 }
 
 /* HIGHLIGHTS LAYOUT */
@@ -189,4 +189,9 @@ blockquote {
   display: block;
   max-width: 100%;
   margin: 0 auto;
+}
+
+.twitter-tweet-rendered {
+  margin-left: auto;
+  margin-right: auto;
 }
