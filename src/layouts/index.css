@@ -12,9 +12,11 @@
   --blue-color: #64B5F6;
 }
 
+* { box-sizing: border-box; }
+
 html, body {
   font-family: 'Inter UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 0.98em;
   margin: 0;
 }
 
@@ -61,6 +63,10 @@ blockquote {
   padding: 15px;
 }
 
+hr {
+  border: var(--pink-color) 1px solid;
+  margin-top: 25px;
+}
 /* HIGHLIGHTS LAYOUT */
 
 @media (max-width: 700px) {
@@ -173,6 +179,11 @@ blockquote {
   font-size: 0.9rem;
 }
 
+.twitter-tweet-rendered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* HIGHLIGHTS UTILITIES */
 
 .u--text-center { text-align: center; }
@@ -189,9 +200,4 @@ blockquote {
   display: block;
   max-width: 100%;
   margin: 0 auto;
-}
-
-.twitter-tweet-rendered {
-  margin-left: auto;
-  margin-right: auto;
 }
