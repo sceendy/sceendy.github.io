@@ -18,9 +18,3 @@ However, now, as I have found an incredibly enjoyable job where I can build some
 <blockquote>I find that I don't enjoy the side work anymore. </blockquote>
 
 My mind is fulfilled in my full-time work and a personal project. The money is not a motivating factor, either. I'm happy. It's not worth doing if it's not fun and I'm glad that's an even an option for me. So, as of today, I will no longer be accepting new work. In addition, any on-going side work will be terminated in May of this year (which my current clients already know about.) I can refer some awesome devs that I have met, though!
-
-<p u--text-center>Added bonus, a screenshot  of one of my last Myspace layouts that I got paid for:</p>
-
-<img src="/assets/topleft.JPG" alt="Myspace Layout for Local band" style="display: block; margin: 0 auto;"/>
-
-<p u--text-center>So... I'm glad I've gotten significantly better since 2007.</p>

@@ -7,7 +7,7 @@ import selfImage from '../assets/me-stretching.jpg';
 import smallSelfImage from '../assets/cindy.jpg';
 import amsImage from '../assets/ams.png';
 import foundryImage from '../assets/foundry.png';
-import shopImage from '../assets/pa-game-news.png';
+import shopImage from '../assets/licensing.png';
 import resume from '../assets/web-resume.pdf';
 
 const IndexPage = ({data}) => (
@@ -32,6 +32,17 @@ const IndexPage = ({data}) => (
     <div className='grid--three'>
       <figure>
         <img
+        src={shopImage}
+        className='figure__image'
+        alt="Screenshot of Neveda Depart of Wildlife Licensing website" />	
+        <figcaption>
+          Storefront Platform: <a href='https://ndowlicensing.com/' target='_blank' rel='noopener' title='NDOW Licensing Site'>NV</a>, <a href='https://pennsylvaniagamenews.com/' target='_blank' rel='noopener' title='Pennsylvania Magazine Subscription Site'>PA</a><br/>
+          <small>SCSS, Angular/TypeScript, Node.js</small>
+          <p>A customizable e-commerce platform for licensing products managed by state agencies.</p>
+        </figcaption>
+      </figure>
+      <figure>
+        <img
         src={amsImage}
         className='figure__image'
         alt="Screenshot of AMS" />	
@@ -39,17 +50,6 @@ const IndexPage = ({data}) => (
           <a href='https://ams.kalkomey.com/' target='_blank' rel='noopener' title='AMS marketing page; product requires login'>Agency Management Solutions</a><br/>
           <small>SCSS, JavaScript, Ruby on Rails</small>
           <p>A product suite that provides tools for Kalkomey clients to manage their content and users.</p>
-        </figcaption>
-      </figure>
-      <figure>
-        <img
-        src={shopImage}
-        className='figure__image'
-        alt="Screenshot of PA Game news" />	
-        <figcaption>
-          <a href='https://pennsylvaniagamenews.com/' target='_blank' rel='noopener' title='Kalkomey Storefront Site for the state of Pennsylvania'>Kalkomey Outdoor Shop</a><br/>
-          <small>SCSS, Angular/TypeScript, Node.js</small>
-          <p>A customizable storefront for users to purchase products and manage their account.</p>
         </figcaption>
       </figure>
       <figure>

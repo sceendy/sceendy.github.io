@@ -26,6 +26,18 @@ module.exports = {
         ],
       }
     },
-    `gatsby-plugin-react-helmet`
+    `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: "Cindy Juarez",
+        short_name: "cindyJuarez",
+        start_url: "/",
+        background_color: "#fff",
+        theme_color: "#FF4081",
+        display: "minimal-ui"
+      },
+    },
+    `gatsby-plugin-offline`
   ]
 }

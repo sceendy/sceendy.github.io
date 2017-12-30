@@ -1,6 +1,8 @@
 import React from 'react';
 import Link from 'gatsby-link';
 
+import joinemImg from '../assets/joinem.jpg';
+
 // TODO: make a custom theme based off site styles
 require('prismjs/themes/prism-okaidia.css');
 

@@ -67,6 +67,10 @@ hr {
   border: var(--pink-color) 1px solid;
   margin-top: 25px;
 }
+
+img[on-error] {
+  display: none;
+}
 /* HIGHLIGHTS LAYOUT */
 
 @media (max-width: 700px) {
@@ -161,11 +165,10 @@ hr {
 
 .breadcrumbs li { display: inline-block; }
 
-.breadcrumbs li:not(:last-child) { margin-right: 10px; }
-
-.breadcrumbs li:not(:last-child)::after {
+.breadcrumbs li ~ li::before {
   content: '//';
   margin-left: 10px;
+  margin-right: 10px;
 }
 
 .code-inline {
