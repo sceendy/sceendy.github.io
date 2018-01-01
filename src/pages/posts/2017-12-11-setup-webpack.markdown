@@ -234,5 +234,9 @@ $ yarn build
 
 View the prod build by opening the **dist/index.html** file or you can setup your server. I've thrown a simple one into the **simple-starer** repo if you want to try that too, though.
 
+````
+$ yarn serve
+````
+
 <hr />
 I did write this up to get you started with setting up Webpack but there are a few things I didn't cover! Or perhaps didn't go that in-depth into. Luckily, Webpack has some great documentation! Learn more about the Webpack core concepts and configurations by checking out the <a href="https://webpack.js.org/concepts/" rel="noopener">Webpack docs</a> or taking the excellent <a href="https://webpack.academy/p/web-fundamentals" rel="noopener">Web Fundamentals course</a> provided by Sean Larkin.

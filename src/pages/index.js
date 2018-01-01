@@ -19,11 +19,11 @@ const IndexPage = ({data}) => (
       <div>
         <header className='u--media-center u--text-center'>
           <h1>Hi, I’m Cindy!</h1>
-          <h2>I'm a front-end engineer in Texas.</h2>
+          <h2>I'm a front-end engineer.</h2>
         </header>
-        <p>I enjoy building empowering, functional, efficient and thoughtfully designed web applications.</p>
-        <p>There are some great engineers that I have worked with over the past few years that have some <a href='https://www.linkedin.com/in/sceendy#recommendations' target='_blank' rel='noopener'>good things to say about me</a>.</p>
-        <p>I live in Austin. I love running, coffee, and traveling.</p>
+        <p>I love building empowering, functional, efficient and thoughtfully designed web applications.</p>
+        <p>I have worked with great engineers over the past few years that have some <a href='https://www.linkedin.com/in/sceendy#recommendations' target='_blank' rel='noopener'>good things to say about me</a>.</p>
+        <p>I live in Austin, TX where I enjoy running, drinking coffee, eating waffles, and traveling.</p>
         <a href={resume} className='btn u--float-right' target='_blank' title='Resume pdf'>View Resume (.pdf)</a>
       </div>
     </div>
@@ -32,24 +32,24 @@ const IndexPage = ({data}) => (
     <div className='grid--three'>
       <figure>
         <img
-        src={shopImage}
-        className='figure__image'
-        alt="Screenshot of Neveda Depart of Wildlife Licensing website" />	
-        <figcaption>
-          Storefront Platform: <a href='https://ndowlicensing.com/' target='_blank' rel='noopener' title='NDOW Licensing Site'>NV</a>, <a href='https://pennsylvaniagamenews.com/' target='_blank' rel='noopener' title='Pennsylvania Magazine Subscription Site'>PA</a><br/>
-          <small>SCSS, Angular/TypeScript, Node.js</small>
-          <p>A customizable e-commerce platform for licensing products managed by state agencies.</p>
-        </figcaption>
-      </figure>
-      <figure>
-        <img
         src={amsImage}
         className='figure__image'
         alt="Screenshot of AMS" />	
         <figcaption>
           <a href='https://ams.kalkomey.com/' target='_blank' rel='noopener' title='AMS marketing page; product requires login'>Agency Management Solutions</a><br/>
-          <small>SCSS, JavaScript, Ruby on Rails</small>
+          <small>JavaScript (ES2015+), Ruby on Rails</small>
           <p>A product suite that provides tools for Kalkomey clients to manage their content and users.</p>
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+        src={shopImage}
+        className='figure__image'
+        alt="Screenshot of Neveda Depart of Wildlife Licensing website" />	
+        <figcaption>
+          Storefront Platform: <a href='https://ndowlicensing.com/' target='_blank' rel='noopener' title='NDOW Licensing Site'>NV</a>, <a href='https://pennsylvaniagamenews.com/' target='_blank' rel='noopener' title='Pennsylvania Magazine Subscription Site'>PA</a><br/>
+          <small>Angular/TypeScript, Node/Express</small>
+          <p>A customizable e-commerce platform for licensing products managed by state agencies.</p>
         </figcaption>
       </figure>
       <figure>
@@ -59,7 +59,7 @@ const IndexPage = ({data}) => (
         alt="Screenshot of Foundry" />	
         <figcaption>
         <a href='https://kalkomey.com/' target='_blank' rel='noopener' title='Kalkomey marketing website; Foundry requires a login'>Foundry CMS</a><br/>
-          <small>SCSS, AngularJS, Ruby on Rails</small>
+          <small>Bootstrap, AngularJS, Ruby on Rails</small>
           <p>An internal content/learning management system for online safety education courses.</p>
         </figcaption>
       </figure>
@@ -80,19 +80,19 @@ const IndexPage = ({data}) => (
         className='u--media-center' />
         <ul className='list--no-style u--text-center'>
           <li>
-            <a href="http://jsfiddle.net/user/sceendy/fiddles/" target='_blank' rel='noopener'>JSFiddle</a> 
+            <a href="https://jsfiddle.net/user/sceendy/fiddles/" target='_blank' rel='noopener'>JSFiddle</a> 
           </li>
           <li>
             <a href="https://github.com/sceendy" target='_blank' rel='noopener'>Github</a>
           </li>
           <li>
-            <a href="http://codepen.io/sceendy/" target='_blank' rel='noopener'>CodePen</a>
+            <a href="https://codepen.io/sceendy/" target='_blank' rel='noopener'>CodePen</a>
           </li>
           <li>
             <a href="https://bumpers.fm/u/cindy" target='_blank' rel='noopener'>Bumpers</a>
           </li>
           <li>
-            <a href="http://dribbble.com/sceendy" target='_blank' rel='noopener'>Dribbble</a> 
+            <a href="https://dribbble.com/sceendy" target='_blank' rel='noopener'>Dribbble</a> 
           </li>
           <li>
             <a href="https://www.linkedin.com/in/sceendy" target='_blank' rel='noopener'>LinkedIn</a>

@@ -40,5 +40,3 @@ Once they set me up with my equipment, the other engineers helped me get a bunch
 </ul>
 
 <p>I am incredibly fortunate to have met such amazing engineers and to have learned so much from them. I've always credited our team <strike>manager</strike> lead with making such a great team and fostering such an incredible working environment-- I mean, how many teams do you know are all still friends and hangout even after over a year of not working together? That's the thing about my former team -- we had an awesome lead engineer.</p>
-
-![](joinem.jpg)

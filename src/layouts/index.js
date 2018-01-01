@@ -35,7 +35,7 @@ const TemplateWrapper = ({ children }) => (
       {children()}
     </div>
     <footer className='u--text-center u--padding-20'>
-      &copy;2017 sceendy.com
+      &copy; 2017 sceendy.com
     </footer>
   </div>
 );
