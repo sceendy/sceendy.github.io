@@ -1,5 +1,5 @@
 ---
-title: "JS tutorial #3 - setup webpack!"
+title: "JS tutorial #3 - setup webpack"
 date: 2017-12-11 10:46:00
 tags: ['dev', 'tutorial', 'javascript']
 comments: true
@@ -239,4 +239,5 @@ $ yarn serve
 ````
 
 <hr />
+
 I did write this up to get you started with setting up Webpack but there are a few things I didn't cover! Or perhaps didn't go that in-depth into. Luckily, Webpack has some great documentation! Learn more about the Webpack core concepts and configurations by checking out the <a href="https://webpack.js.org/concepts/" rel="noopener">Webpack docs</a> or taking the excellent <a href="https://webpack.academy/p/web-fundamentals" rel="noopener">Web Fundamentals course</a> provided by Sean Larkin.

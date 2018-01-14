@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Cindy Juarez`,
+    title: `Cindy | Front-end Engineer`,
   },
   plugins: [
     {
@@ -30,12 +30,25 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: "Cindy Juarez",
-        short_name: "cindyJuarez",
+        name: "Sceendy",
+        short_name: "sceendy",
         start_url: "/",
         background_color: "#fff",
         theme_color: "#FF4081",
-        display: "minimal-ui"
+        display: "standalone",
+        "icons": [{
+          "src": "assets/touch/icon128.png",
+          "sizes": "128x128",
+          "type": "image/png"
+        }, {
+          "src": "assets/touch/icon256.png",
+          "sizes": "256x256",
+          "type": "image/png"
+        }, {
+          "src": "assets/touch/icon512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }],
       },
     },
     `gatsby-plugin-offline`

@@ -10,7 +10,7 @@ import './index.css';
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Cindy Juarez"
+      title="Cindy | Front-end Developer"
       meta={[
         { 
           name: 'description', 
@@ -22,20 +22,23 @@ const TemplateWrapper = ({ children }) => (
         },
       ]}
     >
+    <html lang="en" />
     <link rel="icon" type="image/png" href={favicon} />
+
     </Helmet>
     
     <div
       style={{
         margin: '0 auto',
         maxWidth: '50.8rem',
-        padding: '2.45rem 1.0875rem 1.45rem'
+        padding: '2.45rem 1.0875rem .05rem'
       }}
     >
       {children()}
     </div>
-    <footer className='u--text-center u--padding-20'>
-      &copy; 2017 sceendy.com
+    <footer className='u--text-center'>
+      <p>built using <a href='https://www.gatsbyjs.org/' rel='noopener' target='_blank'>gatsbyjs</a><br/>
+      &copy; 2017</p>
     </footer>
   </div>
 );

@@ -61,3 +61,7 @@ Other than that, I went to Dallas to get LASIK. I've taken 3 trips with my husba
 <img src="https://instagram.fmkc1-1.fna.fbcdn.net/t51.2885-15/e35/21819778_470772306656410_5736211372526534656_n.jpg" alt="Mexico street" width="31%" />
 
 Overall, it was the best decision for my career and mental health. My advice to anyone in a similar type of environment or situation is to be attentive to the changes your company goes through and how they impact company values. At a small or mid-sized company, you can typically pick up on what they deem important pretty early on. Have conversations with devs and designers to be able to collaboratively create a productive environment. You should always try to improve your situation but also be mindful of what the company deems most important. Does it align with what you value? Does it benefit you or your career to do the work you are doing - in the manner in which you're doing it?
+
+<hr/>
+
+**If you work at a cool company that values the front-end, hit me up on <a href="https://www.linkedin.com/in/sceendy/" alt="Cindy Haden LinkedIn" rel="noopener" target="_blank">LinkedIn</a> or <a href="http://twitter.com/home?status=@sceendy ay, I know of a cool place to work" alt="tweet link" rel="noopener" target="_blank">@sceendy</a>**

@@ -1,11 +1,12 @@
 import React from 'react';
 import Link from 'gatsby-link';
 
-const BlogArchiveComponent = ({ data, location}) => {
+const BlogArchiveComponent = ({data, location}) => {
   const onBlogPage = location;
   const blogData = data.allMarkdownRemark.edges;
 
   // TODO: Refactor this
+  const twentyEighteen = blogData.filter(({node}) => node.fields.year === '2018');
   const twentySeventeen = blogData.filter(({node}) => node.fields.year === '2017');
   const twentySixteen = blogData.filter(({node}) => node.fields.year === '2016');
   const twentyFifteen = blogData.filter(({node}) => node.fields.year === '2015');
