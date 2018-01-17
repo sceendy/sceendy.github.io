@@ -24,6 +24,17 @@ const BlogArchiveComponent = ({data, location}) => {
         </div>
       }
       { !onBlogPage && <h3>blog posts</h3> }
+      <strong>2018</strong>
+      <ul className='list--side-pink list--no-style'>
+        { twentyEighteen.map(({ node }, i) => (
+          <li key={i}>
+            <Link to={node.fields.slug}>
+              <div>{node.frontmatter.title}</div>
+              <div>{node.fields.date}</div>
+            </Link>
+          </li>
+        ))}
+      </ul>
       <strong>2017</strong>
       <ul className='list--side-pink list--no-style'>
         { twentySeventeen.map(({ node }, i) => (

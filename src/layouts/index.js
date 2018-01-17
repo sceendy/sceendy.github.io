@@ -38,7 +38,7 @@ const TemplateWrapper = ({ children }) => (
     </div>
     <footer className='u--text-center'>
       <p>built using <a href='https://www.gatsbyjs.org/' rel='noopener' target='_blank'>gatsbyjs</a><br/>
-      &copy; 2017</p>
+      &copy; 2018</p>
     </footer>
   </div>
 );
