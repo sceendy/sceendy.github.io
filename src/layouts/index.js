@@ -18,7 +18,7 @@ const TemplateWrapper = ({ children }) => (
         },
         { 
           name: 'keywords', 
-          content: 'front-end, web development, javascript, angular, front-end engineer, front-end dev' 
+          content: 'front-end, web development, javascript, angular, react, front-end engineer, front-end dev' 
         },
       ]}
     >

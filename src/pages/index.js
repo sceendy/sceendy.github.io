@@ -33,7 +33,7 @@ const IndexPage = ({data}) => (
         </header>
         <p>I love building empowering, functional, efficient and thoughtfully designed web applications.</p>
         <p>I have worked with great engineers over the past few years that have some <a href='https://www.linkedin.com/in/sceendy#recommendations' target='_blank' rel='noopener'>good things to say about me</a>.</p>
-        <p>I live in Austin, TX and I enjoy running, drinking coffee, eating waffles, and traveling.</p>
+        <p>I live in Austin where I enjoy running and coffee.</p>
         <a href={resume} className='btn u--float-right' target='_blank' title='Resume pdf'>View Resume (.pdf)</a>
       </div>
     </div>

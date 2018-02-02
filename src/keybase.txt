@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/sceendy
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://sceendy.com
+  * I am sceendy (https://keybase.io/sceendy) on keybase.
+  * I have a public key ASDmuZ2Y0xL7xXVl5SpYIGQgIrh-DueQGjegKFFwuTAnLAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120e6b99d98d312fbc57565e52a5820642022b87e0ee7901a37a0285170b930272c0a",
+      "host": "keybase.io",
+      "kid": "0120e6b99d98d312fbc57565e52a5820642022b87e0ee7901a37a0285170b930272c0a",
+      "uid": "28b6d8921247712b6726ccaaed95cd19",
+      "username": "sceendy"
+    },
+    "merkle_root": {
+      "ctime": 1517362313,
+      "hash": "5fa554580fea972bdaf6177a532e9a37972a4c8dddf7ec55764c778ccb1c9324a487e0677e2d5bb17b16dc2e72af8afdb2cc337c2bc758441152773bec5e91d3",
+      "hash_meta": "bbd893fcac684a1c81cd52e36a6cf0b554132bb1862f14d180a743cacfd52576",
+      "seqno": 2008342
+    },
+    "service": {
+      "hostname": "sceendy.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.39"
+  },
+  "ctime": 1517362321,
+  "expire_in": 504576000,
+  "prev": "7b8f63e0d08ce7a519ed36201b487a592b6c594aa4e8fd8c4160f57b10aa7b3d",
+  "seqno": 20,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg5rmdmNMS+8V1ZeUqWCBkICK4fg7nkBo3oChRcLkwJywKp3BheWxvYWTFA0N7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwZTZiOTlkOThkMzEyZmJjNTc1NjVlNTJhNTgyMDY0MjAyMmI4N2UwZWU3OTAxYTM3YTAyODUxNzBiOTMwMjcyYzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZTZiOTlkOThkMzEyZmJjNTc1NjVlNTJhNTgyMDY0MjAyMmI4N2UwZWU3OTAxYTM3YTAyODUxNzBiOTMwMjcyYzBhIiwidWlkIjoiMjhiNmQ4OTIxMjQ3NzEyYjY3MjZjY2FhZWQ5NWNkMTkiLCJ1c2VybmFtZSI6InNjZWVuZHkifSwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE1MTczNjIzMTMsImhhc2giOiI1ZmE1NTQ1ODBmZWE5NzJiZGFmNjE3N2E1MzJlOWEzNzk3MmE0YzhkZGRmN2VjNTU3NjRjNzc4Y2NiMWM5MzI0YTQ4N2UwNjc3ZTJkNWJiMTdiMTZkYzJlNzJhZjhhZmRiMmNjMzM3YzJiYzc1ODQ0MTE1Mjc3M2JlYzVlOTFkMyIsImhhc2hfbWV0YSI6ImJiZDg5M2ZjYWM2ODRhMWM4MWNkNTJlMzZhNmNmMGI1NTQxMzJiYjE4NjJmMTRkMTgwYTc0M2NhY2ZkNTI1NzYiLCJzZXFubyI6MjAwODM0Mn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJzY2VlbmR5LmNvbSIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjM5In0sImN0aW1lIjoxNTE3MzYyMzIxLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwicHJldiI6IjdiOGY2M2UwZDA4Y2U3YTUxOWVkMzYyMDFiNDg3YTU5MmI2YzU5NGFhNGU4ZmQ4YzQxNjBmNTdiMTBhYTdiM2QiLCJzZXFubyI6MjAsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAmrCwNBasZku3JNjsBNgz6BHKa2xIprUUcSEqWbquAckwsPozlawTspEFyi4vfS1JUU3j5RYi0VopliWUHrPeCKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEINr6JLgHekW7FOaObMh2PIJY4p2qw4P765/ZgNbQs4jDo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/sceendy
+
+==================================================================

@@ -5,7 +5,7 @@ const BlogArchiveComponent = ({data, location}) => {
   const onBlogPage = location;
   const blogData = data.allMarkdownRemark.edges;
 
-  // TODO: Refactor this
+  // TODO: Refactor this MAP OVER THEM
   const twentyEighteen = blogData.filter(({node}) => node.fields.year === '2018');
   const twentySeventeen = blogData.filter(({node}) => node.fields.year === '2017');
   const twentySixteen = blogData.filter(({node}) => node.fields.year === '2016');
@@ -46,21 +46,21 @@ const BlogArchiveComponent = ({data, location}) => {
           </li>
         ))}
       </ul>
-      <strong>2016</strong>
-      <ul className='list--side-pink list--no-style'>
-        { twentySixteen.map(({ node }, i) => (
-          <li key={i}>
-            <Link to={node.fields.slug}>
-              <div>{node.frontmatter.title}</div>
-              <div>{node.fields.date}</div>
-            </Link>
-          </li>
-        ))}
-      </ul>
 
       { /* show more content below */ }
       { onBlogPage &&
         <div>
+          <strong>2016</strong>
+          <ul className='list--side-pink list--no-style'>
+            { twentySixteen.map(({ node }, i) => (
+              <li key={i}>
+                <Link to={node.fields.slug}>
+                  <div>{node.frontmatter.title}</div>
+                  <div>{node.fields.date}</div>
+                </Link>
+              </li>
+            ))}
+          </ul>
           <strong>2015</strong>
           <ul className='list--side-pink list--no-style'>
             { twentyFifteen.map(({ node }, i) => (

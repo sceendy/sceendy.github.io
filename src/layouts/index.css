@@ -56,10 +56,11 @@ figcaption p {
 }
 
 blockquote {
-  border-left: #64B5F6 4px solid;
+  border-left: var(--blue-color) 4px solid;
   font-size: 1.1rem;
   font-style: italic;
   padding: 15px;
+  line-height: 1.5rem;
 }
 
 hr {
