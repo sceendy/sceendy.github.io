@@ -48,12 +48,8 @@ a {
 }
 
 a:hover { color: #888; }
-
 figure { margin: 0; }
-
-figcaption p {
-  color: #333;
-}
+figcaption p { color: #333; }
 
 blockquote {
   border-left: var(--blue-color) 4px solid;
@@ -68,9 +64,8 @@ hr {
   margin-top: 25px;
 }
 
-img[on-error] {
-  display: none;
-}
+img[on-error] { display: none; }
+
 /* HIGHLIGHTS LAYOUT */
 
 @media (max-width: 700px) {
@@ -114,7 +109,7 @@ img[on-error] {
   background-color: var(--blue-color);
   color: #fff;
   font-style: normal;
-  padding: 8px 15px;
+  padding: 8px 18px;
   text-decoration: none;
 }
 

@@ -5,7 +5,7 @@ date:   2018-02-02 17:10:00
 tags: ['dev', 'opinion', 'styleguides', 'process']
 ---
 
-Often times I have jumped into teams as the sole front-end resource. And as is pretty common - inevitable even - new designers and full-stack/back-end developers will need to make adjustments to the front-end code. That's cool. I'll also see that they created a one-off class like .click { cursor: pointer; } which not only contributes to code bloat but also doesn't fit in with the content. And I begin to wonder where I went wrong in life.
+Often times I have jumped into teams as the sole front-end resource. And as is pretty common - inevitable even - new designers and full-stack/back-end developers will need to make adjustments to the front-end code. That's cool. I'll also see that they created a one-off class like <span class="code-inline">.click { cursor: pointer; }</span> which not only contributes to code bloat but also doesn't fit in with the content. And I begin to wonder where I went wrong in life.
 
 Just kidding.
 
@@ -19,12 +19,15 @@ A design system is a combination of reusable components and a set of standards f
 
 #### Step Zero: Pitch and get everyone on board
 
-I like presenting the use of a design system by stating that it makes it both easier and quicker to add new features to applications. It provides predictability, consistency, and makes for more rapid development. You want the people contributing to the design and/or codebase (designers + devs) to be the ones included in the process of both creating and maintaining the living styleguide.
+I like presenting the use of a <a href="http://bradfrost.com/blog/post/style-guide-driven-design-systems/" rel="noopener" target="_blank">design system</a> by stating that it makes it both easier and quicker to add new features to applications. It provides predictability, consistency, and makes for more rapid development. You want the people contributing to the design and/or codebase (designers + devs) to be the ones included in the process of both creating and maintaining the living styleguide.
 
 #### Step One: Design Patterns
 
 If you're wanting to add one to an existing project, designers can take an inventory on their reusable design patterns. Designs patterns are the UI elements that you reuse such as buttons, cards, and layouts. You might have different colored buttons for different actions or sections.
-These design patterns could have gotten started in Sketch but they need to be living, usable UI components. That being said, you need people that can write clean, modular, reusable front-end code to build the styleguide. These components need to be things that any contributor can use to build a new thing. 
+
+<blockquote>Design once. Reuse anywhere. Update easily.<br/> - <a href="https://www.sketchapp.com/" rel="noopener" target="_blank">Sketch website</a></blockquote>
+
+These design patterns could have gotten started in <a href="https://www.sketchapp.com/" rel="noopener" target="_blank">Sketch</a> but they need to be living, usable UI components. That being said, you need people that can write clean, modular, reusable front-end code to build the styleguide. These components need to be things that any contributor can use to build a new thing. 
 
 #### Step Two: The living styleguide
 
@@ -46,7 +49,8 @@ name: button
 category: modules
 ---
 
-Action buttons are used for form submissions or something....
+[DESCRIPTION GOES HERE] Action buttons are used for form submissions or something....
+
 ```html_example
   <button type="submit" class="btn btn--action">Send Message</button>
 ```

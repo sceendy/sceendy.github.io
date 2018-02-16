@@ -28,12 +28,10 @@ const IndexPage = ({data}) => (
       </div>
       <div>
         <header className='u--media-center u--text-center'>
-          <h1>Hi, I’m Cindy!</h1>
-          <h2>I'm a front-end developer.</h2>
+          <h1>Hi, I’m Cindy! 👋 </h1>
         </header>
-        <p>I love building empowering, functional, efficient and thoughtfully designed web applications.</p>
-        <p>I have worked with great engineers over the past few years that have some <a href='https://www.linkedin.com/in/sceendy#recommendations' target='_blank' rel='noopener'>good things to say about me</a>.</p>
-        <p>I live in Austin where I enjoy running and coffee.</p>
+        <p>I'm a <strong>front-end engineer at Aetna</strong> and I work remotely <strong>from Austin, TX</strong>. I enjoy running, hiking, playing video games, and drinking coffee.</p>
+        <p>I <strong>build</strong> functional, efficient, and thoughtfully designed <strong>web applications</strong>. And sometimes I write step-by-step JS tutorials and tips on working <strong>remotely</strong>.</p>
         <a href={resume} className='btn u--float-right' target='_blank' title='Resume pdf'>View Resume (.pdf)</a>
       </div>
     </div>
@@ -54,7 +52,7 @@ const IndexPage = ({data}) => (
         </LazyLoad>
         <figcaption>
           <a href='https://ams.kalkomey.com/' target='_blank' rel='noopener' title='AMS marketing page; product requires login'>Agency Management Solutions</a><br/>
-          <small>JavaScript (ES2015+), Ruby on Rails</small>
+          <small>JavaScript, Material, Ruby on Rails</small>
           <p>A product suite that provides tools for Kalkomey clients to manage their content and users.</p>
         </figcaption>
       </figure>
@@ -71,7 +69,7 @@ const IndexPage = ({data}) => (
           </picture>
         </LazyLoad>
         <figcaption>
-          Storefront Platform: <a href='https://ndowlicensing.com/' target='_blank' rel='noopener' title='NDOW Licensing Site'>NV</a>, <a href='https://pennsylvaniagamenews.com/' target='_blank' rel='noopener' title='Pennsylvania Magazine Subscription Site'>PA</a><br/>
+          Storefront Platform: <a href='http://ndowlicensing.com/' target='_blank' rel='noopener' title='NDOW Licensing Site'>NV</a>, <a href='https://pennsylvaniagamenews.com/' target='_blank' rel='noopener' title='Pennsylvania Magazine Subscription Site'>PA</a><br/>
           <small>Angular/TypeScript, Node/Express</small>
           <p>A customizable e-commerce platform for licensing products managed by state agencies.</p>
         </figcaption>
@@ -90,7 +88,7 @@ const IndexPage = ({data}) => (
         </LazyLoad>
         <figcaption>
         <a href='https://kalkomey.com/' target='_blank' rel='noopener' title='Kalkomey marketing website; Foundry requires a login'>Foundry CMS</a><br/>
-          <small>Bootstrap, AngularJS, Ruby on Rails</small>
+          <small>AngularJS, Bootstrap, Ruby on Rails</small>
           <p>An internal content/learning management system for online safety education courses.</p>
         </figcaption>
       </figure>
@@ -104,7 +102,7 @@ const IndexPage = ({data}) => (
         </div>
       </div>
       <div>
-        <h3>find me on</h3>
+        <h3>find me online</h3>
         <LazyLoad height={162}>
           <img 
           src={smallSelfImage} 
