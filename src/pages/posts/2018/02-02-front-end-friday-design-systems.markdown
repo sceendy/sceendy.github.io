@@ -2,7 +2,7 @@
 layout: post
 title:  "frontend friday: design systems"
 date:   2018-02-02 17:10:00
-tags: ['dev', 'opinion', 'styleguides', 'process']
+tags: ['dev', 'opinion', 'styleguides', 'process', 'front-end friday']
 ---
 
 Often times I have jumped into teams as the sole front-end resource. And as is pretty common - inevitable even - new designers and full-stack/back-end developers will need to make adjustments to the front-end code. That's cool. I'll also see that they created a one-off class like <span class="code-inline">.click { cursor: pointer; }</span> which not only contributes to code bloat but also doesn't fit in with the content. And I begin to wonder where I went wrong in life.
