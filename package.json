@@ -5,6 +5,7 @@
   "author": "Cindy Juarez <sceendy@gmail.com>",
   "dependencies": {
     "gatsby": "^1.9.145",
+    "gatsby-cli": "^1.1.46",
     "gatsby-link": "^1.6.32",
     "gatsby-plugin-google-analytics": "^1.0.14",
     "gatsby-plugin-offline": "^1.0.12",

@@ -32,7 +32,12 @@ const IndexPage = ({data}) => (
         </header>
         <p>I'm a <strong>front-end engineer</strong> at a healthcare company and I work remotely <strong>from Austin, TX</strong>. I enjoy running, hiking, playing video games, and drinking coffee.</p>
         <p>I <strong>build</strong> functional, efficient, and thoughtfully designed <strong>web applications</strong>. And sometimes I write step-by-step JS tutorials and tips on working <strong>remotely</strong>.</p>
-        <a href={resume} className='btn u--float-right' target='_blank' title='Resume pdf'>View Resume (.pdf)</a>
+        <a
+          href={resume} 
+          className='btn' 
+          target='_blank' 
+          title='Resume pdf'
+        >View Resume (.pdf)</a>
       </div>
     </div>
 
@@ -103,9 +108,10 @@ const IndexPage = ({data}) => (
       </div>
       <div>
         <h3>find me online</h3>
-        <LazyLoad height={162}>
+        <LazyLoad height={144}>
           <img 
-          src={smallSelfImage} 
+          src={smallSelfImage}
+          height='144'
           alt='me w/sunglasses' 
           className='u--media-center' />
         </LazyLoad>
