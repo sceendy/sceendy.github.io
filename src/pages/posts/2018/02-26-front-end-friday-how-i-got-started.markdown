@@ -1,11 +1,13 @@
 ---
 layout: post
-title:  "frontend friday: how I got started in web development"
+title:  "front-end friday: how I got started in web development"
 date:   2018-02-26 23:18:00
 tags: ['dev', 'personal', 'front-end friday']
 ---
 
-When I was 12 years old (7th grade), I discovered <a href="http://www.tripod.lycos.com/" rel="noopener" target="_blank">Tripod</a>/<a href="https://mashable.com/2009/04/23/geocities-shutdown/" rel="noopener" target="_blank">Geocities</a>(think Squarespace) and started making websites for my hobbies like playing bass, skateboarding, and fan sites for bands like Blink-182. I was using prebuilt themes that they had and mostly using html tags for formatting like <span class="code-inline">&lt;b&gt;</span>, <span class="code-inline">&lt;i&gt;</span>, and <span class="code-inline">&lt;marquee&gt;</span> because of course that was cool. 
+When I was 12 years old (7th grade), I discovered <a href="http://www.tripod.lycos.com/" rel="noopener" target="_blank">Tripod</a>/<a href="https://mashable.com/2009/04/23/geocities-shutdown/" rel="noopener" target="_blank">Geocities</a> (think Squarespace) and started making websites for my hobbies like playing bass, skateboarding, and fan sites for bands like Blink-182. I was using prebuilt themes that they had and mostly using html tags for formatting like <span class="code-inline">&lt;b&gt;</span>, <span class="code-inline">&lt;i&gt;</span>, and <span class="code-inline">&lt;marquee&gt;</span> because of course that was cool. 
+
+<marquee direction="left" behavior="slide">it's still cool, right?</marquee>
 
 It was fun to be able to present my content digitally and I did not think much of it aside from just being able to organize stuff I liked.
 

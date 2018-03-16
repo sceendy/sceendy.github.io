@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "frontend friday: design systems"
+title:  "front-end friday: design systems"
 date:   2018-02-02 17:10:00
 tags: ['dev', 'opinion', 'styleguides', 'process', 'front-end friday']
 ---

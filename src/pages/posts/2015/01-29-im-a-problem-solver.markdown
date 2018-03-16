@@ -6,9 +6,7 @@ tags: ['javascript', 'personal']
 ---
 
 
-Upon cleaning some of my external hard drive, I found a little gem: my first lines of JavaScript. Just a few lines to show the date a week from that date - nothing groundbreaking. However, I recall being satisfied with it.<br />
-&nbsp;
-
+Upon cleaning some of my external hard drive, I found a little gem: my first lines of JavaScript. Just a few lines to show the date a week from that date - nothing groundbreaking. However, I recall being satisfied with it.
 <iframe allowfullscreen="allowfullscreen" frameborder="0" height="120" src="//jsfiddle.net/sceendy/09nnud48/embedded/" width="100%"></iframe>
 
 
@@ -17,7 +15,7 @@ Upon cleaning some of my external hard drive, I found a little gem: my first lin
 <ul>
 <li>I had estimatedTime create a new date object.</li>
 <li>estimatedTime then transform into 7 days from the date. </li>
-<li>&lt;div id="futureDate"&gt;&lt;/div&gt; would then display the output which is the text in the string.</li>
+<li><span class="code-inline">&lt;div id="futureDate"&gt;&lt;/div&gt;</span> would then display the output which is the text in the string.</li>
 </ul>
 I remember when I first started messing around with HTML/CSS the summer right before my first year (2004) in high school. I wanted to just replicate layouts I had seen on other websites. Like any other teenager, I became pretty active on Myspace. I noticed most of my friends started customizing their Myspace layouts and most of the them came with a link back to the site where the layout came from. I would look around for one I liked but it never really felt right with any. So, I decided I'd find the one closest to what I want and just modify it. <br />
 <br />

@@ -30,7 +30,7 @@ const IndexPage = ({data}) => (
         <header className='u--media-center u--text-center'>
           <h1>Hi, I’m Cindy! 👋 </h1>
         </header>
-        <p>I'm a <strong>front-end engineer at Aetna</strong> and I work remotely <strong>from Austin, TX</strong>. I enjoy running, hiking, playing video games, and drinking coffee.</p>
+        <p>I'm a <strong>front-end engineer</strong> at a healthcare company and I work remotely <strong>from Austin, TX</strong>. I enjoy running, hiking, playing video games, and drinking coffee.</p>
         <p>I <strong>build</strong> functional, efficient, and thoughtfully designed <strong>web applications</strong>. And sometimes I write step-by-step JS tutorials and tips on working <strong>remotely</strong>.</p>
         <a href={resume} className='btn u--float-right' target='_blank' title='Resume pdf'>View Resume (.pdf)</a>
       </div>
