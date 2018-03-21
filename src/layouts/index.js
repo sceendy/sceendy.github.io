@@ -27,7 +27,7 @@ const TemplateWrapper = ({ children }) => (
 
     </Helmet>
     
-    <div
+    <main
       style={{
         margin: '0 auto',
         maxWidth: '50.8rem',
@@ -35,7 +35,7 @@ const TemplateWrapper = ({ children }) => (
       }}
     >
       {children()}
-    </div>
+    </main>
     <footer className='u--text-center'>
       <p>built using <a href='https://www.gatsbyjs.org/' rel='noopener' target='_blank'>gatsbyjs</a><br/>
       &copy; 2018</p>

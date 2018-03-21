@@ -26,7 +26,7 @@ h1 {
   color: #fff;
   display: inline-block;
   margin: var(--base-font-size) 0;
-  padding: 0 calc(var(--base-font-size) * 2);
+  padding: .75rem calc(var(--base-font-size) * 2);
 }
 
 h2 {
@@ -65,7 +65,7 @@ strong { line-height: var(--base-height); }
 
 a:hover { color: #888; }
 figure { margin: 0; }
-figcaption { line-height: 1.5; }
+figcaption { line-height: 1.45rem; }
 figcaption p { color: #333; }
 
 blockquote {
@@ -88,31 +88,27 @@ img[on-error] { display: none; }
 
 /* HIGHLIGHTS LAYOUT */
 
-@media (max-width: 700px) {
-  div[class^='grid--'] {
-    grid-template-columns: 100%;
-  } 
-}
-
-.grid--two {
+.home-layout__container {
   display: grid;
-  grid-template-columns: 1fr 1fr;	
+	grid-gap: var(--base-font-size);
+	grid-template-areas:
+		"image"
+		"about"
+		"portfolio"
+		"blog-list"
+    "sidebar";
 }
 
-.grid--three {
+.home-layout__main-img { grid-area: image; }
+.home-layout__about { grid-area: about; }
+.home-layout__portfolio { grid-area: portfolio; }
+.home-layout__blog-list { grid-area: blog-list; }
+.home-layout__sidebar { grid-area: sidebar; }
+
+.secondary-layout__3-cols {
   display: grid;
-  grid-column-gap: calc(var(--base-font-size) * 2);
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.grid--sidebar-layout {
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-}
-
-.grid__image {
-  align-self: center; 
-  justify-self: center;
+  grid-column-gap: 2rem;
+  grid-template-columns: repeat(1, 100%);
 }
 
 .header--archive {
@@ -121,11 +117,24 @@ img[on-error] { display: none; }
   justify-content: space-between;
 }
 
+@media screen and (min-width: 700px) {
+	.home-layout__container {
+		grid-template-areas:
+			"image image about about"
+			"portfolio portfolio portfolio portfolio"
+			"blog-list blog-list blog-list sidebar";
+  }
+  .secondary-layout__3-cols {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 /* HIGHLIGHTS MODULES */
 
 .figure__image {
+  display: block;
   min-height: 144px;
-  margin: calc(var(--base-font-size) / 2) 0;
+  margin: .9rem auto;
 }
 
 .btn {
