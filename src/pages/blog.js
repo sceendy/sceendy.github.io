@@ -20,10 +20,10 @@ const BlogArchiveComponent = ({data, location}) => {
             <li><Link to='/'>Home</Link></li>
             <li>Blog</li>
           </ul>
-          <h2 className='u--padding-bottom-20'>Blog Posts</h2>
+          <h2>Blog Posts</h2>
         </div>
       }
-      { !onBlogPage && <h3>blog posts</h3> }
+      { !onBlogPage && <h2>blog posts</h2> }
       <strong>2018</strong>
       <ul className='list--side-pink list--no-style'>
         { twentyEighteen.map(({ node }, i) => (

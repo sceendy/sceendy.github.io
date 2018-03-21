@@ -36,12 +36,12 @@ const IndexPage = ({data}) => (
           href={resume} 
           className='btn' 
           target='_blank' 
-          title='Resume pdf'
-        >View Resume (.pdf)</a>
+          title='Resume PDF'
+        >View Resume</a>
       </div>
     </div>
 
-    <h3>recent work</h3>
+    <h2>recent work</h2>
     <div className='grid--three'>
       <figure>
         <LazyLoad height={150}>
@@ -107,11 +107,10 @@ const IndexPage = ({data}) => (
         </div>
       </div>
       <div>
-        <h3>find me online</h3>
+        <h2>find me online</h2>
         <LazyLoad height={144}>
           <img 
           src={smallSelfImage}
-          height='144'
           alt='me w/sunglasses' 
           className='u--media-center' />
         </LazyLoad>
