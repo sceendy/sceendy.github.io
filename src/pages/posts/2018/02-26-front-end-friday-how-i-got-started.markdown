@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "front-end friday: how I got started in web development"
+title:  "Front-end Friday: How I got started in web dev"
 date:   2018-02-26 23:18:00
 tags: ['dev', 'personal', 'front-end friday']
 ---

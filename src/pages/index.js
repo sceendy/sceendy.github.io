@@ -108,11 +108,11 @@ const IndexPage = ({data}) => (
       </div>
     </div>
     <div className='home-layout__sidebar'>
-      <h2>find me online</h2>
+      <h2>Other Links</h2>
       <LazyLoad height={144}>
         <img 
         src={smallSelfImage}
-        alt='me w/sunglasses' 
+        alt='me in Naples, Italy' 
         className='u--media-center' />
       </LazyLoad>
       <ul className='list--no-style u--text-center'>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "new project: atx paw finder"
+title:  "New project: ATX Paw Finder"
 date:   2018-01-17 17:10:00
 tags: ['dev', 'news', 'projects']
 ---

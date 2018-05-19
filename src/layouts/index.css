@@ -158,7 +158,6 @@ img[on-error] { display: none; }
 .list--side-pink {
   border-left: var(--pink-color) 4px solid;
   padding: calc(var(--base-font-size) / 2) var(--base-font-size);
-  text-transform: capitalize;
 }
 
 .list--side-pink li a {
