@@ -107,7 +107,7 @@ const IndexPage = ({data}) => (
         <Link to='/blog'>read older posts...</Link>
       </div>
     </div>
-    <div className='home-layout__sidebar'>
+    <div className='home-layout__sidebar u--text-center'>
       <h2>Other Links</h2>
       <LazyLoad height={144}>
         <img 
@@ -115,7 +115,7 @@ const IndexPage = ({data}) => (
         alt='me in Naples, Italy' 
         className='u--media-center' />
       </LazyLoad>
-      <ul className='list--no-style u--text-center'>
+      <ul className='list--no-style'>
         <li>
           <a href="https://jsfiddle.net/user/sceendy/fiddles/" target='_blank' rel='noopener'>JSFiddle</a> 
         </li>
@@ -132,6 +132,9 @@ const IndexPage = ({data}) => (
           <a href="https://www.linkedin.com/in/sceendy" target='_blank' rel='noopener'>LinkedIn</a>
         </li>
       </ul>
+      <p><strong>Side Projects</strong>: <br/>
+        <a href="https://atxpawfinder.com" target='_blank' rel='noopener'>ATX Paw Finder</a>
+      </p>
     </div>
   </div>
 );
