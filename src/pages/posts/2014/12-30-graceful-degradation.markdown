@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Graceul Degradation"
+title:  "Graceful Degradation"
 date:   2014-12-17 16:46:30
 tags: ['browser', 'css3']
 ---
