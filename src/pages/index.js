@@ -7,15 +7,6 @@ import BlogArchiveComponent from './blog';
 import selfImage from '../assets/me-stretching.jpg';
 import smallSelfImage from '../assets/cindy.jpg';
 
-import amsImage from '../assets/ams.png';
-import amsWebImage from '../assets/ams.webp';
-
-import foundryImage from '../assets/foundry.png';
-import foundryWebImage from '../assets/foundry.webp';
-
-import shopWebImage from '../assets/licensing.webp';
-import shopImage from '../assets/licensing.png';
-
 import resume from '../assets/web-resume.pdf';
 
 const IndexPage = ({data}) => (
