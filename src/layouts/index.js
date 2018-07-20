@@ -31,7 +31,7 @@ const TemplateWrapper = ({ children }) => (
       style={{
         margin: '0 auto',
         maxWidth: '50.8rem',
-        padding: '2.45rem 1.0875rem .05rem'
+        padding: '2.5rem 1.0875rem .05rem'
       }}
     >
       {children()}

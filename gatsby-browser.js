@@ -7,5 +7,5 @@
  // You can delete this file if you're not using it
 
 exports.onInitialClientRender = () => {
-  console.log('ayy!');
+  console.log('Hey, you made it to my site! Cool!');
 };

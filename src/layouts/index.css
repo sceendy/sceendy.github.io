@@ -34,7 +34,6 @@ h1 {
 h2 {
   font-size: 1.2rem;
   line-height: var(--base-height);
-  margin-top: calc(var(--base-font-size) * 2);
   text-transform: uppercase;
   color: var(--blue-color);
 }
@@ -73,11 +72,9 @@ figcaption p { color: #333; }
 blockquote {
   border-left: var(--blue-color) 4px solid;
   font-size: 1.1250rem;
-  line-height: 1.2222rem;
   margin-top: 1.2222rem;
-  margin-bottom: 0.0000rem;
   font-style: italic;
-  margin: calc(var(--base-font-size) * 2);
+  margin: 0.5rem calc(var(--base-font-size) * 2);
   padding: var(--base-font-size);
 }
 
@@ -180,11 +177,11 @@ img[on-error] { display: none; }
 .tags {
   border-radius: 3px;
   display: inline-block;
-  font-size: 0.65em;
+  font-size: 0.75rem;
   line-height: var(--sm);
   background-color: #eee;
-  margin: 8px 4px 16px 0;
-  padding: 8px;
+  margin: calc(var(--base-font-size)/2) calc(var(--base-font-size)/2) var(--base-font-size) 0;
+  padding: calc(var(--base-font-size)/2);
 }
 
 .breadcrumbs {
