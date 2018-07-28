@@ -6,7 +6,7 @@ import favicon from '../assets/favicon.png';
 
 import '../assets/styles/index.css';
 
-const Layout = ({ children, footer }) => (
+const Layout = ({ children, showFooter }) => (
   <div>
     <Helmet
       title="Cindy | Front-end Engineer"
@@ -27,15 +27,15 @@ const Layout = ({ children, footer }) => (
     </Helmet>
     
     <main
-      style={{
+      style={ showFooter ? {
         margin: '0 auto',
         maxWidth: '50.8rem',
         padding: '2.5rem 1.0875rem .05rem'
-      }}
+      } : {}}
     >
       {children}
     </main>
-    { footer &&
+    { showFooter &&
       <footer className='u--text-center'>
         <p>built using <a href='https://www.gatsbyjs.org/' rel='noopener noreferrer' target='_blank'>gatsbyjs v2</a><br/>
         &copy; 2018</p>
@@ -46,7 +46,7 @@ const Layout = ({ children, footer }) => (
 
 Layout.propTypes = {
   children: PropTypes.any,
-  footer: PropTypes.bool,
+  showFooter: PropTypes.bool,
 };
 
 export default Layout;

@@ -8,21 +8,13 @@ require('prismjs/themes/prism-okaidia.css');
 const BlogPostPage = () => (
   <StaticQuery
     query={graphql`
-      query PostQuery {
-        allMarkdownRemark(sort: { order: DESC, fields: [fields___date] }) {
-          totalCount
-          edges {
-            node {
-              id
-              frontmatter {
-                title
-              }
-              fields {
-                slug
-                date(formatString: "MMM DD")
-                year
-              }
-            }
+      query BlogPostQuery($slug: String!) {
+        markdownRemark(fields: {slug: {eq: $slug}}) {
+          html
+          frontmatter {
+            title
+            date(formatString: "MMMM DD, YYYY")
+            tags
           }
         }
       }
@@ -31,7 +23,7 @@ const BlogPostPage = () => (
     render={data => {
       const post = data.markdownRemark;
       return (
-      <Layout footer={true}>
+      <Layout showFooter={true}>
         <article>
           <ul className='breadcrumbs'>
             <li><Link to='/'>Home</Link></li>

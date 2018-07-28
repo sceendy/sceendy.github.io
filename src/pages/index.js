@@ -34,7 +34,7 @@ const IndexPage = () => (
       }
     `}
     render={data => (
-      <Layout footer={true}>
+      <Layout showFooter={true}>
         <div className='home-layout__container'>
           <div className='home-layout__main-img'>
             <LazyLoad height={312}>

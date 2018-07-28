@@ -58,7 +58,7 @@ const BlogArchiveComponent = ({location}) => (
       });
 
       return (
-        <Layout footer={onBlogPage}>
+        <Layout showFooter={onBlogPage}>
         { onBlogPage &&
           <div>
             <ul className='breadcrumbs'>
