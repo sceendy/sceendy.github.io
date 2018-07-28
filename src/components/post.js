@@ -5,7 +5,7 @@ import Layout from '../components';
 
 require('prismjs/themes/prism-okaidia.css');
 
-const BlogPostPage = () => (
+export default () => (
   <StaticQuery
     query={graphql`
       query BlogPostQuery($slug: String!) {
@@ -48,5 +48,3 @@ const BlogPostPage = () => (
     )}}
   />
 );
-
-export default BlogPostPage;

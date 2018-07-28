@@ -28,7 +28,8 @@ const BlogArchiveComponent = ({location}) => (
 
     render={yuckyData => {
       const data = yuckyData.allMarkdownRemark.edges;
-      const onBlogPage = location;
+      const onBlogPage = location && location !== 'undefined';
+
       let twentyEighteen = [],
           twentySeventeen = [],
           twentySixteen = [],
