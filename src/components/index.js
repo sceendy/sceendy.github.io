@@ -1,13 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 
 import favicon from '../assets/favicon.png';
 
-import './index.css';
+import '../assets/styles/index.css';
 
-const TemplateWrapper = ({ children }) => (
+const Layout = ({ children, footer }) => (
   <div>
     <Helmet
       title="Cindy | Front-end Engineer"
@@ -34,17 +33,20 @@ const TemplateWrapper = ({ children }) => (
         padding: '2.5rem 1.0875rem .05rem'
       }}
     >
-      {children()}
+      {children}
     </main>
-    <footer className='u--text-center'>
-      <p>built using <a href='https://www.gatsbyjs.org/' rel='noopener' target='_blank'>gatsbyjs</a><br/>
-      &copy; 2018</p>
-    </footer>
+    { footer &&
+      <footer className='u--text-center'>
+        <p>built using <a href='https://www.gatsbyjs.org/' rel='noopener noreferrer' target='_blank'>gatsbyjs v2</a><br/>
+        &copy; 2018</p>
+      </footer>
+    }
   </div>
 );
 
-TemplateWrapper.propTypes = {
-  children: PropTypes.func,
+Layout.propTypes = {
+  children: PropTypes.any,
+  footer: PropTypes.bool,
 };
 
-export default TemplateWrapper;
+export default Layout;
