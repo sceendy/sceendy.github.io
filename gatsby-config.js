@@ -36,19 +36,6 @@ module.exports = {
         background_color: "#fff",
         theme_color: "#FF4081",
         display: "standalone",
-        "icons": [{
-          "src": "assets/touch/icon128.png",
-          "sizes": "128x128",
-          "type": "image/png"
-        }, {
-          "src": "assets/touch/icon256.png",
-          "sizes": "256x256",
-          "type": "image/png"
-        }, {
-          "src": "assets/touch/icon512.png",
-          "sizes": "512x512",
-          "type": "image/png"
-        }],
       },
     },
     `gatsby-plugin-offline`

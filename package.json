@@ -6,7 +6,6 @@
   "dependencies": {
     "gatsby": "next",
     "gatsby-cli": "^1.1.46",
-    "gatsby-link": "^1.6.32",
     "gatsby-plugin-google-analytics": "next",
     "gatsby-plugin-offline": "next",
     "gatsby-plugin-react-helmet": "next",
