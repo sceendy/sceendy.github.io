@@ -31,8 +31,9 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions;
   return new Promise((resolve, reject) => {
-    graphql(`
-      {
+    const blogPostTemplate = path.resolve(`src/templates/post.js`);
+    resolve(
+      graphql(`{
         allMarkdownRemark {
           edges {
             node {
@@ -48,17 +49,23 @@ exports.createPages = ({ graphql, actions }) => {
         }
       }
     `).then(result => {
-      result.data.allMarkdownRemark.edges.map(({ node }) => {
+      if (result.errors) {
+        reject(result.errors);
+      }
+
+      const posts = result.data.allMarkdownRemark.edges;
+
+      posts.forEach(({ node }) => {
         createPage({
           path: node.fields.slug,
-          component: path.resolve(`./src/components/post.js`),
+          component: blogPostTemplate,
           context: {
             slug: node.fields.slug,
             date: node.fields.date
           },
         })
       })
-      resolve();
-    })
+      return
+    }))
   })
 }

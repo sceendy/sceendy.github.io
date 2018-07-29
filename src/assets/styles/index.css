@@ -99,10 +99,17 @@ img[on-error] { display: none; }
 }
 
 .home-layout__main-img { grid-area: image; }
+
 .home-layout__about {
   grid-area: about;
-  padding: 0 1rem;
 }
+
+@media screen and (min-width: 48rem) {
+  .home-layout__about {
+    padding: 0 1rem;
+  }
+}
+
 .home-layout__portfolio { grid-area: portfolio; }
 .home-layout__blog-list { grid-area: blog-list; }
 .home-layout__sidebar { grid-area: sidebar; }

@@ -1,7 +1,7 @@
 import React from 'react';
 import { StaticQuery, Link, graphql } from 'gatsby';
 
-import Layout from '../components/index.js';
+import Layout from '../components/layout';
 
 const BlogArchiveComponent = ({location}) => (
   <StaticQuery
@@ -59,7 +59,7 @@ const BlogArchiveComponent = ({location}) => (
       });
 
       return (
-        <Layout showFooter={onBlogPage}>
+        <Layout showFooter={onBlogPage} title={'Blog Posts'}>
         { onBlogPage &&
           <div>
             <ul className='breadcrumbs'>

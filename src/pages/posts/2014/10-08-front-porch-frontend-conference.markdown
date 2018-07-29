@@ -9,4 +9,4 @@ tags: ['dev', 'conference']
 <p class="center">Check it out, <a href="http://frontporch.io/" target="_blank">www.frontporch.io</a>.</p>
 
 <hr/>
-12/27/17 edit: images with notes removed for now
+12/27/17 edit: images with notes removed

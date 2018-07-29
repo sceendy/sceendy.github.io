@@ -6,10 +6,10 @@ import favicon from '../assets/favicon.png';
 
 import '../assets/styles/index.css';
 
-const Layout = ({ children, showFooter }) => (
+const Layout = ({ children, showFooter, title }) => (
   <div>
     <Helmet
-      title="Cindy | Front-end Engineer"
+      title={`${showFooter ? title + ' - ' : ''}Cindy - Front-end Engineer`}
       meta={[
         { 
           name: 'description', 
@@ -21,9 +21,8 @@ const Layout = ({ children, showFooter }) => (
         },
       ]}
     >
-    <html lang="en" />
-    <link rel="icon" type="image/png" href={favicon} />
-
+      <html lang="en" />
+      <link rel="icon" type="image/png" href={favicon} />
     </Helmet>
     
     <main
@@ -37,7 +36,7 @@ const Layout = ({ children, showFooter }) => (
     </main>
     { showFooter &&
       <footer className='u--text-center'>
-        <p>built using <a href='https://www.gatsbyjs.org/' rel='noopener noreferrer' target='_blank'>gatsby v2</a><br/>
+        <p>built using <a href='https://next.gatsbyjs.org/' rel='noopener noreferrer' target='_blank'>gatsby v2 beta</a><br/>
         &copy; 2018</p>
       </footer>
     }
@@ -47,6 +46,7 @@ const Layout = ({ children, showFooter }) => (
 Layout.propTypes = {
   children: PropTypes.any,
   showFooter: PropTypes.bool,
+  title: PropTypes.string
 };
 
 export default Layout;
