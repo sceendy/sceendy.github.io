@@ -5,9 +5,9 @@ import Layout from '../components/layout';
 
 import BlogArchiveComponent from './blog';
 
-import selfImage from '../assets/me-stretching.jpg';
-import smallSelfImage from '../assets/cindy.jpg';
-import resume from '../assets/web-resume.pdf';
+import selfImage from '../static/me-stretching.jpg';
+import smallSelfImage from '../static/cindy.jpg';
+import resume from '../static/web-resume.pdf';
 
 export default () => (
   <Layout showFooter={true}>

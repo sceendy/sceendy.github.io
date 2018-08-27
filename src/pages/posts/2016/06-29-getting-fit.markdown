@@ -54,7 +54,7 @@ On Sundays, we go to White Rock Lake and walk around the entire lake -- about 8 
 
 I guess you may be wondering how this all has worked out for me. I reached my first weight goal a few weeks ago and am now reaching for my next weight goal.
 
-<img src="/assets/weight-loss.png" class="img--responsive"/>
+<img src="/static/weight-loss.png" class="img--responsive"/>
 
 I had some gradual/consistent progress in the past year. Earlier this year, I began to push for faster results which you can observe on this chart. While the progress initially seemed slowed, I know that I am making manageable, long-term changes. My next goal is to lose 10 more pounds.
 

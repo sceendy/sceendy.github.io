@@ -12,4 +12,4 @@ These trips have just been 3 day weekends so my boyfriend and I are constantly o
 
 Seattle is incredibly beautiful and fun with some of the best coffee, scenic views, and food I have tasted in the US. This is not about the trip, though. I just wanted to post on of my favorite pictures that I took. <span class="u--text-pink">#nofilter</span>
 
-<img src="/assets/hello-seattle.jpg" alt="seattle" class="img--responsive"/>
+<img src="/static/hello-seattle.jpg" alt="seattle" class="img--responsive"/>

@@ -2,9 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
-import favicon from '../assets/favicon.png';
+import favicon from '../static/favicon.png';
 
-import '../assets/styles/index.css';
+import '../static/styles/index.css';
 
 const Layout = ({ children, showFooter, title }) => (
   <div>

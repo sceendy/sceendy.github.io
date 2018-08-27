@@ -22,4 +22,4 @@ Yes, it's optional now; thanks HTML5. But it didn't seem intentional as none of 
 Over time, I have had more and more people looking over my code so a little bit of the intimidation has faded. Had I actively put my code out there, put my personal projects on Github, though... I may have aquired more knowledge about best practices at a better rate. Lately, that's what I was wondering. So, this time around, when I saw something I could fix... <em>why not?</em>
 
 My advice to anyone start out is to not be scared of getting your code rejected. It will help you improve; we have all sucked. We are all always getting better. And sometimes, you'll make a small fix to a cool project and you'll get a cool button on your <a href="https://github.com/trulia/hologram/pull/252" target="_blank">pull request</a>:
-<img src="/assets/os-contribute-trulia.png" class="img--responsive"/>
+<img src="/static/os-contribute-trulia.png" class="img--responsive"/>
