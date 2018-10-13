@@ -5,11 +5,9 @@ date:   2018-05-19 09:30:00
 tags: ['personal']
 ---
 
-Over the past couple of years, I have started reading books only to abandon them a few chapters in. It's not for lack of interest, either. Other stuff always comes up and before I know it, I have another book in hand and the cycle continues. 
+Over the past couple of years, I have started reading books only to abandon them a few chapters in. It's not for lack of interest, either. Other stuff always comes up and before I know it, I have another book in hand and the cycle continues. ~~This year, I've decided to fix that. No more new books until I finish these 7.~~
 
-This year, I've decided to fix that. No more new books until I finish these 7. 
-
-Luckily, I made it about halfway through for most of them but I figured throwing the list on here would help keep me accountable.
+I made it about halfway through these but I figured throwing the list on here would help keep me accountable.
 
 ![alt books](https://i.imgur.com/Hg87qce.jpg)
 
@@ -18,7 +16,10 @@ Luckily, I made it about halfway through for most of them but I figured throwing
 * ~~**A Higher Loyalty: Truth, Lies, and Leadership** by James Comey~~
 * ~~**No Place to Hide** by Glenn Greenwald~~
 * ~~**The Subtle Art of Not Giving a F*ck** by Mark Manson~~
+* **Fear: Trump in the White House** by Bob Woodward
 * **The Design of Everyday Things** by Don Norman
 * **Fear and Loathing On The Campaign Trail '72** by Hunter S. Thompson
 * **The Big Short** by Michael Lewis
 * **JavaScript for Web Developers** by Nicholas C. Zakas
+
+_**10/13/18 note**: Yeah... I ended up adding two books..._
