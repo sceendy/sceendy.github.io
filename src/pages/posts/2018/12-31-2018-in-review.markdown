@@ -5,7 +5,7 @@ date:   2018-12-31 14:30:00
 tags: ['personal']
 ---
 
-I started out this year unemployed and depressed. It sucked. So, 2018 was about establishing a healthy work/life balance.
+I started out this year unemployed and depressed but was able to turn it around by establishing a healthy work/life balance this year.
 
 ### Work
 I had quit my job in August 2017 and took several months off to take some trips and [figure out what I wanted out of my next job](/blog/2017/09-20-why-i-am-currently-a-free-agent/). Granted, that job had been better than the those previous to it... but I couldn't quite escape my biggest sources of stress and I finally had to quit as I couldn't see a way to resolve it at that company.
@@ -46,8 +46,4 @@ I've continued to meditate and jog daily to help clear my mind and be able to en
 
 I had also made a goal this year to [finish books I had started](/blog/2018/05-19-book-list-2018) and abandoned at some point -- which I made significant progress in despite adding books to the original post. I am currently reading both **Flow: The Psychology of Optimal Experience** and **Fear and Loathing On The Campaign Trail '72** -- just depends on my mood.
 
-2018 was amazing and full of personal growth!
-
-
-__Ughhh can't believe like a quarter my major was basically internet communication and I still get anxious about writing blog posts.__
-
+2018 was a big year for my personal growth and I look forward to sharing more technical posts in 2019!
