@@ -64,4 +64,4 @@ Overall, it was the best decision for my career and mental health. My advice to 
 
 <hr/>
 
-**If you work at a cool company that values the front-end, hit me up on <a href="https://www.linkedin.com/in/sceendy/" alt="Cindy Haden LinkedIn" rel="noopener" target="_blank">LinkedIn</a> or <a href="http://twitter.com/home?status=@sceendy ay, I know of a cool place to work" alt="tweet link" rel="noopener" target="_blank">@sceendy</a>**
+**If you work at a cool company that values the front-end, hit me up on <a href="https://www.linkedin.com/in/sceendy/" alt="Cindy Haden LinkedIn" rel="noopener" target="_blank">LinkedIn</a> or <a href="http://twitter.com/home?status=@sceendy" alt="tweet link" rel="noopener" target="_blank">@sceendy</a>**

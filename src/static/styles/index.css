@@ -160,6 +160,8 @@ img[on-error] { display: none; }
   background-color: var(--blue-color);
 }
 
+.task-list-item { list-style-type: none; }
+
 .list--no-style {
   list-style-type: none;
   padding-left: 0;
