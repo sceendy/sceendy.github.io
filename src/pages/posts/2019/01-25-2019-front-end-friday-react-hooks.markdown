@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Front-end Friday: React Hooks"
-date:   2019-01-25 28:30:00
+date:   2019-01-25 18:30:00
 tags: ['dev', 'react', 'front-end friday']
 ---
 
