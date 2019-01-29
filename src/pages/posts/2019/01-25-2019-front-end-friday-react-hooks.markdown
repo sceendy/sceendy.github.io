@@ -7,7 +7,7 @@ tags: ['dev', 'react', 'front-end friday']
 
 If you're like me... you probably hear some buzz about something new and want to try it out. You might look at the docs or find some tutorial to follow along until it makes sense. However, it really isn't the same as actually using it yourself, right? 
 
-I've read several tweets about React Hooks and even bookmarked the video where [Dan Abramov introduces hooks at React Conf](https://www.youtube.com/watch?v=dpw9EHDh2bM). Based on the tweets I've read, I figured I should be able to utilize hooks in reusable components and hey, why not try to do it while also learning about it in Dans' talk? I quickly skimmed through the docs too to make sure I understood things right so hopefully most of this right...
+I've read several tweets about React Hooks and even bookmarked the video where [Dan Abramov introduces hooks at React Conf](https://www.youtube.com/watch?v=dpw9EHDh2bM). Based on the tweets I've read, I figured I should be able to utilize hooks in reusable components and hey, why not write about my first attempt to use it while watching Dans' video? heh...okay. 
 
 ###What are hooks? 
 As of React v16.8.0-alpha.0, there are these new things called Hooks that allow for using state and other features without having to write a `Class`. They allow you to reuse state logic with each hook handling a different aspect of it. 
