@@ -5,12 +5,12 @@ date:   2019-01-25 18:30:00
 tags: ['dev', 'react', 'front-end friday']
 ---
 
-If you're like me... you probably hear some buzz about something new and want to try it out. You might look at the docs or find some tutorial to follow along until it makes sense. However, it really isn't the same as actually using it yourself, right? 
+You may have heard of React Hooks by now. And if you're like me, you probably are looking forward to learning more and trying it out. You might look at the docs or find some tutorial to follow along until it makes sense. However, it really isn't the same as actually using it yourself, right? 
 
-I've read several tweets about React Hooks and even bookmarked the video where <a href="https://www.youtube.com/watch?v=dpw9EHDh2bMhttps://youtu.be/dpw9EHDh2bM?t=685" target="_blank" rel="noopener">Dan Abramov introduces hooks at React Conf</a>. Based on the tweets I've read, I figured I should be able to utilize hooks in reusable components and hey, why not write about my first attempt to use it while watching Dans' video? heh...okay. 
+I've read several tweets about React Hooks and even bookmarked the video where <a href="https://www.youtube.com/watch?v=dpw9EHDh2bMhttps://youtu.be/dpw9EHDh2bM?t=685" target="_blank" rel="noopener">Dan Abramov introduces hooks at React Conf</a>. Based on the tweets I've read, I figured I should be able to utilize hooks in reusable components. I decided to write about my first attempt to use it while watching Dans' video in a kind of stream of consciousness format.
 
 ###What are hooks? 
-As of React v16.8.0-alpha.0, there are these new things called Hooks that allow for using state and other features without having to write a `Class`. They allow you to reuse state logic with each hook handling a different aspect of it. 
+As of React v16.8.0-alpha.0 (React 16.8 official), there are these new things called Hooks that allow for using state and other features without having to write a `Class`. They allow you to reuse state logic with each hook handling a different aspect of it. 
 
 The first one mentioned was `useState` which is used for declaring a state variable - think `this.state` and `this.setState()`. Then, there's `useEffect` - remember some of the logic you'd put in `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount`? That's pretty much what's going on there - telling your component to do something after render.
 
@@ -247,7 +247,7 @@ export const SimpleTabsComponent = () => {
 export default SimpleTabsComponent;
 ```
 
-Seems to work.
+As you can see, this allows for simple reusability across components. 
 
 You can see the working result here and mess around with it as you please:
 
