@@ -206,8 +206,8 @@ img[on-error] { display: none; }
 
 .breadcrumbs li ~ li::before {
   content: '//';
-  margin-left: 8px;
-  margin-right: 8px;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .code-inline, :not(pre) > code[class*="language-"]{
@@ -215,7 +215,7 @@ img[on-error] { display: none; }
   border-radius: 2px!important;
   border: #eee solid 1px;
   line-height: 22px;
-  padding: 0 4px;
+  padding: 0 0.25rem;
   color: #1c92f2;
   font-family: monospace;
   font-size: 0.9rem;
@@ -242,6 +242,43 @@ img[on-error] { display: none; }
   display: block;
   max-width: 100%;
   margin: 0 auto;
+}
+
+.goal__container {
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+.goal__container:last-of-type {
+  margin-bottom: 3rem;
+}
+
+progress {
+  display: block;
+  width: 100%;
+  background-color: #e8b3c529;
+  border: 0;
+  height: 1rem;
+  border-radius: 0.5rem;
+  margin-top: 0.25rem;
+}
+
+progress::-webkit-progress-bar {
+  background: #e8b3c529;
+  border-radius: 0.5rem;
+}
+
+progress::-webkit-progress-value {
+  background: var(--pink-color);
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+progress[value]::-moz-progress-bar {
+  background: var(--pink-color);
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
 }
 
 .gatsby-highlight { font-size: var(--sm); }

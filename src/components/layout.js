@@ -37,7 +37,7 @@ const Layout = ({ children, showFooter, title }) => (
     { showFooter &&
       <footer className='u--text-center'>
         <p>built using <a href='https://gatsbyjs.org/' rel='noopener noreferrer' target='_blank'>gatsby v2</a><br/>
-        &copy; 2018</p>
+        &copy; 2019</p>
       </footer>
     }
   </div>
