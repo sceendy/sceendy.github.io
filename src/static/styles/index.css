@@ -262,21 +262,22 @@ progress {
   height: 1rem;
   border-radius: 0.5rem;
   margin-top: 0.25rem;
+  margin-bottom: 1rem;
 }
 
 progress::-webkit-progress-bar {
-  background: #e8b3c529;
+  background-color: #e8b3c529;
   border-radius: 0.5rem;
 }
 
 progress::-webkit-progress-value {
-  background: var(--pink-color);
+  background-color: var(--pink-color);
   border-top-left-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
 }
 
 progress[value]::-moz-progress-bar {
-  background: var(--pink-color);
+  background-color: var(--pink-color);
   border-top-left-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
 }

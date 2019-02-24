@@ -5,7 +5,7 @@ const GoalsComponent = () => (
     <h2>Q1 2019 goals</h2>
     <div className="goal__container">
       Work on personal project for 20 hours
-      <progress max="20" value="0"></progress>
+      <progress max="20" value="3"></progress>
     </div>
     <div className="goal__container">
       Meditate for 4 hours
