@@ -248,6 +248,7 @@ img[on-error] { display: none; }
   margin-bottom: 1rem;
   font-size: 0.85rem;
   text-align: center;
+  position: relative;
 }
 
 .goal__container:last-of-type {
@@ -263,6 +264,15 @@ progress {
   border-radius: 0.5rem;
   margin-top: 0.25rem;
   margin-bottom: 1rem;
+}
+
+.goal__percentage {
+  color: var(--pink-color);
+  position: absolute;
+  bottom: 1px;
+  right: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 700;
 }
 
 progress::-webkit-progress-bar {
