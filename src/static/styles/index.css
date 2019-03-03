@@ -263,16 +263,16 @@ progress {
   height: 1rem;
   border-radius: 0.5rem;
   margin-top: 0.25rem;
-  margin-bottom: 1rem;
 }
 
 .goal__percentage {
   color: var(--pink-color);
   position: absolute;
-  bottom: 1px;
+  bottom: 2.25px;
   right: 0.5rem;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   font-weight: 700;
+  line-height: 1;
 }
 
 progress::-webkit-progress-bar {

@@ -7,25 +7,25 @@ const goals = [
     goalId: 'personalProject',
     title: 'Work on personal project for 20 hours',
     total: 20,
-    completed: 3
+    completed: 6
   },
   {
     goalId: 'meditate',
     title: 'Meditate for 4 hours',
     total: 240,
-    completed: 90
+    completed: 100
   },
   {
     goalId: 'run',
     title: 'Run 50 miles',
     total: 50,
-    completed: 15
+    completed: 17.14
   },
   {
     goalId: 'loseWeight',
     title: 'Lose 15lbs',
     total: 15,
-    completed: 0
+    completed: 2
   },
   {
     goalId: 'learning1',
@@ -37,17 +37,19 @@ const goals = [
     goalId: 'learning2',
     title: 'Complete Pluralsights\' React Path',
     total: 100,
-    completed: 65
+    completed: 66
   },
 ];
 
 const GoalsComponent = () => {
   const getProgress = (idName) => {
-    const progressBar = document.getElementById(idName);
-    if (progressBar) {
-      const value = progressBar.getAttribute('value');
-      const max = progressBar.getAttribute('max');
-      return getPercentage(value, max);
+    if(typeof document !== "undefined") {
+      const progressBar = document.getElementById(idName);
+      if (progressBar) {
+        const value = progressBar.getAttribute('value');
+        const max = progressBar.getAttribute('max');
+        return getPercentage(value, max);
+      }
     }
   };
   
