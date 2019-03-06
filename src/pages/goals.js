@@ -7,19 +7,19 @@ const goals = [
     goalId: 'personalProject',
     title: 'Work on personal project for 20 hours',
     total: 20,
-    completed: 6
+    completed: 8
   },
   {
     goalId: 'meditate',
     title: 'Meditate for 4 hours',
     total: 240,
-    completed: 100
+    completed: 14 * 10
   },
   {
     goalId: 'run',
     title: 'Run 50 miles',
     total: 50,
-    completed: 17.14
+    completed: 25.14
   },
   {
     goalId: 'loseWeight',
@@ -37,7 +37,7 @@ const goals = [
     goalId: 'learning2',
     title: 'Complete Pluralsights\' React Path',
     total: 100,
-    completed: 66
+    completed: 75
   },
 ];
 

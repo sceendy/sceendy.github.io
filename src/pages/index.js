@@ -21,7 +21,7 @@ export default () => (
         <header className='u--media-center u--text-center'>
           <h1>Hi, I’m Cindy! <span role="img" aria-label="waving hand">👋</span></h1>
         </header>
-        <p>I am currently a front-end engineer that works remotely for a healthcare company. I enjoy building functional, efficient, and elegantly + thoughtfully designed user interfaces.</p>
+        <p>I am a front-end engineer that works remotely for a healthcare company. I enjoy building functional, efficient, and elegantly + thoughtfully designed user interfaces.</p>
         <p>Sometimes I write about projects, step-by-step JS tutorials, and tips on working remotely. I enjoy running, reading, playing video games, and traveling.</p>
         <a
           href={resume} 
