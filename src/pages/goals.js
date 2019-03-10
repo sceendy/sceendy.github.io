@@ -13,19 +13,19 @@ const goals = [
     goalId: 'meditate',
     title: 'Meditate for 4 hours',
     total: 240,
-    completed: 14 * 10
+    completed: 16 * 10 // 03/09/19
   },
   {
     goalId: 'run',
     title: 'Run 50 miles',
     total: 50,
-    completed: 25.14
+    completed: 26.45 // 03/09/19
   },
   {
     goalId: 'loseWeight',
     title: 'Lose 15lbs',
     total: 15,
-    completed: 2
+    completed: 3
   },
   {
     goalId: 'learning1',
@@ -37,7 +37,7 @@ const goals = [
     goalId: 'learning2',
     title: 'Complete Pluralsights\' React Path',
     total: 100,
-    completed: 75
+    completed: 77 // 03/09/19
   },
 ];
 
