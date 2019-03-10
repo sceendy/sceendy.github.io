@@ -13,7 +13,7 @@ const goals = [
     goalId: 'meditate',
     title: 'Meditate for 4 hours',
     total: 240,
-    completed: 16 * 10 // 03/09/19
+    completed: 17 * 10 // 03/09/19
   },
   {
     goalId: 'run',
