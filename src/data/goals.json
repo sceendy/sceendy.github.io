@@ -10,14 +10,14 @@
     "goalId": "meditate",
     "title": "Meditate for 4 hours",
     "total": 240,
-    "completed": 190,
+    "completed": 200,
     "quarter": 1
   },
   {
     "goalId": "run",
     "title": "Run 50 miles",
     "total": 50,
-    "completed": 28.03,
+    "completed": 23.59,
     "quarter": 1
   },
   {
@@ -38,7 +38,7 @@
     "goalId": "learning2",
     "title": "Complete Pluralsights' React Path",
     "total": 100,
-    "completed": 80,
+    "completed": 100,
     "quarter": 1
   }
 ]
