@@ -1,45 +1,7 @@
 import React, { Fragment } from 'react';
+import { StaticQuery, graphql } from 'gatsby';
 
 const getPercentage = (value, max) =>  `${Math.floor((value/max) * 100)}%`;
-
-const goals = [
-  {
-    goalId: 'personalProject',
-    title: 'Work on personal project for 20 hours',
-    total: 20,
-    completed: 8
-  },
-  {
-    goalId: 'meditate',
-    title: 'Meditate for 4 hours',
-    total: 240,
-    completed: 17 * 10 // 03/09/19
-  },
-  {
-    goalId: 'run',
-    title: 'Run 50 miles',
-    total: 50,
-    completed: 26.45 // 03/09/19
-  },
-  {
-    goalId: 'loseWeight',
-    title: 'Lose 15lbs',
-    total: 15,
-    completed: 3
-  },
-  {
-    goalId: 'learning1',
-    title: 'Complete Udacitys\' Intro to CS course',
-    total: 100,
-    completed: 52
-  },
-  {
-    goalId: 'learning2',
-    title: 'Complete Pluralsights\' React Path',
-    total: 100,
-    completed: 77 // 03/09/19
-  },
-];
 
 const GoalsComponent = () => {
   const getProgress = (idName) => {
@@ -56,13 +18,32 @@ const GoalsComponent = () => {
   return (
     <Fragment>
       <h2>Q1 2019 goals</h2>
-      {goals.map(goal =>
-        <div className="goal__container" key={goal.goalId}>
-          {goal.title}
-          <span className="goal__percentage">{getProgress(goal.goalId)}</span>
-          <progress max={goal.total} value={goal.completed} id={goal.goalId}></progress>
-        </div>
-      )}
+      <StaticQuery
+        query={graphql`
+          query GoalsQuery {
+            allJson {
+              edges {
+                node {
+                  goalId
+                  title
+                  total
+                  completed
+                  quarter
+                }
+              }
+            }
+          }
+        `}
+        render={({ allJson: { edges: goals }}) =>
+          goals.map((goal, i) =>
+            <div className="goal__container"key={i}>
+              {goal.node.title}
+              <span className="goal__percentage">{getProgress(goal.node.goalId)}</span>
+              <progress max={goal.node.total} value={goal.node.completed} id={goal.node.goalId}></progress>
+            </div>
+          )
+        }
+      />
     </Fragment>
   );
 };
