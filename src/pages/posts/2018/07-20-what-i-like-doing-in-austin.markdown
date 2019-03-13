@@ -19,13 +19,13 @@ Just don't mess with [the swans](https://instagram.fmkc1-1.fna.fbcdn.net/vp/ea4c
 
 As you head south from there, you'll encounter a bridge that goes over Barton Creek and head north once you're across it. You'll start to get closer to downtown and eventually get to the off-leash dog park. You'll see some of the cutest dogs ever. 
 
-Continuing east, you'll just get more sights and sounds of an urban park. You'll eventually end up on the Austin Boardwalk which is pretty nice. Once you cross over to the downtown side, you can get stop at somewhere like Berry Austin for some froyo or trek onward. There's a bit less going on on the northside but still an enjoyable walk back around to Zilker.
+Continuing east, you'll just get more sights and sounds of an urban park. You'll eventually end up on the Austin Boardwalk which is pretty nice. Once you cross over to the downtown side, you can stop at some place like Berry Austin for some froyo or trek onward. There's a bit less going on on the northside but still an enjoyable and peaceful walk back around to Zilker.
 
 ### Alternative: Go kayaking (or try Stand Up Paddle Boarding)
 
 If you're not feeling up for a walk around the trail, you should definitely still rent a kayak and cruise the water. 
 
-The lake/river downtown are conveniently located for kayaking/paddle boarding but if you don't mind going a little further out, you could also check out Lake Travis. 
+The lake/river downtown are conveniently located for kayaking/paddle boarding but if you don't mind going a little further out, you could also check out Lake Travis.
 
 ### Eat BBQ and Tex-Mex
 
@@ -49,7 +49,7 @@ bonus: (not tex-mex or bbq): [Burro Cheese Kitchen](http://www.burrocheesekitche
 ### Drink coffee
 
 * Fresca's, order the "Cafe de Olla"
-* Cafe Creme, order the Mexican Mocha OR White Chocolate Mocha
+* Cafe Creme, order the Mexican Mocha OR White Chocolate Mocha (try their crepés while you're there too!)
 
 For decent coffee with a nice view, try Mozarts'.
 
