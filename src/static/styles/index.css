@@ -269,7 +269,7 @@ progress {
   color: var(--pink-color);
   position: absolute;
   bottom: 2.25px;
-  right: 0.5rem;
+  right: 0.25rem;
   font-size: 0.75rem;
   font-weight: 700;
   line-height: 1;
