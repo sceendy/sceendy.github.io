@@ -23,16 +23,20 @@ const GoalsComponent = () => (
         }
       `}
       render={({ allJson: { edges: goals }}) =>
-        goals.map(({ node: goal }, i) =>
-          <div className="goal__container"key={i}>
-            {goal.title}
-            {goal.completed !== goal.total ? 
-              <span className="goal__percentage">{getPercentage(goal.completed, goal.total)}</span>
-              : <span className="goal__percentage goal__percentage--filled">100%</span>
-            }
-            <progress max="100" value={(goal.completed/goal.total)* 100} id={goal.goalId}></progress>
-          </div>
-        )
+        goals.map(({ node: goal }, i) => {
+          const percentage = getPercentage(goal.completed, goal.total);
+
+          return (
+            <div className="goal__container"key={i}>
+              {goal.title}
+              { parseInt(percentage) <= 94 ? 
+                <span className="goal__percentage">{percentage}</span>
+                : <span className="goal__percentage goal__percentage--filled">{percentage}</span>
+              }
+              <progress max="100" value={(goal.completed/goal.total)* 100} id={goal.goalId}></progress>
+            </div>
+          );
+        })
       }
     />
   </Fragment>

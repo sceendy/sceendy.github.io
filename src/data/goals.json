@@ -10,14 +10,14 @@
     "goalId": "meditate",
     "title": "Meditate for 4 hours",
     "total": 240,
-    "completed": 210,
+    "completed": 230,
     "quarter": 1
   },
   {
     "goalId": "run",
     "title": "Run 50 miles",
     "total": 50,
-    "completed": 31.97,
+    "completed": 35.75,
     "quarter": 1
   },
   {
