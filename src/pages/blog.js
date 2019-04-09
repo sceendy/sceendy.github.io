@@ -78,7 +78,7 @@ const BlogArchiveComponent = ({location}) => (
         <ul className='list--side-pink list--no-style'>
           { twentyNineteen.map(({ node }, i) => (
             <li key={i}>
-              <Link to={node.fields.slug}>
+              <Link to={`/${node.fields.slug}`}>
                 <div>{node.frontmatter.title}</div>
                 <div>{node.fields.date}</div>
               </Link>
@@ -89,7 +89,7 @@ const BlogArchiveComponent = ({location}) => (
         <ul className='list--side-pink list--no-style'>
           { twentyEighteen.map(({ node }, i) => (
             <li key={i}>
-              <Link to={node.fields.slug}>
+              <Link to={`/${node.fields.slug}`}>
                 <div>{node.frontmatter.title}</div>
                 <div>{node.fields.date}</div>
               </Link>
@@ -104,7 +104,7 @@ const BlogArchiveComponent = ({location}) => (
             <ul className='list--side-pink list--no-style'>
               { twentySeventeen.map(({ node }, i) => (
                 <li key={i}>
-                  <Link to={node.fields.slug}>
+                  <Link to={`/${node.fields.slug}`}>
                     <div>{node.frontmatter.title}</div>
                     <div>{node.fields.date}</div>
                   </Link>

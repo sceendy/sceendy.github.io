@@ -41,5 +41,54 @@
     "total": 100,
     "completed": 100,
     "quarter": 1
+  },
+  {
+    "goalId": "personalProject",
+    "title": "Complete MVP stories for personal app",
+    "total": 9,
+    "completed": 0,
+    "quarter": 2
+  },
+  {
+    "goalId": "meditate",
+    "title": "Meditate for 5 hours",
+    "total": 300,
+    "completed": 25,
+    "quarter": 2
+  },
+  {
+    "goalId": "run1",
+    "title": "Run 8:30/mile (5 times)",
+    "total": 5,
+    "completed": 0,
+    "quarter": 2
+  },
+  {
+    "goalId": "run2",
+    "title": "Run 75 miles",
+    "total": 75,
+    "completed": 1.52,
+    "quarter": 2
+  },
+  {
+    "goalId": "learning1",
+    "title": "Italian I college course",
+    "total": 8,
+    "completed": 2,
+    "quarter": 2
+  },
+  {
+    "goalId": "learning2",
+    "title": "GraphQL track on Frontend Masters",
+    "total": 100,
+    "completed": 0,
+    "quarter": 2
+  },
+  {
+    "goalId": "learning3",
+    "title": "D3 course on Pluralsight",
+    "total": 100,
+    "completed": 22,
+    "quarter": 2
   }
 ]

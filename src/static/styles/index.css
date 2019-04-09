@@ -244,6 +244,8 @@ img[on-error] { display: none; }
   margin: 0 auto;
 }
 
+/* PROGRESS STYLES */
+
 .goal__container {
   margin-bottom: 1rem;
   font-size: 0.85rem;
@@ -265,6 +267,11 @@ progress {
   margin-top: 0.25rem;
 }
 
+progress[value] {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
 .goal__percentage {
   color: var(--pink-color);
   position: absolute;
@@ -275,9 +282,7 @@ progress {
   line-height: 1;
 }
 
-.goal__percentage--filled {
-  color: #fff;
-}
+.goal__percentage--filled { color: #fff; }
 
 progress::-webkit-progress-bar {
   background-color: #e8b3c529;
