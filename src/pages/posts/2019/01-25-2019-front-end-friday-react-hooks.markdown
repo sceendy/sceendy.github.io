@@ -132,16 +132,19 @@ export const useToggleUtil = (type, selectedItem) => {
   return [items, activeItem, changeActiveItem];
 ```
 
-Next, I want to use `useEffect` to populate the `items` array. Once the data is fetched, I pass the array of items to the `setItems` function. 
+Next, I want to use `useEffect` to populate the `items` array. Once the data is fetched, I pass the array of items to the `setItems` function. The second argument is for dependencies which in this case is only `type`.
 
 ```jsx
-  useEffect(async () => {
-    const res = await fetch(
-      `https://my-json-server.typicode.com/sceendy/fake-json/${type}Items`
-    );
-    const data = await res.json();
-    setItems(data);
-  }, []);
+  useEffect(() => {
+    const fetchData = async () => {
+      const res = await fetch(
+        `https://my-json-server.typicode.com/sceendy/fake-json/${type}Items`
+      );
+      const data = await res.json();
+      setItems(data);
+    };
+    fetchData();
+  }, [type]);
 ```
 
 This hook will also go in the util function I created, `useToggleUtil` before the return statement.
