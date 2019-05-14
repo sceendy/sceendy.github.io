@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Book List 2019"
+date:   2019-05-13 21:50:00
+tags: ['personal']
+---
+
+A year ago, I posted my book list for 2018. I started out with 7 books and by the end of the year the list had grown to 11 despite my best efforts. In the end, I finished 8 out of those 11 books which felt pretty good. 
+
+This year, I'm committed to keeping the list manageable. I'm pulling in the 3 books I didn't finish last year along with some new ones.
+
+* **Essentialism** by Greg Mckeown
+* **Becoming** by Michelle Obama
+* **The Moment of Lift: How Empowering Women Changes the World** by Melinda Gates
+* **It Doesn't Have to Be Crazy at Work** by Jason Fried
+* **JavaScript for Web Developers** by Nicholas C. Zakas
+* **Fear and Loathing On The Campaign Trail '72** by Hunter S. Thompson
+* **The Design of Everyday Things** by Don Norman
+* **A Clash of Kings** by George R.R. Martin
