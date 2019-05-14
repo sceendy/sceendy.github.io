@@ -35,7 +35,7 @@ const GoalsComponent = () => (
             {goal.title}
             { parseInt(percentage) <= 94 ?
               <span className="goal__percentage">{percentage}%</span>
-               : <span className="goal__percentage goal__percentage--filled">{percentage}</span>
+               : <span className="goal__percentage goal__percentage--filled">{percentage}%</span>
              }
             <progress max="100" value={percentage} id={goal.goalId}></progress>
           </div>
