@@ -46,7 +46,7 @@
     "goalId": "personalProject",
     "title": "Complete MVP stories for personal app",
     "total": 9,
-    "completed": 0,
+    "completed": 1,
     "quarter": 2
   },
   {
@@ -67,7 +67,7 @@
     "goalId": "run2",
     "title": "Run 75 miles",
     "total": 75,
-    "completed": 10.64,
+    "completed": 11.15,
     "quarter": 2
   },
   {
