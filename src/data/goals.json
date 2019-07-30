@@ -121,21 +121,21 @@
   },
   {
     "goalId": "learning1",
-    "title": "Advanced Redux course on redux",
+    "title": "Advanced Redux course / Pluralsight",
     "total": 100,
     "completed": 25,
     "quarter": 3
   },
   {
     "goalId": "learning2",
-    "title": "GraphQL track on Frontend Masters",
+    "title": "GraphQL track / Frontend Masters",
     "total": 100,
     "completed": 0,
     "quarter": 3
   },
   {
     "goalId": "learning3",
-    "title": "D3 course on Pluralsight",
+    "title": "D3 course / Pluralsight",
     "total": 100,
     "completed": 45,
     "quarter": 3
