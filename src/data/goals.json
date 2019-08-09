@@ -116,14 +116,14 @@
     "goalId": "run2",
     "title": "Run 45 miles",
     "total": 45,
-    "completed": 7.13,
+    "completed": 11.43,
     "quarter": 3
   },
   {
     "goalId": "learning1",
     "title": "Advanced Redux course / Pluralsight",
     "total": 100,
-    "completed": 25,
+    "completed": 29,
     "quarter": 3
   },
   {
