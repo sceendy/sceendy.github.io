@@ -1,8 +1,16 @@
 module.exports = {
   siteMetadata: {
     title: `Cindy | Front-end Engineer`,
+    siteUrl: 'https://www.sceendy.com'
   },
   plugins: [
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://www.sceendy.com',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
@@ -42,6 +50,7 @@ module.exports = {
         background_color: "#fff",
         theme_color: "#FF4081",
         display: "standalone",
+        icon: 'src/static/touch/icon128.png',
       },
     },
     `gatsby-plugin-offline`

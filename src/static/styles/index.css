@@ -6,9 +6,9 @@
 /* HIGHLIGHTS BASE */
 
 :root {
-  --yellow-color: #ffdc00;
-  --pink-color: #FF4081;
-  --blue-color: #64B5F6;
+  --yellow-color: #F7E233;
+  --pink-color: #FF444B;
+  --blue-color: #18C9F5;
   --base-height: 1.4rem;
   --base-font-size: 1rem;
   --sm: 0.8750rem;
@@ -27,7 +27,7 @@ html, body {
 h1 {
   color: var(--pink-color);
   display: inline-block;
-  padding: .75rem calc(var(--base-font-size) * 2);
+  padding: .75rem calc(var(--base-font-size) * 1.5);
   margin: 0.25rem 0;
 }
 
@@ -58,7 +58,7 @@ img {
 
 a {
   color: #4A4A4A;
-  line-height: var(--base-height);
+  line-height: calc(var(--base-height) * 2);
   font-style: italic;
 }
 
@@ -177,7 +177,7 @@ img[on-error] { display: none; }
   font-style: normal;
   display: flex;
   justify-content: space-between;
-  padding: calc(var(--base-font-size) / 4);
+  padding: calc(var(--base-font-size) / 2) calc(var(--base-font-size) / 4);
   text-decoration: none;
 }
 
