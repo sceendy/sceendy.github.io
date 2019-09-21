@@ -9,7 +9,7 @@ const GoalsComponent = () => (
     <StaticQuery
       query={graphql`
         query GoalsQuery {
-          allJson (
+          allGoalsJson(
             filter: {
               quarter: {
                 eq: 4
@@ -28,7 +28,7 @@ const GoalsComponent = () => (
           }
         }
       `}
-      render={({ allJson: { edges: goals }}) => goals.map(({ node: goal }, i) => {
+      render={({ allGoalsJson: { edges: goals } }) => goals.map(({ node: goal }, i) => {
         const percentage = getPercentage(goal.completed, goal.total);
         return (
           <div className="goal__container"key={i} aria-label="progress bars for goals">

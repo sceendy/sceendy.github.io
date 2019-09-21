@@ -6,7 +6,7 @@ import Layout from '../components/layout';
 import BlogArchiveComponent from './blog';
 import GoalsComponent from './goals';
 
-import selfImage from '../static/me-stretching.jpg';
+import selfImage from '../static/me-eating-in-japan.jpg';
 import resume from '../static/web-resume.pdf';
 
 export default () => (
@@ -19,10 +19,10 @@ export default () => (
       </div>
       <div className='home-layout__about'>
         <header className='u--media-center u--text-center'>
-          <h1>Hi, I’m Cindy! <span role="img" aria-label="waving hand">👋</span></h1>
+          <h1>hi, my name is cindy <span role="img" aria-label="waving hand">👋</span></h1>
         </header>
         <p>I am a senior front-end engineer that works remotely at a big healthcare company. I enjoy building functional, efficient, and elegantly + thoughtfully designed UI's.</p>
-        <p>I sometimes write about new stuff that I have learned recently, JS tutorials, and tips on working remotely. I enjoy running, reading, playing video games, and traveling.</p>
+        <p>I write about stuff that I have recently learned about, JS tutorials, and about working remotely. I enjoy running, reading, playing video games, and traveling for food.</p>
         <a
           href={resume} 
           className='btn' 
@@ -42,8 +42,9 @@ export default () => (
       </div>
       <div className='home-layout__sidebar'>
         <GoalsComponent />
-        <p className="u--text-center"><strong>Public Side Projects</strong>: <br/>
-        <a href="https://atxpawfinder.com" target='_blank' rel='noopener noreferrer'>ATX Paw Finder</a>
+        <h2>Links</h2>
+        <p>
+          <a href="https://github.com/sceendy" target='_blank' rel='noopener noreferrer'>github</a>, <a href="https://www.linkedin.com/in/sceendy/" target='_blank' rel='noopener noreferrer'>linkedin</a>
         </p>
       </div>
     </div>
