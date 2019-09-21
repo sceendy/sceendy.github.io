@@ -27,7 +27,7 @@ html, body {
 h1 {
   color: var(--pink-color);
   display: inline-block;
-  padding: .75rem calc(var(--base-font-size) * 1.5);
+  padding: .75rem 0;
   margin: 0.25rem 0;
 }
 
@@ -58,7 +58,7 @@ img {
 
 a {
   color: #4A4A4A;
-  line-height: calc(var(--base-height) * 2);
+  line-height: var(--base-height);
   font-style: italic;
 }
 
@@ -127,6 +127,10 @@ img[on-error] { display: none; }
 }
 
 @media screen and (min-width: 700px) {
+  h1 {
+    padding: .75rem calc(var(--base-font-size) * 1.5);
+  }
+
 	.home-layout__container {
 		grid-template-areas:
 			"image image about about"
@@ -177,7 +181,7 @@ img[on-error] { display: none; }
   font-style: normal;
   display: flex;
   justify-content: space-between;
-  padding: calc(var(--base-font-size) / 2) calc(var(--base-font-size) / 4);
+  padding: var(--base-font-size) calc(var(--base-font-size) / 4);
   text-decoration: none;
 }
 

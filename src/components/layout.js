@@ -9,7 +9,7 @@ import '../static/styles/index.css';
 const Layout = ({ children, showFooter, title }) => (
   <div>
     <Helmet
-      title={`${showFooter ? title + ' - ' : ''}Cindy - Front-end Engineer`}
+      title={`${showFooter ? title + ' - ' : ''}Cindy | Front-end Engineer`}
       meta={[
         { 
           name: 'description', 
