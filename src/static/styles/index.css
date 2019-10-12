@@ -14,6 +14,30 @@
   --sm: 0.8750rem;
 }
 
+/* dark theme */
+/* TODO: use variables insteaad of these static values */
+@media (prefers-color-scheme: dark) {
+  html {
+    background-color: black;
+  }
+  body, a, .btn {
+    color: white;
+  }
+  .tags {
+    color: #eee;
+    background-color: var(--pink-color);
+  }
+  img {
+    opacity: .75;
+    transition: opacity .5s ease-in-out;
+  }
+  img:hover {
+    opacity: 1;
+  }
+}
+
+/* normal theme */
+
 * {
   box-sizing: border-box;
 }
