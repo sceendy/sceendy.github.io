@@ -19,13 +19,15 @@
 @media (prefers-color-scheme: dark) {
   html {
     background-color: black;
-  }
-  body, a, .btn {
     color: white;
   }
+  a,
+  .btn {
+    color: white!important;
+  }
   .tags {
-    color: #eee;
-    background-color: var(--pink-color);
+    color: white!important;
+    background-color: var(--pink-color)!important;
   }
   img {
     opacity: .75;
