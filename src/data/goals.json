@@ -151,7 +151,7 @@
     "goalId": "meditate",
     "title": "Meditate for 5 hours",
     "total": 300,
-    "completed": 80,
+    "completed": 90,
     "quarter": 4
   },
   {
@@ -186,7 +186,7 @@
     "goalId": "learning3",
     "title": "D3.js track / Frontend Masters",
     "total": 100,
-    "completed": 18,
+    "completed": 23,
     "quarter": 4
   }
 ]
