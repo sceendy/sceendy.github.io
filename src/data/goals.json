@@ -165,7 +165,7 @@
     "goalId": "run2",
     "title": "Run 45 miles",
     "total": 45,
-    "completed": 12.55,
+    "completed": 14.46,
     "quarter": 4
   },
   {
@@ -186,7 +186,7 @@
     "goalId": "learning3",
     "title": "D3.js track / Frontend Masters",
     "total": 100,
-    "completed": 23,
+    "completed": 53,
     "quarter": 4
   }
 ]
