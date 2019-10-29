@@ -3,7 +3,7 @@ import { StaticQuery, Link, graphql } from 'gatsby';
 
 import Layout from '../components/layout';
 
-const BlogArchiveComponent = ({location}) => (
+const BlogArchiveComponent = ({ location }) => (
   <StaticQuery
     query={graphql`
       query BlogArchiveQuery {
@@ -37,8 +37,9 @@ const BlogArchiveComponent = ({location}) => (
           twentyFifteen = [],
           twentyFourteen = [];
 
-      data.forEach(({node}) => {
+      data.forEach(({ node }) => {
         switch (node.fields.year) {
+          // TODO: just map
           case 2019:
             twentyNineteen.push({node});
             break;
@@ -64,7 +65,7 @@ const BlogArchiveComponent = ({location}) => (
 
       return (
         <Layout showFooter={onBlogPage} title={'Blog Posts'}>
-        { onBlogPage &&
+        {onBlogPage &&
           <div>
             <ul className='breadcrumbs'>
               <li><Link to='/'>Home</Link></li>
