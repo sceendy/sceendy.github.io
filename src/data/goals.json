@@ -165,7 +165,7 @@
     "goalId": "run2",
     "title": "Run 45 miles",
     "total": 45,
-    "completed": 16.35,
+    "completed": 18.85,
     "quarter": 4
   },
   {
@@ -178,8 +178,8 @@
   {
     "goalId": "learning2",
     "title": "GraphQL track / Frontend Masters",
-    "total": 100,
-    "completed": 0,
+    "total": 656,
+    "completed": 21,
     "quarter": 4
   },
   {
