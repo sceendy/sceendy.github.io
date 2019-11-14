@@ -151,14 +151,14 @@
     "goalId": "meditate",
     "title": "Meditate for 5 hours",
     "total": 300,
-    "completed": 215,
+    "completed": 225,
     "quarter": 4
   },
   {
     "goalId": "read",
     "title": "Read 3 books",
     "total": 3,
-    "completed": 1,
+    "completed": 1.75,
     "quarter": 4
   },
   {
@@ -179,7 +179,7 @@
     "goalId": "learning2",
     "title": "GraphQL track / Frontend Masters",
     "total": 656,
-    "completed": 118,
+    "completed": 124,
     "quarter": 4
   },
   {
