@@ -13,6 +13,7 @@ This year, I'm committed to keeping the list manageable. I'm pulling in the 3 bo
 * ~~**The Moment of Lift: How Empowering Women Changes the World** by Melinda Gates~~
 * ~~**It Doesn't Have to Be Crazy at Work** by Jason Fried~~
 * ~~**Becoming** by Michelle Obama~~
+* ~~**Stillness is the key** by Ryan Holiday~~
 * **Fear and Loathing On The Campaign Trail '72** by Hunter S. Thompson
 * **JavaScript for Web Developers** by Nicholas C. Zakas
 * **The Design of Everyday Things** by Don Norman
