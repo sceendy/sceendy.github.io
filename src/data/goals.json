@@ -158,14 +158,14 @@
     "goalId": "read",
     "title": "Read 3 books",
     "total": 3,
-    "completed": 2,
+    "completed": 2.25,
     "quarter": 4
   },
   {
     "goalId": "run2",
     "title": "Run 45 miles",
     "total": 45,
-    "completed": 32.35,
+    "completed": 34.64,
     "quarter": 4
   },
   {
