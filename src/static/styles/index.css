@@ -17,6 +17,10 @@
 /* dark theme */
 /* TODO: use variables insteaad of these static values */
 @media (prefers-color-scheme: dark) {
+  .goal__percentage {
+    color: white;
+  }
+
   html {
     background-color: black;
     color: white;

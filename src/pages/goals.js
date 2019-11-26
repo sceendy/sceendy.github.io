@@ -33,7 +33,7 @@ const GoalsComponent = () => (
         return (
           <div className="goal__container"key={i} aria-label="progress bars for goals">
             {goal.title}
-            { parseInt(percentage) <= 94 ?
+            { parseInt(percentage) <= 95 ?
               <span className="goal__percentage">{percentage}%</span>
                : <span className="goal__percentage goal__percentage--filled">{percentage}%</span>
              }
