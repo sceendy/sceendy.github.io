@@ -18,7 +18,7 @@
 /* TODO: use variables insteaad of these static values */
 @media (prefers-color-scheme: dark) {
   .goal__percentage {
-    color: white;
+    color: white!important;
   }
 
   html {
