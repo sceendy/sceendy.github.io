@@ -41,10 +41,9 @@ export default () => (
         </div>
       </div>
       <div className='home-layout__sidebar'>
-        <GoalsComponent />
         <h2>Links</h2>
         <p>
-          <a href="https://github.com/sceendy" target='_blank' rel='noopener noreferrer'>github</a>, <a href="https://www.linkedin.com/in/sceendy/" target='_blank' rel='noopener noreferrer'>linkedin</a>
+          <a href="https://github.com/sceendy" target='_blank' rel='noopener noreferrer'>github</a>, <a href="https://www.linkedin.com/in/sceendy/" target='_blank' rel='noopener noreferrer'>linkedin</a>, <a href="https://codepen.io/sceendy" target='_blank' rel='noopener noreferrer'>codepen</a>
         </p>
       </div>
     </div>

@@ -30,7 +30,8 @@ const BlogArchiveComponent = ({ location }) => (
       const data = yuckyData.allMarkdownRemark.edges;
       const onBlogPage = location && location !== 'undefined';
 
-      let twentyNineteen= [],
+      let twentyTwenty = [],
+          twentyNineteen = [],
           twentyEighteen = [],
           twentySeventeen = [],
           twentySixteen = [],
@@ -40,6 +41,9 @@ const BlogArchiveComponent = ({ location }) => (
       data.forEach(({ node }) => {
         switch (node.fields.year) {
           // TODO: just map
+          case 2020:
+            twentyTwenty.push({node});
+            break;
           case 2019:
             twentyNineteen.push({node});
             break;
@@ -75,9 +79,9 @@ const BlogArchiveComponent = ({ location }) => (
           </div>
         }
         { !onBlogPage && <h2>blog posts</h2> }
-        <strong>2019</strong>
+        <strong>2020</strong>
         <ul className='list--side-pink list--no-style'>
-          { twentyNineteen.map(({ node }, i) => (
+          { twentyTwenty.map(({ node }, i) => (
             <li key={i}>
               <Link to={`/${node.fields.slug}`}>
                 <div>{node.frontmatter.title}</div>
@@ -86,9 +90,9 @@ const BlogArchiveComponent = ({ location }) => (
             </li>
           ))}
         </ul>
-        <strong>2018</strong>
+        <strong>2019</strong>
         <ul className='list--side-pink list--no-style'>
-          { twentyEighteen.map(({ node }, i) => (
+          { twentyNineteen.map(({ node }, i) => (
             <li key={i}>
               <Link to={`/${node.fields.slug}`}>
                 <div>{node.frontmatter.title}</div>
@@ -101,6 +105,17 @@ const BlogArchiveComponent = ({ location }) => (
         { /* show more content below */ }
         { onBlogPage &&
           <div>
+            <strong>2018</strong>
+            <ul className='list--side-pink list--no-style'>
+              { twentyEighteen.map(({ node }, i) => (
+                <li key={i}>
+                  <Link to={`/${node.fields.slug}`}>
+                    <div>{node.frontmatter.title}</div>
+                    <div>{node.fields.date}</div>
+                  </Link>
+                </li>
+              ))}
+            </ul>
             <strong>2017</strong>
             <ul className='list--side-pink list--no-style'>
               { twentySeventeen.map(({ node }, i) => (
