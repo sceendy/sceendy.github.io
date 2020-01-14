@@ -43,9 +43,9 @@ I bought my first car in March 2013. By myself.
 
 I graduated with a bachelors degree from UT-Dallas in July 2013.
 
-I moved in with my boyfriend into our home apartment in August 2013.
+I moved in with my boyfriend into our first apartment in August 2013.
 
-I got an offer from an agency that had big name clients in August 2013.
+I got an offer from an agency in August 2013.
 
 ### 2014
 
