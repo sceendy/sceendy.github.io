@@ -1,7 +1,25 @@
 import React from 'react';
 import { StaticQuery, Link, graphql } from 'gatsby';
 
+import groupBy from 'lodash/groupBy';
+
 import Layout from '../components/layout';
+
+const createBlogList = (year, posts, i) => (
+  <div key={i}>
+    <h3>{year}</h3>
+    <ul className='list--side-pink list--no-style'>
+      {posts.map(({node}, i) =>
+        <li key={i}>
+          <Link to={`/${node.fields.slug}`}>
+            <div>{node.frontmatter.title}</div>
+            <div>{node.fields.date}</div>
+          </Link>
+        </li>
+      )}
+    </ul>
+  </div>
+);
 
 const BlogArchiveComponent = ({ location }) => (
   <StaticQuery
@@ -26,46 +44,11 @@ const BlogArchiveComponent = ({ location }) => (
       }
     `}
 
-    render={yuckyData => {
-      const data = yuckyData.allMarkdownRemark.edges;
+    render={blogData => {
+      const data = blogData.allMarkdownRemark.edges;
       const onBlogPage = location && location !== 'undefined';
 
-      let twentyTwenty = [],
-          twentyNineteen = [],
-          twentyEighteen = [],
-          twentySeventeen = [],
-          twentySixteen = [],
-          twentyFifteen = [],
-          twentyFourteen = [];
-
-      data.forEach(({ node }) => {
-        switch (node.fields.year) {
-          // TODO: just map
-          case 2020:
-            twentyTwenty.push({node});
-            break;
-          case 2019:
-            twentyNineteen.push({node});
-            break;
-          case 2018:
-            twentyEighteen.push({node});
-            break;
-          case 2017:
-            twentySeventeen.push({node});
-            break;
-          case 2016:
-            twentySixteen.push({node});
-            break;
-          case 2015:
-            twentyFifteen.push({node});
-            break;
-          case 2014:
-            twentyFourteen.push({node});
-            break;
-          default:
-            break;
-        }
-      });
+      const dataByYear = groupBy(data, 'node.fields.year');
 
       return (
         <Layout showFooter={onBlogPage} title={'Blog Posts'}>
@@ -78,89 +61,12 @@ const BlogArchiveComponent = ({ location }) => (
             <h2>Blog Posts</h2>
           </div>
         }
-        { !onBlogPage && <h2>blog posts</h2> }
-        <strong>2020</strong>
-        <ul className='list--side-pink list--no-style'>
-          { twentyTwenty.map(({ node }, i) => (
-            <li key={i}>
-              <Link to={`/${node.fields.slug}`}>
-                <div>{node.frontmatter.title}</div>
-                <div>{node.fields.date}</div>
-              </Link>
-            </li>
-          ))}
-        </ul>
-        <strong>2019</strong>
-        <ul className='list--side-pink list--no-style'>
-          { twentyNineteen.map(({ node }, i) => (
-            <li key={i}>
-              <Link to={`/${node.fields.slug}`}>
-                <div>{node.frontmatter.title}</div>
-                <div>{node.fields.date}</div>
-              </Link>
-            </li>
-          ))}
-        </ul>
+        {!onBlogPage && <h2>blog posts</h2>}
 
-        { /* show more content below */ }
-        { onBlogPage &&
-          <div>
-            <strong>2018</strong>
-            <ul className='list--side-pink list--no-style'>
-              { twentyEighteen.map(({ node }, i) => (
-                <li key={i}>
-                  <Link to={`/${node.fields.slug}`}>
-                    <div>{node.frontmatter.title}</div>
-                    <div>{node.fields.date}</div>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-            <strong>2017</strong>
-            <ul className='list--side-pink list--no-style'>
-              { twentySeventeen.map(({ node }, i) => (
-                <li key={i}>
-                  <Link to={`/${node.fields.slug}`}>
-                    <div>{node.frontmatter.title}</div>
-                    <div>{node.fields.date}</div>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-            <strong>2016</strong>
-            <ul className='list--side-pink list--no-style'>
-              { twentySixteen.map(({ node }, i) => (
-                <li key={i}>
-                  <Link to={node.fields.slug}>
-                    <div>{node.frontmatter.title}</div>
-                    <div>{node.fields.date}</div>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-            <strong>2015</strong>
-            <ul className='list--side-pink list--no-style'>
-              { twentyFifteen.map(({ node }, i) => (
-                <li key={i}>
-                  <Link to={node.fields.slug}>
-                    <div>{node.frontmatter.title}</div>
-                    <div>{node.fields.date}</div>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-            <strong>2014</strong>
-            <ul className='list--side-pink list--no-style'>
-              { twentyFourteen.map(({ node }, i) => (
-                <li key={i}>
-                  <Link to={node.fields.slug}>
-                    <div>{node.frontmatter.title}</div>
-                    <div>{node.fields.date}</div>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
+        {Object.keys(dataByYear)
+            .filter(year => !onBlogPage ? (year === '2020' || year === '2019') : year)
+            .sort((a, b) => b-a)
+            .map((year, i) => createBlogList(year, dataByYear[year], i))
         }
       </Layout>
     )

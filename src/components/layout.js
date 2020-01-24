@@ -36,8 +36,9 @@ const Layout = ({ children, showFooter, title }) => (
     </main>
     { showFooter &&
       <footer className='u--text-center'>
-        <p>built using <a href='https://gatsbyjs.org/' rel='noopener noreferrer' target='_blank'>gatsby v2</a><br/>
-        &copy; 2019</p>
+        <p>
+        <a href="https://github.com/sceendy" target='_blank' rel='noopener noreferrer'>github</a> | <a href="https://www.linkedin.com/in/sceendy/" target='_blank' rel='noopener noreferrer'>linkedin</a> | <a href="https://codepen.io/sceendy" target='_blank' rel='noopener noreferrer'>codepen</a>
+        <br/>&copy; 2020</p>
       </footer>
     }
   </div>
