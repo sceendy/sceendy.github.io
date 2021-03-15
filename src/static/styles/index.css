@@ -6,9 +6,9 @@
 /* HIGHLIGHTS BASE */
 
 :root {
-  --yellow-color: #F7E233;
+  --yellow-color: #FFF49A;
   --pink-color: #FF4081;
-  --blue-color: #64B5F6;
+  --blue-color: #1597FF;
   --base-height: 1.4rem;
   --base-font-size: 1rem;
   --sm: 0.8750rem;
@@ -87,7 +87,7 @@ img {
 }
 
 a {
-  color: #4A4A4A;
+  color: #222;
   line-height: var(--base-height);
   font-style: italic;
 }
@@ -235,12 +235,12 @@ h3 {
 }
 
 .code-inline, :not(pre) > code[class*="language-"]{
-  background-color: #eee!important;
-  border-radius: 2px!important;
-  border: #eee solid 1px;
+  background-color: black!important;
+  border-radius: 3px!important;
+  border: #fff solid 1px;
   line-height: 22px;
-  padding: 0 0.25rem;
-  color: #1c92f2;
+  padding: 0.2rem!important;
+  color: white;
   font-family: monospace;
   font-size: 0.9rem;
   text-shadow: none;
@@ -253,7 +253,7 @@ h3 {
 
 /* HIGHLIGHTS UTILITIES */
 
-.u--text-center { text-align: center; }
+.u--text-center { text-align: center; display: block; }
 .u--padding-20 { padding: 20px; }
 .u--padding-bottom-20 { padding-bottom: 20px; }
 

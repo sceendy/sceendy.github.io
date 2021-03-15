@@ -64,7 +64,7 @@ const BlogArchiveComponent = ({ location }) => (
         {!onBlogPage && <h2>blog posts</h2>}
 
         {Object.keys(dataByYear)
-            .filter(year => !onBlogPage ? (year === '2020' || year === '2019') : year)
+            .filter(year => !onBlogPage ? (year === '2021' || year === '2020') : year)
             .sort((a, b) => b-a)
             .map((year, i) => createBlogList(year, dataByYear[year], i))
         }

@@ -1,13 +1,13 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import { string, bool, any } from 'prop-types';
 import Helmet from 'react-helmet';
 
 import favicon from '../static/favicon.png';
 
 import '../static/styles/index.css';
 
-const Layout = ({ children, showFooter, title }) => (
-  <div>
+const Layout = ({ children, showFooter, title, className }) => (
+  <>
     <Helmet
       title={`${showFooter ? title + ' - ' : ''}Cindy | Front-end Engineer`}
       meta={[
@@ -26,6 +26,7 @@ const Layout = ({ children, showFooter, title }) => (
     </Helmet>
     
     <main
+      className={className}
       style={ showFooter ? {
         margin: '0 auto',
         maxWidth: '50.8rem',
@@ -34,20 +35,21 @@ const Layout = ({ children, showFooter, title }) => (
     >
       {children}
     </main>
-    { showFooter &&
+    {showFooter &&
       <footer className='u--text-center'>
         <p>
         <a href="https://github.com/sceendy" target='_blank' rel='noopener noreferrer'>github</a> | <a href="https://www.linkedin.com/in/sceendy/" target='_blank' rel='noopener noreferrer'>linkedin</a> | <a href="https://codepen.io/sceendy" target='_blank' rel='noopener noreferrer'>codepen</a>
-        <br/>&copy; 2020</p>
+        <br/>&copy; 2021</p>
       </footer>
     }
-  </div>
+  </>
 );
 
 Layout.propTypes = {
-  children: PropTypes.any,
-  showFooter: PropTypes.bool,
-  title: PropTypes.string
+  children: any,
+  showFooter: bool,
+  title: string,
+  className: string,
 };
 
 export default Layout;
