@@ -5,11 +5,13 @@ date:   2021-03-12 18:00:00
 tags: ['ui', 'dev', 'a11y']
 ---
 
-For the past 5 years I have worked on projects that need to meet some accessibility standards (WCAG 2.0 A/AA). After interviewing several job candidates in that time, I think a lot of devs aren't aware that they don't need to wait for their company to require those standards be met. You can start to code with accessibility in mind in some pretty simple ways.
+For the past 5 years I have worked on projects that need to meet some accessibility standards (WCAG 2.0 A/AA). After interviewing several job candidates in that time, I realized a lot of companies still don't prioritize accessibility in their digital products. I suspect they eventually will but as devs, we can all do our part in building with accessibility as part of our normal workflow.
 
 ### Write Semantic HTML
 
-After reviewing several code projects from job candidates over the past couple of years, I have noticed that semantic HTML isn't as common as I had thought. From junior to senior level front-end engineers, I see way too many divs. Write your HTML first - this makes you think about the structure first. Here's <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">a list of HTML elements</a> - read through their descriptions and swap out your div tags today. Why? Structural/semantic HTML is THE starting point for accessibility because assistive devices rely on the DOM.
+After reviewing several code projects from job candidates over the past couple of years, I have noticed that semantic HTML isn't as common as I had thought. From junior to senior level front-end engineers, I see way too many `div`s. Here's <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">a list of HTML elements</a> - read through their descriptions and swap out your `div` tags today. Why? Structural/semantic HTML is THE starting point for accessibility because assistive devices rely on the DOM.
+
+Write your HTML first - this makes you think about the structure first.
 
 CSS is great but doesn't really matter to screen readers. Test your semantic HTML by disabling CSS - does your content still look organized and read as you intend it to?
 
