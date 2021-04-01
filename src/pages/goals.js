@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 
-const getPercentage = (value, max) =>  `${Math.floor((value/max) * 100)}`;
+const getPercentage = (value, max) => `${Math.floor((value / max) * 100)}`;
 
 const GoalsComponent = () => (
   <Fragment>
@@ -9,13 +9,7 @@ const GoalsComponent = () => (
     <StaticQuery
       query={graphql`
         query GoalsQuery {
-          allGoalsJson(
-            filter: {
-              quarter: {
-                eq: 4
-              }
-            }
-          ){
+          allGoalsJson(filter: { quarter: { eq: 4 } }) {
             edges {
               node {
                 goalId
@@ -28,20 +22,32 @@ const GoalsComponent = () => (
           }
         }
       `}
-      render={({ allGoalsJson: { edges: goals } }) => goals.map(({ node: goal }, i) => {
-        const percentage = getPercentage(goal.completed, goal.total);
-        return (
-          <div className="goal__container"key={i} aria-label="progress bars for goals">
-            {goal.title}
-            { parseInt(percentage) <= 95 ?
-              <span className="goal__percentage">{percentage}%</span>
-               : <span className="goal__percentage goal__percentage--filled">{percentage}%</span>
-             }
-            <progress max="100" value={percentage} id={goal.goalId}></progress>
-          </div>
-        );
-      })
-    }
+      render={({ allGoalsJson: { edges: goals } }) =>
+        goals.map(({ node: goal }, i) => {
+          const percentage = getPercentage(goal.completed, goal.total)
+          return (
+            <div
+              className="goal__container"
+              key={i}
+              aria-label="progress bars for goals"
+            >
+              {goal.title}
+              {parseInt(percentage) <= 95 ? (
+                <span className="goal__percentage">{percentage}%</span>
+              ) : (
+                <span className="goal__percentage goal__percentage--filled">
+                  {percentage}%
+                </span>
+              )}
+              <progress
+                max="100"
+                value={percentage}
+                id={goal.goalId}
+              ></progress>
+            </div>
+          )
+        })
+      }
     />
   </Fragment>
 );

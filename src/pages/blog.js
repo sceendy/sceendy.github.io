@@ -8,15 +8,15 @@ import Layout from '../components/layout';
 const createBlogList = (year, posts, i) => (
   <div key={i}>
     <h3>{year}</h3>
-    <ul className='list--side-pink list--no-style'>
-      {posts.map(({node}, i) =>
+    <ul className="list--side-pink list--no-style">
+      {posts.map(({ node }, i) => (
         <li key={i}>
           <Link to={`/${node.fields.slug}`}>
             <div>{node.frontmatter.title}</div>
             <div>{node.fields.date}</div>
           </Link>
         </li>
-      )}
+      ))}
     </ul>
   </div>
 );
@@ -43,7 +43,6 @@ const BlogArchiveComponent = ({ location }) => (
         }
       }
     `}
-
     render={blogData => {
       const data = blogData.allMarkdownRemark.edges;
       const onBlogPage = location && location !== 'undefined';
@@ -52,25 +51,31 @@ const BlogArchiveComponent = ({ location }) => (
 
       return (
         <Layout showFooter={onBlogPage} title={'Blog Posts'}>
-        {onBlogPage &&
-          <div>
-            <ul className='breadcrumbs'>
-              <li><Link to='/'>Home</Link></li>
-              <li>Blog</li>
-            </ul>
-            <h2>Blog Posts</h2>
-          </div>
-        }
-        {!onBlogPage && <h2>blog posts</h2>}
+          {onBlogPage && (
+            <div>
+              <ul className="breadcrumbs">
+                <li>
+                  <Link to="/">Home</Link>
+                </li>
+                <li>Blog</li>
+              </ul>
+              <h2>Blog Posts</h2>
+            </div>
+          )}
+          {!onBlogPage && <h2>blog posts</h2>}
 
-        {Object.keys(dataByYear)
-            .filter(year => !onBlogPage ? (year === '2021' || year === '2020') : year)
-            .sort((a, b) => b-a)
-            .map((year, i) => createBlogList(year, dataByYear[year], i))
-        }
-      </Layout>
-    )
-  }} />
+          {Object.keys(dataByYear)
+            .filter(year =>
+              !onBlogPage
+                ? year === '2021' || year === '2020' || year === '2019'
+                : year
+            )
+            .sort((a, b) => b - a)
+            .map((year, i) => createBlogList(year, dataByYear[year], i))}
+        </Layout>
+      )
+    }}
+  />
 );
 
 export default BlogArchiveComponent;
