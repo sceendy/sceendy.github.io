@@ -5,11 +5,11 @@ date:   2021-03-12 18:00:00
 tags: ['ui', 'dev', 'a11y']
 ---
 
-For the past 5 years I have worked on projects that have needed to meet some accessibility standards (WCAG 2.0 A/AA). In that time, I've seen how creating web applications for _everyone_ should be important to all devs. As devs, we can all strive do our part in building with accessibility as part of our normal workflow.
-
+For the past 5 years I have worked on projects that have needed to meet some kid of accessibility standards (Sec508 several years ago; now WCAG 2.0 A/AA). 
+I have collected a few simple ways that any dev can start to keep in mind while developing new UIs that I thought I'd share.
 ### Write Semantic HTML
 
-I see far too many `div`'s these days. If you use them a lot -- don't worry, I've seen plenty of junior to senior+ front-end engineers do the same. There are some pretty common places where you can start swapping them out.
+So, I see far too many `div`'s these days - but fortunately, this is the easiest place to start.
 
 Example: If it reads like a list (perhaps iterating over an array using the `map` method), you should likely use the tag or role:`ul`, `ol` or `role=list` (<a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/List_role" target="_blank" rel="noopener noreferrer" aria-label="Read more about the list role on the Mozilla Developer Network">read more</a>). I am not particularly a fan of using the role for this example but maybe you can't change the HTML for some reason and can only append attributes to existing elements. It's definitely better than nothing.
 
