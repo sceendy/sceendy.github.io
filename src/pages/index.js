@@ -25,20 +25,18 @@ export default () => (
         </h1>
       </header>
       <p>
-        I am a senior front-end engineer that works remotely at a big healthcare
-        company. I enjoy building functional, efficient, and elegantly +
-        thoughtfully designed UI's.
+        I am a senior front-end engineer that works remotely at a big healthcare company.
       </p>
-      <p>
-        I tend to write front-end tips, step-by-step javascript tutorials, or
-        about working remotely. I enjoy running, reading, playing video games,
-        and traveling for food.
-      </p>
+      <ul>
+        <li>One day I'll make time to write more blog posts.</li>
+        <li>If you have health insurance from a specific company, you can see my most recent work. 🤷🏻‍♀️</li>
+        <li>I enjoy running, reading, playing video games, and traveling for food.</li>
+      </ul>
       <a
         href={resume}
         className="btn"
         target="_blank"
-        title="Resume PDF"
+        title="Resume PDF, 80kb"
         rel="noopener noreferrer"
       >
         View Resume
