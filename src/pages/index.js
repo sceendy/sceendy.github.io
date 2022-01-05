@@ -8,7 +8,7 @@ import BlogArchiveComponent from './blog';
 import selfImage from '../static/italy-me.jpg';
 import resume from '../static/web-resume.pdf';
 
-export default () => (
+const index = () => (
   <Layout showFooter className="home-layout__container">
     <div className="home-layout__main-img">
       <LazyLoad height={312}>
@@ -29,7 +29,7 @@ export default () => (
       </p>
       <ul>
         <li>One day I'll make time to write more blog posts.</li>
-        <li>If you have health insurance from a specific company, you can see my most recent work. 🤷🏻‍♀️</li>
+        <li>If you have health insurance from a specific company, you can see my most recent work.</li>
         <li>I enjoy running, reading, playing video games, and traveling for food.</li>
       </ul>
       <a
@@ -51,3 +51,5 @@ export default () => (
     </section>
   </Layout>
 );
+
+export default index;

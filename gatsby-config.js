@@ -18,20 +18,6 @@ module.exports = {
         path: `${__dirname}/src/`
       }
     },
-    // `gatsby-plugin-sharp`,
-    // {
-    //   resolve: `gatsby-transformer-remark`,
-    //   options: {
-    //     plugins: [
-    //       {
-    //         resolve: `gatsby-remark-images`,
-    //         options: {
-    //           maxWidth: 800,
-    //         },
-    //       },
-    //     ],
-    //   },
-    // },
     {
       resolve: `gatsby-transformer-json`,
     },
@@ -44,6 +30,20 @@ module.exports = {
           },
         ],
       }
+    },
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 800,
+            },
+          },
+        ],
+      },
     },
     `gatsby-plugin-react-helmet`,
     {
@@ -58,6 +58,6 @@ module.exports = {
         icon: 'src/static/touch/icon128.png',
       },
     },
-    `gatsby-plugin-offline`
+    `gatsby-plugin-offline`,
   ]
 }

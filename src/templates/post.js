@@ -6,7 +6,7 @@ import Layout from '../components/layout'
 require('prismjs/themes/prism-okaidia.css')
 
 export default function Template({ data }) {
-  const post = data.markdownRemark
+  const post = data.markdownRemark;
   return (
     <Layout showFooter={true} title={post.frontmatter.title}>
       <article>
