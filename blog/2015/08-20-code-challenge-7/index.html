@@ -16,19 +16,20 @@ I pretty much stuck to the design as it is but personalized it a little with my 
 As far as the code went, I debated on the best way to handle the skewed side of the left panel and doing most of the animation with CSS3. There were a few of ways I could imagine accomplishing this but in the end I went with a similar approach that I take with ribbons on cards.
 <br/><br/>
 <strong>sass:</strong><br/>
-<div class="gatsby-highlight" data-language="sass"><pre class="language-sass"><code class="language-sass">
-<span class="token property-line"><span class="token property">&amp;</span><span class="token punctuation">:</span><span class="token property">after</span></span>
-<span class="token property-line">  <span class="token property">content</span><span class="token punctuation">:</span> ''</span>
-<span class="token property-line">  <span class="token property">height</span><span class="token punctuation">:</span> 100<span class="token operator">%</span></span>
-<span class="token property-line">  <span class="token property">width</span><span class="token punctuation">:</span> 90px</span>
-<span class="token property-line">  <span class="token property">background</span><span class="token punctuation">:</span> #fff</span>
-<span class="token property-line">  <span class="token property">position</span><span class="token punctuation">:</span> absolute</span>
-<span class="token property-line">  <span class="token property">top</span><span class="token punctuation">:</span> 0</span>
-<span class="token property-line">  <span class="token property">right</span><span class="token punctuation">:</span> -49px</span>
-<span class="token property-line">  <span class="token property">-webkit-transform</span><span class="token punctuation">:</span> skew(10deg)</span>
-<span class="token property-line">  <span class="token property">-moz-transform</span><span class="token punctuation">:</span> skew(10deg)</span>
-<span class="token property-line">  <span class="token property">-o-transform</span><span class="token punctuation">:</span> skew(10deg)</span>
-<span class="token property-line">  <span class="token property">z-index</span><span class="token punctuation">:</span> -9</span></code></pre></div>
+<pre><code class="language-sass">
+&#x26;:after
+  content: ''
+  height: 100%
+  width: 90px
+  background: #fff
+  position: absolute
+  top: 0
+  right: -49px
+  -webkit-transform: skew(10deg)
+  -moz-transform: skew(10deg)
+  -o-transform: skew(10deg)
+  z-index: -9
+</code></pre>
 <h4>css3</h4>
 I used the skew method to get the side slanted like in the design. By adding the pseudo, <span class="code-inline">:after</span> for <span class="code-inline">.left-side</span> it becomes hooked onto that class. Next up were the animations, two classes were created: <span class="code-inline">.animation-in</span> and <span class="code-inline">.animation-out</span> to toggle when the close button is clicked. I added <span class="code-inline">transform: scaleX(-1) translateX(-100px)</span> to create the illusion of the page turning. It currently just flips the text too and my next step would be to make it show as more of a book cover at the midpoint before it completely flips. However, I do like doing these write ups right after I've worked on these challenges in the allotted time for my own learning purposes. Plus, it's pretty cool looking back on these and seeing how much more efficient I become with tasks like this.
 <br/><br/>

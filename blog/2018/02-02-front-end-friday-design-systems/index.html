@@ -17,7 +17,7 @@ One of the biggest headaches when leading digital design teams is ensuring consi
 <p>It's not difficult to get in the habit of adding new patterns either. Once you have setup the configuration, you can begin to write styles for components and make a note of what context they should be used in. Personally, I prefer to write the HTML, write styles, and then often just copy/paste the first HTML snippet I had written of the pattern into the styleguide as the pattern example. No extra work required.</p>
 <p>Once you have design patterns, you need to document how those patterns are used. A living styleguide can be an immensely powerful tool utilized by both designers and developers to produce consistent, beautiful, documented UI patterns.</p>
 <p>Quick Example for documenting using Hologram:</p>
-<div class="gatsby-highlight" data-language="css"><pre class="language-css"><code class="language-css"><span class="token comment">/*doc
+<pre><code class="language-CSS">/*doc
 ---
 title: Button
 name: button
@@ -27,14 +27,15 @@ category: modules
 [DESCRIPTION GOES HERE] Action buttons are used for form submissions or something....
 
 ```html_example
-  &lt;button type="submit" class="btn btn--action">Send Message&lt;/button>
+  &#x3C;button type="submit" class="btn btn--action">Send Message&#x3C;/button>
 ```
-*/</span>
+*/
 
-<span class="token selector">.btn</span> <span class="token punctuation">{</span>
-  <span class="token property">color</span><span class="token punctuation">:</span> white<span class="token punctuation">;</span>
-  <span class="token property">padding</span><span class="token punctuation">:</span> 5px 10px<span class="token punctuation">;</span>
-  <span class="token property">text-align</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
+.btn {
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+}
 
-<span class="token selector">.btn--action</span> <span class="token punctuation">{</span> <span class="token property">background-color</span><span class="token punctuation">:</span> tomato<span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre></div></div></section></article></main><footer class="u--text-center"><p><a href="https://github.com/sceendy" target="_blank" rel="noopener noreferrer">github</a> <!-- -->|<!-- --> <a href="https://www.linkedin.com/in/sceendy/" target="_blank" rel="noopener noreferrer">linkedin</a> <!-- -->|<!-- --> <a href="https://codepen.io/sceendy" target="_blank" rel="noopener noreferrer">codepen</a><br/>© 2021</p></footer></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/blog/2018/02-02-front-end-friday-design-systems/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-dea0d845a721241f591d.js"],"app":["/app-dd1ac8466996539df542.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-ed71891e67857d7128bf.js"],"component---src-pages-404-js":["/component---src-pages-404-js-003f5ad3dee9f12dbf63.js"],"component---src-pages-blog-js":[],"component---src-pages-goals-js":["/component---src-pages-goals-js-ed4169db00c788b85565.js"],"component---src-pages-index-js":["/component---src-pages-index-js-b6dff42724ccccb75831.js"],"component---src-templates-post-js":["/component---src-templates-post-js-79f2d3b703f0e02d9f2f.js"]};/*]]>*/</script><script src="/polyfill-dea0d845a721241f591d.js" nomodule=""></script><script src="/component---src-templates-post-js-79f2d3b703f0e02d9f2f.js" async=""></script><script src="/40f2c7494120b20d44a1314385d207a616dd714f-94d45befc4d94b9ad0c0.js" async=""></script><script src="/app-dd1ac8466996539df542.js" async=""></script><script src="/framework-7d6d54381d658fb1dc5f.js" async=""></script><script src="/webpack-runtime-f7abbf0acb99d8d26251.js" async=""></script></body></html>
+.btn--action { background-color: tomato; }
+</code></pre></div></section></article></main><footer class="u--text-center"><p><a href="https://github.com/sceendy" target="_blank" rel="noopener noreferrer">github</a> <!-- -->|<!-- --> <a href="https://www.linkedin.com/in/sceendy/" target="_blank" rel="noopener noreferrer">linkedin</a> <!-- -->|<!-- --> <a href="https://codepen.io/sceendy" target="_blank" rel="noopener noreferrer">codepen</a><br/>© 2021</p></footer></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/blog/2018/02-02-front-end-friday-design-systems/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-dea0d845a721241f591d.js"],"app":["/app-dd1ac8466996539df542.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-ed71891e67857d7128bf.js"],"component---src-pages-404-js":["/component---src-pages-404-js-003f5ad3dee9f12dbf63.js"],"component---src-pages-blog-js":[],"component---src-pages-goals-js":["/component---src-pages-goals-js-ed4169db00c788b85565.js"],"component---src-pages-index-js":["/component---src-pages-index-js-b6dff42724ccccb75831.js"],"component---src-templates-post-js":["/component---src-templates-post-js-79f2d3b703f0e02d9f2f.js"]};/*]]>*/</script><script src="/polyfill-dea0d845a721241f591d.js" nomodule=""></script><script src="/component---src-templates-post-js-79f2d3b703f0e02d9f2f.js" async=""></script><script src="/40f2c7494120b20d44a1314385d207a616dd714f-94d45befc4d94b9ad0c0.js" async=""></script><script src="/app-dd1ac8466996539df542.js" async=""></script><script src="/framework-7d6d54381d658fb1dc5f.js" async=""></script><script src="/webpack-runtime-f7abbf0acb99d8d26251.js" async=""></script></body></html>

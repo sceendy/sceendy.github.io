@@ -17,13 +17,14 @@
 <p>There are <a href="https://yarnpkg.com/en/docs/install">different forms of installing Yarn</a> depending on your operating system. Once you have it installed, you can just run <span class="code-inline">yarn init</span> in your project. You'll answer a few questions related to your project and then it'll generate your <strong>package.json</strong> file. This file contains information about your project including dependencies and scripts which we will add later.</p>
 <h3>Install Webpack + Loaders</h3>
 <p>There are several packages needed to setup our webpack configuration and I'll explain what each does as we add it. For now, just run the command (below) to add Webpack and useful loaders and plugins to our "simpler-starter" project.</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">$ yarn add webpack sass-loader css-loader babel-loader babel-core extract-text-webpack-plugin html-webpack-plugin node-sass rimraf style-loader uglifyjs-webpack-plugin webpack-dev-server compression-webpack-plugin -D</code></pre></div>
+<pre><code>$ yarn add webpack sass-loader css-loader babel-loader babel-core extract-text-webpack-plugin html-webpack-plugin node-sass rimraf style-loader uglifyjs-webpack-plugin webpack-dev-server compression-webpack-plugin -D
+</code></pre>
 <p>So, now, we have our project dependencies all installed and locked onto our project.</p>
 <h3>App Structure</h3>
 <p>Next, we want to create a basic file structure for our app. The root directory, <strong>simple-starter</strong>, will store all the source code in a folder called <strong>src</strong> that contains styles and JavaScript. Create a <strong>scss</strong> folder where you can add your <strong>_styles.scss</strong> file. For your JavaScript, create a <strong>js</strong> folder that holds an <strong>index.js</strong> file. Then, create an index page for our markup <span class="code-inline">index.html</span>.</p>
 <p>We also need to add two configuration files for WebPack. The first one will be used as default and named <strong>webpack.config.js</strong>. For our production configuration, we need a file called <strong>webpack.prod.config.js</strong> that will contain tasks such as minifying our files for production.</p>
 <p>So, it should look like this by now:</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">  - /simple-starter
+<pre><code>  - /simple-starter
 
   -- /src
   
@@ -41,122 +42,134 @@
 
   -- webpack.prod.config.js
 
-  -- package.json</code></pre></div>
+  -- package.json
+</code></pre>
 <h3>Development build configuration</h3>
 <p>By default, when you run webpack, it reads the <strong>webpack.config.js</strong> file. This is where we will add our configurations.</p>
 <p>There are a few basic modules we need to make accessible to the file first. The <strong>path</strong> module is super useful as it makes it easy to work with files and directory paths. You also need to add <strong>webpack</strong> to make use of some of its' plugins. Finally, you'll want to include the <strong>html-webpack-plugin</strong> to create the HTML files you will serve your webpack bundles.</p>
-<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">/* webpack.config.js, Lines 1-3 */</span>
-<span class="token keyword">const</span> path <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'path'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token keyword">const</span> webpack <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'webpack'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token keyword">const</span> HtmlWebpackPlugin <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'html-webpack-plugin'</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre></div>
+<pre><code class="language-js">/* webpack.config.js, Lines 1-3 */
+const path = require('path');
+const webpack = require('webpack');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+</code></pre>
 <p>This file will be used for both the dev and prod enviornments. Environment variables are supported for Node projects out of the box and come in handy here so that we can set certain configuration properties according to which environment we need. Line 5 checks to see if you included <span class="code-inline">NODE_ENV</span> and if you did it, it uses the variable; if not, the default value is <span class="code-inline">dev</span>.</p>
-<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">/* webpack.config.js, Lines 5 */</span>
-<span class="token keyword">const</span> env <span class="token operator">=</span> process<span class="token punctuation">.</span>env<span class="token punctuation">.</span><span class="token constant">NODE_ENV</span> <span class="token operator">?</span> process<span class="token punctuation">.</span>env<span class="token punctuation">.</span><span class="token constant">NODE_ENV</span> <span class="token operator">:</span> <span class="token string">'dev'</span><span class="token punctuation">;</span>
-<span class="token comment">// Later, you'll want to create a webpack.dev.config.js file to separate concerns</span>
-<span class="token comment">// Let's keep it simple for now, though</span></code></pre></div>
+<pre><code class="language-js">/* webpack.config.js, Lines 5 */
+const env = process.env.NODE_ENV ? process.env.NODE_ENV : 'dev';
+// Later, you'll want to create a webpack.dev.config.js file to separate concerns
+// Let's keep it simple for now, though
+</code></pre>
 <p>Cool, now we have the necessary modules and know which environment to build for. Let's setup some configs!</p>
 <p>For a quick setup, we can use the single entry syntax to set the <span class="code-inline">entry</span> to be our <strong>index.js</strong> file that we created in our JS folder. This is the entry point for the application. For the <span class="code-inline">output</span> property, the filename will be a unique name + hash since it works well for common uses. Then, we want these files to be generated in a new folder in our root directory called <strong>/dist</strong>.</p>
-<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">/* webpack.config.js, Lines 6-18 */</span>
-module<span class="token punctuation">.</span>exports  <span class="token operator">=</span> <span class="token punctuation">{</span>
-  entry<span class="token operator">:</span> <span class="token string">'./src/js/index'</span><span class="token punctuation">,</span>
-  output<span class="token operator">:</span> <span class="token punctuation">{</span>
-    filename<span class="token operator">:</span> <span class="token string">'[name].[hash].js'</span><span class="token punctuation">,</span>
-    path<span class="token operator">:</span> path<span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span>__dirname<span class="token punctuation">,</span> <span class="token string">'/dist'</span><span class="token punctuation">)</span>
-  <span class="token punctuation">}</span><span class="token punctuation">,</span>
-  devtool<span class="token operator">:</span> env <span class="token operator">===</span> <span class="token string">'prod'</span> <span class="token operator">?</span> <span class="token boolean">false</span> <span class="token operator">:</span> <span class="token string">'source-map'</span><span class="token punctuation">,</span> <span class="token comment">// disable for prod</span>
-  devServer<span class="token operator">:</span> <span class="token punctuation">{</span>
-    contentBase<span class="token operator">:</span> <span class="token string">'./dist'</span><span class="token punctuation">,</span> <span class="token comment">// use contents of /dist for the server</span>
-    open<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
-    inline<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
-    historyApiFallback<span class="token operator">:</span> <span class="token boolean">true</span>
-  <span class="token punctuation">}</span><span class="token punctuation">,</span></code></pre></div>
+<pre><code class="language-js">/* webpack.config.js, Lines 6-18 */
+module.exports  = {
+  entry: './src/js/index',
+  output: {
+    filename: '[name].[hash].js',
+    path: path.join(__dirname, '/dist')
+  },
+  devtool: env === 'prod' ? false : 'source-map', // disable for prod
+  devServer: {
+    contentBase: './dist', // use contents of /dist for the server
+    open: true,
+    inline: true,
+    historyApiFallback: true
+  },
+</code></pre>
 <p>Now we can include our loaders and specify what we want them to do to specific types of files. For example, our babel-loader will be taking our files that have the .js or .jsx extensions.</p>
-<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">/* webpack.config.js, Lines 16-42 */</span>
-  module<span class="token operator">:</span> <span class="token punctuation">{</span>
-    rules<span class="token operator">:</span> <span class="token punctuation">[</span>
-      <span class="token punctuation">{</span>
-        test<span class="token operator">:</span> <span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">\.(js|jsx)$</span><span class="token regex-delimiter">/</span></span><span class="token punctuation">,</span>
-        exclude<span class="token operator">:</span> <span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">node_modules</span><span class="token regex-delimiter">/</span></span><span class="token punctuation">,</span>
-        loader<span class="token operator">:</span> <span class="token string">'babel-loader'</span>
-      <span class="token punctuation">}</span><span class="token punctuation">,</span>
-      <span class="token punctuation">{</span>
-        test<span class="token operator">:</span> <span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">\.scss$</span><span class="token regex-delimiter">/</span></span><span class="token punctuation">,</span>
-        use<span class="token operator">:</span> <span class="token punctuation">[</span>
-          <span class="token punctuation">{</span> loader<span class="token operator">:</span> <span class="token string">'style-loader'</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
-          <span class="token punctuation">{</span>
-            loader<span class="token operator">:</span> <span class="token string">'css-loader'</span><span class="token punctuation">,</span>
-            options<span class="token operator">:</span> <span class="token punctuation">{</span>
-              sourceMap<span class="token operator">:</span> <span class="token boolean">true</span>
-            <span class="token punctuation">}</span>
-          <span class="token punctuation">}</span><span class="token punctuation">,</span>
-          <span class="token punctuation">{</span>
-            loader<span class="token operator">:</span> <span class="token string">'sass-loader'</span><span class="token punctuation">,</span>
-            options<span class="token operator">:</span> <span class="token punctuation">{</span>
-              sourceMap<span class="token operator">:</span> <span class="token boolean">true</span>
-            <span class="token punctuation">}</span>
-          <span class="token punctuation">}</span>
-        <span class="token punctuation">]</span>
-      <span class="token punctuation">}</span>
-    <span class="token punctuation">]</span>
-  <span class="token punctuation">}</span><span class="token punctuation">,</span></code></pre></div>
+<pre><code class="language-js">/* webpack.config.js, Lines 16-42 */
+  module: {
+    rules: [
+      {
+        test: /\.(js|jsx)$/,
+        exclude: /node_modules/,
+        loader: 'babel-loader'
+      },
+      {
+        test: /\.scss$/,
+        use: [
+          { loader: 'style-loader' },
+          {
+            loader: 'css-loader',
+            options: {
+              sourceMap: true
+            }
+          },
+          {
+            loader: 'sass-loader',
+            options: {
+              sourceMap: true
+            }
+          }
+        ]
+      }
+    ]
+  },
+</code></pre>
 <p>Plugins are different from loaders as you have to pass a new instance when adding them to your plugins list. For instance, we want to make use of webpacks' hot module replacement plugin to see our changes immediately as we make them so we create an new instance of the plugin as such: <span class="code-inline">new webpack.HotModuleReplacementPlugin()</span>. Plugins accept arguments that you can easily update when reusing this starting point such as the title that gets injected into your <strong>index.html</strong> file in line 46.</p>
-<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">/* webpack.config.js, Lines 43-53 */</span>
-  plugins<span class="token operator">:</span> <span class="token punctuation">[</span>
-    <span class="token keyword">new</span> <span class="token class-name">webpack<span class="token punctuation">.</span>HotModuleReplacementPlugin</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-    <span class="token keyword">new</span> <span class="token class-name">HtmlWebpackPlugin</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
-      title<span class="token operator">:</span> <span class="token string">'Simple Starter'</span><span class="token punctuation">,</span>
-      inject<span class="token operator">:</span> <span class="token string">'body'</span><span class="token punctuation">,</span>
-      template<span class="token operator">:</span> path<span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span>__dirname<span class="token punctuation">,</span> <span class="token string">'/src/index.html'</span><span class="token punctuation">)</span>
-    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-    <span class="token keyword">new</span> <span class="token class-name">webpack<span class="token punctuation">.</span>ProgressPlugin</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
-  <span class="token punctuation">]</span>
-<span class="token punctuation">}</span></code></pre></div>
+<pre><code class="language-js">/* webpack.config.js, Lines 43-53 */
+  plugins: [
+    new webpack.HotModuleReplacementPlugin(),
+    new HtmlWebpackPlugin({
+      title: 'Simple Starter',
+      inject: 'body',
+      template: path.join(__dirname, '/src/index.html')
+    }),
+    new webpack.ProgressPlugin()
+  ]
+}
+</code></pre>
 <p>Sweet! In your <strong>index.html</strong> file you can add the title in dynamically simply bu including:</p>
-<div class="gatsby-highlight" data-language="html"><pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">></span></span>&lt;%= htmlWebpackPlugin.options.title %><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">></span></span></code></pre></div>
+<pre><code class="language-html">&#x3C;title>&#x3C;%= htmlWebpackPlugin.options.title %>&#x3C;/title>
+</code></pre>
 <h3>Production build configuration</h3>
 <p>For production builds, uglifying JS and compressing files is pretty common so those are the plugins we want to include for a prod configuration. You'll want to import your default config and then <span class="code-inline">push</span> prod-specific plugins to the plugins array.</p>
-<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">/* webpack.prod.config.js */</span>
-<span class="token keyword">const</span> config <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'./webpack.config.js'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token keyword">const</span> webpack <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'webpack'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<pre><code class="language-js">/* webpack.prod.config.js */
+const config = require('./webpack.config.js');
+const webpack = require('webpack');
 
-<span class="token keyword">const</span> UglifyJsWebpackPlugin <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'uglifyjs-webpack-plugin'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token keyword">const</span> CompressionWebpackPlugin <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'compression-webpack-plugin'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+const UglifyJsWebpackPlugin = require('uglifyjs-webpack-plugin');
+const CompressionWebpackPlugin = require('compression-webpack-plugin');
 
-config<span class="token punctuation">.</span>plugins<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>
-  <span class="token keyword">new</span> <span class="token class-name">UglifyJsWebpackPlugin</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
-    sourceMap<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
-    uglifyOptions<span class="token operator">:</span> <span class="token punctuation">{</span>
-      ie8<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
-      ecma<span class="token operator">:</span> <span class="token number">5</span><span class="token punctuation">,</span>
-      compress<span class="token operator">:</span> <span class="token punctuation">{</span>
-        warnings<span class="token operator">:</span> <span class="token boolean">false</span>
-      <span class="token punctuation">}</span>
-    <span class="token punctuation">}</span>
-  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-  <span class="token keyword">new</span> <span class="token class-name">CompressionWebpackPlugin</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
-    asset<span class="token operator">:</span> <span class="token string">'[path].gz[query]'</span><span class="token punctuation">,</span>
-    algorithm<span class="token operator">:</span> <span class="token string">'gzip'</span><span class="token punctuation">,</span>
-    test<span class="token operator">:</span> <span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">\.(js|html|css)$</span><span class="token regex-delimiter">/</span></span><span class="token punctuation">,</span>
-    threshold<span class="token operator">:</span> <span class="token number">10240</span><span class="token punctuation">,</span>
-    minRatio<span class="token operator">:</span> <span class="token number">0.8</span>
-  <span class="token punctuation">}</span><span class="token punctuation">)</span>
-<span class="token punctuation">)</span><span class="token punctuation">;</span>
+config.plugins.push(
+  new UglifyJsWebpackPlugin({
+    sourceMap: true,
+    uglifyOptions: {
+      ie8: false,
+      ecma: 5,
+      compress: {
+        warnings: false
+      }
+    }
+  }),
+  new CompressionWebpackPlugin({
+    asset: '[path].gz[query]',
+    algorithm: 'gzip',
+    test: /\.(js|html|css)$/,
+    threshold: 10240,
+    minRatio: 0.8
+  })
+);
 
-module<span class="token punctuation">.</span>exports <span class="token operator">=</span> config<span class="token punctuation">;</span></code></pre></div>
+module.exports = config;
+</code></pre>
 <h3>Scripts</h3>
 <p>With config files in place, you're now ready to start writing your application, right? Not quite - you need to write scripts that will run your configurations and serve your application, first.</p>
 <p>Keeping it pretty simple, you really only need two scripts at this point. The first one will be to start your dev environment where we use <span class="code-inline">webpack-dev-server</span> to serve the application and uses the options from your <strong>webpack.config.js</strong> file (Lines 12-18).</p>
 <p>Lastly, we want to have a script to run that builds your prod folder (<strong>/dist</strong>). If you recall, we want to set an environment variable for this script <span class="code-inline">NODE_ENV=prod</span> and then tell Webpack to use the prod config file.</p>
-<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">/* package.json */</span>
-<span class="token string">"scripts"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
-  <span class="token string">"start"</span><span class="token operator">:</span> <span class="token string">"webpack-dev-server"</span><span class="token punctuation">,</span>
-  <span class="token string">"build"</span><span class="token operator">:</span> <span class="token string">"NODE_ENV=prod webpack --config webpack.prod.config.js"</span>
-<span class="token punctuation">}</span></code></pre></div>
+<pre><code class="language-js">/* package.json */
+"scripts": {
+  "start": "webpack-dev-server",
+  "build": "NODE_ENV=prod webpack --config webpack.prod.config.js"
+}
+</code></pre>
 <p>Ready to start coding? Sweet, run</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">$ yarn start</code></pre></div>
+<pre><code>$ yarn start
+</code></pre>
 <p>When that's good to go, make a production build!</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">$ yarn build</code></pre></div>
+<pre><code>$ yarn build
+</code></pre>
 <p>View the prod build by opening the <strong>dist/index.html</strong> file or you can setup your server. I've thrown a simple one into the <strong>simple-starer</strong> repo if you want to try that too, though.</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">$ yarn serve</code></pre></div>
+<pre><code>$ yarn serve
+</code></pre>
 <hr />
 <p>I did write this up to get you started with setting up Webpack but there are a few things I didn't cover! Or perhaps didn't go that in-depth into. Luckily, Webpack has some great documentation! Learn more about the Webpack core concepts and configurations by checking out the <a href="https://webpack.js.org/concepts/" rel="noopener">Webpack docs</a> or taking the excellent <a href="https://webpack.academy/p/web-fundamentals" rel="noopener">Web Fundamentals course</a> provided by Sean Larkin.</p></div></section></article></main><footer class="u--text-center"><p><a href="https://github.com/sceendy" target="_blank" rel="noopener noreferrer">github</a> <!-- -->|<!-- --> <a href="https://www.linkedin.com/in/sceendy/" target="_blank" rel="noopener noreferrer">linkedin</a> <!-- -->|<!-- --> <a href="https://codepen.io/sceendy" target="_blank" rel="noopener noreferrer">codepen</a><br/>© 2021</p></footer></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/blog/2017/12-11-setup-webpack/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-dea0d845a721241f591d.js"],"app":["/app-dd1ac8466996539df542.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-ed71891e67857d7128bf.js"],"component---src-pages-404-js":["/component---src-pages-404-js-003f5ad3dee9f12dbf63.js"],"component---src-pages-blog-js":[],"component---src-pages-goals-js":["/component---src-pages-goals-js-ed4169db00c788b85565.js"],"component---src-pages-index-js":["/component---src-pages-index-js-b6dff42724ccccb75831.js"],"component---src-templates-post-js":["/component---src-templates-post-js-79f2d3b703f0e02d9f2f.js"]};/*]]>*/</script><script src="/polyfill-dea0d845a721241f591d.js" nomodule=""></script><script src="/component---src-templates-post-js-79f2d3b703f0e02d9f2f.js" async=""></script><script src="/40f2c7494120b20d44a1314385d207a616dd714f-94d45befc4d94b9ad0c0.js" async=""></script><script src="/app-dd1ac8466996539df542.js" async=""></script><script src="/framework-7d6d54381d658fb1dc5f.js" async=""></script><script src="/webpack-runtime-f7abbf0acb99d8d26251.js" async=""></script></body></html>
