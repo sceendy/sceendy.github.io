@@ -8,7 +8,7 @@ I placed made the blog_url and api_key variables for better visibility and I am 
 Once I got that setup, I decide to make a little test in the console to make sure all was well.<br />
 <code>_resource.test(function(data, $sce){ console.log('Tumblr status = '+ data.meta.status + ', msg = ' + data.meta.msg + ' for ' + data.response.blog.title);</code><br />
 Which then returned the following:<br />
-<img alt="image" src="https://31.media.tumblr.com/a0eb63c50643de3c12acdd599b86d9fe/tumblr_inline_ngl2qsOSMD1qzntgb.png" /><br />
+<img alt="image" src="https://31.media.tumblr.com/a0eb63c50643de3c12acdd599b86d9fe/tumblr_inline_ngl2qsOSMD1qzntgb.png"><br />
 Fantastic! That meant I was good to go ahead and call in some of the data.<br />
 <strong>index.js:</strong><br /></p>
 <pre><code class="language-javascript">$scope.blog = data.response.posts;</code></pre>
