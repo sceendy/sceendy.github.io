@@ -3,7 +3,7 @@ import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/layout'
 
-require('prismjs/themes/prism-okaidia.css')
+// require('prismjs/themes/prism-okaidia.css');
 
 export default function Template({ data }) {
   const post = data.markdownRemark;
@@ -20,6 +20,18 @@ export default function Template({ data }) {
           <li>{post.frontmatter.title}</li>
         </ul>
         <header>
+          <h1
+            style={{
+              visibility: 'hidden',
+              height: '0',
+              width: '0',
+              display: 'block',
+              padding: '0',
+              margin: '0'
+            }}
+          >
+            Blog Post
+          </h1>
           <h2>{post.frontmatter.title}</h2>
           <div>{post.frontmatter.date}</div>
           {post.frontmatter.tags.map((tag, i) => (

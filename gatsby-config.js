@@ -18,9 +18,7 @@ module.exports = {
         path: `${__dirname}/src/`
       }
     },
-    {
-      resolve: `gatsby-transformer-json`,
-    },
+    { resolve: `gatsby-transformer-json` },
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -28,14 +26,6 @@ module.exports = {
           {
             resolve: `gatsby-remark-prismjs`
           },
-        ],
-      }
-    },
-    `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [
           {
             resolve: `gatsby-remark-images`,
             options: {
@@ -43,7 +33,7 @@ module.exports = {
             },
           },
         ],
-      },
+      }
     },
     `gatsby-plugin-react-helmet`,
     {
@@ -59,5 +49,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
+    `gatsby-plugin-sharp`,
   ]
 }

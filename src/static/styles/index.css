@@ -52,6 +52,7 @@ html, body {
   font-family: 'Source Sans Pro', system, system-ui, -apple-system, BlinkMacSystemFont,Roboto, Helvetica, Arial, sans-serif;
   font-size: var(--base-font-size);
   margin: 0;
+  background-color: white;
 }
 
 h1 {

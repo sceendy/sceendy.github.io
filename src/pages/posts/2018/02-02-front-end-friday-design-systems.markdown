@@ -17,11 +17,11 @@ One of the biggest headaches when leading digital design teams is ensuring consi
 
 A design system is a combination of reusable components and a set of standards for using those components. You can create one from an existing project or build one as you start a new project. One key thing, though, is getting everyone to see its' value and for contributors to help maintain it.
 
-#### Step Zero: Pitch and get everyone on board
+### Step Zero: Pitch and get everyone on board
 
 I like presenting the use of a <a href="http://bradfrost.com/blog/post/style-guide-driven-design-systems/" rel="noopener" target="_blank">design system</a> by stating that it makes it both easier and quicker to add new features to applications. It provides predictability, consistency, and makes for more rapid development. You want the people contributing to the design and/or codebase (designers + devs) to be the ones included in the process of both creating and maintaining the living styleguide.
 
-#### Step One: Design Patterns
+### Step One: Design Patterns
 
 If you're wanting to add one to an existing project, designers can take an inventory on their reusable design patterns. Designs patterns are the UI elements that you reuse such as buttons, cards, and layouts. You might have different colored buttons for different actions or sections.
 
@@ -29,7 +29,7 @@ If you're wanting to add one to an existing project, designers can take an inven
 
 These design patterns could have gotten started in <a href="https://www.sketchapp.com/" rel="noopener" target="_blank">Sketch</a> but they need to be living, usable UI components. That being said, you need people that can write clean, modular, reusable front-end code to build the styleguide. These components need to be things that any contributor can use to build a new thing. 
 
-#### Step Two: The living styleguide
+### Step Two: The living styleguide
 
 Luckily, setting up <a href="http://bradfrost.com/blog/post/style-guide-driven-design-systems/" rel="noopener" target="_blank">a living styleguide</a> doesn't have to be that time consuming - you can use one of many <a href="https://github.com/davidhund/styleguide-generators" rel="noopener" target="_blank">styleguide generators</a> that have pretty simple configurations. Just find one that fits well into your environment and into your flow. Looking through how they document would be super helpful as they mostly all have something similar to <a href="https://react-styleguidist.js.org/docs/documenting.html" rel="noopener" target="_blank">React Styleguidists' documenting page</a>.
 

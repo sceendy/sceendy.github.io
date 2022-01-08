@@ -11,7 +11,7 @@ Okay, so you've checked out my last two tutorials to learn JavaScript. As you st
 
 [Webpack](https://webpack.js.org/concepts/) is a powerful tool that compiles the JavaScript modules in your projects. There are plenty of [loaders](https://webpack.js.org/concepts/#loaders) available to make common transformations to your code such as compiling Sass to CSS or transpiling your JavaScript files using Babel. 
 
-#### Overview
+### Overview
 
 In this tutorial, we will go through setting a base/starting point for projects that uses Sass and ES2015+. Grab the code from my [simple-starter project repo](https://github.com/sceendy/simple-starter).
 
@@ -23,7 +23,7 @@ In this tutorial, we will go through setting a base/starting point for projects 
 
 Start by adding a new folder called **simple-starter** and go ahead and jump into it: <span class="code-inline">$ mkdir simple-starter</span>.
 
-#### Dependency Management: Yarn
+### Dependency Management: Yarn
 
 To get started, we are going to want to be able to manage the different loaders we will be installing. You may have heard of <a href="https://www.npmjs.com/" rel="noopener" title="NPM official website" target="_blank">NPM </a> as it's the largest software registry in the world. For this tutorial, I want to introduce you to a newer package manager that installs over npm and replaces it in your terminal.
 
@@ -33,7 +33,7 @@ For example, it allows me to create a project **offline** and still be able to i
 
 There are [different forms of installing Yarn](https://yarnpkg.com/en/docs/install) depending on your operating system. Once you have it installed, you can just run <span class="code-inline">yarn init</span> in your project. You'll answer a few questions related to your project and then it'll generate your **package.json** file. This file contains information about your project including dependencies and scripts which we will add later.
 
-#### Install Webpack + Loaders
+### Install Webpack + Loaders
 
 There are several packages needed to setup our webpack configuration and I'll explain what each does as we add it. For now, just run the command (below) to add Webpack and useful loaders and plugins to our "simpler-starter" project.
 
@@ -43,7 +43,7 @@ $ yarn add webpack sass-loader css-loader babel-loader babel-core extract-text-w
 
 So, now, we have our project dependencies all installed and locked onto our project.
 
-#### App Structure
+### App Structure
 
 Next, we want to create a basic file structure for our app. The root directory, **simple-starter**, will store all the source code in a folder called **src** that contains styles and JavaScript. Create a **scss** folder where you can add your **_styles.scss** file. For your JavaScript, create a **js** folder that holds an **index.js** file. Then, create an index page for our markup <span class="code-inline">index.html</span>. 
 
@@ -73,7 +73,7 @@ So, it should look like this by now:
   -- package.json
 ```
 
-#### Development build configuration
+### Development build configuration
 
 By default, when you run webpack, it reads the **webpack.config.js** file. This is where we will add our configurations.
 
@@ -170,7 +170,7 @@ Sweet! In your **index.html** file you can add the title in dynamically simply b
 <title><%= htmlWebpackPlugin.options.title %></title>
 ````
 
-#### Production build configuration
+### Production build configuration
 
 For production builds, uglifying JS and compressing files is pretty common so those are the plugins we want to include for a prod configuration. You'll want to import your default config and then <span class="code-inline">push</span> prod-specific plugins to the plugins array. 
 
@@ -205,7 +205,7 @@ config.plugins.push(
 module.exports = config;
 ````
 
-#### Scripts
+### Scripts
 
 With config files in place, you're now ready to start writing your application, right? Not quite - you need to write scripts that will run your configurations and serve your application, first. 
 

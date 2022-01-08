@@ -17,7 +17,7 @@ I had a lot of fun bringing over the content from my Geocities sites over to the
 
 Anyway, I was one of those kids that was fortunate enough to attend a high school that offered web design and computer science courses. I took the web design course to both get a better understanding on the basics of digital design and also to be able to reinforce what I had learned through self-teaching. 
 
-#### of course: myspace
+### of course: myspace
 
 At the time, MySpace was ridiculously popular among people my age as was applying different premade MySpace layouts to present our individuality as most teens desire.
 
@@ -33,7 +33,7 @@ Within a few months, I was making/selling custom MySpace layouts to friends. So,
 
 I enjoyed both designing and using CSS to create those layouts so I continued taking graphic design courses at school. One friend that was also tinkering with code at the time suggested I take the Computer Science course because his PreCal teacher had recommended it to him to get more in-depth with programming fundamentals.
 
-#### computer science? but why?
+### computer science? but why?
 
 To be honest, learning programming fundamentals didn’t really sell me on it. I enjoyed building with just HTML/CSS so why did I have to learn programming? However, what nudged me into the right direction was that I learned it was considered an AP class at the time. I figured it couldn’t hurt to take “another computer class” that would help my GPA.
 
