@@ -67,7 +67,7 @@ const Layout = ({ children, showFooter, title, className }) => (
             codepen
           </a>
           <br />
-          &copy; 2021
+          &copy; {new Date().getFullYear()}
         </p>
       </footer>
     )}
