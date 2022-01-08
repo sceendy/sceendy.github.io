@@ -9,3 +9,5 @@
 // exports.onInitialClientRender = () => {
 //   console.log('Hey, you made it to my site! Cool!');
 // };
+
+require('prismjs/themes/prism-okaidia.min.css');

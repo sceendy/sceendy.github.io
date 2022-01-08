@@ -4,7 +4,6 @@ module.exports = {
     siteUrl: 'https://www.sceendy.com'
   },
   plugins: [
-    `gatsby-plugin-sharp`,
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
@@ -19,17 +18,7 @@ module.exports = {
         path: `${__dirname}/src/`
       }
     },
-    { resolve: `gatsby-transformer-json` },
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [
-          {
-            resolve: `gatsby-remark-prismjs`
-          },
-        ],
-      }
-    },
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -42,6 +31,17 @@ module.exports = {
           },
         ],
       },
+    },
+    { resolve: `gatsby-transformer-json` },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-prismjs`
+          },
+        ],
+      }
     },
     `gatsby-plugin-react-helmet`,
     {

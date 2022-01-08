@@ -5,6 +5,8 @@ import groupBy from 'lodash/groupBy';
 
 import Layout from '../components/layout';
 
+const isRecentYear = year => [2019, 2020, 2021, 2022].find(y => y === year);
+
 const createBlogList = (year, posts, i) => (
   <div key={i}>
     <h3>{year}</h3>
@@ -67,7 +69,7 @@ const BlogArchiveComponent = ({ location }) => (
           {Object.keys(dataByYear)
             .filter(year =>
               !onBlogPage
-                ? year === '2021' || year === '2020' || year === '2019'
+                ? isRecentYear(parseInt(year))
                 : year
             )
             .sort((a, b) => b - a)

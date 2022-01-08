@@ -3,8 +3,6 @@ import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/layout'
 
-// require('prismjs/themes/prism-okaidia.css');
-
 export default function Template({ data }) {
   const post = data.markdownRemark;
   return (

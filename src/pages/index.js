@@ -25,7 +25,7 @@ const index = () => (
         </h1>
       </header>
       <p>
-        I am a senior front-end engineer that works remotely at a big healthcare company.
+        I am a senior front-end engineer and team lead for the core features web team at a big healthcare company.
       </p>
       <ul>
         <li>One day I'll make time to write more blog posts.</li>
