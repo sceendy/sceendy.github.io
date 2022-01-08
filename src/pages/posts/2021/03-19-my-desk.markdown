@@ -22,14 +22,11 @@ Every morning I sit at my desk and write out my things to do for that day. Doing
 <img src="../../../static/images/my-desk/notepad.jpg" alt="my notepad" class="img--responsive" />
 
 I still keep a notepad and post-its but those are more for meeting notes. "Reminder: so-and-so is the point of contact for a specific API"
+My iPad is on my desk for the days that I may eat lunch at my desk and I want to watch something while eating.
 
 <img src="../../../static/images/my-desk/books.jpg" alt="two books: Fear and Loathing on the Campaign Trail '72 by Hunter S. Thompson and Beautiful JavaScript by Kovalyov" class="img--responsive" />
 
 I also have two books on my desk that I'm currently trying to get through. I have a chair nearby where I pump and I'll usually take one of the books with me to knock out a few pages. Other days I may take my iPad to watch a youtube video or an episode of a show. 
-
-<img src="../../../static/images/my-desk/desk.jpg" alt="my desk" class="img--responsive" />
-
-My iPad is on my desk for the days that I may eat lunch at my desk and I want to watch something while eating.
 
 <img src="../../../static/images/my-desk/weights.jpg" alt="10 pound free-weights" class="img--responsive" />
 
@@ -39,4 +36,4 @@ I also keep 10lb free-weights to remember to get a quick exercise in the morning
 
 My wireless noise-cancelling headphones are great for meetings and for heads-down working time. My son is on the other side of the house being taken care of and he's not always cooperative so these headphones are perfect to not get distracted.
 
-These items have helped me stay organized, feel focused, and overall kept me productive as I've worked remotely for the past 5+ years. I 
+These items have helped me stay organized, feel focused, and overall kept me productive as I've worked remotely for the past 5+ years. 

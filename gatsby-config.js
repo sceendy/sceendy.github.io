@@ -4,6 +4,7 @@ module.exports = {
     siteUrl: 'https://www.sceendy.com'
   },
   plugins: [
+    `gatsby-plugin-sharp`,
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
@@ -26,6 +27,13 @@ module.exports = {
           {
             resolve: `gatsby-remark-prismjs`
           },
+        ],
+      }
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
           {
             resolve: `gatsby-remark-images`,
             options: {
@@ -33,7 +41,7 @@ module.exports = {
             },
           },
         ],
-      }
+      },
     },
     `gatsby-plugin-react-helmet`,
     {
@@ -49,6 +57,5 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
-    `gatsby-plugin-sharp`,
   ]
 }
