@@ -5,8 +5,8 @@ date:   2021-03-12 18:00:00
 tags: ['ui', 'dev', 'a11y']
 ---
 
-For the past 5 years I have worked on projects that have needed to meet some kid of accessibility standards (Sec508 several years ago; now WCAG 2.0 A/AA). 
-I have collected a few simple ways that any dev can start to keep in mind while developing new UIs that I thought I'd share.
+For the past 5 years I have worked on projects that have needed to meet some kind of accessibility standards (Sec508 several years ago; now WCAG 2.0 A/AA). 
+In that time, I have learned a few simple ways that any dev can start to keep in mind while working on web UIs.
 ### Write Semantic HTML
 
 So, I see far too many `div`'s these days - but fortunately, this is the easiest place to start.
@@ -50,6 +50,6 @@ Most browsers now have Accessibility tools built right into their devtools. They
 ___
 ### Stuff to check out
 
-For much more in-depth explanations and examples, <a href="https://www.w3.org/TR/wai-aria-practices-1.1/#aria_ex" target="_blank" rel="noopener noreferrer">this W3C document</a> covers A LOT.
+For much more in-depth explanations and examples, <a href="https://www.w3.org/TR/wai-aria-practices-1.1/#aria_ex" target="_blank" rel="noopener noreferrer">this W3C document</a> which covers guidance for common design patterns including examples.
 
 There's a <a href="https://www.a11yproject.com/checklist/" target="_blank" rel="noopener noreferrer">checklist</a> created by the A11y Project.

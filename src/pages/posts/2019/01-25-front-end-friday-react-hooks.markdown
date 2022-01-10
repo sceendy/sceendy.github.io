@@ -88,7 +88,7 @@ The items are being passed as props and there's a function in the component to u
 
 That last bit, I wouldn't want to put into a tab component, though. A tab panel should always be active but that doesn't really matter with an accordion so we will adjust our logic for that.
 
-###Creating a reusable util w/hooks
+### Creating a reusable util w/hooks
 
 Since I know how I want both components to work and have identified their shared logic, I can begin to create a function that uses hooks. 
 

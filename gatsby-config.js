@@ -18,7 +18,6 @@ module.exports = {
         path: `${__dirname}/src/`
       }
     },
-    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -29,20 +28,12 @@ module.exports = {
               maxWidth: 800,
             },
           },
+          `gatsby-remark-prismjs`
         ],
       },
     },
+    `gatsby-plugin-sharp`,
     { resolve: `gatsby-transformer-json` },
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [
-          {
-            resolve: `gatsby-remark-prismjs`
-          },
-        ],
-      }
-    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-manifest`,

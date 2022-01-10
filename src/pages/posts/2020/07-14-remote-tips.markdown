@@ -11,7 +11,7 @@ When many people became remote all of a sudden, I saw many struggle to feel prod
 
 I thought I'd write up some tips for those that may still be working remotely and not really feeling as effective. Or maybe you're being given the option to continue to work remotely and you just need a better system to feel more productive.
 
-###1. Create your schedule/boundaries
+### 1. Create your schedule/boundaries
 
 You can use your calendar on your computer or a <a href="https://amzn.to/38Yc4es" target="_blank">daily planner</a> like me but really the point here is to manage your time. It's easier to accomplish things when you see what you have for that day and can break up your time with goals in mind.
 
@@ -21,11 +21,11 @@ Only work during the hours you have planned out to work - once you step away fro
 
 If you have home chores to do, do them before or after your work time OR during your lunch time if you have to. Just try not to let it interrupt whatever flow you may be in with your work.
 
-###2. Have a morning routine on work days
+### 2. Have a morning routine on work days
 
 Brush your teeth. Shower. Put on clean clothes. Meditate. Take a 10 minute walk. Take your dog out. Anything. Do something in the morning that makes you feel fresh for the day. If you have a standup meeting first thing in the morning like me, set your camera to be on by default (scary, I know!) - that way you have some motivation to at least put on a clean shirt and wash your face. You might choose to turn if off before joining the meeting but you should really try to convince yourself to leave it on most days.
 
-###3. Communication is everything
+### 3. Communication is everything
 
 If you're going to step away for more than 30 minutes - let your team know, sure. 
 
@@ -35,13 +35,13 @@ Don't just wait for answers - write a concise email/message to get exactly the i
 
 Take notes and ask clarifying questions in meetings. Try to only have your meeting window opened during a meeting and focus on what's being discussed rather than trying to work during it.
 
-###4. Setup your workspace
+### 4. Setup your workspace
 
 Pens. Sticky notes. A <a href="https://amzn.to/3j1KcdV" target="_blank">notebook</a>. A daily planner. A small whiteboard... or a slightly <a href="https://amzn.to/2CcCltd" target="_blank">big one</a>. A <a href="https://www.autonomous.ai?rid=1a3744" target="_blank">comfortable chair</a> (I recommend the Ergo 2). Make your workspace feel like a workspace. Always have something nearby to write with and write on because there's a decent chance you'll eventually need it. Yeah, you can use your computer to take notes but sometimes that may be distracting (especially if someone is sharing their screen and you want to be able to see everything clearly).
 
 The more you can make it _feel_ like a workspace, the better you'll get at only associating it with work so that you're not sitting there during the evening or weekend. Disconnect from it as much as you can during the evenings/weekends/holidays.
 
-###5. Making time for moving
+### 5. Making time for moving
 
 During your lunch time, go on a 10-20 minute walk or get some <a href="https://amzn.to/2CcCltd" target="_blank">dumbbells</a> to feel a bit more energetic for the rest of the day. Without your normal office job where you may be prompted to walk more, you could find yourself taking less steps than usual. The goal is to not only step away from your desk but finding something to find you moving a little more helps reenergize you and lets you clear your mind a little.
 
@@ -49,6 +49,6 @@ I like to listen to a podcast and take a 20-30 minute walk. I live in Texas so a
 
 If you have a Fitbit, you can set an hourly reminder to take 250 steps each hour which is also quite helpful to get you moving and away from your desk. I am sure other wearable tech has a similar feature.
 
-###6. Have fun
+### 6. Have fun
 
 Definitely feel free to have casual conversations with your team members/coworkers. You would do it if you were in person so don't be afraid to get to know them online too! Send GIFs, share pictures of your dog, etc. :)
