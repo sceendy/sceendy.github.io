@@ -7,7 +7,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
   if (node.internal.type === 'MarkdownRemark') {
     const slug = createFilePath({ node, getNode, basePath: 'pages/posts' });
     let date = node.frontmatter.date;
-    const parsedDate = new Date(node.frontmatter.date);
+    let parsedDate = new Date(node.frontmatter.date);
     const year = parsedDate.getFullYear();
 
     createNodeField({

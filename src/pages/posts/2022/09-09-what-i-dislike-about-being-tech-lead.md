@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "✨ what I dislike about being tech lead ✨"
+title:  "what I dislike about being tech lead 🗑️"
 date: 2022-09-09
 tags: ['career', 'tech lead']
 ---
