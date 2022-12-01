@@ -1,7 +1,7 @@
-import React from 'react'
-import { Link, graphql } from 'gatsby'
+import React from 'react';
+import { Link, graphql } from 'gatsby';
 
-import Layout from '../components/layout'
+import Layout from '../components/layout';
 
 export default function Template({ data }) {
   const post = data.markdownRemark;
@@ -25,7 +25,7 @@ export default function Template({ data }) {
               width: '0',
               display: 'block',
               padding: '0',
-              margin: '0'
+              margin: '0',
             }}
           >
             Blog Post
@@ -46,7 +46,7 @@ export default function Template({ data }) {
         </section>
       </article>
     </Layout>
-  )
+  );
 }
 
 export const pageQuery = graphql`
@@ -60,4 +60,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;

@@ -24,7 +24,7 @@ const GoalsComponent = () => (
       `}
       render={({ allGoalsJson: { edges: goals } }) =>
         goals.map(({ node: goal }, i) => {
-          const percentage = getPercentage(goal.completed, goal.total)
+          const percentage = getPercentage(goal.completed, goal.total);
           return (
             <div
               className="goal__container"
@@ -45,7 +45,7 @@ const GoalsComponent = () => (
                 id={goal.goalId}
               ></progress>
             </div>
-          )
+          );
         })
       }
     />

@@ -67,15 +67,11 @@ const BlogArchiveComponent = ({ location }) => (
           {!onBlogPage && <h2>blog posts</h2>}
 
           {Object.keys(dataByYear)
-            .filter(year =>
-              !onBlogPage
-                ? isRecentYear(parseInt(year))
-                : year
-            )
+            .filter(year => (!onBlogPage ? isRecentYear(parseInt(year)) : year))
             .sort((a, b) => b - a)
             .map((year, i) => createBlogList(year, dataByYear[year], i))}
         </Layout>
-      )
+      );
     }}
   />
 );
