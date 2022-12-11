@@ -25,18 +25,12 @@ const index = () => (
         </h1>
       </header>
       <p>
-        I am a senior front-end engineer for the core features web team at a big
-        healthcare company.
+        I am currently a senior front-end engineer for the core features web team at Aetna.
       </p>
       <ul>
-        <li>One day I'll make time to write more blog posts.</li>
-        <li>
-          If you have health insurance from a specific company, you can see my
-          most recent work.
-        </li>
-        <li>
-          I enjoy running, reading, playing video games, and traveling for food.
-        </li>
+        <li>I'm reading: "Astrophysics for People in a Hurry" and "Staff Engineer: Leadership beyond the management track"</li>
+        <li>I'm listening to the "Office Ladies" podcast.</li>
+        <li>I enjoy running and traveling for food.</li>
       </ul>
       <a
         href={resume}
