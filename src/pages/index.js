@@ -28,7 +28,7 @@ const index = () => (
         I am currently a senior front-end engineer for the core features web team at Aetna.
       </p>
       <ul>
-        <li>I'm reading: "Astrophysics for People in a Hurry" and "Staff Engineer: Leadership beyond the management track"</li>
+        <li>I'm reading "Astrophysics for People in a Hurry" and "Staff Engineer: Leadership beyond the management track."</li>
         <li>I'm listening to the "Office Ladies" podcast.</li>
         <li>I enjoy running and traveling for food.</li>
       </ul>
