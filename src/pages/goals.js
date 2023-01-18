@@ -5,7 +5,7 @@ const getPercentage = (value, max) => `${Math.floor((value / max) * 100)}`;
 
 const GoalsComponent = () => (
   <Fragment>
-    <h2>Q4 2019 goals</h2>
+    <h2>Goals</h2>
     <StaticQuery
       query={graphql`
         query GoalsQuery {

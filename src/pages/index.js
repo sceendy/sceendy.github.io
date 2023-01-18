@@ -12,7 +12,7 @@ const index = () => (
   <Layout showFooter className="home-layout__container">
     <div className="home-layout__main-img">
       <LazyLoad height={312}>
-        <img src={selfImage} alt="me stretching" className="u--media-center" />
+        <img src={selfImage} alt="me" className="u--media-center" />
       </LazyLoad>
     </div>
     <section className="home-layout__about">
@@ -30,7 +30,7 @@ const index = () => (
       <ul>
         <li>I'm reading "Astrophysics for People in a Hurry" and "Staff Engineer: Leadership beyond the management track."</li>
         <li>I'm listening to the "Office Ladies" podcast.</li>
-        <li>I enjoy running and traveling for food.</li>
+        <li>I enjoy traveling for food and running.</li>
       </ul>
       <a
         href={resume}
