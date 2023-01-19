@@ -163,7 +163,6 @@ img[on-error] { display: none; }
 /* HIGHLIGHTS MODULES */
 
 h3 {
-  background: linear-gradient(180deg, rgba(255,255,255,0) 45%, var(--yellow-color) 45%);
   display: inline;
 }
 
@@ -287,6 +286,12 @@ h3 {
 /* html, body {
   background-color: #f1f1f1;
 } */
+
+/* html {
+  background: url('https://www.toptal.com/designers/subtlepatterns/uploads/memphis-colorful.png') repeat;
+}
+
+body { background: transparent; } */
 
 .new h1, .new h2 {
   font-family: 'Playfair Display', serif;
