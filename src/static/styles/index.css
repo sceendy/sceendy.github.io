@@ -284,9 +284,9 @@ h3 {
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
 
-html, body {
+/* html, body {
   background-color: #f1f1f1;
-}
+} */
 
 .new h1, .new h2 {
   font-family: 'Playfair Display', serif;
