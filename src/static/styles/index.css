@@ -134,6 +134,10 @@ img[on-error] { display: none; }
   grid-area: about;
 }
 
+.home-layout__goals {
+  grid-area: goals;
+}
+
 @media screen and (min-width: 48rem) {
   .home-layout__about {
     padding: 0 1rem;
@@ -156,6 +160,7 @@ img[on-error] { display: none; }
 	.home-layout__container {
 		grid-template-areas:
 			"image image about about"
+      "goals goals goals goals"
 			"blog-list blog-list blog-list blog-list";
   }
 }

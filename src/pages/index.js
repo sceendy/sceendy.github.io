@@ -3,6 +3,7 @@ import LazyLoad from 'react-lazyload';
 import { Link } from 'gatsby';
 import Layout from '../components/layout';
 
+import GoalsComponent from './goals';
 import BlogArchiveComponent from './blog';
 
 import selfImage from '../static/italy-me.jpg';
@@ -25,12 +26,12 @@ const index = () => (
         </h1>
       </header>
       <p>
-        I am currently a senior front-end engineer for the core features web team at Aetna.
+        I am currently a senior front-end engineer for the design system team at Aetna.
       </p>
       <ul>
-        <li>I'm reading "Astrophysics for People in a Hurry" and "Staff Engineer: Leadership beyond the management track."</li>
-        <li>I'm listening to the "Office Ladies" podcast.</li>
-        <li>I enjoy traveling for food and running.</li>
+        <li>I'm reading "<em>The Mamba Mentality: How I Play</em>", "<em>Clean Code</em>", and "<em>grokking algorithms</em>".</li>
+        <li>I'm listening to the "Las Culturistas" podcast.</li>
+        <li>I enjoy running, traveling for food, and trying to be a better person everyday.</li>
       </ul>
       <a
         href={resume}
@@ -42,7 +43,9 @@ const index = () => (
         View Resume
       </a>
     </section>
-
+    {/* <section className="home-layout__goals">
+      <GoalsComponent />
+    </section> */}
     <section className="home-layout__blog-list">
       <BlogArchiveComponent />
       <Link to="/blog" className="u--text-center">

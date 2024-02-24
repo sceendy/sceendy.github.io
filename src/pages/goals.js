@@ -9,7 +9,7 @@ const GoalsComponent = () => (
     <StaticQuery
       query={graphql`
         query GoalsQuery {
-          allGoalsJson(filter: { quarter: { eq: 4 } }) {
+          allGoalsJson(filter: { quarter: { eq: 1 } }) {
             edges {
               node {
                 goalId

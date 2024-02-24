@@ -4,13 +4,13 @@
     "title": "Read 12 books",
     "total": 12,
     "completed": 6,
-    "quarter": 4
+    "quarter": 1
   },
   {
-    "goalId": "writing",
-    "title": "Write 12 blog posts",
-    "total": 12,
+    "goalId": "weight",
+    "title": "lose weight",
+    "total": 40,
     "completed": 0,
-    "quarter": 4
+    "quarter": 1
   }
 ]
