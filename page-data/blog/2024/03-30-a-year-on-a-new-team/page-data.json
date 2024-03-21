@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-post-js",
+    "path": "/blog/2024/03-30-a-year-on-a-new-team/",
+    "result": {"data":{"markdownRemark":{"html":"","frontmatter":{"title":"a year of being on a new team","date":"March 30, 2024","tags":["personal","dev"]}}},"pageContext":{"slug":"blog/2024/03-30-a-year-on-a-new-team/","date":"2024-03-30T09:30:00.000Z"}},
+    "staticQueryHashes": []}
