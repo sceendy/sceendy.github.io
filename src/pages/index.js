@@ -31,10 +31,10 @@ const index = () => (
       </p>
       <ul>
         <li>
-          I'm reading "<em>The Mamba Mentality: How I Play</em>", "
-          <em>Clean Code</em>", and "<em>grokking algorithms</em>".
+          I'm reading "<em>Clean Code</em>", "
+          <em>A Clash of Kings</em>", and "<em>grokking algorithms</em>".
         </li>
-        <li>I'm listening to the "Las Culturistas" podcast.</li>
+        <li>I'm listening to the "NYT: The Daily" podcast.</li>
         <li>
           I enjoy running, traveling for food, and trying to be a better person
           everyday.

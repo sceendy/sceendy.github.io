@@ -52,7 +52,7 @@ const Layout = ({ children, showFooter, title, className }) => (
           </a>{' '}
           |{' '}
           <a
-            href="https://www.linkedin.com/in/sceendy/"
+            href="https://www.linkedin.com/in/cindy1001/"
             target="_blank"
             rel="noopener noreferrer"
           >
