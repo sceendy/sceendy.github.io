@@ -5,7 +5,7 @@ import groupBy from 'lodash/groupBy';
 
 import Layout from '../components/layout';
 
-const isRecentYear = year => [2020, 2021, 2022, 2023].find(y => y === year);
+const isRecentYear = year => [2020, 2021, 2022, 2023, 2024].find(y => y === year);
 
 const createBlogList = (year, posts, i) => (
   <div key={i}>
