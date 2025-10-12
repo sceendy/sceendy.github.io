@@ -28,7 +28,7 @@ const index = () => (
       </p>
       <ul>
         <li>
-          I'm reading "<em>Clean Code</em>", "<em>A Clash of Kings</em>", and "
+          I'm reading "<em>Clean Code</em>" and "
           <em>grokking algorithms</em>".
         </li>
         <li>I'm listening to the "Good Hang with Amy Poehler" podcast.</li>

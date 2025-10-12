@@ -58,7 +58,7 @@ const Layout = ({ children, showFooter, title, className }) => (
           >
             linkedin
           </a>{' '}
-          |{' '}
+          {' '}
           <br />
           &copy; {new Date().getFullYear()}
         </p>
