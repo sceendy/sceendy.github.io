@@ -3,8 +3,6 @@ import LazyLoad from 'react-lazyload';
 import { Link } from 'gatsby';
 import Layout from '../components/layout';
 
-import BlogArchiveComponent from './blog';
-
 import selfImage from '../static/italy-me.jpg';
 import resume from '../static/web-resume.pdf';
 
@@ -48,15 +46,6 @@ const index = () => (
       >
         View Resume
       </a>
-    </section>
-    {/* <section className="home-layout__goals">
-      <GoalsComponent />
-    </section> */}
-    <section className="home-layout__blog-list">
-      <BlogArchiveComponent />
-      <Link to="/blog" className="u--text-center">
-        read older posts...
-      </Link>
     </section>
   </Layout>
 );
