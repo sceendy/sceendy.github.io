@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-templates-post-js",
-    "path": "/blog/2022/01-14-front-end-friday-pagination/",
-    "result": {"data":{"markdownRemark":{"html":"<p>TKTK</p>","frontmatter":{"title":"Front-end Friday: Building a pagination component","date":"January 14, 2022","tags":["dev","code","react","reusable components","front-end friday"]}}},"pageContext":{"slug":"blog/2022/01-14-front-end-friday-pagination/","date":"2022-01-14T09:30:00.000Z"}},
-    "staticQueryHashes": []}
