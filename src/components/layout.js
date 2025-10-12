@@ -59,13 +59,6 @@ const Layout = ({ children, showFooter, title, className }) => (
             linkedin
           </a>{' '}
           |{' '}
-          <a
-            href="https://codepen.io/sceendy"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            codepen
-          </a>
           <br />
           &copy; {new Date().getFullYear()}
         </p>

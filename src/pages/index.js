@@ -3,7 +3,6 @@ import LazyLoad from 'react-lazyload';
 import { Link } from 'gatsby';
 import Layout from '../components/layout';
 
-import GoalsComponent from './goals';
 import BlogArchiveComponent from './blog';
 
 import selfImage from '../static/italy-me.jpg';
@@ -26,15 +25,15 @@ const index = () => (
         </h1>
       </header>
       <p>
-        I am currently a senior front-end engineer for the design system team at
+        I am currently a senior front-end engineer on a feature team at
         Aetna.
       </p>
       <ul>
         <li>
-          I'm reading "<em>Clean Code</em>", "
-          <em>A Clash of Kings</em>", and "<em>grokking algorithms</em>".
+          I'm reading "<em>Clean Code</em>", "<em>A Clash of Kings</em>", and "
+          <em>grokking algorithms</em>".
         </li>
-        <li>I'm listening to the "NYT: The Daily" podcast.</li>
+        <li>I'm listening to the "Good Hang with Amy Poehler" podcast.</li>
         <li>
           I enjoy running, traveling for food, and trying to be a better person
           everyday.
