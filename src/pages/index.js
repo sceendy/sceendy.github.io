@@ -23,8 +23,7 @@ const index = () => (
         </h1>
       </header>
       <p>
-        I am currently a senior front-end engineer on a feature team at
-        Aetna.
+        I am a staff engineer on a feature team at Aetna.
       </p>
       <ul>
         <li>
