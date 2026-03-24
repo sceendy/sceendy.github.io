@@ -1,42 +1,21 @@
 {
-  "name": "sceendy.com",
-  "description": "Cindy personal site",
-  "version": "2.2.0",
-  "author": "Cindy Haden <sceendy@gmail.com>",
-  "dependencies": {
-    "@babel/runtime": "^7.16.3",
-    "gatsby": "^4.0.0-next",
-    "gatsby-cli": "4.3.0",
-    "gatsby-plugin-offline": "^5.3.0",
-    "gatsby-plugin-react-helmet": "^5.3.0",
-    "gatsby-plugin-robots-txt": "^1.5.0",
-    "gatsby-plugin-sharp": "^4.3.0",
-    "gatsby-remark-images": "^6.3.0",
-    "gatsby-remark-prismjs": "^6.4.0",
-    "gatsby-source-filesystem": "^4.3.0",
-    "gatsby-transformer-json": "^4.3.0",
-    "prismjs": "^1.26.0",
-    "react": "^16.6.0",
-    "react-dom": "^16.4.2",
-    "react-helmet": "^5.2.0",
-    "react-lazyload": "2.6.2",
-    "sharp": "^0.29.3",
-    "slug": "^1.1.0"
+  "name": "starry-saturn",
+  "type": "module",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=22.12.0"
   },
-  "license": "MIT",
-  "main": "n/a",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "deploy": "gatsby build --prefix-paths && cp ./CNAME public/ && gh-pages -d public --branch master",
-    "format": "prettier --trailing-comma es5 --single-quote --write \"src/**/*.js\"",
-    "serve": "gatsby serve -p 8000",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
-  "devDependencies": {
-    "gatsby-plugin-manifest": "^4.3.0",
-    "gatsby-transformer-remark": "^5.3.0",
-    "gh-pages": "^2.1.1",
-    "prettier": "^1.9.2"
+  "dependencies": {
+    "@astrojs/mdx": "^5.0.2",
+    "@astrojs/rss": "^4.0.17",
+    "@astrojs/sitemap": "^3.7.1",
+    "astro": "^6.0.8",
+    "sharp": "^0.34.3"
   }
 }
