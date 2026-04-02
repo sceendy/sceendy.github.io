@@ -2,7 +2,7 @@
 title: 'New project: ATX Paw Finder'
 description: 'side project: austin tx pet finder'
 pubDate: 'January 17 2018'
-heroImage: '../../assets/atx-paw-finder-project.png'
+heroImage: '../../assets/atx-paw-finder.png'
 ---
 
 Recently, I was looking around at tools and data made available by the City of Austin. That's when I stumbled upon this page: <a href="https://data.austintexas.gov/Health-and-Community-Services/Austin-Animal-Center-Found-Pets-Map/hye6-gvq2" target="_blank" rel="noopener">Austin Animal Center Found Pets Map</a>, screenshot below.
