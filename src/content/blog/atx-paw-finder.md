@@ -34,4 +34,4 @@ With those things in mind, I rebuilt the tool in a way that I thought would be m
 <img src="https://i.imgur.com/d3Zp1CL.png" title="ATX Paw Finder" />
 
 built using angular, bulma, google maps api, austin open data<br/>
-  <a href="https://github.com/sceendy/atx-paw-finder" target="_blank" rel="noopener">Repo</a> | <a href="https://sceendy.com/atx-paw-finder/">Live Site</a>
+  <a href="https://github.com/sceendy/atx-paw-finder" target="_blank" rel="noopener">Repo</a> | <a href="https://cindyhaden.com/atx-paw-finder/">Live Site</a>
