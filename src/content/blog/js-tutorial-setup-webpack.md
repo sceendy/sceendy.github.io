@@ -2,7 +2,7 @@
 title: 'JS tutorial #3 - setup webpack'
 description: 'javascript tutorial: setting up webpack'
 pubDate: 'December 11 2017'
-heroImage: '../../assets/default.jpg'
+heroImage: '../../assets/auroraborealis.png'
 ---
 
 Okay, so you've checked out my last two tutorials to learn JavaScript. As you start to feel more comfortable with JavaScript, you probably want to start looking into setting up your development environment. 

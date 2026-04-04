@@ -2,13 +2,13 @@
 title: 'JS tutorial #2 - a five day forecast widget'
 description: 'javascript tutorial: making a weather widget'
 pubDate: 'September 27 2017'
-heroImage: '../../assets/default.jpg'
+heroImage: '../../assets/auroraborealis.png'
 ---
 
 > The world needs more beginning-to-end blogs on creating things like this player with HTML5/JS by <a href="https://twitter.com/sceendy?ref_src=twsrc%5Etfw">@sceendy</a>! Awesome. <a href="https://t.co/S87ekdB17l">https://t.co/S87ekdB17l</a>&mdash; Ben Lesh 🛋️👑🔥 (@BenLesh) <a href="https://twitter.com/BenLesh/status/832066726422417408?ref_src=twsrc%5Etfw">February 16, 2017</a>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Earlier this year, a <a href="/2017/01/29/a-basic-js-music-player.html">blog post</a> of mine got some attention from a Google engineer/RxJS development lead, Ben Lesh, which is pretty awesome. It remains my most read blog post, actually. I'd like to think people starting out with JavaScript found it useful since at the end they had something to show for it.
+Earlier this year, a <a href="/blog/js-tutorial-music-player/">blog post</a> of mine got some attention from a Google engineer/RxJS development lead, Ben Lesh, which is pretty awesome. It remains my most read blog post, actually. I'd like to think people starting out with JavaScript found it useful since at the end they had something to show for it.
 
 While I considered writing a part 2 where I'd have the music player interact with an open music API, the API's I looked at all required oAuth which some might find intimidating initially. Yes, oAuth is an incredibly common part of using open API's - but I would prefer to keep these tutorials pretty simple to cover the basics. Instead, I decided to make another common widget that would allow for me to make use of a simpler, open API.
 

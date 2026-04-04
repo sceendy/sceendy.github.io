@@ -9,19 +9,19 @@ __**Note:** With a growing number of people asking me on how to get started with
 
 <hr/>
 
-##Overview
+## Overview
 
 Our music player will have the following functionality:
 - Play and pause song of choice
 - Apply artist name/image, song duration/title to player using basic methods
 - Use event listeners to update song time progress and play/pause icon
 
-##Design
+## Design
 First, we need a design. I chose to go with one I have previously built out that I found on <a href="https://dribbble.com/shots/2133799-Is-This-Love-Music-Player" target="_blank">dribbble</a>. With some slight adjustments it works for the functionality we plan on adding. Once you have this basic functionality, you should also add the ability to change songs (previous, next) that are included in this design. 
 
 <img src="https://d13yacurqjgara.cloudfront.net/users/369807/screenshots/2133799/is-this-love_1x.png" class="img--responsive"/>
 
-##HTML
+## HTML
 
 I have included the HTML as you will be manipulating the elements using JavaScript. The class/id names attached to each will be important for referencing the elements. You can either write the CSS yourself or just use <a href="https://codepen.io/sceendy/pen/LxbpwB.css" target="_blank">mine</a>. I use some pretty self-explanatory naming conventions for my classes.
 
@@ -48,7 +48,7 @@ I have included the HTML as you will be manipulating the elements using JavaScri
 </div>
 ```
 
-##JavaScript: Elements
+## JavaScript: Elements
 
 As you start out, the `document` interface may be one of most common references you'll see in your JavaScript. It represents your web page in the browser and serves as an entry point into your content.
 
@@ -60,7 +60,7 @@ Another method you might find yourself using is `document**.getElementById('idNa
 
 __**Note:** These methods are not specific to the `document`. You can use these methods on any element.__
 
-##JavaScript: Variables
+## JavaScript: Variables
 
 In JavaScript, you'll find yourself reusing references often and you probably don't want to keep writing `document.getElementsByClassName('time-progressed')[0];` each time. What you can do is store that reference as a variable for reusability and improved readability. ES2016 introduces `const` which creates a fixed, block-scoped variable. This means that the value will not be changed and it is at the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/block" target="_blank">block level</a> (within the curly braces). Our variables will not have their values changed at any point so we will store our element references as `const`. </p>
 <p>With that quick rundown of basic methods, you can now make references to the elements we created for this music player.
@@ -81,7 +81,7 @@ const PLAYER_ARTIST_NAME = PLAYER_HEADING.getElementsByTagName('h3')[0];
 
 The reason for referencing nearly all of the elements is that we want our player to be entirely dynamic. If we decide to have change the song or add more songs, we want to update the values only in one spot and not have to update it in both the JS and the HTML.
 
-##JavaScript: Arrays + Objects
+## JavaScript: Arrays + Objects
 
 Now, we find a song we want to use and find an MP3 url out there to use it. You may want to add a few songs to work as more of a playlist later on so we will be creating an array called `playlist` to store our songs. Each song will be an object. <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer" target="_blank">Objects</a> have properties which you can think of as variables.
 
@@ -110,7 +110,7 @@ PLAYER_PROGRESS.innerHTML = '00:00';
 Functions are objects - so they have properties and methods. Inside of function, we tell it what needs to happen when the function runs. The keyword `new` is an operator that creates an instance of the object. Our `songOne` variable store the creation of a <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLAudioElement" target="_blank">new audio object</a>. By creating the instance, it is giving you access to an <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio">audio element</a> for our HTML. In an audio element, you would write the HTML as simple as:
 
 ```html
-<audio src="foo.ogg"></audio>
+<audio src="foo.ogg" />
 ```
 
 As you can see, the element has an attribute called `src` where you place the url for the song. In the new Audio object creation, you pass the source URL as an argument inside of the parenthesis as such: `new Audio('songUrl.mp3')`. For our function, we will accept an argument that we call `trackNumber` that you use to state the index of the array of the song you want to use. Once the object from that index is known, it will get the value of the and `src` property. Your function should currently look like this:
@@ -160,7 +160,7 @@ var formatSecondsAsTime = (secs) => {
 
 See the `if` keyword? These blocks of code are conditional statements that are used to perform different actions based on different conditions. In this example, we are checking to see if our variables (`min` or `sec`) are less than the integer 10. If these statements are true, they run. If not, they move onto the next block. Then, the function returns the formatted time for us to render.
 
-##JavaScript: Event Listeners
+## JavaScript: Event Listeners
 
 Another method we will want to make use of is `addEventListener()` which we can attach to a specific element as an event handler. We have our `songOne` Audio element and would like to know when the songs' metadata is loaded. When this audio has been loaded, an event called `loadedmetadata` occurs. Perfect. Once it occurs, we want to set the song duration and have it set in our HTML content so that the user can see it on the player.
 

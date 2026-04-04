@@ -3,6 +3,9 @@ import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+import ProfileImage from '../assets/profile.jpg';
+import { Image } from 'astro:assets';
+
 ---
 
 <!doctype html>
@@ -13,6 +16,7 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 	<body>
 		<Header />
 		<main>
+			<!--div class="hero-image"><Image src={ProfileImage} alt="selfie" /></div-->
 			<p>👋 Hi, my name is Cindy</p>
 			<p>I'm a staff engineer @ Aetna with 12 years of experience.</p>
 			<p>Aside from that, I enjoy traveling, reading, running, and I can imagine myself being good at archery if I ever decided to try it.</p>
