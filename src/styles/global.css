@@ -163,3 +163,8 @@ hr {
 	border-radius: 12px;
 	box-shadow: var(--box-shadow);
 }
+
+details {
+	margin-bottom: 8px;
+	padding-bottom: 8px;
+}
