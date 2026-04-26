@@ -76,7 +76,17 @@ As 2025 came to an end, I knew my manager fully supported my promotion and I had
 
 I hope it's not discouraging to others that it took ~3 years to finally get the title. There is some luck involved regarding timing. I personally didn't feel I was doing much more for the final promotion packet than the first. The side project may have put me over the line in the end because it was something I could point to where I wrote the objectives including how it'd benefit the rest of the web engs and it was clear I could managed a timeline on my own. So, that's one thing I would recommend for others to try but I know it can be difficult if you're on a feature team.
 
+---
+## shout outs
 
+I've been fortunate enough to meet some amazing engineers that helped me get here that I want to give a shout out to:
+- [Chris Merritt](https://www.linkedin.com/in/csmerritt)
+- [John Stinson](http://stints.io/)
+- [Uluc Aydin](https://www.linkedin.com/in/ulucaydin)
+- [Josh Kappers](https://www.linkedin.com/in/jkappers)
+- [Carlo Donzelli](https://www.linkedin.com/in/carlodonzelli)
+- Kyle Damken
+- Christopher Kuhn
 
 
 
