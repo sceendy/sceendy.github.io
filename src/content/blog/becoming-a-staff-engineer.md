@@ -74,7 +74,7 @@ As 2025 came to an end, I knew my manager fully supported my promotion and I had
 
 ## march 2026
 
-I hope it's not discouraging to others that it took ~3 years to finally get the title. There is some luck involved regarding timing. I personally didn't feel I was doing much more for the final promotion packet than the first. The side project may have put me over the line in the end because it was something I could point to where I wrote the objectives including how it'd benefit the rest of the web engs and it was clear I could managed a timeline on my own. So, that's one thing I would recommend for others to try but I know it can be difficult if you're on a feature team.
+I hope it's not discouraging to others that it took ~3 years to finally get the title. There is some luck involved regarding timing. I personally didn't feel I was doing much more for the final promotion packet than the first. There's obviously growth that happens over that course of time but it felt natural. The side project may have put me over the line in the end because it was something I could point to where I wrote the objectives including how it'd benefit the rest of the web engs and it was clear I could manage a timeline on my own. That's one thing I would recommend for others to try but I know it can be difficult if you're on a feature team so it's about finding the right balance.
 
 ---
 ## shout outs
