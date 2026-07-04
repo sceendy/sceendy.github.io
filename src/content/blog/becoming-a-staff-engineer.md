@@ -2,6 +2,7 @@
 title: 'Getting promoted to staff eng'
 description: 'staff engineer promotion blog post'
 pubDate: 'April 18 2026'
+updatedDate: 'April 26, 2026'
 heroImage: '../../assets/promotion-dream.png'
 ---
 

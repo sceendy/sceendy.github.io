@@ -154,8 +154,15 @@ hr {
 	white-space: nowrap;
 }
 
+.announcement {
+	margin-top: 3rem;
+	border: dashed #f09;
+  padding: 1rem;
+}
+
 .hero-image {
 	width: 100%;
+	margin-bottom: 2rem;
 }
 .hero-image img {
 	display: block;
