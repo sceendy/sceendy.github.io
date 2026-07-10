@@ -179,3 +179,7 @@ details {
 .highlight {
 	background-color: yellow;
 }
+
+s {
+	text-decoration-thickness: 2px;
+}
