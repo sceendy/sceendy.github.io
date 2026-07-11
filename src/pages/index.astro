@@ -5,7 +5,17 @@ import Header from '../components/Header.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 import ProfileImage from '../assets/profile.jpg';
 import { Image } from 'astro:assets';
+import { getCollection } from 'astro:content';
+import { date } from 'astro:schema';
 
+const mostRecentPost = (await getCollection('blog')).sort(
+	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+)[0];
+
+const renderPublishedDate = (date: Date) => {
+	if (!date) return '';
+	return `${date.toLocaleDateString()}:`;
+}
 ---
 
 <!doctype html>
@@ -27,7 +37,7 @@ import { Image } from 'astro:assets';
 			<section class="announcement">
 				<p>
 					<strong>there's a new blog post, btw! ~&gt; </strong>
-					<a href="/blog/how-my-job-has-evolved/">how my job has evolved (with AI)</a>
+					<a href=`/blog/${mostRecentPost.id}/`>{renderPublishedDate(mostRecentPost.data.pubDate)} {mostRecentPost.data.title}</a>
 				</p>
 			</section>
 		</main>

@@ -9,7 +9,7 @@ A year ago, I decided I should lose weight.
 
 Over the past few years - especially during college, I abandoned activities that got me moving in exchange for playing FPS games and sitting at my desk writing code. Not only that, I had also moved out of my parents' house so I was eating out a lot and snacking more often. I did not like washing dishes which really put me off from wanting to cook for myself. As a college student taking on 21 hours of courses, a part-time job, and a part-time internship... I didn't have that much time anyway. Trust me, I had all my excuses down pretty well.
 
-But I regress. I realized I needed to lose weight and took to the internet to find the right eating plan and exercise regime to help me achieve my goal. Eventually, it all kind of led back to the same, seemingly simple idea.
+But I digress. I realized I needed to lose weight and took to the internet to find the right eating plan and exercise regime to help me achieve my goal. Eventually, it all kind of led back to the same, seemingly simple idea.
 
 > Eat less. Move more.
 
