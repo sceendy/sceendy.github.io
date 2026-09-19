@@ -162,7 +162,7 @@ hr {
 
 .hero-image {
 	width: 100%;
-	margin-bottom: 2rem;
+	margin: 3rem 0 2rem;
 }
 .hero-image img {
 	display: block;
